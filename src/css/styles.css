@@ -750,6 +750,7 @@ main > section {
     font-weight: 400 !important;
     place-self: center !important;
     padding-top: 1.5rem !important;
+    cursor: pointer;
 }
 
 .modal-bg {
@@ -878,6 +879,64 @@ main > section {
     align-self: center;
 }
 
+/************/
+/** PROMPT **/
+/************/
+
+.modal-inner:has(.preferences-prompt) {
+    height: fit-content;
+    background: var(--color-tertiary-main);
+}
+
+.preferences-prompt {
+    width: 100%;
+    display: none;
+}
+
+.preferences-prompt.open {
+    display: grid;
+}
+
+
+.preferences-prompt h2 {
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--ui-primary-font);
+    color: var(--pale);
+    font-size: 1.25em;
+    padding: 1em;
+    width: 100%;
+}
+
+.preferences-prompt p {
+    text-align: center;
+    font-family: var(--ui-primary-font);
+    padding: 1em;
+    width: 100%;
+}
+
+.preferences-prompt svg {
+    fill: var(--dark);
+    height: 1.5rem;
+    background: var(--pale-translucent);
+    padding: 0.25rem;
+    margin-inline: 0.25rem;
+    border-radius: 0.25rem;
+    transform: translateY(0.35rem)
+}
+
+.preferences-prompt button {
+    font-family: var(--ui-secondary-font);
+    width: fit-content;
+    font-weight: 500;
+    border-width: 0;
+    font-size: 1em;
+    border-radius: 1em;
+    padding: 1rem 1.5rem;
+    background: var(--pale-transparent);
+    justify-self: center;
+    cursor: pointer;
+}
 
 /********/
 /**INFO**/

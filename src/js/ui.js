@@ -27,6 +27,7 @@ export function closeModal() {
     document.querySelector(".modal").classList.remove("open")
     setTimeout(() => {
         document.querySelector(".modal").style.transitionDelay = null;
+        document.querySelector(".preferences-prompt").classList.remove("open")
         document.querySelector(".preferences").classList.remove("open")
         document.querySelector(".about").classList.remove("open")
         document.querySelector(".info").classList.remove("open")

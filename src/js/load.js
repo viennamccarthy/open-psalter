@@ -399,6 +399,10 @@ export function initial() {
         setTimeout(ui.closeModal, 500)
     })
 
+    // Set prompt modal
+    
+    
+
 }
 
 export function navigatePsalm(n) {
@@ -411,6 +415,17 @@ export function navigatePsalm(n) {
     newPsalm(n)
     newNav(n)
     ui.scrollTop()
+    
+    // No preferences prompt
+    if (!localStorage.dn && !localStorage.pn && !localStorage.king && !localStorage.ms && !localStorage.pnCaps) {
+        newModal(".preferences-prompt");
+        document.querySelector(".preferences-prompt button").addEventListener("click", () => {
+            document.querySelector(".preferences-prompt").classList.remove("open")
+            newModal(".preferences");
+        })
+    }
+    
+    // Scroll to top button
     if (document.querySelector(".psalter").scrollHeight <= window.innerHeight) {
         document.querySelector(".nav-to-top").classList.remove("show");
     } else {
