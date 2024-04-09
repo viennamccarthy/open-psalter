@@ -14,11 +14,11 @@ export function removeTransitions() {
 
 export function scrollTop(option) {
     if (option === "smooth") {
-        window.scrollTo({top: 0, behavior: "smooth"})
+        document.querySelector(".psalter").scrollTo({top: 0, behavior: "smooth"})
     } else if (option) {
         option.scrollTo({top: 0, behavior: "smooth"})
     } else {
-        window.scrollTo({top: 0, behavior: "instant"})
+        document.querySelector(".psalter").scrollTo({top: 0, behavior: "instant"})
     }
 }
 
@@ -27,5 +27,8 @@ export function closeModal() {
     document.querySelector(".modal").classList.remove("open")
     setTimeout(() => {
         document.querySelector(".modal").style.transitionDelay = null;
+        document.querySelector(".preferences").classList.remove("open")
+        document.querySelector(".about").classList.remove("open")
+        document.querySelector(".info").classList.remove("open")
     }, 500)
 }

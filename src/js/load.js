@@ -92,7 +92,7 @@ export function newPsalm(n, s) {
 
 export function newSplitNav(n, s) {
     
-    let psalterBox = document.querySelector(".psalm");
+    let psalmContainer = document.querySelector(".psalm");
     let splitNavDrop = document.querySelectorAll(".split-nav-drop *");
     let splitNavTop = document.querySelector(".split-nav-top");
     let splitNavBottom = document.querySelector(".split-nav-bottom");
@@ -100,7 +100,7 @@ export function newSplitNav(n, s) {
     let sectionRefs = newSectionRefs(window.psalter[n])
 
     // Check if split nav already exists
-    if (psalterBox.classList.contains("split")) {
+    if (psalmContainer.classList.contains("split")) {
         // Get active
         let active = String(sectionRefs[s].replace(/&hairsp;–&hairsp;/g, ""));
         // Change active
@@ -123,21 +123,21 @@ export function newSplitNav(n, s) {
     })
 
     // Show and position elements
-    psalterBox.classList.add("split")
+    psalmContainer.classList.add("split")
 
     splitNavTop.addEventListener("click", () => {
-        psalterBox.classList.add("split-top-open")
+        psalmContainer.classList.add("top-open")
         ui.addTransitions()
-        document.addEventListener("scroll", () => {
-            psalterBox.classList.remove("split-top-open")
+        document.querySelector(".psalter").addEventListener("scroll", () => {
+            psalmContainer.classList.remove("top-open")
         }, {once: true})
     })
 
     splitNavBottom.addEventListener("click", () => {
-        psalterBox.classList.add("split-bottom-open")
+        psalmContainer.classList.add("bottom-open")
         ui.addTransitions()
-        document.addEventListener("scroll", () => {
-            psalterBox.classList.remove("split-bottom-open")
+        document.querySelector(".psalter").addEventListener("scroll", () => {
+            psalmContainer.classList.remove("bottom-open")
         }, {once: true})
     })
 
@@ -281,6 +281,8 @@ export function newContent(category, content) {
 export function resetPage() {
     ui.removeTransitions()
     document.querySelector(".book-drop").classList.remove("open")
+    document.querySelector(".psalm").classList.remove("top-open")
+    document.querySelector(".psalm").classList.remove("bottom-open")
     document.querySelectorAll(".nav-left").forEach(element => {
         element.innerHTML = window.reset.navLeft;
     })
@@ -295,8 +297,15 @@ export function resetPage() {
 }
 
 export function initial() {
+
+    // If URL parameter, go to psalm, else landing
+    let params = new URLSearchParams(document.location.search);
+    if (params.get("psalm")) {
+        navigatePsalm(params.get("psalm") - 1);
+        document.querySelector(".landing").classList.remove("open");
+    }
     
-    // Set landing psalm selectors
+    // Set landing psalm selectors and search
     document.querySelectorAll(".exp .expanding-block-title").forEach(element => {
         element.addEventListener("click", () => {
             addTransitions();
@@ -319,6 +328,18 @@ export function initial() {
             document.querySelector(".landing").classList.remove("open");
         })
     })
+    document.querySelector(".psalms .search").addEventListener("submit", event => {
+        event.preventDefault();
+        let search = document.querySelector(".psalms .search input").value;
+        if (search < 1 || search > 150) {
+            document.querySelector(".landing .psalms .error").classList.add("show");
+        } else {
+            navigatePsalm(search - 1);
+            document.querySelector(".psalms .search input").value = "";
+            document.querySelector(".landing .psalms .error").classList.remove("show");
+            document.querySelector(".landing").classList.remove("open");
+        }
+    })
     
     // Set landing menu buttons
     document.querySelector(".welcome-about").addEventListener("click", () => {
@@ -332,8 +353,13 @@ export function initial() {
     document.querySelector(".header-prefs").addEventListener("click", () => {
         newModal(".preferences");
     })
-    
-    
+
+    // Set nav-book appearance listener
+    let pageWidth =  Number(window.innerWidth);
+    if (pageWidth > 769) {
+        // Change image
+        document.querySelector(".nav-home").innerHTML = document.querySelector(".nav-book").innerHTML
+    }
     
     // Set nav-book
     document.querySelector(".nav-book").addEventListener("click", () => {
@@ -345,7 +371,8 @@ export function initial() {
 
     // Set nav-to-top
     document.querySelector(".nav-to-top").addEventListener("click", () => {
-        ui.scrollTop("smooth")
+        ui.scrollTop("smooth");
+        console.log("yep")
     })
 
     // Set book-drop
@@ -371,6 +398,7 @@ export function initial() {
         ui.scrollTop(document.querySelector(".modal-content"))
         setTimeout(ui.closeModal, 500)
     })
+
 }
 
 export function navigatePsalm(n) {
@@ -383,14 +411,16 @@ export function navigatePsalm(n) {
     newPsalm(n)
     newNav(n)
     ui.scrollTop()
+    if (document.querySelector(".psalter").scrollHeight <= window.innerHeight) {
+        document.querySelector(".nav-to-top").classList.remove("show");
+    } else {
+        document.querySelector(".nav-to-top").classList.add("show")
+    }
 }
 
 export function newModal(selectors) {
     document.querySelector(".modal").classList.add("open")
-    
-    document.querySelector(".preferences").classList.remove("open")
-    document.querySelector(".about").classList.remove("open")
-    document.querySelector(".info").classList.remove("open")
-    
     document.querySelector(selectors).classList.add("open")
 }
+
+

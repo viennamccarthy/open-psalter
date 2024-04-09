@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Load page
         load.initial();
-        load.navigatePsalm(0)
     })
 })
 

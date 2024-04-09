@@ -48,7 +48,7 @@
 
     --bright: #F9F6F4;
     --pale: #F0EAE7;
-    --mid: #6b6466;
+    --mid-dark: #6b6466;
     --dark: #222222;
     --black: #000000;
 
@@ -68,10 +68,6 @@
 
     --up-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z" clip-rule="evenodd" /></svg>');
     --down-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" /></svg>');
-
-
-
-
 
     /* Options */
 
@@ -115,17 +111,28 @@ body {
     margin: 0;
     overscroll-behavior: none;
     justify-content: center;
-}
-
-body:has(.landing.open), body:has(.modal.open) {
     height: 100vh;
     overflow-y: hidden;
-    position: fixed;
+}
+
+@media (min-width: 577px) {
+    body {
+        background: var(--color-main);
+    }
 }
 
 main {
-    width: 100%;
-    max-width: 700px;
+    width: 100vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "page";
+}
+
+main > section {
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 /*************/
@@ -133,19 +140,19 @@ main {
 /*************/
 
 .landing {
-    z-index: 6;
+    grid-area: page;
+    z-index: 10;
     height: 100vh;
-    width: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     background: var(--pale);
+    background-image: url(../assets/paper.png);
     display: none;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
             "landing-header"
-            "landing-body";
-    overflow-y: scroll;
-    scrollbar-width: none;  /* Firefox */
+            "landing-body"
+            "landing-footer";
 }
 
 .landing.open {
@@ -159,6 +166,33 @@ main {
     justify-content: space-between;
     align-content: center;
     padding: 0 1.5rem;
+}
+
+.landing footer {
+    grid-area: landing-footer;
+    text-align: center;
+    font-family: var(--ui-secondary-font);
+    color: var(--mid-dark);
+    font-weight: 300;
+    padding: 2rem 2rem 1rem;
+    display: grid;
+    place-content: center;
+}
+
+.landing footer .inline-logo {
+    font-family: var(--heading-font);
+}
+
+.landing footer a {
+    color: var(--color-secondary-main);
+    font-weight: 200;
+    text-underline-offset: 2px;
+}
+
+@media (min-width: 769px) {
+    .landing footer p {
+        max-width: 768px;
+    }
 }
 
 .landing h1 {
@@ -181,15 +215,15 @@ main {
     align-self: center;
 }
 
-.landing .header-info svg {
+.landing .header-buttons * {
     height: 2rem;
     width: 2rem;
-    fill: var(--dark-transparent)
+    cursor: pointer;
+
 }
 
-.landing .header-prefs svg {
-    height: 2rem;
-    width: 2rem;
+.landing .header-info svg {
+    fill: var(--dark-transparent)
 }
 
 .landing .header-prefs .top {
@@ -246,6 +280,34 @@ main {
     padding: 1.25rem 0.5rem;
 }
 
+
+@media (min-width: 769px) {
+    .landing-content {
+        padding: 4rem 2rem;
+        grid-area: landing-body;
+        display: grid;
+        height: fit-content;
+        gap: 2rem;
+        grid-template-areas:
+            "beta welcome"
+            "beta lectionary"
+            "psalms psalms";
+        grid-template-columns: 40% auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    @media (min-width: 1025px) {
+        .landing-content {
+            width: 1024px;
+            margin-inline: auto;
+        }
+    }
+
+    .landing .select {
+        padding-inline: 0;
+    }
+}
+
 /* Beta */
 
 .landing .beta {
@@ -275,10 +337,15 @@ main {
     padding-inline: 2rem;
 }
 
+@media (min-width: 769px) {
+    .landing .beta {grid-area: beta; margin: 0;}
+}
+
 /* Welcome */
 
 .landing .welcome button {
     background: var(--color-secondary-main);
+    cursor: pointer;
 }
 
 .landing .welcome button svg {
@@ -286,6 +353,10 @@ main {
     position: relative;
     top: 0.15em;
     padding-left: 0.25rem;
+}
+
+@media (min-width: 769px) {
+    .landing .welcome {grid-area: welcome;}
 }
 
 /* Lectionary */
@@ -306,11 +377,15 @@ main {
 
 .landing .lectionary button {
     /* background: var(--color-tertiary-soft); */
-    color: var(--mid);
+    color: var(--mid-dark);
     background: var(--dark);
     font-family: var(--heading-font);
     font-size: 2rem;
     padding: 2.25rem 0.5rem;
+}
+
+@media (min-width: 769px) {
+    .landing .lectionary {grid-area: lectionary;}
 }
 
 /* Psalms */
@@ -348,6 +423,7 @@ main {
     gap: 1ch;
     flex-wrap: wrap;
     place-content: center;
+    cursor: pointer;
 }
 
 .landing .exp .expanding-block-text {
@@ -373,7 +449,81 @@ main {
     font-weight: 500;
     background: var(--pale-transparent);
     border-radius: 0.5rem;
-    padding: 0.5rem
+    padding: 1.25rem 0.5rem;
+    cursor: pointer;
+}
+
+.landing .psalms .search {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .landing .psalms {grid-area: psalms;}
+
+    .landing .psalms .select {
+        display: none;
+    }
+
+    .landing .psalms .search {
+        display: grid;
+        font-family: var(--ui-primary-font);
+        font-weight: 200;
+    }
+
+    .landing .psalms .search form {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: space-evenly;
+        color: var(--pale);
+        border-radius: 1em;
+        background: var(--color-main);
+        padding: 1rem;
+        height: fit-content;
+        place-content: center;
+    }
+
+    .landing .psalms .search form label {
+        height: fit-content;
+        align-self: center;
+        font-size: 1.5rem;
+    }
+
+    .landing .psalms .search form input {
+        height: 3.25rem;
+        width: 3.25rem;
+        align-self: center;
+        border-width: 0;
+        border-radius: 0.5rem;
+        font-family: var(--ui-primary-font);
+        background: var(--pale-translucent);
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        color: var(--dark);
+        text-align: center;
+        outline: 0;
+    }
+
+    .landing .psalms .search form button {
+        height: 3.25rem;
+        font-size: 1.25rem;
+        width:  3.25rem;
+        background: var(--pale-transparent);
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        font-family: var(--ui-secondary-font);
+        font-weight: 400;
+        color: var(--dark);
+    }
+
+    .landing .psalms .search .error {
+        display: none;
+        padding-top: 1rem;
+        place-self: center;
+    }
+    .landing .psalms .search .error.show {
+        display: inline;
+    }
 }
 
 /*************/
@@ -381,14 +531,14 @@ main {
 /*************/
 
 .psalter {
-    min-height: 100vh;
+    grid-area: page;
+    height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
             "psalter-header"
             "psalter-body"
             "psalter-footer";
-    max-width: 800px;
 }
 
 /*********/
@@ -410,14 +560,12 @@ main {
     grid-area: psalter-header;
     position: relative;
     top: 0;
-    width: 100%;
 }
 
 .nav-bottom {
     grid-area: psalter-footer;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
 
 .nav-block-top {
@@ -431,14 +579,58 @@ main {
     position: relative;
 }
 
-nav:not(.split-nav) svg {
+.nav-to-top {
+    display: none;
+}
+
+.nav-to-top.show {
+    display: inline;
+}
+
+.main-nav svg, .book-drop svg {
     height: 1.75em;
     cursor: pointer;
 }
 .nav-to-top svg {
     height: 1.4em !important;
 }
+.book-line {
+    stroke: var(--pale);
+}
 
+.book-left {
+    fill: var(--color-secondary-main);
+}
+.book-right {
+    fill: var(--color-secondary-soft);
+}
+
+
+
+@media (min-width: 769px) {
+    .main-nav {
+        width: 500px;
+        place-self: center;
+        background: none;
+    }
+
+    .nav-top .nav-left, .nav-top .nav-right {
+        position: relative;
+        top: 20vh;
+        z-index: 7;
+    }
+
+    .nav-to-top {
+        position: relative;
+        bottom: 2rem;
+    }
+
+
+    .nav-top .nav-book, .nav-bottom .nav-left, .nav-bottom .nav-right {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
 
 /*******************/
 /** BOOK-DROP NAV **/
@@ -456,7 +648,7 @@ nav:not(.split-nav) svg {
     background: var(--dark);
     padding: 1rem 1.5rem 0.75rem;
     margin: 1.5rem 0;
-    border-radius: 1.5rem;
+    border-radius: 2.5rem;
     position: relative;
     opacity: 0;
     will-change: transform;
@@ -467,15 +659,23 @@ nav:not(.split-nav) svg {
     opacity: 1;
 }
 
+@media (min-width: 769px) {
+    .book-drop {
+        grid-area: psalter-header;
+        opacity: 1;
+    }
+}
+
 /************/
 /** MODALS **/
 /************/
 
 .modal {
-    z-index: 6;
-    height: 100vh;
+    grid-area: page;
     width: 100%;
-    position: absolute;
+    z-index: 11;
+    height: 100vh;
+    position: relative;
     top: 0;
     will-change: transform;
     transition: opacity;
@@ -490,13 +690,15 @@ nav:not(.split-nav) svg {
 
 .modal-content{
     z-index: 6;
+    width: 100%;
     height: 100vh;
-    position: absolute;
+    position: relative;
     bottom: -100vh;
     overflow-y: scroll;
     scrollbar-width: none;  /* Firefox */
     will-change: transform;
     transition: bottom 500ms ease;
+    display: grid;
 }
 
 .open .modal-content {
@@ -519,6 +721,15 @@ nav:not(.split-nav) svg {
     border-radius: 2.25rem;
     padding: 1.5rem 1.5rem 2.5rem;
     transition: all 500ms ease;
+}
+
+
+@media (min-width: 577px) {
+    .modal-inner {
+        width: clamp(576px,80%, 768px);
+        justify-self: center;
+        padding-inline: 3rem;
+    }
 }
 
 .modal-close.modal-close-top {
@@ -596,8 +807,11 @@ nav:not(.split-nav) svg {
 
 .preferences .verse {
     font-family: var(--body-font);
+    width: fit-content;
+    justify-self: center;
     display: block;
     background: var(--pale);
+    background-image: url(../assets/paper.png);
     border-radius: 1em;
     padding: 1em 1.5em;
     margin-inline: 1em;
@@ -617,8 +831,14 @@ nav:not(.split-nav) svg {
     padding: 0;
 }
 
+@media (min-width: 577px) {
+    .preferences .options-select {
+        gap: 1em;
+    }
+}
+
 .preferences button {
-    color: var(--dark);
+    color: var(--dark-transparent);
     font-family: var(--ui-primary-font);
     font-weight: 500;
     border-width: 0;
@@ -631,7 +851,8 @@ nav:not(.split-nav) svg {
 }
 
 .preferences button.active {
-    border: 5px solid var(--pale);
+    border: 4px solid var(--pale);
+    color: var(--dark);
 }
 
 .preferences .toggle button {
@@ -714,6 +935,7 @@ a.button {
     grid-area: modal-body;
     font-family: var(--ui-primary-font);
     display: none;
+    line-height: 1.5em;
 }
 
 .about.open {
@@ -723,27 +945,30 @@ a.button {
 .about .em-block {
     color: var(--pale);
     font-size: 2em;
+    font-weight: 300;
+    line-height: 1.25em;
 }
 
 .about .inline-logo {
     font-family: var(--heading-font);
     color: var(--color-tertiary-main);
-    background-color: var(--pale);
+    background-color: var(--pale-translucent);
 }
 
 .about .key {
     font-family: var(--ui-secondary-font);
     color: var(--dark);
     background-color: var(--pale-translucent);
+    border: 3px solid var(--pale-transparent);
 }
 
 .about p {
     padding: 1rem 0;
 }
 
-.about p svg {
+.about svg {
     fill: var(--dark);
-    height: 0.8em;
+    height: 0.8rem;
     padding-right: 0.25em;
 }
 
@@ -799,7 +1024,6 @@ a.button {
     z-index: 0;
     grid-area: psalm-title;
     height: 60vh;
-    max-height: 550px;
     position: sticky;
     top: 0;
     display: flex;
@@ -836,6 +1060,20 @@ a.button {
     top: 22vh;
 }
 
+@media (min-width: 577px) {
+    .title-box {
+        height: 25vh;
+        position: relative;
+    }
+    .title-text {
+        position: absolute;
+        top: 10vh;
+    }
+    .split  .title-box {
+        height: 37.5vh !important;
+    }
+}
+
 /***************/
 /** SPLIT NAV **/
 /***************/
@@ -850,6 +1088,13 @@ a.button {
     font-family: var(--heading-font);
     position: sticky;
     display: none;  /* SEE NEXT */
+}
+
+@media (min-width: 577px) {
+    .split-nav {
+        width: 576px;
+        justify-self: center;
+    }
 }
 
 /**** IF SPLIT PSALM ****/
@@ -872,7 +1117,7 @@ a.button {
 }
 
 /**** IF SPLIT TOP SHOWN ****/
-.split-top-open .split-nav-top {
+.top-open .split-nav-top {
     padding: 0.5rem 1rem 4.5rem !important;
 }
 
@@ -891,7 +1136,7 @@ a.button {
 }
 
 /**** IF SPLIT BOTTOM SHOWN ****/
-.split-bottom-open .split-nav-bottom {
+.bottom-open .split-nav-bottom {
     padding: 4rem 1rem 1rem !important;
 }
 
@@ -933,13 +1178,13 @@ a.button {
 }
 
 /**** IF SPLIT TOP SHOWN ****/
-.split-top-open .split-nav-top .expanding-block-arrow {
+.top-open .split-nav-top .expanding-block-arrow {
     transform: rotate(180deg) !important;
     opacity: 0;
 }
 
 /**** IF SPLIT BOTTOM SHOWN ****/
-.split-bottom-open .split-nav-bottom .expanding-block-arrow {
+.bottom-open .split-nav-bottom .expanding-block-arrow {
     transform: rotate(0deg) !important;
     opacity: 0;
 }
@@ -1010,17 +1255,27 @@ a.button {
 .psalm-box {
     grid-area: psalm-text;
     z-index: 3;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 3rem 1.5rem 3rem 1rem;
     background: var(--pale);
+    background-image: url(../assets/paper.png);
     border-radius: 2.25rem;
     position: relative;
     top: 0;  /* SEE NEXT */
     transform: translate3d(0,0,0);
     will-change: transform;
+}
+
+@media (min-width: 577px) {
+    .psalm-box {
+        width: 576px;
+        margin-inline: auto;
+        margin-bottom: 3rem;
+    }
 }
 
 /**** IF SPLIT PSALM ****/
@@ -1029,7 +1284,7 @@ a.button {
 }
 
 /**** IF SPLIT BOTTOM SHOWN ****/
-.split-bottom-open .psalm-box {
+.bottom-open .psalm-box {
     top: -6rem !important;
 }
 
