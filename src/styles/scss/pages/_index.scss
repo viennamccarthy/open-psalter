@@ -1,0 +1,325 @@
+@use '../resources' as const;
+
+body:has(.index) {
+  background: const.$paper-bg;
+
+  header {
+    justify-content: space-between;
+    background: transparent;
+
+    @media (min-width: const.$xl) {
+      width: clamp(1024px, 80%, 1136px);
+      margin-inline: auto;
+    }
+    h1 {
+      font: const.$heading-font;
+      padding: 1rem 0;
+      font-size: clamp(1.5em, 8.5vw, 2.25em);
+
+      svg {
+        padding-left: 0.5rem;
+        transform: translateY(0.25rem);
+      }
+
+      .book-line {
+        stroke: var(--color-primary-main);
+        filter: brightness(90%);
+      }
+
+      .book-left {
+        fill: var(--color-primary-soft);
+      }
+
+      .book-right {
+        fill: var(--color-primary-main);
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      align-self: center;
+
+      * {
+        height: 2rem;
+        width: 2rem;
+        cursor: pointer;
+      }
+
+      .info svg {
+        fill: var(--dark-transparent)
+      }
+    }
+  }
+}
+
+.index {
+  display: grid;
+  gap: 1rem;
+  width: clamp(375px, 90vw, 625px);
+
+  @media (min-width: const.$lg) {
+    grid-template-columns: 40% auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+            "beta welcome"
+            "beta office_nav"
+            "psalm_nav psalm_nav";
+    gap: 2rem;
+    padding: 4rem 3rem;
+  }
+
+  @media (min-width: const.$xl) {
+    width: 1024px;
+    margin-inline: auto;
+  }
+
+  button {
+    @include const.rounded-sm;
+    height: fit-content;
+    padding: 1.25rem 0.5rem;
+    color: var(--pale);
+  }
+
+  h2 {
+    padding: 1rem;
+    font-size: 1em;
+    color: var(--dark);
+  }
+
+  section:not(.modal) {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    font: const.$ui-primary-font;
+    color: var(--pale);
+  }
+
+  .beta {
+    @include const.rounded-sm;
+    background: var(--color-tertiary-main);
+    padding: 2rem;
+    margin: 1rem 2rem;
+    text-align: center;
+
+    @media (min-width: const.$lg) {
+      grid-area: beta;
+      margin: 0;
+    }
+
+    a {
+      font-weight: 600;
+      color: var(--bright);
+      width: fit-content;
+      padding-inline: 2rem;
+      place-self: center;
+    }
+
+    h3, p {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .expand-block {
+    .text {
+      font-size: 1.2em;
+    }
+    .arrow {
+      filter: invert(100%);
+      opacity: 50%;
+    }
+  }
+
+  .select {
+    display: grid;
+    gap: 1rem;
+    padding-inline: 1.5rem;
+    height: fit-content;
+
+    @media (min-width: const.$lg) {
+      padding-inline: 0;
+    }
+  }
+
+  .office-nav {
+
+    @media (min-width: const.$lg) {
+      grid-area: office_nav;
+    }
+
+    button {
+      padding: 2.25rem 0.5rem;
+      font: const.$heading-font;
+      font-size: 2rem;
+      cursor: pointer;
+
+      &.morning {
+        background: var(--color-tertiary-soft);
+      }
+
+      &.evening {
+        background: var(--color-tertiary-main);
+      }
+    }
+
+    h2 .soon {
+      padding-right: 0.75rem;
+      font: const.$ui-secondary-font;
+    }
+
+    .select {
+      grid-template-columns: 47% 47%;
+      place-content: center;
+    }
+  }
+
+  .psalm-nav {
+
+    .search {
+      display: none;
+
+      @media (min-width: 769px) {
+
+        display: grid;
+        font: 200 1em const.$ui-primary-font;
+
+        form {
+          @include const.rounded-sm;
+          display: flex;
+          gap: 0.5rem;
+          height: fit-content;
+          padding: 1rem;
+          place-content: center;
+          background: var(--color-primary-main);
+          color: var(--pale);
+
+          label {
+            height: fit-content;
+            align-self: center;
+            font-size: 1.5rem;
+          }
+
+          input, button {
+            @include const.rounded-xs;
+            height: 3.25rem;
+            width: 4.5rem;
+            padding: 0.5rem;
+            font-weight: 400;
+            outline: 0;
+          }
+
+          input {
+            align-self: center;
+            background: var(--pale-translucent);
+            text-align: center;
+            font: 1.5rem const.$ui-primary-font;
+            color: var(--dark);
+            outline: 0;
+            border-width: 0;
+            margin-right: 2rem;
+          }
+
+          /* Chrome, Safari, Edge, Opera */
+          input::-webkit-outer-spin-button,
+          input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+
+          /* Firefox */
+          input[type=number] {
+            -moz-appearance: textfield;
+          }
+
+          button {
+            background: var(--pale-transparent);
+            font: const.$ui-secondary-font;
+            font-size: 1.25rem;
+            color: var(--pale-translucent);
+            opacity: 0.5;
+
+            &.active {
+              opacity: 1;
+              color: var(--dark);
+              cursor: pointer;
+
+            }
+          }
+        }
+      }
+    }
+
+    @media (min-width: const.$lg) {
+      grid-area: psalm_nav;
+
+      .select {
+        display: none;
+      }
+    }
+
+    .select {
+
+      .content {
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        column-gap: 1rem;
+        row-gap: 1.5rem;
+        margin-top: 1.5rem;
+        place-content: center;
+
+        .psalm-button {
+          @include const.rounded-xs;
+          background: var(--pale-transparent);
+          font: 1.1em const.$ui-secondary-family;
+          color: var(--bright);
+          padding: 0.5rem;
+        }
+      }
+    }
+
+  }
+
+  .welcome {
+    @media (min-width: const.$lg) {
+      grid-area: welcome;
+    }
+
+    button {
+      font: const.$ui-primary-font;
+      background: var(--color-secondary-main);
+      cursor: pointer;
+
+      svg {
+        position: relative;
+        top: 0.15em;
+        padding-left: 0.25rem;
+      }
+    }
+
+  }
+}
+
+.index + footer {
+  display: grid;
+  padding: 2rem 2rem 1rem;
+  color: var(--mid-dark);
+  background-color: transparent;
+  font: const.$ui-secondary-font;
+
+  @media (min-width: const.$xl) {
+    width: clamp(1024px, 90%, 1260px);
+    margin-inline: auto;
+  }
+
+  a {
+    color: var(--color-secondary-main);
+    text-decoration: none;
+  }
+
+  .logo-1 {
+    color: var(--color-primary-soft);
+  }
+
+  .logo-2 {
+    color: var(--color-primary-main);
+  }
+}

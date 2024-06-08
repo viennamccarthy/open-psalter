@@ -1,0 +1,187 @@
+
+.lectionary [split] .office-psalms {
+    position: relative;
+    top: 3.75rem;
+    margin-bottom: 3.75rem;
+}
+
+.lectionary nav.multi.top.expanded + .office-psalms {
+    top: 6rem;
+}
+
+.lectionary .office {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "office_title"
+        "office_content";
+}
+
+.lectionary .office .office-psalms {
+    grid-area: office_content;
+    z-index: 3;
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+}
+
+.lectionary .office .psalm {
+    grid-area: office_content;
+    display: grid;
+}
+
+.lectionary .office > .title-box {
+    z-index: 0;
+    grid-area: office_title;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-main);
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+}
+
+.lectionary .office[split] >.title-box {
+    height: 75vh !important;
+}
+
+.lectionary .office-psalms .title-box {
+    grid-area: psalm_title;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-tertiary-soft);
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+    z-index: 1;
+}
+
+.lectionary .office > .title-box h1.title {
+    width: 50%;
+    position: relative;
+    top: 0;
+    color: var(--bright);
+    font-family: var(--heading-font);
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.lectionary .office > .title-box h2.title {
+
+    color: var(--pale-translucent);
+    font-family: var(--ui-secondary-family);
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.lectionary .office .office-psalms .title-box h1.title {
+
+    color: var(--pale);
+    font-family: var(--heading-font);
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.lectionary::after {
+    position: relative;
+    bottom: 0;
+    height: 3rem;
+    align-self: end;
+    background: var(--dark);
+    content: '';
+}
+
+@media (min-width: 577px) {
+    .lectionary::after {
+        display: none;
+    }
+}
+
+.lectionary .psalm::before {
+    background: var(--color-tertiary-soft);
+    z-index: 1;
+}
+
+.lectionary nav.multi.top {
+    grid-area: office_content;
+}
+
+/*
+.lectionary .psalm:not(:first-child)::after {
+    grid-area: psalm_title;
+    height: 4rem;
+    position: relative;
+    top: -2rem;
+    align-self: start;
+    background: var(--color-main);
+    content: '';
+}
+*/
+
+/*
+.lectionary .office::before {
+    grid-area: office_content;
+    height: 2rem;
+    position: sticky;
+    top: 2rem;
+    background: var(--color-main);
+    content: '';
+}
+*/
+/* TEST_THIS
+.lectionary .office .psalm::before{
+    grid-area: psalm_content;
+    height: 2rem;
+    position: sticky;
+    top: 2rem;
+    background: var(--color-tertiary-soft);
+    content: '';
+    z-index: 10;
+}
+*/
+
+
+/* TEST_THIS
+.lectionary [split] .psalm:not(:first-child)::before {
+    background: var(--color-soft);
+}
+
+.lectionary .psalm:not(:first-child)::before {
+    grid-area: psalm_title;
+    height: 2rem;
+    position: sticky;
+    top: 0;
+    background: var(--color-main);
+    content: '';
+}
+*/
+/* TEST_THIS
+.lectionary [split] .psalm:not(:last-child)::after {
+    background: var(--color-soft);
+}
+
+.lectionary .psalm:not(:last-child)::after {
+    z-index: 1;
+    grid-area: psalm_content;
+    background: var(--color-main);
+    height: 4rem;
+    position: sticky;
+    top: 100%;
+    content: '';
+}
+*/

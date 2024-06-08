@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="no-cache">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0"><title>Open Psalter</title>
+
+    <!-- Fonts -->
+    <link rel="preload" href="src/assets/fonts/LexendDeca-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/LexendGiga-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/Bitter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/Alegreya-Italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/Alegreya-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Styles-->
+    <link rel="preload" href="src/styles/css/styles.css" as="style">
+    <link rel="stylesheet" href="src/styles/css/styles.css">
+
+    <script src="src/scripts/psalter.js" type="module"></script>
+    <script src="src/scripts/psalm.js" type="module"></script>
+    <script src="src/scripts/modal.js" type="module"></script>
+
+    <!-- Favicon -->
+    <link href="src/assets/img/favicon.ico" rel="icon" type="image/xicon">
+</head>
+<body>
+<header>
+    <nav class="main top">
+        <span class="left">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>
+        </span>
+        <a href="./index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1.75em">
+                <g transform="scale(1.3, 0.95)">
+                    <path class="book-left" fill="#000" opacity="0.75" transform="translate(-2, 4), skewY(3)" d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533Z" />
+                    <path class="book-right" fill="#999" opacity="0.75" transform="translate(-3.5, 5.25), skewY(-3)" d="M12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
+                </g>
+                <path class="book-line" transform="translate(0,-0.5)" fill="none" stroke-width="1.5" stroke="#F0EAE7" stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+        </a>
+        <span class="right">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>
+        </span>
+    </nav>
+</header>
+<main class="psalter">
+    <section class="psalm"> <!-- grid: "psalm_title" \ "psalm_content" -->
+        <psalm-card></psalm-card>
+    </section>
+    <section class="modal">
+        <modal-card></modal-card>
+    </section>
+</main>
+<footer>
+    <nav class="main bottom">
+        <span class="left">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>
+        </span>
+        <span class="to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="1.75em" fill="currentColor"><path fill-rule="evenodd" d="M9.47 4.72a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 6.31l-3.72 3.72a.75.75 0 1 1-1.06-1.06l4.25-4.25Zm-4.25 9.25 4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 11.31l-3.72 3.72a.75.75 0 0 1-1.06-1.06Z" clip-rule="evenodd" /></svg>
+        </span>
+        <span class="right">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>
+        </span>
+    </nav>
+    <p>
+        <span class="inline-logo"><span class="logo-1">Open</span><span class="logo-2">Psalter</span></span> 2024. Content adapted from sources including the <a href="http://www.cofe.anglican.org/worship/liturgy/commonworship/" target="_blank"><i>Common Worship Psalter</i></a>, which is ©&nbsp;The Archbishops’ Council of the Church of England,&nbsp;2000. <a class="link-info" href="javascript:document.querySelector('.modal').classList.add('open');document.querySelector('.info').classList.add('open');">More&nbsp;information.</a>
+    </p>
+</footer>
+</body>
+</html>

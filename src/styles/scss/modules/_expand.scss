@@ -1,0 +1,98 @@
+@use '../resources' as const;
+
+.expand {
+
+  .title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        "exp_spacer exp_text exp_arrow";
+    gap: 1ch;
+    place-content: center;
+    cursor: pointer;
+
+    &::before {
+      grid-area: exp_spacer;
+      width: 1rem;
+      height: 1rem;
+      content: '';
+    }
+  }
+
+  .arrow {
+    grid-area: exp_arrow;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: 1rem;
+    align-self: center;
+    will-change: transform;
+    cursor: pointer;
+  }
+}
+
+.expand-block {
+  @include const.rounded-sm;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+      "exp_block_title"
+      "exp_block_drop";
+  height: 4rem;
+  padding: 1rem 1rem 2rem;
+  justify-content: center;
+  overflow-y: hidden;
+  background: var(--color-primary-main);
+  color: var(--pale);
+  font: 200 1em const.$ui-primary-font;
+
+
+  &[expanded] {
+    height: 100%;
+
+    .arrow {
+      transform: rotate(180deg) !important;
+    }
+  }
+
+  .title {
+    grid-area: exp_block_title;
+  }
+
+  .arrow {
+    background-image: const.$down-arrow;
+    transition: all 500ms ease;
+  }
+
+  .content {
+    grid-area: exp_block_drop;
+  }
+}
+
+.expand-menu {
+  // Top
+  &:not(:last-child) {
+    .arrow {
+      background-image: const.$up-arrow;
+    }
+
+    &[expanded] .arrow {
+      transform: rotate(180deg) !important;
+    }
+  }
+
+  //Bottom
+  &:last-child {
+    .arrow {
+      background-image: const.$down-arrow;
+    }
+
+    &[expanded] .arrow {
+      transform: rotate(0deg) !important;
+    }
+  }
+
+  &[expanded] .arrow {
+    opacity: 0;
+  }
+}

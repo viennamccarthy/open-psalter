@@ -1,0 +1,286 @@
+@use '../resources' as const;
+
+.modal {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  pointer-events: none;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  z-index: 10;
+
+  &::-webkit-scrollbar { /* Chrome, Safari, Opera */
+    display: none;
+  }
+
+  &::before {
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--dark);
+    will-change: transform;
+    transition: opacity 500ms ease;
+    content: '';
+  }
+
+  &[open] {
+    pointer-events: auto;
+
+    &::before {
+      opacity: 0.9;
+      pointer-events: none;
+
+    }
+  }
+
+  &[close-top]::before {
+    opacity: 0;
+  }
+}
+
+modal-card {
+  @include const.rounded;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+        "modal_header"
+        "modal_content"
+        "modal_footer";
+  position: relative;
+  bottom: -100vh;
+  padding: 1.5rem 2.5rem 2.5rem;
+  margin: 20vh 0 10vh;
+  background: var(--color-secondary-soft);
+  font: 1em const.$ui-primary-font;
+  color: var(--bright);
+  will-change: transform;
+  transition: bottom 500ms ease;
+
+  [open] & {
+    bottom: 0;
+  }
+
+  [close-top] & {
+    bottom: 100vh;
+  }
+
+  @media (min-width: const.$md) {
+    width: clamp(576px, 80%, 768px);
+    padding-inline: 3rem;
+    justify-self: center;
+  }
+
+  .modal-close {
+    color: var(--pale) !important;
+    cursor: pointer;
+
+    &.top {
+      grid-area: modal_header;
+      justify-self: end;
+    }
+
+    &.bottom {
+      grid-area: modal_footer;
+      padding-top: 1.5rem !important;
+      place-self: center !important;
+      font: 400 1em const.$ui-primary-font !important;
+    }
+
+    svg {
+      height: 1.75em;
+    }
+  }
+
+  .modal-content {
+    grid-area: modal_content;
+  }
+
+  &[content='preferences-panel'] {
+    font: const.$ui-primary-font; // check if I can get rid of these
+
+    button {
+      @include const.rounded-sm;
+      width: 100%;
+      height: 4rem;
+      padding: 0.5rem;
+      background: var(--pale-transparent);
+      color: var(--dark-transparent);
+      font: const.$ui-primary-font;
+
+      &.active {
+        color: var(--dark);
+        background: var(--pale-translucent);
+        border: 2px solid var(--pale);
+      }
+
+      &:has(.tetra-hebrew) {
+        padding: 0.3rem 0.5rem 0.5rem;
+      }
+    }
+
+    h2, h3 {
+      color: var(--pale);
+      font-weight: 500;
+      text-align: center;
+    }
+
+    h2 {
+      padding-bottom: 0.5em;
+      font: 500 2em const.$ui-primary-family;
+    }
+
+    h3 {
+      padding: 1.5em 0 0.5em;
+      font: const.$ui-secondary-font;
+      font-size: 1.2em;
+    }
+
+    .marker {
+      color: var(--color-secondary-soft);
+    }
+
+    .select {
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: 50% 50%;
+      row-gap: 0.5em;
+      column-gap: 0.5em;
+      padding: 0;
+      justify-content: center;
+
+      @media (min-width: const.$md) {
+        gap: 1em;
+      }
+    }
+
+    // improve: fix content shifting when options are changed -- regularise box size?
+    .verse {
+      @include const.rounded-sm;
+      color: var(--dark);
+      display: block;
+      width: fit-content;
+      padding: 1em 1.5em;
+      margin-inline: 1em;
+      justify-self: center;
+      background: const.$paper-bg;
+      font: var(--body-font);
+      text-wrap: pretty;
+    }
+
+    .toggle button {
+      height: 8rem;
+      margin-top: 1.5rem;
+    }
+  }
+
+  &[content='preferences-prompt'] {
+
+    height: fit-content;
+    width: 100%;
+    background: var(--color-tertiary-main);
+
+    button {
+      @include const.rounded-sm;
+      width: fit-content;
+      padding: 1rem 1.5rem;
+      justify-self: center;
+      background: var(--pale-transparent);
+      font: const.$ui-secondary-font;
+      cursor: pointer;
+    }
+
+    h2 {
+      width: 100%;
+      padding: 1em;
+      color: var(--pale);
+      text-align: center;
+      font: 400 1.25em const.$ui-primary-font;
+    }
+
+    p {
+      width: 100%;
+      padding: 1em;
+      text-align: center;
+      font: const.$ui-primary-font;
+    }
+
+    svg {
+      height: 1.5rem;
+      transform: translateY(0.35rem);
+      padding: 0.25rem;
+      margin-inline: 0.25rem;
+      background: var(--pale-translucent);
+      fill: var(--dark);
+      border-radius: 0.25rem;
+    }
+  }
+
+  &[content='info'] {
+    font: const.$ui-primary-font;
+
+    h2 {
+      padding-bottom: 0.5em;
+      color: var(--pale);
+      text-align: center;
+      font: 400 2em const.$ui-primary-font;
+    }
+
+    p {
+      padding: 0.5rem;
+    }
+
+    .acknowledgements {
+      display: grid;
+      gap: 1rem;
+      padding: 1rem;
+    }
+  }
+
+  &[content='about'] {
+    font-family: const.$ui-primary-font;
+    line-height: 1.5em;
+
+    h2 {
+      padding-bottom: 0.5em;
+      color: var(--pale);
+      text-align: center;
+      font: 400 2em const.$ui-primary-font;
+    }
+
+    p {
+      padding: 1rem 0;
+    }
+
+    svg {
+      height: 0.8rem;
+      padding-right: 0.25em;
+      fill: var(--dark);
+    }
+
+    .em-block {
+      color: var(--pale);
+      font-size: 2em;
+      font-weight: 300;
+      line-height: 1.25em;
+    }
+
+    .inline-logo {
+      background-color: var(--pale-translucent);
+      color: var(--color-tertiary-main);
+      font: const.$heading-font;
+    }
+
+    .key {
+      background-color: var(--pale-translucent);
+      color: var(--dark);
+      font: const.$ui-secondary-font;
+      border: 3px solid var(--pale-transparent);
+    }
+  }
+}

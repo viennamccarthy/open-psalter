@@ -1,0 +1,1578 @@
+
+@font-face {
+    font-family: "Alegreya Heading";
+    font-weight: 300 500;
+    }
+@font-face {
+    font-family: "Alegreya Sans";
+    }
+@font-face {
+    font-family: "Alegreya Sans Italic";
+    }
+@font-face {
+    font-family: "Lexend Deca";
+    font-weight: 100 500;
+    }
+@font-face {
+    font-family: "Lexend Giga";
+    font-weight: 100 500;
+    }
+
+:root {
+
+    --teal: #008F98;
+    --teal-soft: #6FB9BC;
+    --teal-dark: #223536;
+    --teal-clear: #008F9800;
+
+    --purple: #995A88;
+    --purple-soft: #B37BA4;
+    --purple-dark: #3d2a39;
+    --purple-clear: #B37BA400;
+
+    --coral: #D76D6D;
+    --coral-soft: #E88686;
+    --coral-dark: #3a2929;
+    --coral-clear: #D76D6D00;
+
+    --bright: #F9F6F4;
+    --pale: #F0EAE7;
+    --mid-dark: #6b6466;
+    --dark: #222222;
+    --black: #000000;
+
+    --pale-transparent: #F0EAE73F;
+    --pale-translucent: #F0EAE780;
+    --dark-transparent: #22222280;
+
+    --serif-italic: "Alegreya Heading", serif;
+    --sans-serif: "Alegreya Sans", sans-serif;
+    --sans-serif-italic: "Alegreya Sans Italic", sans-serif;
+    --reading-sans: "Lexend Deca", sans-serif;
+    --reading-sans-wide: "Lexend Giga", sans-serif;
+
+    --up-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z" clip-rule="evenodd" /></svg>');
+    --down-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" /></svg>');
+
+    --page-bg: var(--dark);
+    --body-text: var(--dark);
+    --body-bg: var(--pale);
+    --color-main: var(--purple);
+    --color-soft: var(--purple-soft);
+    --color-dark: var(--purple-dark);
+    --color-clear: var(--purple-clear);
+    --color-secondary-main: var(--coral);
+    --color-secondary-soft: var(--coral-soft);
+    --color-tertiary-main: var(--teal);
+    --color-tertiary-soft: var(--teal-soft);
+
+    --heading-font: var(--serif-italic);
+    --ui-primary-font: var(--sans-serif);
+    --ui-secondary-font: var(--sans-serif-italic);
+    --body-font: var(--reading-sans);
+    --body-font-wide: var(--reading-sans-wide);
+    --font-size: 1.2rem;
+}
+
+html {
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+p, h1, h2, h3 {
+    margin: 0;
+}
+
+a.button {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    background: var(--pale-transparent);
+    color: var(--dark);
+    font-family: var(--ui-secondary-font);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    border-width: 0;
+    border-radius: 1em;
+}
+
+body {
+    margin: 0;
+    justify-content: center;
+    background: var(--page-bg);
+    font-family: var(--body-font);
+    font-size: var(--font-size);
+    overscroll-behavior: none;
+}
+
+body:has(.modal.open) {
+    overflow-y: hidden;
+}
+
+@media (min-width: 577px) {
+    body {
+        background: var(--color-main);
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "main_header"
+        "main_content"
+        "main_footer";
+    margin: auto;
+}
+
+footer {
+    padding: 2rem 2rem 1rem;
+    text-align: center;
+    font-family: var(--ui-secondary-font);
+    font-weight: 300;
+}
+
+nav.main {
+    display: flex;
+    flex-direction: row;
+    height: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0.5em;
+    background: var(--dark);
+    color: var(--pale);
+}
+
+nav.main.top {
+    grid-area: main_header;
+    position: relative;
+    top: 0;
+}
+
+nav.main.bottom {
+    grid-area: main_footer;
+    position: relative;
+    bottom: 0;
+}
+
+.psalm.split + nav.main.bottom {
+    margin-top: 3.75rem;
+}
+
+.expand .title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        "exp_spacer exp_text exp_arrow";
+    gap: 1ch;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.expand .title::before {
+    grid-area: exp_spacer;
+    width: 1em;
+    height: 1em;
+    content: '';
+}
+
+.expand .arrow {
+    grid-area: exp_arrow;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
+    align-self: center;
+    will-change: transform;
+    cursor: pointer;
+}
+
+.expand-block .arrow {
+    background-image: var(--down-arrow);
+}
+
+.expand-block.expanded .arrow {
+    transform: rotate(180deg) !important;
+}
+
+.expand-menu:not(.bottom) .arrow {
+    background-image: var(--up-arrow);
+}
+
+.expand-menu.bottom .arrow {
+    background-image: var(--down-arrow);
+}
+
+.expand-menu.expanded:not(.bottom) .arrow {
+    transform: rotate(180deg) !important;
+    opacity: 0;
+}
+
+.expand-menu.bottom.expanded .arrow {
+    transform: rotate(0deg) !important;
+    opacity: 0;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.inline-logo {
+    font-family: var(--heading-font);
+}
+
+.inline-logo.flow {
+    font-family: var(--ui-secondary-font);
+}
+
+.landing.open {
+    z-index: 10;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+            "landing_header"
+            "landing_body"
+            "landing_footer";
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background: var(--pale);
+    background-image: url(../assets/img/paper.png);
+}
+
+.landing {
+    display: none;
+}
+
+.landing button {
+    width: 100%;
+    height: fit-content;
+    padding: 1.25rem 0.5rem;
+    color: var(--pale);
+    font-family: var(--ui-primary-font);
+    font-weight: 200;
+    font-size: 1.3em;
+    border-width: 0;
+    border-radius: 1em;
+}
+
+.landing header {
+    grid-area: landing_header;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.landing header .book-line {
+    stroke: var(--color-main);
+    filter: brightness(90%);
+}
+
+.landing header .book-left {
+    fill: var(--color-soft);
+}
+
+.landing header .book-right {
+    fill: var(--color-main);
+}
+
+.landing header .buttons {
+    display: flex;
+    gap: 1rem;
+    align-self: center;
+}
+
+.landing header .buttons * {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.landing header .buttons .info svg {
+    fill: var(--dark-transparent)
+}
+
+.landing header .buttons .preferences .top {
+    fill: var(--color-secondary-main)
+}
+
+.landing header .buttons .preferences .mid {
+    fill: var(--color-main)
+}
+
+.landing header .buttons .preferences .bottom {
+    fill: var(--color-tertiary-main)
+}
+
+.landing h1 {
+    padding: 1rem;
+    font-family: var(--heading-font);
+    font-size: 2em;
+}
+
+.landing h1 svg {
+    height: 0.85em;
+    padding-left: 0.25rem;
+}
+
+.landing h2 {
+    padding: 1rem;
+    font-family: var(--ui-primary-font);
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.landing footer {
+    grid-area: landing_footer;
+    display: grid;
+    padding: 2rem 2rem 1rem;
+    place-content: center;
+    color: var(--mid-dark);
+}
+
+.landing footer a {
+    color: var(--color-secondary-main);
+    font-weight: 200;
+    text-underline-offset: 2px;
+}
+
+.landing .beta {
+    background: var(--color-tertiary-main);
+    padding: 2rem;
+    margin: 1rem 2rem;
+    text-align: center;
+    font-family: var(--ui-primary-font);
+    border-radius: 1em;
+}
+@media (min-width: 769px) {
+    .landing .beta {
+        grid-area: beta;
+        margin: 0;
+    }
+}
+
+.landing .beta a {
+    width: fit-content;
+    padding-inline: 2rem;
+    place-self: center;
+}
+
+.landing .beta h3 {
+    padding-bottom: 1rem;
+    color: var(--pale);
+    font-weight: 400;
+    font-size: 1.75em;
+}
+
+.landing .beta p {
+    padding-bottom: 1rem;
+    color: var(--dark);
+}
+
+.landing .content {
+    grid-area: landing_body;
+    gap: 1rem;
+}
+
+@media (min-width: 769px) {
+    .landing .content {
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "beta welcome"
+            "beta office_nav"
+            "psalm_nav psalm_nav";
+        gap: 2rem;
+        padding: 4rem 2rem;
+    }
+}
+@media (min-width: 1025px) {
+    .landing header {
+        width: clamp(1024px, 80%, 1136px);
+        margin-inline: auto;
+    }
+
+    .landing .content {
+        width: 1024px;
+        margin-inline: auto;
+    }
+
+    .landing footer {
+        width: clamp(1024px, 90%, 1260px);
+        margin-inline: auto;
+    }
+}
+
+.landing .content section {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.landing .expand-block {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "psalm_menu_title"
+        "psalm_menu_drop";
+    height: 4rem;
+    padding: 1rem 1rem 2rem;
+    justify-content: center;
+    align-self: center;
+    overflow-y: hidden;
+    background: var(--color-main);
+    color: var(--pale);
+    font-family: var(--ui-primary-font);
+    font-weight: 200;
+    border-radius: 1em;
+}
+
+.landing .expand-block.expanded {
+    height: 100%;
+}
+
+.landing .expand-block .title {
+    grid-area: psalm_menu_title;
+}
+
+.landing .expand-block .arrow {
+    filter: invert(100%);
+    opacity: 50%;
+    transition: all 500ms ease;
+}
+
+.landing .expand-block .text {
+    opacity: 1;
+    font-size: 1.3em;
+}
+
+.landing .select {
+    display: grid;
+    gap: 1rem;
+    padding-inline: 1.5rem;
+    height: fit-content;
+}
+@media (min-width: 769px) {
+    .landing .select {
+        padding-inline: 0;
+    }
+}
+
+.landing .office-nav {
+    opacity: 0.2;
+}
+@media (min-width: 769px) {
+    .landing .office-nav {
+        grid-area: office_nav;
+    }
+}
+
+.landing .office-nav h2 .soon {
+    padding-right: 0.75rem;
+    font-family: var(--ui-secondary-font);
+}
+
+.landing .office-nav .select {
+    grid-template-columns: 47% 47%;
+    place-content: center;
+}
+
+.landing .office-nav button {
+    padding: 2.25rem 0.5rem;
+    /* background: var(--color-tertiary-soft); */
+    color: var(--mid-dark);
+    background: var(--dark);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+.landing .psalm-nav .select .buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 769px) {
+    .landing .psalm-nav {
+        grid-area: psalm_nav;
+    }
+
+    .landing .psalm-nav .select {
+        display: none;
+    }
+}
+
+.landing .psalm-button {
+    padding: 1.25rem 0.5rem;
+    background: var(--pale-transparent);
+    font-family: var(--ui-secondary-font);
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.landing .search {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .landing .search {
+        display: grid;
+        font-family: var(--ui-primary-font);
+        font-weight: 200;
+    }
+
+    .landing .search form {
+        display: flex;
+        gap: 0.5rem;
+        height: fit-content;
+        padding: 1rem;
+        place-content: center;
+        background: var(--color-main);
+        color: var(--pale);
+        border-radius: 1em;
+    }
+
+    .landing .search form label {
+        height: fit-content;
+        align-self: center;
+        font-size: 1.5rem;
+    }
+
+    .landing .search form input, .landing .search form button {
+        height: 3.25rem;
+        width: 4.5rem;
+        padding: 0.5rem;
+        font-weight: 400;
+        outline: 0;
+        border-radius: 0.5rem;
+    }
+
+    .landing .search form input {
+        align-self: center;
+        background: var(--pale-translucent);
+        text-align: center;
+        font-family: var(--ui-primary-font);
+        font-size: 1.5rem;
+        color: var(--dark);
+        outline: 0;
+        border-width: 0;
+        margin-right: 2rem;
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+    .landing .search form input::-webkit-outer-spin-button,
+    .landing .search form input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    .landing .search form input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .landing .search form button.active {
+        opacity: 1;
+        color: var(--dark);
+        cursor: pointer;
+    }
+
+    .landing .search form button {
+        background: var(--pale-transparent);
+        font-family: var(--ui-secondary-font);
+        font-size: 1.25rem;
+        color: var(--pale-translucent);
+        opacity: 0.5;
+    }
+}
+
+@media (min-width: 769px) {
+    .landing .welcome {
+        grid-area: welcome;
+    }
+}
+
+.landing .welcome button {
+    background: var(--color-secondary-main);
+    cursor: pointer;
+}
+
+.landing .welcome button svg {
+    position: relative;
+    top: 0.15em;
+    height: 1em;
+    padding-left: 0.25rem;
+}
+
+
+
+.lectionary .split .office-psalms {
+    position: relative;
+    top: 3.75rem;
+    margin-bottom: 3.75rem;
+}
+
+.lectionary nav.multi.top.expanded + .office-psalms {
+    top: 6rem;
+}
+
+.lectionary .office {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "office_title"
+        "office_content";
+}
+
+.lectionary .office .office-psalms {
+    grid-area: office_content;
+    z-index: 3;
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+}
+
+.lectionary .office .psalm {
+    grid-area: office_content;
+    display: grid;
+}
+
+.lectionary .office > .title-box {
+    z-index: 0;
+    grid-area: office_title;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-main);
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+}
+
+.lectionary .office.split >.title-box {
+    height: 75vh !important;
+}
+
+.lectionary .office-psalms .title-box {
+    grid-area: psalm_title;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-tertiary-soft);
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+    z-index: 1;
+}
+
+.lectionary .office > .title-box h1.title {
+    width: 50%;
+    position: relative;
+    top: 0;
+    color: var(--bright);
+    font-family: var(--heading-font);
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.lectionary .office > .title-box h2.title {
+
+    color: var(--pale-translucent);
+    font-family: var(--ui-secondary-font);
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.lectionary .office .office-psalms .title-box h1.title {
+
+    color: var(--pale);
+    font-family: var(--heading-font);
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.logo-1 {
+    color: var(--color-soft);
+}
+
+.logo-2 {
+    color: var(--color-main);
+}
+
+.modal {
+    z-index: 15;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "full_modal";
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    will-change: transform;
+    transition: all 500ms ease;
+    opacity: 0;
+    pointer-events: none;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+}
+
+.modal.open {
+    opacity: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    pointer-events: auto;
+}
+
+.modal::before {
+    grid-area: full_modal;
+    position: sticky;
+    top: 0;
+    opacity: 0;
+    height: 100vh;
+    background: var(--dark);
+    will-change: transform;
+    transition: all 500ms ease;
+    content: '';
+}
+
+.modal.open::before {
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.modal .modal-inner::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+}
+
+.modal .modal-inner {
+    grid-area: full_modal;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "modal_header"
+        "modal_body"
+        "modal_footer";
+    position: relative;
+    bottom: -100vh;
+    padding: 1.5rem 1.5rem 2.5rem;
+    margin: 20vh 0 10vh;
+    background: var(--color-secondary-soft);
+    border-radius: 2.25rem;
+    will-change: transform;
+    transition: all 500ms ease;
+}
+
+.modal.open .modal-inner {
+    bottom: 0;
+}
+
+@media (min-width: 577px) {
+    .modal .modal-inner {
+        width: clamp(576px, 80%, 768px);
+        padding-inline: 3rem;
+        justify-self: center;
+    }
+}
+
+.modal .modal-inner:has(.preferences-prompt) {
+    height: fit-content;
+    background: var(--color-tertiary-main);
+}
+
+.modal .modal-inner .modal-close {
+    color: var(--pale) !important;
+    cursor: pointer;
+}
+
+.modal .modal-inner .modal-close.top {
+    grid-area: modal_header;
+    justify-self: end;
+}
+
+.modal .modal-inner .modal-close.bottom {
+    grid-area: modal_footer;
+    padding-top: 1.5rem !important;
+    place-self: center !important;
+    font-family: var(--ui-primary-font) !important;
+    font-weight: 400 !important;
+}
+
+.modal .modal-inner .modal-close svg {
+    height: 1.75em;
+}
+
+.modal .modal-inner .preferences {
+    grid-area: modal_body;
+    display: none;
+    font-family: var(--ui-primary-font);
+}
+
+.modal .modal-inner .preferences.open {
+    display: grid;
+}
+
+.modal .preferences button {
+    width: 100%;
+    height: 4rem;
+    padding: 0.5em;
+    background: var(--pale-transparent);
+    color: var(--dark-transparent);
+    font-family: var(--ui-primary-font);
+    font-size: 1em;
+    font-weight: 500;
+    border-width: 0;
+    border-radius: 1em;
+}
+
+.modal .preferences button.active {
+    color: var(--dark);
+    border: 4px solid var(--pale);
+}
+
+.modal .preferences h2, .modal .preferences h3 {
+    color: var(--pale);
+    text-align: center;
+}
+
+.modal .preferences h2 {
+    padding-bottom: 0.5em;
+    font-family: var(--ui-primary-font);
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.modal .preferences h3 {
+    padding: 1.5em 0 0.5em;
+    font-family: var(--ui-secondary-font);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.modal .preferences .marker {
+    color: var(--color-secondary-soft);
+}
+
+.modal .preferences .select {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    padding: 0;
+    justify-content: center;
+}
+
+@media (min-width: 577px) {
+    .modal .preferences .select {
+        gap: 1em;
+    }
+}
+
+.modal .preferences .verse {
+    display: block;
+    width: fit-content;
+    padding: 1em 1.5em;
+    margin-inline: 1em;
+    justify-self: center;
+    background: var(--pale);
+    background-image: url(../assets/img/paper.png);
+    font-family: var(--body-font);
+    border-radius: 1em;
+}
+
+.modal .preferences .toggle button {
+    height: 8rem;
+    margin-top: 1.5rem;
+}
+
+.modal .preferences-prompt {
+    display: none;
+    width: 100%;
+}
+
+.modal .preferences-prompt.open {
+    display: grid;
+}
+
+.modal .preferences-prompt button {
+    width: fit-content;
+    padding: 1rem 1.5rem;
+    justify-self: center;
+    background: var(--pale-transparent);
+    font-family: var(--ui-secondary-font);
+    font-size: 1em;
+    font-weight: 500;
+    border-width: 0;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.modal .preferences-prompt h2 {
+    width: 100%;
+    padding: 1em;
+    color: var(--pale);
+    text-align: center;
+    font-family: var(--ui-primary-font);
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.modal .preferences-prompt p {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-family: var(--ui-primary-font);
+}
+
+.modal .preferences-prompt svg {
+    height: 1.5rem;
+    transform: translateY(0.35rem);
+    padding: 0.25rem;
+    margin-inline: 0.25rem;
+    background: var(--pale-translucent);
+    fill: var(--dark);
+    border-radius: 0.25rem;
+}
+
+.modal .info {
+    grid-area: modal_body;
+    display: none;
+    font-family: var(--ui-primary-font);
+}
+
+.modal .info.open {
+    display: grid;
+}
+
+.modal .info h2 {
+    padding-bottom: 0.5em;
+    color: var(--pale);
+    text-align: center;
+    font-family: var(--ui-primary-font);
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.modal .info p {
+    padding: 0.5rem;
+}
+
+.modal .info .acknowledgements {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.modal .about {
+    grid-area: modal_body;
+    display: none;
+    font-family: var(--ui-primary-font);
+    line-height: 1.5em;
+}
+
+.modal .about.open {
+    display: grid;
+}
+
+.modal .about h2 {
+    padding-bottom: 0.5em;
+    color: var(--pale);
+    text-align: center;
+    font-family: var(--ui-primary-font);
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.modal .about p {
+    padding: 1rem 0;
+}
+
+.modal .about svg {
+    height: 0.8rem;
+    padding-right: 0.25em;
+    fill: var(--dark);
+}
+
+.modal .about .em-block {
+    color: var(--pale);
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.25em;
+}
+
+.modal .about .inline-logo {
+    background-color: var(--pale-translucent);
+    color: var(--color-tertiary-main);
+    font-family: var(--heading-font);
+}
+
+.modal .about .key {
+    background-color: var(--pale-translucent);
+    color: var(--dark);
+    font-family: var(--ui-secondary-font);
+    border: 3px solid var(--pale-transparent);
+}
+
+.lectionary::after {
+    position: relative;
+    bottom: 0;
+    height: 3rem;
+    align-self: end;
+    background: var(--dark);
+    content: '';
+}
+
+@media (min-width: 577px) {
+
+    nav.main.bottom {
+        margin-top: 2rem;
+    }
+
+    .split + nav.main.bottom {
+        margin-top: 6rem !important;
+    }
+
+    .lectionary::after {
+        display: none;
+    }
+}
+
+nav .to-top {
+    display: inline;
+}
+
+nav .to-top.hidden {
+    display: none;
+}
+
+nav.main svg {
+    height: 1.75em;
+    cursor: pointer;
+}
+
+nav .to-top svg {
+    height: 1.4em !important;
+}
+
+nav .book-line {
+    stroke: var(--pale);
+}
+
+nav .book-left {
+    fill: var(--color-secondary-soft);
+}
+
+nav .book-right {
+    fill: var(--color-secondary-main);
+}
+
+@media (min-width: 769px) {
+    nav.main {
+        width: 500px;
+        margin-top: 1em;
+        place-self: center;
+        background: none;
+    }
+
+    nav.main.bottom .left, nav.main.bottom .right {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.split nav.multi {
+    z-index: 1;
+    display: grid;
+    gap: 0.5rem;
+    position: sticky;
+    justify-content: center;
+    align-self: end;
+    background: var(--color-soft);
+    color: var(--pale);
+    font-family: var(--heading-font);
+}
+
+nav.multi {
+    display: none;
+}
+
+@media (min-width: 577px) {
+    nav.multi {
+        width: 576px;
+        justify-self: center;
+    }
+}
+
+.psalter nav.multi.top {
+    grid-area: psalm_content;
+}
+
+.lectionary nav.multi.top {
+    grid-area: office_content;
+}
+
+nav.multi.top.expanded {
+    top: -5.75rem;
+}
+
+nav.multi.top {
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "multi_nav_menu_title"
+        "multi_nav_menu_drop";
+    position: sticky;
+    top: 0;
+    padding: 0.5rem 1rem 3rem;
+    align-self: start;
+    align-content: start;
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+    will-change: transform;
+}
+
+.psalter nav.multi.bottom {
+    grid-area: psalm_content;
+}
+
+nav.multi.bottom {
+    z-index: 0;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "multi_nav_menu_drop"
+        "multi_nav_menu_title";
+    position: sticky;
+    bottom: 0;
+    padding: 2.5rem 1rem 1rem;
+    align-content: end;
+    border-bottom-left-radius: 2.25rem;
+    border-bottom-right-radius: 2.25rem;
+}
+
+nav.multi.bottom.expanded {
+    padding: 4rem 1rem 1rem !important;
+}
+
+nav.multi .title {
+    grid-area: multi_nav_menu_title;
+    display: grid;
+}
+
+nav.multi .spacer {
+    grid-area: exp_spacer;
+    width: 20px;
+}
+
+nav.multi .text {
+    grid-area: exp_text;
+    opacity: 0.8;
+    font-size: 1.5em;
+}
+
+nav.multi .arrow {
+    filter: invert(100%);
+    opacity: 50%;
+}
+
+nav.multi .drop {
+    grid-area: multi_nav_menu_drop;
+}
+
+nav.multi .drop.horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    justify-content: left;
+    opacity: 60%;
+    font-family: var(--ui-secondary-font);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+nav.multi .drop.horizontal::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+}
+
+nav.multi .drop.horizontal * {
+    flex-grow: 0;
+    flex-basis: 5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav.multi .drop.horizontal *:first-child {
+    padding-left: 20%;
+}
+
+nav.multi .drop.horizontal *:last-child {
+    padding-right: 20%;
+}
+
+nav.multi .drop .active {
+    color: var(--dark);
+    opacity: 50%;
+}
+
+nav.multi:has(.horizontal)::before {
+    z-index: 1;
+    grid-area: multi_nav_menu_drop;
+    display: inline;
+    width: 5rem;
+    justify-self: start;
+    background: linear-gradient(to right, var(--color-soft), var(--color-clear));
+    pointer-events: none;
+    content: '';
+}
+
+nav.multi:has(.horizontal)::after {
+    z-index: 1;
+    grid-area: multi_nav_menu_drop;
+    display: inline;
+    width: 5rem;
+    justify-self: end;
+    background: linear-gradient(to left, var(--color-soft), var(--color-clear));
+    pointer-events: none;
+    content: '';
+}
+
+.psalter.open, .lectionary.open {
+    display: revert;
+}
+
+.psalter, .lectionary {
+    display: none;
+}
+
+.lectionary .psalm::before {
+    background: var(--color-tertiary-soft);
+    z-index: 1;
+}
+
+.psalm::before {
+    z-index:1;
+    grid-area: psalm_content;
+    height: 2rem;
+    position: sticky;
+    top: 2rem;
+    background: var(--color-main);
+    content: '';
+}
+/*
+.lectionary .psalm:not(:first-child)::after {
+    grid-area: psalm_title;
+    height: 4rem;
+    position: relative;
+    top: -2rem;
+    align-self: start;
+    background: var(--color-main);
+    content: '';
+}
+*/
+
+/*
+.lectionary .office::before {
+    grid-area: office_content;
+    height: 2rem;
+    position: sticky;
+    top: 2rem;
+    background: var(--color-main);
+    content: '';
+}
+*/
+/* TEST_THIS
+.lectionary .office .psalm::before{
+    grid-area: psalm_content;
+    height: 2rem;
+    position: sticky;
+    top: 2rem;
+    background: var(--color-tertiary-soft);
+    content: '';
+    z-index: 10;
+}
+*/
+
+body > footer {
+    padding: 0.75rem 2rem 1rem;
+    color: var(--pale-translucent);
+}
+
+body > footer a {
+    color: var(--pale);
+    text-decoration: none;
+}
+
+body > footer .logo-1, body > footer .logo-2 {
+    color: var(--pale-translucent);
+}
+
+@media (min-width: 577px) {
+    :not(.landing) footer {
+        background-color: var(--dark);
+        font-size: 0.95em;
+    }
+}
+
+@media (min-width: 769px) {
+    :not(.landing) footer {
+        padding: 2rem 2rem 1rem !important;
+        background-color: transparent !important;
+    }
+}
+
+.psalter .psalm, .lectionary .psalm {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "psalm_title"
+        "psalm_content";
+}
+
+.psalter .title-box {
+    grid-area: psalm_title;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-main);
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+}
+
+@media (min-width: 577px) {
+    .psalter .title-box {
+        height: 25vh !important;
+    }
+    .psalter .split .title-box {
+        height: calc(25vh + 3.75rem) !important;
+    }
+}
+
+.psalter .title-box h1.title {
+    width: 50%;
+    position: relative;
+    top: 0;
+    color: var(--bright);
+    font-family: var(--heading-font);
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+@media (min-width: 577px) {
+    .title-box {
+        height: 25vh;
+        min-height: 12rem;
+        position: relative;
+    }
+
+    .title-box .title {
+        position: relative;
+        top: 0;
+    }
+
+    .psalter .split .title-box {
+        height: calc(25vh + 3.75rem) !important;
+        min-height: 15.75rem;
+    }
+}
+
+.psalter .split .psalm-box {
+    position: relative;
+    top: 3.75rem;
+    margin-bottom: 7.5rem;
+}
+
+.psalter nav.multi.top.expanded + .psalm-box {
+    top: 6rem;
+}
+
+.psalm-box {
+    z-index: 4;
+    grid-area: psalm_content;
+    position: relative;
+    top: 0;
+    min-height: 50vh;
+    padding: 3rem 1.5rem 3rem 1rem;
+    background: var(--pale);
+    background-image: url(../assets/img/paper.png);
+    border-radius: 2.25rem;
+    will-change: transform;
+}
+
+.psalm-box:has(+ nav.multi.bottom.expanded) {
+    top: 1rem;
+}
+
+@media (min-width: 577px) {
+    .psalm-box {
+        width: 576px;
+        margin-inline: auto;
+    }
+}
+
+.refrain .rubric {
+    color: var(--color-soft);
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.refrain .refrain-text {
+    padding: 0.5rem 0;
+    color: var(--color-main);
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 1.4em;
+    font-weight: 500;
+    line-height: 1.25em;
+}
+
+.refrain.top {
+    padding-bottom: 1.75rem;
+}
+
+.refrain.bottom {
+    padding-top: 1.75rem;
+}
+
+header {
+    position: relative;
+    margin: 0;
+}
+
+.psalm-box .psalm-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+.verse {
+    display: grid;
+    grid-template-columns: 2em 1fr;
+    gap: 1rem;
+}
+
+.vn {
+    color: var(--color-soft);
+    text-align: right;
+    font-family: var(--body-font);
+    font-size: 1em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.vs {
+    min-width: 14ch;
+    max-width: fit-content;
+    padding-left: 1.5em;
+    color: var(--dark);
+    font-weight: 300;
+}
+
+.vi-1 {
+    text-indent: -1.5em;
+}
+
+.vi-2 {
+    text-indent: -1em;
+}
+
+.vi-3 {
+    text-indent: -0.5em;
+}
+
+.marker {
+    position: relative;
+    bottom: 0.05em;
+    opacity: 75%;
+    color: var(--color-soft);
+}
+
+h2.part-heading {
+    padding-bottom: 0.15em;
+    color: var(--color-soft);
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 1.2em;
+}
+
+.verse + .part-heading {
+    padding-top: 1em;
+}
+
+/* TEST_THIS
+.lectionary .split .psalm:not(:first-child)::before {
+    background: var(--color-soft);
+}
+
+.lectionary .psalm:not(:first-child)::before {
+    grid-area: psalm_title;
+    height: 2rem;
+    position: sticky;
+    top: 0;
+    background: var(--color-main);
+    content: '';
+}
+*/
+/* TEST_THIS
+.lectionary .split .psalm:not(:last-child)::after {
+    background: var(--color-soft);
+}
+
+.lectionary .psalm:not(:last-child)::after {
+    z-index: 1;
+    grid-area: psalm_content;
+    background: var(--color-main);
+    height: 4rem;
+    position: sticky;
+    top: 100%;
+    content: '';
+}
+*/
+
+.def-up, .def-low, .voc, .dn-tetra, .pn-caps-enabled .pn-sub-up, .pn-caps-enabled .pn-sub-low, .pn-caps-enabled .pn-ob-low, .pn-caps-enabled .pn-pl-up, .pn-caps-enabled .pn-pl-low, .pn-caps-enabled .pos {
+    font-family: var(--sans-serif);
+    font-weight: 400;
+    font-variant: small-caps;
+    position: relative;
+}

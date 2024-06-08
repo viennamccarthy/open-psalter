@@ -1,0 +1,238 @@
+@use 'sass:color';
+
+/* FONTS */
+
+@mixin alegreya {
+  font-family: 'Alegreya';
+  font-weight: 400 500;
+  font-display: block;
+}
+
+@font-face {
+  @include alegreya;
+  src: url(../../assets/fonts/AlegreyaSC-Regular.woff2), url(../../assets/fonts/AlegreyaSC-Medium.woff2);
+  font-variant: small-caps;
+  font-style: normal;
+}
+@font-face {
+  @include alegreya;
+  src: url(../../assets/fonts/Alegreya-Regular.woff2), url(../../assets/fonts/Alegreya-Medium.woff2);
+  font-variant: normal;
+  font-style: normal;
+}
+@font-face {
+  @include alegreya;
+  src: url(../../assets/fonts/AlegreyaSC-Italic.woff2), url(../../assets/fonts/AlegreyaSC-MediumItalic.woff2);
+  font-variant: small-caps;
+  font-style: italic;
+}
+@font-face {
+  @include alegreya;
+  src: url(../../assets/fonts/Alegreya-Italic.woff2), url(../../assets/fonts/Alegreya-MediumItalic.woff2);
+  font-variant: normal;
+  font-style: italic;
+}
+
+@mixin alegreya-sans {
+  font-family: "Alegreya Sans";
+  font-weight: 300 500;
+  font-display: block;
+}
+
+@font-face {
+  @include alegreya-sans;
+  src: url(../../assets/fonts/AlegreyaSansSC-Light.woff2), url(../../assets/fonts/AlegreyaSansSC-Regular.woff2), url(../../assets/fonts/AlegreyaSansSC-Medium.woff2);
+  font-variant: small-caps;
+  font-style: normal;
+}
+@font-face {
+  @include alegreya-sans;
+  src: url(../../assets/fonts/AlegreyaSans-Light.woff2), url(../../assets/fonts/AlegreyaSans-Regular.woff2), url(../../assets/fonts/AlegreyaSans-Medium.woff2);
+  font-variant: normal;
+  font-style: normal;
+}
+@font-face {
+  @include alegreya-sans;
+  src: url(../../assets/fonts/AlegreyaSansSC-LightItalic.woff2), url(../../assets/fonts/AlegreyaSansSC-Italic.woff2), url(../../assets/fonts/AlegreyaSansSC-MediumItalic.woff2);
+  font-variant: small-caps;
+  font-style: italic;
+}
+@font-face {
+  @include alegreya-sans;
+  src: url(../../assets/fonts/AlegreyaSans-LightItalic.woff2), url(../../assets/fonts/AlegreyaSans-Italic.woff2), url(../../assets/fonts/AlegreyaSans-MediumItalic.woff2);
+  font-variant: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 200 400;
+  font-display: block;
+  src: url(../../assets/fonts/LexendDeca-ExtraLight.woff2), url(../../assets/fonts/LexendDeca-Light.woff2), url(../../assets/fonts/LexendDeca-Regular.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lexend Giga";
+  font-weight: 200 400;
+  font-display: block;
+  src: url(../../assets/fonts/LexendGiga-ExtraLight.woff2), url(../../assets/fonts/LexendGiga-Light.woff2), url(../../assets/fonts/LexendGiga-Regular.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bitter";
+  font-weight: 300 500;
+  font-display: block;
+  src: url(../../assets/fonts/Bitter-Light.woff2), url(../../assets/fonts/Bitter-Regular.woff2), url(../../assets/fonts/Bitter-Medium.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bitter";
+  font-weight: 300 500;
+  font-display: block;
+  src: url(../../assets/fonts/Bitter-LightItalic.woff2), url(../../assets/fonts/Bitter-Italic.woff2), url(../../assets/fonts/Bitter-MediumItalic.woff2);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bellefair";
+  font-weight: 400;
+  font-display: block;
+  src: url(../../assets/fonts/Bellefair-Regular.woff2);
+  unicode-range: U+590-5FF, U+FB1D-FB4F;
+  font-style: normal;
+}
+
+// Font properties
+:root {
+
+  // Reading options
+  --lexend: "Lexend Deca", sans-serif;
+  --lexend-wide: "Lexend Giga", sans-serif;
+  --bitter: "Bitter", serif;
+
+  --body-font-face: var(--lexend);
+  --body-font-size: 1.2rem;
+  --body-font: 400 var(--body-font-size) var(--body-font-face);
+}
+
+// Font variables
+
+$heading-font: italic 500 1em "Alegreya", serif;
+$ui-primary-family: 'Alegreya Sans', sans-serif;
+$ui-primary-font: 500 1em 'Alegreya Sans', sans-serif;
+$ui-secondary-family: 'Alegreya Sans', sans-serif;
+$ui-secondary-font: italic 500 1em 'Alegreya Sans', sans-serif;
+
+/* COLOURS */
+
+// Colour variables
+
+$purple: #ad5996;
+$coral: #cf5454;
+$teal: #3f9ea8;
+
+// Colour functions
+
+@function soft($color) {
+  @return color.scale($color, $lightness: 30%);
+}
+
+@function dark($color) {
+  @return color.scale($color, $lightness: -65%, $saturation: -20%);
+}
+
+@function translucent($color) {
+  @return color.scale($color, $lightness: 30%, $alpha: -50%);
+}
+
+// Colour properties (available for dynamic selection)
+
+:root {
+
+  --purple: #{$purple};
+  --purple-soft: #{soft($purple)};
+  --purple-dark: #{dark($purple)};
+  --purple-translucent: #{translucent($purple)};
+  --coral: #{$coral};
+  --coral-soft: #{soft($coral)};
+  --coral-dark: #{dark($coral)};
+  --coral-translucent: #{translucent($coral)};
+  --teal: #{$teal};
+  --teal-soft: #{soft($teal)};
+  --teal-dark: #{dark($teal)};
+  --teal-translucent: #{translucent($teal)};
+
+  --bright: #F9F6F4;
+  --pale: #F0EAE7;
+  --mid-dark: #6b6466;
+  --dark: #222222;
+
+  --pale-transparent: #F0EAE73F;
+  --pale-translucent: #F0EAE780;
+  --dark-transparent: #22222280;
+
+  // Default assignments
+  --page-bg: var(--dark);
+  --body-text: var(--dark);
+  --body-bg: var(--pale);
+  --color-primary-main: var(--purple);
+  --color-primary-soft: var(--purple-soft);
+  --color-primary-dark: var(--purple-dark);
+  --color-primary-translucent: var(--purple-translucent);
+  --color-secondary-main: var(--coral);
+  --color-secondary-soft: var(--coral-soft);
+  --color-secondary-dark: var(--coral-dark);
+  --color-secondary-translucent: var(--coral-translucent);
+  --color-tertiary-main: var(--teal);
+  --color-tertiary-soft: var(--teal-soft);
+  --color-tertiary-dark: var(--teal-dark);
+  --color-tertiary-translucent: var(--teal-translucent);
+}
+
+/* ASSETS */
+
+$up-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z" clip-rule="evenodd" /></svg>');
+$down-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" /></svg>');
+
+// To incorporate into nav CSS and HTML
+$left-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>');
+$right-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>');
+$arrow-to-top: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="1.75em" fill="currentColor"><path fill-rule="evenodd" d="M9.47 4.72a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 6.31l-3.72 3.72a.75.75 0 1 1-1.06-1.06l4.25-4.25Zm-4.25 9.25 4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 11.31l-3.72 3.72a.75.75 0 0 1-1.06-1.06Z" clip-rule="evenodd" /></svg>');
+
+$paper-bg: url(../../assets/img/paper.png) repeat var(--pale);
+
+/* LAYOUT */
+
+$md: 577px;
+$lg: 769px;
+$xl: 1025px;
+
+$main-nav-height: 3.75rem;
+$title-box-button-spacer: 3.15rem;
+$full-title-height: 60vh;
+$condensed-title-height: 25vh;
+
+@mixin rounded-sm {
+  border-radius: 1rem;
+  border-width: 0;
+}
+
+@mixin rounded-xs {
+  border-radius: 0.5rem;
+  border-width: 0;
+}
+
+@mixin rounded {
+  border-radius: 2.25rem;
+  border-width: 0;
+}
+
+@mixin rounded-top {
+  border-top-left-radius: 2.25rem;
+  border-top-right-radius: 2.25rem;
+  border-width: 0;
+}
+
+@mixin rounded-bottom {
+  border-bottom-left-radius: 2.25rem;
+  border-bottom-right-radius: 2.25rem;
+  border-width: 0;
+}

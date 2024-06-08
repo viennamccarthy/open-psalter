@@ -6,432 +6,301 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0"><title>Open Psalter</title>
     <!-- Styles -->
-    <link href="src/css/styles.css?v=24040901" rel="stylesheet">
-    <script src="src/js/main.js?v=24040901" type="module"></script>
+    <link rel="preload" href="src/styles/css/styles.css" as="style">
+    <link rel="stylesheet" href="src/styles/css/styles.css">
+    <script src="src/scripts/main.js" type="module"></script>
+    <script src="src/scripts/modal.js" type="module"></script>
+
+    <!-- Fonts -->
+    <link rel="preload" href="src/assets/fonts/Alegreya-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/Alegreya-Italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/Alegreya-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/Alegreya-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/AlegreyaSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/AlegreyaSans-Italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/AlegreyaSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/AlegreyaSans-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/AlegreyaSans-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/AlegreyaSans-LightItalic.woff2" as="font" type="font/woff2" crossorigin>
+
     <!-- Favicon -->
-    <link href="./src/assets/favicon.ico" rel="icon" type="image/xicon">
+    <link href="src/assets/img/favicon.ico" rel="icon" type="image/xicon">
+    <!--<style>
+        modal-overlay:is([open]) {
+            position: absolute;
+            height: 100vh;
+            background: #97B951;
+        }
+    </style>-->
 </head>
 <body>
-<main>
-    <section class="landing open">
-        <header>
-            <h1><span class="logo-1">Open</span><span class="logo-2">Psalter</span><img src="https://openpsalter.goatcounter.com/count?p=/test"></h1>
-            <span class="header-buttons">
-                <span class="header-info">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" /></svg>
-                </span>
-                <span class="header-prefs">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path class="mid" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z"/>
-                        <path class="top" d="M18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5Z"/>
-                        <path class="bottom" d="M16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
-                    </svg>
-                </span>
-            </span>
-        </header>
-        <section class="landing-content">
-            <section class="beta">
-                <h3><span class="inline-flow-logo">OpenPsalter</span><br/>is in beta</h3>
-                <p>The project is under active development. If you find any textual errors or technical bugs, please get in touch!</p>
-                <a class="button" href="mailto:hello@openpsalter.xyz">Email</a>
-            </section>
-            <section class="welcome">
-                <h2>Make the most of <span class="inline-flow-logo">OpenPsalter</span></h2>
-                <div class="select">
-                    <button class="welcome-about">
-                        Get to know the project
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm11.378-3.917c-.89-.777-2.366-.777-3.255 0a.75.75 0 0 1-.988-1.129c1.454-1.272 3.776-1.272 5.23 0 1.513 1.324 1.513 3.518 0 4.842a3.75 3.75 0 0 1-.837.552c-.676.328-1.028.774-1.028 1.152v.75a.75.75 0 0 1-1.5 0v-.75c0-1.279 1.06-2.107 1.875-2.502.182-.088.351-.199.503-.331.83-.727.83-1.857 0-2.584ZM12 18a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" /></svg>
-                    </button>
-                </div>
-            </section>
-            <section class="lectionary">
-                <h2><span class="soon">Coming soon</span> <span>Today's psalms</span></h2>
-                <div class="select">
-                    <button class="morning">
-                        Morning
-                    </button>
-                    <button class="evening">
-                        Evening
-                    </button>
-                </div>
-            </section>
-            <section class="psalms">
-                <h2>Psalter</h2>
-                <div class="search">
-                    <form role="search" id="psalm-search">
-                        <label for="psalm-number-input">Go to psalm</label>
-                        <input type="text" id="psalm-number-input" name="psalm" maxlength="3" size="3" placeholder="#">
-                        <button type="submit">Go</button>
-                    </form>
-                    <span class="error">Must be number between 1 and 150</span>
-                </div>
-                <div class="select">
-                    <div class="exp">
-                        <span class="expanding-block-title">
-                            <span class="expanding-block-spacer"></span>
-                            <span class="expanding-block-text">1-25</span>
-                            <span class="expanding-block-arrow"></span>
-                        </span>
-                        <div class="psalm-buttons">
-                            <button class="ps">1</button>
-                            <button class="ps">2</button>
-                            <button class="ps">3</button>
-                            <button class="ps">4</button>
-                            <button class="ps">5</button>
-                            <button class="ps">6</button>
-                            <button class="ps">7</button>
-                            <button class="ps">8</button>
-                            <button class="ps">9</button>
-                            <button class="ps">10</button>
-                            <button class="ps">11</button>
-                            <button class="ps">12</button>
-                            <button class="ps">13</button>
-                            <button class="ps">14</button>
-                            <button class="ps">15</button>
-                            <button class="ps">16</button>
-                            <button class="ps">17</button>
-                            <button class="ps">18</button>
-                            <button class="ps">19</button>
-                            <button class="ps">20</button>
-                            <button class="ps">21</button>
-                            <button class="ps">22</button>
-                            <button class="ps">23</button>
-                            <button class="ps">24</button>
-                            <button class="ps">25</button>
-                        </div>
-                    </div>
-                    <div class="exp">
-                        <span class="expanding-block-title">
-                            <span class="expanding-block-spacer"></span>
-                            <span class="expanding-block-text">26-50</span>
-                            <span class="expanding-block-arrow"></span>
-                        </span>
-                        <div class="psalm-buttons">
-                            <button class="ps">26</button>
-                            <button class="ps">27</button>
-                            <button class="ps">28</button>
-                            <button class="ps">29</button>
-                            <button class="ps">30</button>
-                            <button class="ps">31</button>
-                            <button class="ps">32</button>
-                            <button class="ps">33</button>
-                            <button class="ps">34</button>
-                            <button class="ps">35</button>
-                            <button class="ps">36</button>
-                            <button class="ps">37</button>
-                            <button class="ps">38</button>
-                            <button class="ps">39</button>
-                            <button class="ps">40</button>
-                            <button class="ps">41</button>
-                            <button class="ps">42</button>
-                            <button class="ps">43</button>
-                            <button class="ps">44</button>
-                            <button class="ps">45</button>
-                            <button class="ps">46</button>
-                            <button class="ps">47</button>
-                            <button class="ps">48</button>
-                            <button class="ps">49</button>
-                            <button class="ps">50</button>
-                        </div>
-                    </div>
-                    <div class="exp">
-                        <span class="expanding-block-title">
-                            <span class="expanding-block-spacer"></span>
-                            <span class="expanding-block-text">51–75</span>
-                            <span class="expanding-block-arrow"></span>
-                        </span>
-                        <div class="psalm-buttons">
-                            <button class="ps">51</button>
-                            <button class="ps">52</button>
-                            <button class="ps">53</button>
-                            <button class="ps">54</button>
-                            <button class="ps">55</button>
-                            <button class="ps">56</button>
-                            <button class="ps">57</button>
-                            <button class="ps">58</button>
-                            <button class="ps">59</button>
-                            <button class="ps">60</button>
-                            <button class="ps">61</button>
-                            <button class="ps">62</button>
-                            <button class="ps">63</button>
-                            <button class="ps">64</button>
-                            <button class="ps">65</button>
-                            <button class="ps">66</button>
-                            <button class="ps">67</button>
-                            <button class="ps">68</button>
-                            <button class="ps">69</button>
-                            <button class="ps">70</button>
-                            <button class="ps">71</button>
-                            <button class="ps">72</button>
-                            <button class="ps">73</button>
-                            <button class="ps">74</button>
-                            <button class="ps">75</button>
-                        </div>
-                    </div>
-                    <div class="exp">
-                        <span class="expanding-block-title">
-                            <span class="expanding-block-spacer"></span>
-                            <span class="expanding-block-text">76-100</span>
-                            <span class="expanding-block-arrow"></span>
-                        </span>
-                        <div class="psalm-buttons">
-                            <button class="ps">76</button>
-                            <button class="ps">77</button>
-                            <button class="ps">78</button>
-                            <button class="ps">79</button>
-                            <button class="ps">80</button>
-                            <button class="ps">81</button>
-                            <button class="ps">82</button>
-                            <button class="ps">83</button>
-                            <button class="ps">84</button>
-                            <button class="ps">85</button>
-                            <button class="ps">86</button>
-                            <button class="ps">87</button>
-                            <button class="ps">88</button>
-                            <button class="ps">89</button>
-                            <button class="ps">90</button>
-                            <button class="ps">91</button>
-                            <button class="ps">92</button>
-                            <button class="ps">93</button>
-                            <button class="ps">94</button>
-                            <button class="ps">95</button>
-                            <button class="ps">96</button>
-                            <button class="ps">97</button>
-                            <button class="ps">98</button>
-                            <button class="ps">99</button>
-                            <button class="ps">100</button>
-                        </div>
-                    </div>
-                        <div class="exp">
-                        <span class="expanding-block-title">
-                            <span class="expanding-block-spacer"></span>
-                            <span class="expanding-block-text">101–125</span>
-                            <span class="expanding-block-arrow"></span>
-                        </span>
-                            <div class="psalm-buttons">
-                                <button class="ps">101</button>
-                                <button class="ps">102</button>
-                                <button class="ps">103</button>
-                                <button class="ps">104</button>
-                                <button class="ps">105</button>
-                                <button class="ps">106</button>
-                                <button class="ps">107</button>
-                                <button class="ps">108</button>
-                                <button class="ps">109</button>
-                                <button class="ps">110</button>
-                                <button class="ps">111</button>
-                                <button class="ps">112</button>
-                                <button class="ps">113</button>
-                                <button class="ps">114</button>
-                                <button class="ps">115</button>
-                                <button class="ps">116</button>
-                                <button class="ps">117</button>
-                                <button class="ps">118</button>
-                                <button class="ps">119</button>
-                                <button class="ps">120</button>
-                                <button class="ps">121</button>
-                                <button class="ps">122</button>
-                                <button class="ps">123</button>
-                                <button class="ps">124</button>
-                                <button class="ps">125</button>
-                            </div>
-                    </div>
-                        <div class="exp">
-                        <span class="expanding-block-title">
-                            <span class="expanding-block-spacer"></span>
-                            <span class="expanding-block-text">126-150</span>
-                            <span class="expanding-block-arrow"></span>
-                        </span>
-                            <div class="psalm-buttons">
-                                <button class="ps">126</button>
-                                <button class="ps">127</button>
-                                <button class="ps">128</button>
-                                <button class="ps">129</button>
-                                <button class="ps">130</button>
-                                <button class="ps">131</button>
-                                <button class="ps">132</button>
-                                <button class="ps">133</button>
-                                <button class="ps">134</button>
-                                <button class="ps">135</button>
-                                <button class="ps">136</button>
-                                <button class="ps">137</button>
-                                <button class="ps">138</button>
-                                <button class="ps">139</button>
-                                <button class="ps">140</button>
-                                <button class="ps">141</button>
-                                <button class="ps">142</button>
-                                <button class="ps">143</button>
-                                <button class="ps">144</button>
-                                <button class="ps">145</button>
-                                <button class="ps">146</button>
-                                <button class="ps">147</button>
-                                <button class="ps">148</button>
-                                <button class="ps">149</button>
-                                <button class="ps">150</button>
-                            </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <footer>
-            <p><span class="inline-logo"><span class="logo-1">Open</span><span class="logo-2">Psalter</span></span> 2024. Content adapted from sources including the <a href="http://www.cofe.anglican.org/worship/liturgy/commonworship/" target="_blank"><i>Common Worship Psalter</i></a>, which is © The Archbishops’ Council of the Church of England, 2000. <a class="link-info" href="javascript:document.querySelector('.modal').classList.add('open');document.querySelector('.info').classList.add('open');">More information.</a></p>
-        </footer>
+<header>
+    <h1>
+        <span class="logo-1">Open</span><span class="logo-2">Psalter</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="0.9em">
+            <g transform="scale(1.3, 0.95)">
+                <path class="book-left" fill="#000" opacity="0.75" transform="translate(-2, 4), skewY(3)" d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533Z" />
+                <path class="book-right" fill="#000" opacity="0.75" transform="translate(-3.5, 5.25), skewY(-3)" d="M12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
+            </g>
+            <path class="book-line" transform="translate(0,-0.5)" fill="none" stroke-width="1.4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+        </svg>
+        <img src="https://openpsalter.goatcounter.com/count?p=/test" height="1px" width="1px">
+    </h1>
+    <span class="buttons">
+        <span class="info">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="2rem" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" /></svg>
+        </span>
+        <span class="preferences">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="2rem" fill="currentColor">
+                <path class="mid" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z"/>
+                <path class="top" d="M18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5Z"/>
+                <path class="bottom" d="M16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
+            </svg>
+        </span>
+    </span>
+</header>
+<main class="index"> <!-- grid: "main_header" \ "main_body" \ "main_footer" --> <!-- "landing_header" \ "landing_body" \ "landing_footer" -->
+    <section class="beta">
+        <h3><span class="inline-logo flow">OpenPsalter</span><br/>is in beta</h3>
+        <p>The project is under active development. If you find any textual errors or technical bugs, please get in touch!</p>
+        <a class="button" href="mailto:hello@openpsalter.xyz">Email</a>
     </section>
-    <section class="psalter">
-        <nav class="main-nav nav-top">
-            <span class="nav-left">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>
-            </span>
-            <span class="nav-book">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <g transform="scale(1.3, 0.95)">
-                        <path class="book-left" fill="#000" opacity="0.75" transform="translate(-2, 4), skewY(3)" d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533Z" />
-                        <path class="book-right" fill="#999" opacity="0.75" transform="translate(-3.5, 5.25), skewY(-3)" d="M12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
-                    </g>
-                    <path class="book-line" transform="translate(0,-0.5)" fill="none" stroke-width="1.5" stroke="#F0EAE7" stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                </svg>
-            </span>
-            <span class="nav-right">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>
-            </span>
-        </nav>
-        <nav class="book-drop">
-            <span class="nav-info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" /></svg>
-            </span>
-            <span class="nav-home">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
-            </span>
-            <span class="nav-prefs">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                    <path class="mid" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z"/>
-                    <path class="top" d="M18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5Z"/>
-                    <path class="bottom" d="M16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
-                </svg>
-            </span>
-        </nav>
-        <section class="psalm">
-            <header class="title-box">
-                <h1 class="title-text"></h1>
-            </header>
-            <div class="title-box-extend"></div>
-            <nav class="split-nav split-nav-top">
-                <span class="expanding-block-title">
-                    <span class="expanding-block-spacer"></span>
-                    <span class="expanding-block-text"></span>
-                    <span class="expanding-block-arrow"></span>
-                </span>
-                <span class="split-nav-drop"></span>
-                <span class="split-nav-l-grad"></span>
-                <span class="split-nav-r-grad"></span>
-            </nav>
-            <section class="psalm-box pn-caps-enabled">
-                <div class="psalm-text"></div>
-            </section>
-            <nav class="split-nav split-nav-bottom">
-                <span class="split-nav-drop"></span>
-                <span class="split-nav-l-grad"></span>
-                <span class="split-nav-r-grad"></span>
-                <span class="expanding-block-title">
-                    <span class="expanding-block-spacer"></span>
-                    <span class="expanding-block-text"></span>
-                    <span class="expanding-block-arrow"></span>
-                </span>
-            </nav>
-        </section>
-        <nav class="main-nav nav-bottom">
-            <span class="nav-left">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>
-            </span>
-            <span class="nav-to-top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.47 4.72a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 6.31l-3.72 3.72a.75.75 0 1 1-1.06-1.06l4.25-4.25Zm-4.25 9.25 4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 11.31l-3.72 3.72a.75.75 0 0 1-1.06-1.06Z" clip-rule="evenodd" /></svg>
-            </span>
-            <span class="nav-right">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>
-            </span>
-        </nav>
+    <section class="welcome">
+        <h2>Make the most of <span class="inline-logo flow">OpenPsalter</span></h2>
+        <div class="select">
+            <button class="welcome-about">
+                Get to know the project
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm11.378-3.917c-.89-.777-2.366-.777-3.255 0a.75.75 0 0 1-.988-1.129c1.454-1.272 3.776-1.272 5.23 0 1.513 1.324 1.513 3.518 0 4.842a3.75 3.75 0 0 1-.837.552c-.676.328-1.028.774-1.028 1.152v.75a.75.75 0 0 1-1.5 0v-.75c0-1.279 1.06-2.107 1.875-2.502.182-.088.351-.199.503-.331.83-.727.83-1.857 0-2.584ZM12 18a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" /></svg>
+            </button>
+        </div>
     </section>
-    <section class="modal">
-        <div class="modal-content">
-            <div class="modal-inner">
-                    <span class="modal-close modal-close-top">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
-                    </span>
-                <section class="preferences">
-                    <h2>Preferences</h2>
-                    <div class="verse">
-                        <div class="vs">
-                            <p class="vi-1">I will proclaim the decree of&nbsp;<span class="def-l">God</span>;&nbsp;<span class="marker">⁕</span></p>
-                            <p class="vi-2"><span class="pn-s-l">God</span> said to me: ‘You are my <span class="kg-2">Son</span>; this day have I begotten&nbsp;you.’</p>
-                        </div>
-                    </div>
-                    <h3>The Divine Name</h3>
-                    <div class="options-select">
-                        <button class="divine-name option-1">God</button>
-                        <button class="divine-name option-2">the Holy One</button>
-                        <button class="divine-name option-3"><span class="dn-tetra">yhwh</span></button>
-                        <button class="divine-name option-4">יהוה</button>
-                    </div>
-                    <h3>Third-Person Pronouns</h3>
-                    <div class="options-select">
-                        <button class="third-person-pronouns option-1">God</button>
-                        <button class="third-person-pronouns option-2">they/them</button>
-                    </div>
-                    <h3>The King</h3>
-                    <div class="options-select">
-                        <button class="king option-1">Historical</button>
-                        <button class="king option-2">Messianic</button>
-                        <button class="king option-3">Gender neutral</button>
-                    </div>
-                    <h3>Other Options</h3>
-                    <div class="verse">
-                        <div class="vs">
-                            <p class="vi-1">‘<span class="ms-3">He</span> trusted in <span class="def-l">God</span>; let <span class="pn-o-l">God</span> deliver&nbsp;<span class="ms-4">him</span>;&nbsp;<span class="marker">&nbsp;⁕</span></p>
-                            <p class="vi-2">let <span class="pn-o-l">God</span> deliver <span class="ms-4">him</span>, if <span class="pn-s-l">God</span> <span class="pn-v-s">delights</span> in&nbsp;<span class="ms-4">him</span>.’</p>
-                        </div>
-                    </div>
-                    <div class="options-select toggle">
-                        <button class="messianic active">Emphasise messianic passages</button>
-                        <button class="pn-caps active">Small caps for divine third-person pronouns</button>
-                    </div>
-                </section>
-                <section class="preferences-prompt">
-                    <h2>You haven't set any preferences yet.</h2>
-                    <p>You can set or change preferences at any time by pressing the <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd"/></svg> icon in the top menu.</p>
-                    <button class="accept">View options now</button>
-                </section>
-                <section class="about">
-                    <p><span class="em-block">The <span class="key">Psalms</span> are for <span class="key">everyone</span>.</span></p>
-                    <p>The book of Psalms in the Bible — also known as the Psalter — is the prayer book of God's people. Its songs have been prayed and sung by the Church since its earliest days. When we pray them, we become part of something <span class="key">bigger than ourselves.</span></p>
-                    <p>The Psalter offers us songs of joyful praise and worship, but also desperate pleas for help, and even despair and anger. The psalmist's words aren't polished and presentable — they're <span class="key">real</span>.</p>
-                    <p>In practice, this means that some things in the Psalms can make us uncomfortable when we pray them — and rightfully so. Desire for revenge, and hopelessness, and fear of God's wrath — these prayers are messy, but they reflect very <span class="key">human experiences</span> that we shouldn't try to erase.</p>
-                    <p>But what about when the language is excluding us from praying these prayers as members of the People of God?</p>
-                    <p><span class="em-block"><span class="inline-logo"><span class="logo-1">Open</span><span class="logo-2">Psalter</span></span> is a <span class="key">personal project</span> created for <span class="key">private prayer</span> and <span class="key">pastoral encouragement</span>.</span></p>
-                    <p>It's a <span class="key">flexible</span> adaptation of several translations to make the language about God and the psalmist more <span class="key">expansive</span>. Instead of gendered language, options are given for common alternatives that are used in today's speech.</p>
-                    <p>Language preferences can be chosen and changed at any time, by accessing the <span class="key">Preferences <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd"/></svg></span> pane from the navigation at the top of the screen.</p>
-                </section>
-                <section class="info">
-                    <h2>Information</h2>
-                    <p><span class="inline-flow-logo">OpenPsalter</span> is a <i>personal project</i> created for <i>private prayer</i> and <i>pastoral encouragement</i>.</p>
-                    <p>The texts on this site have been heavily adapted from the Common Worship psalter, and are intended to be used by individuals in personal prayer. They should not be downloaded, printed, or used publicly without the permission of the Archbishops' Council.</p>
-                    <p>The Common Worship Psalter is © The Archbishops’ Council of the Church of England, 2000. Common Worship texts are available from the Church of England website:</p>
-                    <div class="acknowledgements">
-                        <a class="button" href="http://www.cofe.anglican.org/worship/liturgy/commonworship/" target="_blank">Common Worship Psalter</a>
-                    </div>
-                    <p>Additional inspiration has been drawn from the following sources:</p>
-                    <div class="acknowledgements">
-                        <a class="button" href="https://www.osh.org/prayer" target="_blank">The Saint Helena Psalter</a>
-                        <a class="button" href="https://wwnorton.com/books/9780393292497" target="_blank">The Hebrew Bible translation and commentary by Robert Alter</a>
-                        <a class="button" href="https://yptheology.org/inclusive-psalter/" target="_blank">Inclusive Language Psalter</a>
-                    </div>
-                </section>
-                <span class="modal-close modal-close-bottom">
-                        Close
-                    </span>
+    <section class="office-nav">
+        <h2><span>Today's psalms</span></h2>
+        <div class="select">
+            <button class="morning">
+                Morning
+            </button>
+            <button class="evening">
+                Evening
+            </button>
+        </div>
+    </section>
+    <section class="psalm-nav">
+        <h2>Psalter</h2>
+        <div class="search">
+            <form role="search" id="psalm-search">
+                <label for="psalm-number-input">Go to psalm</label>
+                <input type="number" id="psalm-number-input" name="psalm" min="1" max="150" placeholder="#">
+                <button type="submit">Go</button>
+            </form>
+        </div>
+        <div class="select">
+            <div class="expand expand-block">
+                <span class="title">
+                    <span class="text">1-25</span>
+                    <span class="arrow"></span>
+                </span>
+                <div class="content">
+                    <a class="button psalm-button" href="./psalter.html?n=1">1</a>
+                    <a class="button psalm-button" href="./psalter.html?n=2">2</a>
+                    <a class="button psalm-button" href="./psalter.html?n=3">3</a>
+                    <a class="button psalm-button" href="./psalter.html?n=4">4</a>
+                    <a class="button psalm-button" href="./psalter.html?n=5">5</a>
+                    <a class="button psalm-button" href="./psalter.html?n=6">6</a>
+                    <a class="button psalm-button" href="./psalter.html?n=7">7</a>
+                    <a class="button psalm-button" href="./psalter.html?n=8">8</a>
+                    <a class="button psalm-button" href="./psalter.html?n=9">9</a>
+                    <a class="button psalm-button" href="./psalter.html?n=10">10</a>
+                    <a class="button psalm-button" href="./psalter.html?n=11">11</a>
+                    <a class="button psalm-button" href="./psalter.html?n=12">12</a>
+                    <a class="button psalm-button" href="./psalter.html?n=13">13</a>
+                    <a class="button psalm-button" href="./psalter.html?n=14">14</a>
+                    <a class="button psalm-button" href="./psalter.html?n=15">15</a>
+                    <a class="button psalm-button" href="./psalter.html?n=16">16</a>
+                    <a class="button psalm-button" href="./psalter.html?n=17">17</a>
+                    <a class="button psalm-button" href="./psalter.html?n=18">18</a>
+                    <a class="button psalm-button" href="./psalter.html?n=19">19</a>
+                    <a class="button psalm-button" href="./psalter.html?n=20">20</a>
+                    <a class="button psalm-button" href="./psalter.html?n=2">21</a>
+                    <a class="button psalm-button" href="./psalter.html?n=22">22</a>
+                    <a class="button psalm-button" href="./psalter.html?n=23">23</a>
+                    <a class="button psalm-button" href="./psalter.html?n=24">24</a>
+                    <a class="button psalm-button" href="./psalter.html?n=25">25</a>
+                </div>
+            </div>
+            <div class="expand expand-block">
+                <span class="title">
+                    <span class="text">26-50</span>
+                    <span class="arrow"></span>
+                </span>
+                <div class="content">
+                    <a class="button psalm-button" href="./psalter.html?n=26">26</a>
+                    <a class="button psalm-button" href="./psalter.html?n=27">27</a>
+                    <a class="button psalm-button" href="./psalter.html?n=28">28</a>
+                    <a class="button psalm-button" href="./psalter.html?n=29">29</a>
+                    <a class="button psalm-button" href="./psalter.html?n=30">30</a>
+                    <a class="button psalm-button" href="./psalter.html?n=31">31</a>
+                    <a class="button psalm-button" href="./psalter.html?n=32">32</a>
+                    <a class="button psalm-button" href="./psalter.html?n=33">33</a>
+                    <a class="button psalm-button" href="./psalter.html?n=34">34</a>
+                    <a class="button psalm-button" href="./psalter.html?n=35">35</a>
+                    <a class="button psalm-button" href="./psalter.html?n=36">36</a>
+                    <a class="button psalm-button" href="./psalter.html?n=37">37</a>
+                    <a class="button psalm-button" href="./psalter.html?n=38">38</a>
+                    <a class="button psalm-button" href="./psalter.html?n=39">39</a>
+                    <a class="button psalm-button" href="./psalter.html?n=40">40</a>
+                    <a class="button psalm-button" href="./psalter.html?n=41">41</a>
+                    <a class="button psalm-button" href="./psalter.html?n=42">42</a>
+                    <a class="button psalm-button" href="./psalter.html?n=43">43</a>
+                    <a class="button psalm-button" href="./psalter.html?n=44">44</a>
+                    <a class="button psalm-button" href="./psalter.html?n=45">45</a>
+                    <a class="button psalm-button" href="./psalter.html?n=46">46</a>
+                    <a class="button psalm-button" href="./psalter.html?n=47">47</a>
+                    <a class="button psalm-button" href="./psalter.html?n=48">48</a>
+                    <a class="button psalm-button" href="./psalter.html?n=49">49</a>
+                    <a class="button psalm-button" href="./psalter.html?n=50">50</a>
+                </div>
+            </div>
+            <div class="expand expand-block">
+                <span class="title">
+                    <span class="text">51–75</span>
+                    <span class="arrow"></span>
+                </span>
+                <div class="content">
+                    <a class="button psalm-button" href="./psalter.html?n=51">51</a>
+                    <a class="button psalm-button" href="./psalter.html?n=52">52</a>
+                    <a class="button psalm-button" href="./psalter.html?n=53">53</a>
+                    <a class="button psalm-button" href="./psalter.html?n=54">54</a>
+                    <a class="button psalm-button" href="./psalter.html?n=55">55</a>
+                    <a class="button psalm-button" href="./psalter.html?n=56">56</a>
+                    <a class="button psalm-button" href="./psalter.html?n=57">57</a>
+                    <a class="button psalm-button" href="./psalter.html?n=58">58</a>
+                    <a class="button psalm-button" href="./psalter.html?n=59">59</a>
+                    <a class="button psalm-button" href="./psalter.html?n=60">60</a>
+                    <a class="button psalm-button" href="./psalter.html?n=61">61</a>
+                    <a class="button psalm-button" href="./psalter.html?n=62">62</a>
+                    <a class="button psalm-button" href="./psalter.html?n=63">63</a>
+                    <a class="button psalm-button" href="./psalter.html?n=64">64</a>
+                    <a class="button psalm-button" href="./psalter.html?n=65">65</a>
+                    <a class="button psalm-button" href="./psalter.html?n=66">66</a>
+                    <a class="button psalm-button" href="./psalter.html?n=67">67</a>
+                    <a class="button psalm-button" href="./psalter.html?n=68">68</a>
+                    <a class="button psalm-button" href="./psalter.html?n=69">69</a>
+                    <a class="button psalm-button" href="./psalter.html?n=70">70</a>
+                    <a class="button psalm-button" href="./psalter.html?n=71">71</a>
+                    <a class="button psalm-button" href="./psalter.html?n=72">72</a>
+                    <a class="button psalm-button" href="./psalter.html?n=73">73</a>
+                    <a class="button psalm-button" href="./psalter.html?n=74">74</a>
+                    <a class="button psalm-button" href="./psalter.html?n=75">75</a>
+                </div>
+            </div>
+            <div class="expand expand-block">
+                <span class="title">
+                    <span class="text">76-100</span>
+                    <span class="arrow"></span>
+                </span>
+                <div class="content">
+                    <a class="button psalm-button" href="./psalter.html?n=76">76</a>
+                    <a class="button psalm-button" href="./psalter.html?n=77">77</a>
+                    <a class="button psalm-button" href="./psalter.html?n=78">78</a>
+                    <a class="button psalm-button" href="./psalter.html?n=79">79</a>
+                    <a class="button psalm-button" href="./psalter.html?n=80">80</a>
+                    <a class="button psalm-button" href="./psalter.html?n=81">81</a>
+                    <a class="button psalm-button" href="./psalter.html?n=82">82</a>
+                    <a class="button psalm-button" href="./psalter.html?n=83">83</a>
+                    <a class="button psalm-button" href="./psalter.html?n=84">84</a>
+                    <a class="button psalm-button" href="./psalter.html?n=85">85</a>
+                    <a class="button psalm-button" href="./psalter.html?n=86">86</a>
+                    <a class="button psalm-button" href="./psalter.html?n=87">87</a>
+                    <a class="button psalm-button" href="./psalter.html?n=88">88</a>
+                    <a class="button psalm-button" href="./psalter.html?n=89">89</a>
+                    <a class="button psalm-button" href="./psalter.html?n=90">90</a>
+                    <a class="button psalm-button" href="./psalter.html?n=91">91</a>
+                    <a class="button psalm-button" href="./psalter.html?n=92">92</a>
+                    <a class="button psalm-button" href="./psalter.html?n=93">93</a>
+                    <a class="button psalm-button" href="./psalter.html?n=94">94</a>
+                    <a class="button psalm-button" href="./psalter.html?n=95">95</a>
+                    <a class="button psalm-button" href="./psalter.html?n=96">96</a>
+                    <a class="button psalm-button" href="./psalter.html?n=97">97</a>
+                    <a class="button psalm-button" href="./psalter.html?n=98">98</a>
+                    <a class="button psalm-button" href="./psalter.html?n=99">99</a>
+                    <a class="button psalm-button" href="./psalter.html?n=100">100</a>
+                </div>
+            </div>
+            <div class="expand expand-block">
+                <span class="title">
+                    <span class="text">101–125</span>
+                    <span class="arrow"></span>
+                </span>
+                <div class="content">
+                    <a class="button psalm-button" href="./psalter.html?n=101">101</a>
+                    <a class="button psalm-button" href="./psalter.html?n=102">102</a>
+                    <a class="button psalm-button" href="./psalter.html?n=103">103</a>
+                    <a class="button psalm-button" href="./psalter.html?n=104">104</a>
+                    <a class="button psalm-button" href="./psalter.html?n=105">105</a>
+                    <a class="button psalm-button" href="./psalter.html?n=106">106</a>
+                    <a class="button psalm-button" href="./psalter.html?n=107">107</a>
+                    <a class="button psalm-button" href="./psalter.html?n=108">108</a>
+                    <a class="button psalm-button" href="./psalter.html?n=109">109</a>
+                    <a class="button psalm-button" href="./psalter.html?n=110">110</a>
+                    <a class="button psalm-button" href="./psalter.html?n=111">111</a>
+                    <a class="button psalm-button" href="./psalter.html?n=112">112</a>
+                    <a class="button psalm-button" href="./psalter.html?n=113">113</a>
+                    <a class="button psalm-button" href="./psalter.html?n=114">114</a>
+                    <a class="button psalm-button" href="./psalter.html?n=115">115</a>
+                    <a class="button psalm-button" href="./psalter.html?n=116">116</a>
+                    <a class="button psalm-button" href="./psalter.html?n=117">117</a>
+                    <a class="button psalm-button" href="./psalter.html?n=118">118</a>
+                    <a class="button psalm-button" href="./psalter.html?n=119">119</a>
+                    <a class="button psalm-button" href="./psalter.html?n=120">120</a>
+                    <a class="button psalm-button" href="./psalter.html?n=121">121</a>
+                    <a class="button psalm-button" href="./psalter.html?n=122">122</a>
+                    <a class="button psalm-button" href="./psalter.html?n=123">123</a>
+                    <a class="button psalm-button" href="./psalter.html?n=124">124</a>
+                    <a class="button psalm-button" href="./psalter.html?n=125">125</a>
+                </div>
+            </div>
+            <div class="expand expand-block">
+                <span class="title">
+                    <span class="text">126-150</span>
+                    <span class="arrow"></span>
+                </span>
+                <div class="content">
+                    <a class="button psalm-button" href="./psalter.html?n=126">126</a>
+                    <a class="button psalm-button" href="./psalter.html?n=127">127</a>
+                    <a class="button psalm-button" href="./psalter.html?n=128">128</a>
+                    <a class="button psalm-button" href="./psalter.html?n=129">129</a>
+                    <a class="button psalm-button" href="./psalter.html?n=130">130</a>
+                    <a class="button psalm-button" href="./psalter.html?n=131">131</a>
+                    <a class="button psalm-button" href="./psalter.html?n=132">132</a>
+                    <a class="button psalm-button" href="./psalter.html?n=133">133</a>
+                    <a class="button psalm-button" href="./psalter.html?n=134">134</a>
+                    <a class="button psalm-button" href="./psalter.html?n=135">135</a>
+                    <a class="button psalm-button" href="./psalter.html?n=136">136</a>
+                    <a class="button psalm-button" href="./psalter.html?n=137">137</a>
+                    <a class="button psalm-button" href="./psalter.html?n=138">138</a>
+                    <a class="button psalm-button" href="./psalter.html?n=139">139</a>
+                    <a class="button psalm-button" href="./psalter.html?n=140">140</a>
+                    <a class="button psalm-button" href="./psalter.html?n=141">141</a>
+                    <a class="button psalm-button" href="./psalter.html?n=142">142</a>
+                    <a class="button psalm-button" href="./psalter.html?n=143">143</a>
+                    <a class="button psalm-button" href="./psalter.html?n=144">144</a>
+                    <a class="button psalm-button" href="./psalter.html?n=145">145</a>
+                    <a class="button psalm-button" href="./psalter.html?n=146">146</a>
+                    <a class="button psalm-button" href="./psalter.html?n=147">147</a>
+                    <a class="button psalm-button" href="./psalter.html?n=148">148</a>
+                    <a class="button psalm-button" href="./psalter.html?n=149">149</a>
+                    <a class="button psalm-button" href="./psalter.html?n=150">150</a>
+                </div>
             </div>
         </div>
-        <div class="modal-bg"></div>
+    </section>
+    <section class="modal">
+        <modal-card></modal-card>
     </section>
 </main>
+<footer>
+    <p><span class="inline-logo"><span class="logo-1">Open</span><span class="logo-2">Psalter</span></span> 2024. Content adapted from sources including the <a href="http://www.cofe.anglican.org/worship/liturgy/commonworship/" target="_blank"><i>Common Worship Psalter</i></a>, which is © The Archbishops’ Council of the Church of England, 2000. <a class="link-info" href="javascript:document.querySelector('.modal').classList.add('open');document.querySelector('.info').classList.add('open');">More information.</a></p>
+</footer>
 </body>
 </html>

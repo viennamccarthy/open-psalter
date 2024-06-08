@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="no-cache">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0"><title>Open Psalter</title>
+
+    <!-- Fonts -->
+    <link rel="preload" href="src/assets/fonts/LexendDeca-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="src/assets/fonts/LexendGiga-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Styles-->
+    <link href="src/old-css/main.css" rel="stylesheet">
+    <link href="src/old-css/psalter.css" rel="stylesheet">
+    <link href="src/old-css/psalm.css" rel="stylesheet">
+    <link href="src/old-css/modal.css" rel="stylesheet">
+
+    <script src="src/scripts/psalter.js?v=24040901" type="module"></script>
+    <script src="src/scripts/modal.js" type="module"></script>
+
+    <!-- Favicon -->
+    <link href="src/assets/img/favicon.ico" rel="icon" type="image/xicon">
+</head>
+<body>
+<header>
+    <nav class="main top">
+        <span class="left">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>
+        </span>
+        <a href="./index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1.75em">
+                <g transform="scale(1.3, 0.95)">
+                    <path class="book-left" fill="#000" opacity="0.75" transform="translate(-2, 4), skewY(3)" d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533Z" />
+                    <path class="book-right" fill="#999" opacity="0.75" transform="translate(-3.5, 5.25), skewY(-3)" d="M12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
+                </g>
+                <path class="book-line" transform="translate(0,-0.5)" fill="none" stroke-width="1.5" stroke="#F0EAE7" stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+            </svg>
+        </a>
+        <span class="right">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>
+        </span>
+    </nav>
+</header>
+<main class="psalter">
+    <section class="psalm"> <!-- grid: "psalm_title" \ "psalm_content" -->
+        <section class="title-box">
+            <h1 class="title"></h1>
+            <section class="buttons">
+                <span class="preferences">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1.75em" fill="currentColor">
+                        <path class="mid" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z"/>
+                        <path class="top" d="M18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5Z"/>
+                        <path class="bottom" d="M16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+            </section>
+        </section>
+        <nav class="multi expand expand-menu top">
+            <span class="title">
+                <span class="text"></span>
+                <span class="arrow"></span>
+            </span>
+            <span class="drop"></span>
+        </nav>
+        <section class="psalm-box pn-caps-enabled">
+            <div class="psalm-text"></div>
+        </section>
+        <nav class="multi expand expand-menu bottom">
+            <span class="title">
+                <span class="text"></span>
+                <span class="arrow"></span>
+            </span>
+            <span class="drop"></span>
+        </nav>
+    </section>
+    <section class="modal">
+        <modal-card></modal-card>
+    </section>
+</main>
+<footer>
+    <nav class="main bottom">
+        <span class="left">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>
+        </span>
+        <span class="to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="1.75em" fill="currentColor"><path fill-rule="evenodd" d="M9.47 4.72a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 6.31l-3.72 3.72a.75.75 0 1 1-1.06-1.06l4.25-4.25Zm-4.25 9.25 4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 11.31l-3.72 3.72a.75.75 0 0 1-1.06-1.06Z" clip-rule="evenodd" /></svg>
+        </span>
+        <span class="right">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>
+        </span>
+    </nav>
+    <p>
+        <span class="inline-logo"><span class="logo-1">Open</span><span class="logo-2">Psalter</span></span> 2024. Content adapted from sources including the <a href="http://www.cofe.anglican.org/worship/liturgy/commonworship/" target="_blank"><i>Common Worship Psalter</i></a>, which is ©&nbsp;The Archbishops’ Council of the Church of England,&nbsp;2000. <a class="link-info" href="javascript:document.querySelector('.modal').classList.add('open');document.querySelector('.info').classList.add('open');">More&nbsp;information.</a>
+    </p>
+</footer>
+</body>
+</html>

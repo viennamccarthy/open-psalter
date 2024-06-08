@@ -1,0 +1,13 @@
+.psalm-box {
+  psalm-card:has(nav.multi) & {
+    top: 3.75rem;
+    margin-bottom: 7.5rem;
+    will-change: transform;
+    transition: top 500ms ease;
+  }
+
+  psalm-card:has(nav.multi:last-child[expanded]) & {
+    top: 1.75rem;
+    margin-bottom: 7.5rem;
+  }
+}

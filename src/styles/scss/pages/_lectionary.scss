@@ -1,0 +1,209 @@
+@use '../resources' as const;
+
+// improve: check if necessary?
+.lectionary::after {
+  position: relative;
+  bottom: 0;
+  height: 3rem;
+  align-self: end;
+  background: var(--dark);
+  content: '';
+
+  @media (min-width: const.$md) {
+    display: none;
+  }
+}
+
+office-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+        "office_title"
+        "office_content";
+
+  &::before {
+    display: grid;
+    grid-area: office_content;
+    height: 2rem;
+    width: 100%;
+    position: sticky;
+    background: var(--color-primary-main);
+    content: '';
+    top: 2.25rem;
+  }
+
+  .title {
+    display: flex;
+    grid-area: office_title;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+/*
+  &:not(psalm-card) .title-box {
+    @include const.rounded-top;
+    z-index: 0;
+    grid-area: office_title;
+    display: flex;
+    flex-direction: column;
+    height: const.$full-title-height;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary-main);
+
+    :has(nav.multi) & {
+      height: 75vh !important;
+    }
+
+    h1 {
+      position: relative;
+      top: 0;
+      color: var(--bright);
+      font: const.$heading-font;
+      font-size: 3em;
+      font-weight: 300;
+      line-height: 1.5em;
+      text-align: center;
+    }
+
+    h2 {
+      color: var(--pale-translucent);
+      font: 300 2em const.$ui-secondary-family;
+      line-height: 1.1em;
+      text-align: center;
+    }
+  }
+*/
+
+  nav.multi {
+    grid-area: office_content;
+    z-index: 1;
+    padding-bottom: 4.5rem !important;
+    will-change: transform;
+    transition: all 500ms ease;
+
+    .drop.vertical {
+      font: const.$ui-primary-font;
+      display: grid;
+      gap: 2rem;
+    }
+
+    div:not(:has(.options)) .day {
+      padding: 1rem 1.5rem;
+      @include const.rounded-sm;
+      border: 2px solid var(--pale-transparent);
+      cursor: pointer;
+    }
+
+    div[active]:not(:has(.options)) .day {
+      background-color: var(--color-secondary-translucent) !important;
+      border-color: var(--pale) !important;
+    }
+
+    .day {
+      margin: 0.5rem auto 0.5rem;
+      text-align: center;
+      width: fit-content;
+      font-size: 1.25em;
+      line-height: 1.75em;
+      color: var(--bright);
+    }
+
+    .options {
+      margin-top: 0.5rem;
+      * {
+        padding: 0.5rem 1rem;
+        margin-inline: 0.25rem;
+        @include const.rounded-sm;
+        border: 2px solid var(--pale-transparent);
+        cursor: pointer;
+
+        &[active] {
+          background-color: var(--color-secondary-translucent) !important;
+          border-color: var(--pale) !important;
+        }
+      }
+    }
+  }
+
+  .office-psalms {
+    grid-area: office_content;
+    display: grid;
+    transform: translate3d(0, 0, 0);
+    z-index: 1;
+    pointer-events: none;
+
+    :has(nav.multi) & {
+      position: relative;
+      top: 3.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    psalm-card {
+      display: grid;
+
+      &::before {
+        background: var(--color-secondary-soft);
+      }
+
+      &:not(:first-of-type)::after {
+        display: block;
+        grid-area: psalm_title;
+        height: 2.25rem;
+        position: sticky;
+        background: const.$paper-bg;
+        content: '';
+        top: 0;
+
+        @media (min-width: const.$md) {
+          position: relative;
+          background: var(--color-primary-main);
+          top: -4.25rem;
+          height: 4.25rem;
+          z-index: 1;
+        }
+      }
+
+      .title-box {
+        @include const.rounded-top;
+        grid-area: psalm_title;
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        min-height: 8.5rem;
+        position: sticky;
+        top: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        background: var(--color-secondary-soft);
+        z-index: 1;
+
+        h1 {
+          color: var(--pale);
+          font: const.$heading-font;
+          font-size: 2em;
+          line-height: 1.1em;
+          text-align: center
+        }
+      }
+
+      &:not(:last-of-type) .psalm-box {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+        @media (min-width: const.$md) {
+          @include const.rounded-bottom;
+          margin-bottom: 2rem;
+        }
+      }
+
+      @media (min-width: const.$md) {
+
+      }
+    }
+  }
+}
