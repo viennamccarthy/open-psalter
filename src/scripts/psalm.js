@@ -10,7 +10,15 @@ import {
   removeHidden, selectLast,
 } from './helpers.js'
 import {loadPreferences} from "./prefs.js";
-import {addTransitions, scrollTop, setColors, toggleExpandMenu} from "./ui.js";
+import {
+  addTransitions,
+  scrollTop,
+  setMenuScroll,
+  setMenuScrollObservers,
+  setMultiObserver,
+  toggleExpandMenu
+} from "./ui.js";
+import {setListener} from "./load.js";
 
 // Do I really need both of these functions????
 
@@ -212,6 +220,10 @@ class psalmCard extends HTMLElement {
               <div class="drop"></div>`;
             this.insertBefore(multiTop, this.querySelector('.psalm-box'));
 
+            // Create intersection point
+            const intersectionPoint = document.createElement('span');
+            this.querySelector('.psalm-box').insertBefore(intersectionPoint, this.querySelector('.psalm-text'));
+
             const multiBottom = multiTop.cloneNode(true);
             this.appendChild(multiBottom);
 
@@ -257,7 +269,7 @@ class psalmCard extends HTMLElement {
                 referenceElement.setAttribute('name', String(i));
                 element.appendChild(referenceElement);
 
-                if (i === +psalmSection) {
+                if (+i === +psalmSection) {
                   addActive(referenceElement);
                 }
 
@@ -267,6 +279,12 @@ class psalmCard extends HTMLElement {
                 })
               }
             })
+
+            // Set multi nav scroll
+            setMenuScroll();
+            setListener('menuScroll');
+            setMenuScrollObservers();
+            setMultiObserver();
 
             // Get current section text
             setPsalmText(this, text[psalmSection]);
@@ -340,6 +358,10 @@ class psalmCard extends HTMLElement {
           scrollTop('smooth', this.querySelector('.psalm-box'));
         }
       })
+    }
+
+    if ('.psalter') {
+      document.body.classList.remove('loading');
     }
   }
 }
@@ -441,7 +463,7 @@ export const setPsalterNav = function setPsalterMainNav(psalmNumber) {
   $$("nav.main .left").forEach(element => {
     if (psalmNumber > 1) {
       element.onclick = () => {
-        setColors();
+        //setColors();
         $('psalm-card').setAttribute('number', String(psalmNumber - 1));
       }
       removeHidden(element);
@@ -452,7 +474,7 @@ export const setPsalterNav = function setPsalterMainNav(psalmNumber) {
   $$("nav.main .right").forEach(element => {
     if (psalmNumber < 150) {
       element.onclick = () => {
-        setColors();
+        //setColors();
         $('psalm-card').setAttribute('number', String(+psalmNumber + 1));
       }
       removeHidden(element);

@@ -24,8 +24,8 @@ a.button {
   height: fit-content;
   width: 100%;
   padding: 1rem;
-  background: var(--pale-transparent);
-  color: var(--dark);
+  background: var(--button-background);
+  color: var(--text-on-button);
   font: const.$ui-secondary-font;
   text-decoration: none;
   text-align: center;
@@ -34,20 +34,21 @@ a.button {
 body {
   margin: 0;
   justify-content: center;
-  background: var(--page-bg);
+  background: var(--page-background-dark);
   font: var(--body-font);
   overscroll-behavior: none;
 
-  &:has(modal-overlay[open]) {
+  &:has(.modal[open]) {
     overflow-y: hidden;
   }
 
   @media (min-width: const.$md) {
-    background: var(--color-primary-main);
+    background: var(--page-background-feature);
   }
 
-  &:not(:has(.vn)) {
-    h1, h2, p,
+  &.loading:has(.psalter, .lectionary) {
+    nav,
+    main,
     footer {
       visibility: hidden;
     }
@@ -59,10 +60,9 @@ header {
   display: flex;
   place-content: center;
   padding: 0 1.5rem;
-  background: var(--dark);
 
   @media (min-width: const.$lg) {
-    background: var(--color-primary-main);
+    background: none;
     margin-top: 1rem;
   }
 }
@@ -72,16 +72,15 @@ main {
 }
 
 footer {
-  background: var(--dark);
   text-align: center;
   font: const.$ui-secondary-font;
   font-weight: 300;
   padding: 0 2rem 1rem;
-  color: var(--pale-translucent);
+  color: var(--text-on-nav-bar);
   margin-inline: auto;
 
   a {
-    color: var(--pale);
+    color: var(--link-on-nav-bar);
     text-decoration: none;
   }
 
@@ -91,7 +90,7 @@ footer {
   }
 
   .logo-1, .logo-2 {
-    color: var(--pale-translucent);
+    color: var(--link-on-nav-bar);
   }
 
   body:has(.lectionary) & {
@@ -115,11 +114,11 @@ footer {
 }
 
 .logo-1 {
-  color: var(--color-primary-soft);
+  color: var(--logo-left);
 }
 
 .logo-2 {
-  color: var(--color-primary-main);
+  color: var(--logo-right);
 }
 
 .inline-logo {
@@ -132,13 +131,13 @@ footer {
 
 .preferences {
   .top {
-    fill: var(--color-tertiary-main)
+    fill: var(--preferences-top)
   }
   .mid {
-    fill: var(--color-secondary-main)
+    fill: var(--preferences-mid)
   }
   .bottom {
-    fill: var(--color-primary-main)
+    fill: var(--preferences-low)
   }
 }
 
@@ -159,7 +158,7 @@ footer {
       display: flex;
       width: 3.15rem;
       cursor: pointer;
-      background: var(--pale-translucent);
+      background: var(--preferences-button-background);
       border-radius: 2rem;
 
       svg {
@@ -206,10 +205,12 @@ footer {
   height: const.$full-title-height;
   position: sticky;
   top: 0;
-  padding: 0;
+  padding: 0 0 2.25rem;
   justify-content: space-between;
   align-items: center;
-  background: var(--color-primary-main);
+  background: radial-gradient(circle at bottom, #fceabbbb, #00000000),
+  const.$paper-bg var(--header-card-background);
+
 
 
 
@@ -229,16 +230,16 @@ footer {
   h1 {
     position: relative;
     top: 0;
-    color: var(--bright);
+    color: var(--text-on-header-card);
     font: const.$heading-font;
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 2.5em;
+    font-weight: 600;
     line-height: 1.5em;
     text-align: center;
   }
 
   h2 {
-    color: var(--pale-translucent);
+    color: var(--header-card-detail);
     font: const.$heading-font;
     font-size: 2em;
     text-align: center;

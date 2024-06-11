@@ -7,6 +7,7 @@ import {
   removeExpanded
 } from './helpers.js'
 import {openModal} from "./modal.js";
+import {setMenuScroll} from "./ui.js";
 
 export const setLandingButtons = function setLandingButtonsOnLoad() {
 
@@ -92,5 +93,19 @@ export const getPsalmParam = function getPsalmFromURLParams() {
   } else {
     //setPsalm(0);
     $('psalm-card').setAttribute('number', '1');
+  }
+}
+
+export const setListener = function activateEventListenerOnElement(option) {
+
+  switch (option) {
+    case 'menuScroll':
+      let delay = false;
+      window.addEventListener('resize', () => { // https://bencentra.com/code/2015/02/27/optimizing-window-resize.html
+        clearTimeout(delay);
+        delay = setTimeout(setMenuScroll, 500);
+      })
+      break;
+
   }
 }

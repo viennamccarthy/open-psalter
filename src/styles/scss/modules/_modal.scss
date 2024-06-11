@@ -23,20 +23,14 @@
     opacity: 0;
     height: 100%;
     width: 100%;
-    background: var(--dark);
+    background: var(--wg-1000);
     will-change: transform;
     transition: opacity 500ms ease;
     content: '';
   }
 
-  &[open] {
-    pointer-events: auto;
-
-    &::before {
-      opacity: 0.9;
-      pointer-events: none;
-
-    }
+  &[open]::before {
+    opacity: 0.9;
   }
 
   &[close-top]::before {
@@ -56,11 +50,12 @@ modal-card {
   bottom: -100vh;
   padding: 1.5rem 2.5rem 2.5rem;
   margin: 20vh 0 10vh;
-  background: var(--color-secondary-soft);
-  font: 1em const.$ui-primary-font;
-  color: var(--bright);
+  background: const.$teal-test var(--modal-background);
+  font-family: const.$ui-primary-family;
+  color: var(--text-on-modal);
   will-change: transform;
   transition: bottom 500ms ease;
+  pointer-events: auto;
 
   [open] & {
     bottom: 0;
@@ -77,7 +72,7 @@ modal-card {
   }
 
   .modal-close {
-    color: var(--pale) !important;
+    color: var(--text-on-modal) !important;
     cursor: pointer;
 
     &.top {
@@ -99,24 +94,41 @@ modal-card {
 
   .modal-content {
     grid-area: modal_content;
+
+    h2, h3 {
+      color: var(--text-on-modal);
+      font-weight: 500;
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    h2 {
+      font: 500 2em const.$ui-primary-family;
+      padding-bottom: 0.5em;
+    }
+
+    h3 {
+      font: const.$ui-secondary-font;
+      padding: 1.5em 0 0.5em;
+    }
   }
 
   &[content='preferences-panel'] {
-    font: const.$ui-primary-font; // check if I can get rid of these
 
     button {
       @include const.rounded-sm;
       width: 100%;
       height: 4rem;
       padding: 0.5rem;
-      background: var(--pale-transparent);
-      color: var(--dark-transparent);
+      background: var(--modal-button-background);
+      color: var(--text-on-modal-button);
       font: const.$ui-primary-font;
 
       &.active {
-        color: var(--dark);
-        background: var(--pale-translucent);
-        border: 2px solid var(--pale);
+        color: var(--text-on-modal-button-active);
+        font-weight: 600;
+        background: const.$purple-test var(--primary); // TODO remove test and restore var(--modal-button-active)
+        border: 2px solid var(--button-active-detail);
       }
 
       &:has(.tetra-hebrew) {
@@ -124,25 +136,8 @@ modal-card {
       }
     }
 
-    h2, h3 {
-      color: var(--pale);
-      font-weight: 500;
-      text-align: center;
-    }
-
-    h2 {
-      padding-bottom: 0.5em;
-      font: 500 2em const.$ui-primary-family;
-    }
-
-    h3 {
-      padding: 1.5em 0 0.5em;
-      font: const.$ui-secondary-font;
-      font-size: 1.2em;
-    }
-
     .marker {
-      color: var(--color-secondary-soft);
+      color: var(--body-detail);
     }
 
     .select {
@@ -162,7 +157,7 @@ modal-card {
     // improve: fix content shifting when options are changed -- regularise box size?
     .verse {
       @include const.rounded-sm;
-      color: var(--dark);
+      color: var(--text-on-body);
       display: block;
       width: fit-content;
       padding: 1em 1.5em;
@@ -183,14 +178,14 @@ modal-card {
 
     height: fit-content;
     width: 100%;
-    background: var(--color-tertiary-main);
+    background: var(--modal-background);
 
     button {
       @include const.rounded-sm;
       width: fit-content;
       padding: 1rem 1.5rem;
       justify-self: center;
-      background: var(--pale-transparent);
+      background: var(--button-background);
       font: const.$ui-secondary-font;
       cursor: pointer;
     }
@@ -198,7 +193,7 @@ modal-card {
     h2 {
       width: 100%;
       padding: 1em;
-      color: var(--pale);
+      color: var(--text-on-modal);
       text-align: center;
       font: 400 1.25em const.$ui-primary-font;
     }
@@ -215,8 +210,8 @@ modal-card {
       transform: translateY(0.35rem);
       padding: 0.25rem;
       margin-inline: 0.25rem;
-      background: var(--pale-translucent);
-      fill: var(--dark);
+      background: var(--modal-highlight-background);
+      fill: var(--text-on-modal-highlight);
       border-radius: 0.25rem;
     }
   }
@@ -226,7 +221,7 @@ modal-card {
 
     h2 {
       padding-bottom: 0.5em;
-      color: var(--pale);
+      color: var(--text-on-modal);
       text-align: center;
       font: 400 2em const.$ui-primary-font;
     }
@@ -248,7 +243,7 @@ modal-card {
 
     h2 {
       padding-bottom: 0.5em;
-      color: var(--pale);
+      color: var(--text-on-modal);
       text-align: center;
       font: 400 2em const.$ui-primary-font;
     }
@@ -260,27 +255,27 @@ modal-card {
     svg {
       height: 0.8rem;
       padding-right: 0.25em;
-      fill: var(--dark);
+      fill: var(--text-on-modal);
     }
 
     .em-block {
-      color: var(--pale);
+      color: var(--text-on-modal);
       font-size: 2em;
       font-weight: 300;
       line-height: 1.25em;
     }
 
     .inline-logo {
-      background-color: var(--pale-translucent);
-      color: var(--color-tertiary-main);
+      background-color: var(--modal-highlight-background);
+      color: var(--logo-text);
       font: const.$heading-font;
     }
 
     .key {
-      background-color: var(--pale-translucent);
-      color: var(--dark);
+      background-color: var(--modal-highlight-background);
+      color: var(--text-on-modal-highlight);
       font: const.$ui-secondary-font;
-      border: 3px solid var(--pale-transparent);
+      border: 3px solid var(--modal-highlight-detail);
     }
   }
 }

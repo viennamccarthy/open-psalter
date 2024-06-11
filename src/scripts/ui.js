@@ -72,3 +72,77 @@ export const closeExpandMenu = function closeExpandedMenu() {
     element.style.position = null;
   }, 500);
 }
+
+export const setMenuScroll = function checkIfExpandMenuNeedsScroll() {
+
+  const dropMenuContent = $('nav.multi .drop').offsetWidth;
+  const dropMenuWidth = $('nav.multi').offsetWidth - 160;
+
+  if (dropMenuContent > dropMenuWidth) {
+    $$('nav.multi .drop').forEach(element => {
+      element.setAttribute('scroll', '');
+    })
+  } else {
+    $$('nav.multi .drop').forEach(element => {
+      element.removeAttribute('scroll');
+    })
+  }
+}
+
+
+export const setMenuScrollObservers = function addIntersectionObserverAndObserveDropMenu () {
+  const root = document.documentElement;
+
+  const menuObserver = new IntersectionObserver(entries => {
+    for (let entry of entries) {
+      if (entry.isIntersecting) {
+        if (entry.target === entry.target.parentNode.firstChild) {
+          root.style.setProperty('--left-scroll', '');
+        } else {
+          root.style.setProperty('--right-scroll', '');
+        }
+      } else  {
+        if (entry.target === entry.target.parentNode.firstChild) {
+          root.style.setProperty('--left-scroll', 'var(--left-scroll-arrow)');
+        } else {
+          root.style.setProperty('--right-scroll', 'var(--right-scroll-arrow)');
+        }
+      }
+    }
+  }, {
+    root: $('nav.multi .drop'),
+    rootMargin: "0px -80px",
+    threshold: 1.0,
+  });
+
+  $$('nav.multi .drop *:first-child, nav.multi .drop *:last-child').forEach(element => {
+    menuObserver.observe(element);
+  })
+
+  setTimeout(() => {
+    root.style.setProperty('--left-scroll', '');
+  }, 500);
+
+}
+
+export const setMultiObserver = function addIntersectionObserverAndObserveMultiTop () {
+  const multi = $('nav.multi');
+  const intersectionPoint = $('.psalm-box *:first-child');
+
+  const multiObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (window.innerWidth < 577) {
+        if (!entry.isIntersecting) { // if going offscreen
+          multi.style.top = `0`;
+        } else {
+          multi.style.top = '-3.75rem';
+        }
+      }
+    })
+  }, {
+    rootMargin: '-250px 0px 0px 0px',
+    threshold: 1,
+  });
+
+  multiObserver.observe(intersectionPoint);
+}

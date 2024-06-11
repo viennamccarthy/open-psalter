@@ -22,16 +22,16 @@ body:has(.index) {
       }
 
       .book-line {
-        stroke: var(--color-primary-main);
+        stroke: var(--logo-line);
         filter: brightness(90%);
       }
 
       .book-left {
-        fill: var(--color-primary-soft);
+        fill: var(--logo-left);
       }
 
       .book-right {
-        fill: var(--color-primary-main);
+        fill: var(--logo-right);
       }
     }
 
@@ -47,7 +47,7 @@ body:has(.index) {
       }
 
       .info svg {
-        fill: var(--dark-transparent)
+        fill: var(--secondary-color)
       }
     }
   }
@@ -78,25 +78,29 @@ body:has(.index) {
     @include const.rounded-sm;
     height: fit-content;
     padding: 1.25rem 0.5rem;
-    color: var(--pale);
+    color: var(--text-on-button);
   }
 
-  h2 {
-    padding: 1rem;
-    font-size: 1em;
-    color: var(--dark);
-  }
-
-  section:not(.modal) {
+  section:not(.modal, .modal *) {
     display: grid;
     grid-template-rows: auto 1fr;
-    font: const.$ui-primary-font;
-    color: var(--pale);
+
+    &.index-block {
+      font: const.$ui-primary-font;
+      color: var(--text-on-index-block);
+      background: var(--index-block-background);
+    }
+
+
+    h2 {
+      padding: 1rem;
+      font-size: 1em;
+      color: var(--index-heading);
+    }
   }
 
   .beta {
     @include const.rounded-sm;
-    background: var(--color-tertiary-main);
     padding: 2rem;
     margin: 1rem 2rem;
     text-align: center;
@@ -108,7 +112,7 @@ body:has(.index) {
 
     a {
       font-weight: 600;
-      color: var(--bright);
+      color: var(--text-on-index-block);
       width: fit-content;
       padding-inline: 2rem;
       place-self: center;
@@ -153,11 +157,11 @@ body:has(.index) {
       cursor: pointer;
 
       &.morning {
-        background: var(--color-tertiary-soft);
+        background: var(--index-block-background);
       }
 
       &.evening {
-        background: var(--color-tertiary-main);
+        background: var(--index-block-background);
       }
     }
 
@@ -189,8 +193,8 @@ body:has(.index) {
           height: fit-content;
           padding: 1rem;
           place-content: center;
-          background: var(--color-primary-main);
-          color: var(--pale);
+          background: var(--index-block-background);
+          color: var(--text-on-index-block);
 
           label {
             height: fit-content;
@@ -209,10 +213,10 @@ body:has(.index) {
 
           input {
             align-self: center;
-            background: var(--pale-translucent);
+            background: var(--input-field);
             text-align: center;
             font: 1.5rem const.$ui-primary-font;
-            color: var(--dark);
+            color: var(--text-on-input-field);
             outline: 0;
             border-width: 0;
             margin-right: 2rem;
@@ -231,15 +235,16 @@ body:has(.index) {
           }
 
           button {
-            background: var(--pale-transparent);
+            background: var(--button-background);
             font: const.$ui-secondary-font;
             font-size: 1.25rem;
-            color: var(--pale-translucent);
+            color: var(--text-on-button);
             opacity: 0.5;
 
             &.active {
               opacity: 1;
-              color: var(--dark);
+              background: var(--button-active-background);
+              color: var(--text-on-button-active);
               cursor: pointer;
 
             }
@@ -268,9 +273,9 @@ body:has(.index) {
 
         .psalm-button {
           @include const.rounded-xs;
-          background: var(--pale-transparent);
+          background: var(--button-background);
           font: 1.1em const.$ui-secondary-family;
-          color: var(--bright);
+          color: var(--text-on-button);
           padding: 0.5rem;
         }
       }
@@ -285,7 +290,8 @@ body:has(.index) {
 
     button {
       font: const.$ui-primary-font;
-      background: var(--color-secondary-main);
+      background: var(--button-background);
+      color: var(--text-on-button);
       cursor: pointer;
 
       svg {
@@ -301,7 +307,7 @@ body:has(.index) {
 .index + footer {
   display: grid;
   padding: 2rem 2rem 1rem;
-  color: var(--mid-dark);
+  color: var(--text-on-body);
   background-color: transparent;
   font: const.$ui-secondary-font;
 
@@ -311,15 +317,15 @@ body:has(.index) {
   }
 
   a {
-    color: var(--color-secondary-main);
+    color: var(--body-detail);
     text-decoration: none;
   }
 
   .logo-1 {
-    color: var(--color-primary-soft);
+    color: var(--logo-left);
   }
 
   .logo-2 {
-    color: var(--color-primary-main);
+    color: var(--logo-right);
   }
 }

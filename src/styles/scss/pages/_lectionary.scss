@@ -27,7 +27,7 @@ office-container {
     height: 2rem;
     width: 100%;
     position: sticky;
-    background: var(--color-primary-main);
+    background: var(--color-main);
     content: '';
     top: 2.25rem;
   }
@@ -39,44 +39,10 @@ office-container {
     align-items: center;
     width: 100%;
   }
-/*
-  &:not(psalm-card) .title-box {
-    @include const.rounded-top;
-    z-index: 0;
-    grid-area: office_title;
-    display: flex;
-    flex-direction: column;
-    height: const.$full-title-height;
-    position: sticky;
-    top: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    background: var(--color-primary-main);
-
-    :has(nav.multi) & {
-      height: 75vh !important;
-    }
-
-    h1 {
-      position: relative;
-      top: 0;
-      color: var(--bright);
-      font: const.$heading-font;
-      font-size: 3em;
-      font-weight: 300;
-      line-height: 1.5em;
-      text-align: center;
-    }
-
-    h2 {
-      color: var(--pale-translucent);
-      font: 300 2em const.$ui-secondary-family;
-      line-height: 1.1em;
-      text-align: center;
-    }
+  &[office=morning] .title-box {
+    background: radial-gradient(circle at bottom, #fceabb, transparent),
+    const.$texture-bg var(--morning-title-card-background);
   }
-*/
 
   nav.multi {
     grid-area: office_content;
@@ -99,7 +65,7 @@ office-container {
     }
 
     div[active]:not(:has(.options)) .day {
-      background-color: var(--color-secondary-translucent) !important;
+      background-color: var(--color-translucent) !important;
       border-color: var(--pale) !important;
     }
 
@@ -122,7 +88,7 @@ office-container {
         cursor: pointer;
 
         &[active] {
-          background-color: var(--color-secondary-translucent) !important;
+          background-color: var(--color-translucent) !important;
           border-color: var(--pale) !important;
         }
       }
@@ -146,7 +112,7 @@ office-container {
       display: grid;
 
       &::before {
-        background: var(--color-secondary-soft);
+        background: var(--color-soft);
       }
 
       &:not(:first-of-type)::after {
@@ -160,7 +126,7 @@ office-container {
 
         @media (min-width: const.$md) {
           position: relative;
-          background: var(--color-primary-main);
+          background: var(--color-main);
           top: -4.25rem;
           height: 4.25rem;
           z-index: 1;
@@ -179,7 +145,7 @@ office-container {
         padding: 0;
         justify-content: center;
         align-items: center;
-        background: var(--color-secondary-soft);
+        background: var(--color-soft);
         z-index: 1;
 
         h1 {

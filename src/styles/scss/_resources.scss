@@ -1,5 +1,11 @@
 @use 'sass:color';
 
+/* SCREENS */
+
+$md: 577px;
+$lg: 769px;
+$xl: 1025px;
+
 /* FONTS */
 
 @mixin alegreya {
@@ -64,6 +70,13 @@
   font-style: italic;
 }
 @font-face {
+  font-family: "Synonym";
+  font-weight: 400;
+  font-display: block;
+  src: url(../../assets/fonts/Synonym-Regular.woff2);
+  font-style: normal;
+}
+@font-face {
   font-family: "Lexend Deca";
   font-weight: 200 400;
   font-display: block;
@@ -100,6 +113,32 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Sentient';
+  src: url(../../assets/fonts/sentient/Sentient-Variable.woff2) format('woff2'),
+  url(../../assets/fonts/sentient/Sentient-Variable.woff) format('woff'),
+  url(../../assets/fonts/sentient/Sentient-Variable.ttf) format('truetype');
+  font-weight: 200 700;
+  font-display: block;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient Italic';
+  src: url(../../assets/fonts/sentient/Sentient-VariableItalic.woff2) format('woff2'),
+  url(../../assets/fonts/sentient/Sentient-VariableItalic.woff) format('woff'),
+  url(../../assets/fonts/sentient/Sentient-VariableItalic.ttf) format('truetype');
+  font-weight: 200 700;
+  font-display: block;
+  font-style: italic;
+}
+@font-face {
+  font-family: "League Gothic";
+  font-display: block;
+  src: url(../../assets/fonts/league-gothic/LeagueGothic-Regular.woff2);
+  font-style: normal;
+}
+
 // Font properties
 :root {
 
@@ -107,15 +146,21 @@
   --lexend: "Lexend Deca", sans-serif;
   --lexend-wide: "Lexend Giga", sans-serif;
   --bitter: "Bitter", serif;
+  --synonym: "Synonym", sans-serif;
+  --sentient: "Sentient", serif;
 
-  --body-font-face: var(--lexend);
+  --body-font-face: var(--sentient);
   --body-font-size: 1.2rem;
-  --body-font: 400 var(--body-font-size) var(--body-font-face);
+  --body-font: 325 var(--body-font-size) var(--body-font-face);
+
+  @media (min-width: $md) {
+    --body-font-size: 1.1rem;
+  }
 }
 
 // Font variables
 
-$heading-font: italic 500 1em "Alegreya", serif;
+$heading-font: 400 1em "Sentient Italic", sans-serif;
 $ui-primary-family: 'Alegreya Sans', sans-serif;
 $ui-primary-font: 500 1em 'Alegreya Sans', sans-serif;
 $ui-secondary-family: 'Alegreya Sans', sans-serif;
@@ -125,12 +170,9 @@ $ui-secondary-font: italic 500 1em 'Alegreya Sans', sans-serif;
 
 // Colour variables
 
-$purple: #ad5996;
-$coral: #cf5454;
-$teal: #3f9ea8;
 
 // Colour functions
-
+/*
 @function soft($color) {
   @return color.scale($color, $lightness: 30%);
 }
@@ -142,52 +184,153 @@ $teal: #3f9ea8;
 @function translucent($color) {
   @return color.scale($color, $lightness: 30%, $alpha: -50%);
 }
-
+*/
 // Colour properties (available for dynamic selection)
 
 :root {
 
-  --purple: #{$purple};
-  --purple-soft: #{soft($purple)};
-  --purple-dark: #{dark($purple)};
-  --purple-translucent: #{translucent($purple)};
-  --coral: #{$coral};
-  --coral-soft: #{soft($coral)};
-  --coral-dark: #{dark($coral)};
-  --coral-translucent: #{translucent($coral)};
-  --teal: #{$teal};
-  --teal-soft: #{soft($teal)};
-  --teal-dark: #{dark($teal)};
-  --teal-translucent: #{translucent($teal)};
+  --cg-1000: hsl(180, 12%, 13%);
+  --cg-900: hsl(185, 12%, 21%);
+  --cg-800: hsl(180, 11%, 27%);
+  --cg-700: hsl(180, 10%, 32%);
+  --cg-600: hsl(180, 9%, 38%);
+  --cg-500: hsl(180, 8%, 44%);
+  --cg-400: hsl(180, 8%, 51%);
+  --cg-300: hsl(180, 9%, 58%);
+  --cg-200: hsl(177, 10%, 65%);
+  --cg-100: hsl(173, 12%, 72%);
+  --cg-50: hsl(164, 13%, 77%);
+  --cg-30: hsl(160, 12%, 81%);
+  --cg-10: hsl(147, 11%, 83%);
 
-  --bright: #F9F6F4;
-  --pale: #F0EAE7;
-  --mid-dark: #6b6466;
-  --dark: #222222;
+  --wg-1000: hsl(34, 10%, 13%);
+  --wg-900: hsl(38, 9%, 25%);
+  --wg-800: hsl(42, 8%, 32%);
+  --wg-700: hsl(44, 8%, 38%);
+  --wg-600: hsl(45, 7%, 45%);
+  --wg-500: hsl(46, 7%, 52%);
+  --wg-400: hsl(44, 9%, 60%);
+  --wg-300: hsl(45, 13%, 69%);
+  --wg-200: hsl(48, 18%, 78%);
+  --wg-100: hsl(51, 25%, 85%);
+  --wg-50: hsl(51, 42%, 91%);
+  --wg-30: hsl(50, 64%, 95%);
+  --wg-10: hsl(51, 100%, 99%);
 
-  --pale-transparent: #F0EAE73F;
-  --pale-translucent: #F0EAE780;
-  --dark-transparent: #22222280;
+  --pc-900: hsl(31, 100%, 14%);
+  --pc-800: hsl(33, 85%, 31%);
+  --pc-700: hsl(35, 78%, 44%);
+  --pc-600: hsl(36, 85%, 55%);
+  --pc-500: hsl(38, 95%, 59%);
+  --pc-400: hsl(40, 100%, 62%);
+  --pc-300: hsl(41, 100%, 66%);
+  --pc-200: hsl(43, 100%, 70%);
+  --pc-100: hsl(45, 100%, 78%);
+  --pc-50: hsl(46, 100%, 88%);
+  --pc-30: hsl(46, 100%, 95%);
 
-  // Default assignments
-  --page-bg: var(--dark);
-  --body-text: var(--dark);
-  --body-bg: var(--pale);
-  --color-primary-main: var(--purple);
-  --color-primary-soft: var(--purple-soft);
-  --color-primary-dark: var(--purple-dark);
-  --color-primary-translucent: var(--purple-translucent);
-  --color-secondary-main: var(--coral);
-  --color-secondary-soft: var(--coral-soft);
-  --color-secondary-dark: var(--coral-dark);
-  --color-secondary-translucent: var(--coral-translucent);
-  --color-tertiary-main: var(--teal);
-  --color-tertiary-soft: var(--teal-soft);
-  --color-tertiary-dark: var(--teal-dark);
-  --color-tertiary-translucent: var(--teal-translucent);
+  --sc-900: hsl(192, 100%, 11%);
+  --sc-800: hsl(189, 100%, 18%);
+  --sc-700: hsl(187, 97%, 25%);
+  --sc-600: hsl(186, 91%, 30%);
+  --sc-500: hsl(184, 83%, 35%);
+  --sc-400: hsl(183, 73%, 41%);
+  --sc-300: hsl(181, 57%, 48%);
+  --sc-200: hsl(179, 53%, 58%);
+  --sc-100: hsl(178, 53%, 73%);
+  --sc-50: hsl(178, 68%, 91%);
+
+  --on-primary: hsl(317, 28%, 98%);
+  --primary: hsl(317, 41%, 30%);
+  --primary-container: hsl(317, 44%, 34%);
+  --primary-variant: hsl(318, 54%, 22%);
+
+  --on-secondary: hsl(318, 28%, 10%);
+  --secondary: hsl(27, 57%, 81%);
+  --secondary-container: hsl(27, 57%, 70%);
+  --secondary-variant: hsl(353, 41%, 45%);
+
+  --on-tertiary: hsl(180, 68%, 91%);
+  --tertiary: hsl(180, 72%, 38%);
+  --tertiary-container: hsl(180, 93%, 38%);
+  --tertiary-variant: hsl(180, 100%, 11%);
+
+  --red: hsl(353, 76%, 57%);
+  --pink: hsl(0, 40%, 63%);
+
+  --on-surface: hsl(0, 10%, 8%);
+  --surface: hsl(27, 77%, 96%);
+
+  --on-background: hsl(317, 28%, 98%);
+  --background: hsl(353, 5%, 13%);
+
+  --text-on-modal: var(--on-tertiary);
+  --modal-background: var(--tertiary);
+  --text-on-modal-highlight: var(--tertiary-variant);
+  --modal-highlight-background: var(--red);
+  --modal-highlight-detail: var(--red);
+  --text-on-modal-button: var(--on-tertiary);
+  --modal-button-background: var(--tertiary-container);
+  --modal-button-detail: var(--tertiary-variant);
+  --text-on-modal-button-active: var(--on-secondary);
+  --modal-button-active-background: var(--secondary-container);
+  --modal-button-active-detail: var(--secondary-variant);
+
+
+  --text-on-button: var(--on-primary);
+  --button-background: var(--primary-container);
+  --button-detail: var(--primary-variant);
+
+  --text-on-button-active: var(--on-primary);
+  --button-active-background: var(--primary);
+  --button-active-detail: var(--on-primary);
+
+  --psalm-title-card-background: var(--secondary);
+  --psalm-multi-background: var(--secondary-container);
+  --office-title-card-background: var(--tertiary);
+  --ofice-multi-background: var(--tertiary-container);
+
+
+  --text-on-body: var(--on-surface);
+  --body-detail: var(--on-surface);
+  --body-highlight: var(--primary);
+  --logo-text: var(--grey-30);
+  --logo-left: var(--pri-10);
+  --logo-right: var(--pri-20);
+  --logo-line: var(--grey-50);
+  --nav-bar-background: var(--background);
+  --text-on-nav-bar: var(--on-background);
+  --link-on-nav-bar:  var(--on-background);
+  --nav-multi-background: var(--secondary);
+  --text-on-nav-multi: var(--on-secondary);
+  --header-card-background: var(--tertiary);
+  --text-on-header-card: var(--on-secondary);
+  --header-card-detail: var(--secondary-variant);
+  --page-background-dark: var(--background);
+  --page-background-feature: var(--primary);
+  --preferences-top: var(--primary);
+  --preferences-mid: var(--primary);
+  --preferences-low: var(--primary);
+  --preferences-button-background: var(--grey-40);
+  --image-button: var(--secondary);
+  --index-block-background: var(--grey-30);
+  --text-on-index-block: var(--grey-50);
+  --index-heading: var(--grey-20);
+  --input-field: var(--grey-40);
+  --text-on-input-field: var(--grey-10);
+
+  --page-bg: var(--background);
+  --body-text: var(--on-surface);
+  --body-bg: var(--surface);
 }
 
 /* ASSETS */
+:root {
+  --left-scroll: '';
+  --right-scroll: '';
+  --left-scroll-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>');
+  --right-scroll-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>');
+}
 
 $up-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z" clip-rule="evenodd" /></svg>');
 $down-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" /></svg>');
@@ -197,13 +340,26 @@ $left-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fil
 $right-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>');
 $arrow-to-top: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="1.75em" fill="currentColor"><path fill-rule="evenodd" d="M9.47 4.72a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 6.31l-3.72 3.72a.75.75 0 1 1-1.06-1.06l4.25-4.25Zm-4.25 9.25 4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 11.31l-3.72 3.72a.75.75 0 0 1-1.06-1.06Z" clip-rule="evenodd" /></svg>');
 
-$paper-bg: url(../../assets/img/paper.png) repeat var(--pale);
+// Images source: https://www.transparenttextures.com/
+$paper-bg: url(../../assets/textures/light/soft-wallpaper.png) repeat;
+
+
+$texture-bg: url(../../assets/textures/light/soft-wallpaper.png) repeat;
+$teal-test: url(../../assets/textures/pattern/xv.png) repeat;
+$purple-test: url(../../assets/textures/pattern/xv.png) repeat;
+
+
+
+// backgrounds:
+
+// black felt ehhh
+
+// ../../assets/textures/light/cream-dust.png no no no no no
+
+// ../../assets/textures/debut-light.png purple no, teal okay, compare with dark stripes light, MAYBE mid?
+
 
 /* LAYOUT */
-
-$md: 577px;
-$lg: 769px;
-$xl: 1025px;
 
 $main-nav-height: 3.75rem;
 $title-box-button-spacer: 3.15rem;

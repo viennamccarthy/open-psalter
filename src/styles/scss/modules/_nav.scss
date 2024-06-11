@@ -7,8 +7,8 @@ nav.main {
   justify-content: space-between;
   align-items: center;
   padding: 1.5em 0.5em;
-  background: var(--dark);
-  color: var(--pale);
+  background: var(--nav-bar-bg);
+  color: var(--text-on-nav-bar);
   pointer-events: none;
 
   body:has(.psalter) & {
@@ -21,15 +21,15 @@ nav.main {
   }
 
   .book-line {
-    stroke: var(--pale);
+    stroke: var(--logo-line);
   }
 
   .book-left {
-    fill: var(--color-secondary-soft);
+    fill: var(--logo-left);
   }
 
   .book-right {
-    fill: var(--color-secondary-main);
+    fill: var(--logo-right);
   }
 
   .to-top {
@@ -64,12 +64,12 @@ nav.multi {
   z-index: 1;
   display: grid;
   gap: 0.5rem;
-  position: sticky;
+  position: relative;
   justify-content: center;
   align-self: end;
-  background: var(--color-primary-soft);
-  color: var(--pale);
-  font: const.$ui-secondary-font;
+  background: var(--nav-multi-background);
+  color: var(--text-on-nav-multi);
+  font: const.$ui-primary-font;
 
   @media (min-width: const.$md) {
     width: 520px;
@@ -83,17 +83,12 @@ nav.multi {
     grid-template-areas:
         "multi_nav_menu_title"
         "multi_nav_menu_drop";
-    position: sticky;
-    top: 0;
+    top: -3.75rem;
     padding: 0.75rem 1rem 3rem;
     align-self: start;
     align-content: start;
     will-change: transform;
     transition: top 500ms ease;
-
-    &[expanded] {
-      top: -5.75rem;
-    }
   }
 
   //Bottom
@@ -106,12 +101,10 @@ nav.multi {
         "multi_nav_menu_title";
     position: relative;
     bottom: 0;
-    padding: 2.5rem 1rem 1rem;
+    padding: 3rem 1rem 1rem;
     align-content: end;
-
-    &[expanded] {
-      padding-top: 3rem !important;
-    }
+    will-change: transform;
+    transition: all 500ms ease;
   }
 
   .title {
@@ -140,35 +133,47 @@ nav.multi {
 
     &.horizontal {
       display: flex;
-      flex-direction: row;
       flex-wrap: nowrap;
       white-space: nowrap;
-      overflow-x: scroll;
-      -ms-overflow-style: none; /* IE and Edge */
-      scrollbar-width: none; /* Firefox */
-      place-content: start;
-      justify-items: right;
-      opacity: 60%;
+      flex-direction: row;
       font: const.$ui-secondary-font;
-      padding-inline: 50%;
-      scroll-snap-type: x mandatory;
-      /*
-      container-name: horizontal_menu;
-      container-type: inline-size;
-*/
-      &::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
-        display: none;
+      font-size: 1.25em;
+      padding: 0.5em 0;
+
+      &[scroll] {
+        overflow-x: auto;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+        place-content: start;
+        justify-items: right;
+        padding-inline: 50%;
+        scroll-snap-type: x mandatory;
+        max-width: 100vw;
+
+        &::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
+          display: none;
+        }
       }
 
-
-
       * {
+        @include const.rounded-sm;
+        border: 2px solid var(--button-detail);
         flex-grow: 0;
         flex-basis: 5rem;
-        padding: 0 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-inline: 0.5rem;
         text-align: center;
         cursor: pointer;
         scroll-snap-align: center;
+        color: var(--text-on-button);
+        font-weight: 500;
+
+        &.active {
+          background: var(--button-active-background);
+          border: 2px solid var(--bright);
+          color: var(--text-on-button-active);
+          font-weight: 600;
+        }
       }
     }
 
@@ -178,33 +183,30 @@ nav.multi {
       flex-direction: column;
       place-items: center;
     }
-
-    .active {
-      color: var(--dark);
-      opacity: 50%;
-    }
   }
 
-  &:has(.horizontal)::before {
 
+  &:has([scroll])::before, &:has([scroll])::after {
     z-index: 1;
     grid-area: multi_nav_menu_drop;
-    display: inline;
-    width: 5rem;
+    display: flex;
+    width: 6rem;
+    padding-inline: 0.5rem;
+    pointer-events: none;
+    align-items: center;
+  }
+
+  &:has([scroll])::before {
     justify-self: start;
-    background: linear-gradient(to right, var(--color-primary-soft), var(--color-primary-translucent));
-    pointer-events: none;
-    content: '';
+    justify-content: start;
+    background: linear-gradient(to right, var(--color-soft), #00000000);
+    content: var(--left-scroll);
   }
 
-  &:has(.horizontal)::after {
-    z-index: 1;
-    grid-area: multi_nav_menu_drop;
-    display: inline;
-    width: 5rem;
+  &:has([scroll])::after {
     justify-self: end;
-    background: linear-gradient(to left, var(--color-primary-soft), var(--color-primary-translucent));
-    pointer-events: none;
-    content: '';
+    justify-content: end;
+    background: linear-gradient(to left, var(--color-soft), #00000000);
+    content: var(--right-scroll);
   }
 }

@@ -1,13 +1,22 @@
-.psalm-box {
+@use '../resources' as const;
+
+.psalm-box { /*
   psalm-card:has(nav.multi) & {
-    top: 3.75rem;
+    top: 1.75rem;
     margin-bottom: 7.5rem;
     will-change: transform;
     transition: top 500ms ease;
-  }
+  }*/
 
   psalm-card:has(nav.multi:last-child[expanded]) & {
-    top: 1.75rem;
+    top: -1.75rem;
     margin-bottom: 7.5rem;
+  }
+}
+
+.psalter {
+  .title-box:not(.office-psalms .title-box) {
+    background: radial-gradient(circle at bottom, #fceabbbb, #00000000),
+    const.$paper-bg var(--header-card-background);
   }
 }

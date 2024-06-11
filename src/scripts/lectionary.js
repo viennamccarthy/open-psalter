@@ -1,9 +1,9 @@
 import {$, $$, fetchJSON} from "./helpers.js";
-import {addTransitions, setColors, toggleExpandMenu, closeExpandMenu} from "./ui.js";
+import {addTransitions, toggleExpandMenu, closeExpandMenu} from "./ui.js";
 import {setPsalterButtons} from "./load.js";
 
 setPsalterButtons();
-setColors();
+//setColors();
 
 // A custom element for the psalm, that will change its contents according to the attributes given
 class officeContainer extends HTMLElement {
@@ -17,8 +17,10 @@ class officeContainer extends HTMLElement {
     
     // Set office title
     if (office === 'morning') {
+      this.setAttribute('office', 'morning');
       $('.title-box h1').textContent = 'Morning Prayer';
     } else {
+      this.setAttribute('office', 'evening');
       $('.title-box h1').textContent = 'Evening Prayer';
     }
 
@@ -52,7 +54,6 @@ class officeContainer extends HTMLElement {
             if (officeList[i].default === true) {
               dayOptionElement.setAttribute('active', '');
               this.setAttribute('day', i);
-              
             }
 
             // Add title
@@ -112,32 +113,29 @@ class officeContainer extends HTMLElement {
       }
 
       const officeList = getOfficeList(lectionary);
-      
-      if (name === 'day') {
-        const dayOption = officeList[newValue];
 
-        // Set active in multi nav
-        $$('nav.multi .drop *').forEach(element => {
-          if (element.dataset.day === newValue) {
-            element.setAttribute('active', '');
-          } else {
-            element.removeAttribute('active');
-          }
-        })
+      const dayOption = officeList[newValue];
 
-        // Set sub title
-        this.querySelector('.title-box h2').textContent = dayOption.redLetter || dayOption.feast || `${new Intl.DateTimeFormat("en-GB", {weekday: "long"}).format(current)}`
-
-        if (dayOption.psalms0) {
-          const psalmSetOption = this.getAttribute('psalm-set') || 'psalms0';
-          createPsalmSet(dayOption[`${psalmSetOption}`]);
-          $(`nav.multi div[data-day='${newValue}'] span[data-psalms='${psalmSetOption}']`).setAttribute('active', '');
+      // Set active in multi nav
+      $$('nav.multi .drop *').forEach(element => {
+        if (element.dataset.day === newValue) {
+          element.setAttribute('active', '');
         } else {
-          createPsalmSet(dayOption.psalms);
+          element.removeAttribute('active');
         }
-      } else if (name === 'psalm-set') {
-        
+      })
+
+      // Set sub title
+      this.querySelector('.title-box h2').textContent = dayOption.redLetter || dayOption.feast || `${new Intl.DateTimeFormat("en-GB", {weekday: "long"}).format(current)}`
+
+      if (dayOption.psalms0) {
+        const psalmSetOption = this.getAttribute('psalm-set') || 'psalms0';
+        createPsalmSet(dayOption[`${psalmSetOption}`]);
+        $(`nav.multi div[data-day='${newValue}'] span[data-psalms='${psalmSetOption}']`).setAttribute('active', '');
+      } else {
+        createPsalmSet(dayOption.psalms);
       }
+      document.body.classList.remove('loading');
     })
   }
 }

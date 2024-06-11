@@ -5,5 +5,5 @@ import {setColors} from "./ui.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   setLandingButtons();
-  setColors();
+  //setColors();
 })
