@@ -1,0 +1,4567 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//oremus almanac.oremus.org//CW lectionary v2021.1, (c) Simon Kers
+ haw//EN
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231203
+DTEND;VALUE=DATE:20231203
+DTSTAMP:20230901T000100Z
+UID:2024.2.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Almanac and Lectionary 2023-24
+DESCRIPTION:Common Worship Almanac and Lectionary\nfor the year beginning 
+ Advent Sunday 2023\n\nCompiled by Simon Kershaw October 2023\nfrom the Com
+ mon Worship Calendar and Lectionaries\nusing Almanac Maker\n\ncompilation 
+ © Simon Kershaw 2023\nAlmanac Maker © Simon Kershaw 2010-2023\n\nThe Revis
+ ed Common Lectionary is copyright © the Consultation on Common Texts 1992.
+ \n\nThe Daily Eucharistic Lectionary is adapted from the Ordo Lectionum Mi
+ ssae of the Roman Catholic Church\, reproduced by permission of the Intern
+ ational Commission on English in the Liturgy.\n\nAdaptations and additions
+  to the RCL and the DEL\, together with Second and Third Service lectionar
+ ies and the Weekday Lectionary for Morning and Evening Prayer are copyrigh
+ t © the Archbishops’ Council 1997-2010.\n\nThe Additional Weekday Lectiona
+ ry is copyright © the Archbishops’ Council 2010.\n\nA Lectionary and Addit
+ ional Collects for Holy Communion [BCP] originates in the 1928 BCP and the
+  BCP according to the use of India\, Pakistan\, Burma and Ceylon (1960) an
+ d was authorized in the Church of England in 1965.\n\nversion 2024-1.3\n15
+  November 2023\nhttps://almanac.oremus.org/lectionary\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231203
+DTEND;VALUE=DATE:20231203
+DTSTAMP:20230901T000100Z
+UID:2024.3.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Advent 1
+DESCRIPTION:The First Sunday of Advent\n\nPrincipal Service\nIsaiah 64.1-9
+ \nPsalm 80.1-8\, 18-20*\n1 Corinthians 1.3-9\nMark 13.24-37\n\nThird Servi
+ ce\nPsalm 44\nIsaiah 2.1-5\nLuke 12.35-48\n\nSecond Service\nPsalm 25*\nIs
+ aiah 1.1-20\nMatthew 21.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231204
+DTEND;VALUE=DATE:20231204
+DTSTAMP:20230901T000100Z
+UID:2024.4.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John of Damascus, c.749; Nicholas Ferrar, 1637
+DESCRIPTION:John of Damascus\, Monk\, Teacher of the Faith\, c.749\nNichol
+ as Ferrar\, Deacon\, Founder of the Little Gidding Community\, 1637\n\nMor
+ ning Prayer\nPsalms 50\, 54 (or) 1\, 2\, 3\nIsaiah 25.1-9\nMatthew 12.1-21
+ \n\nEvening Prayer\nPsalms 70\, 71 (or) 4\, 7\nIsaiah 42.18-end\nRevelatio
+ n 19\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231205
+DTEND;VALUE=DATE:20231205
+DTSTAMP:20230901T000100Z
+UID:2024.5.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 80\, 82 (or) 5\, 6\, (8)\nIsaiah 26.1-1
+ 3\nMatthew 12.22-37\n\nEvening Prayer\nPsalms 74\, 75 (or) 9\, 10*\nIsaiah
+  43.1-13\nRevelation 20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231206
+DTEND;VALUE=DATE:20231206
+DTSTAMP:20230901T000100Z
+UID:2024.6.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Nicholas, c.326
+DESCRIPTION:Nicholas\, Bishop of Myra\, c.326\n\nMorning Prayer\nPsalms 5\
+ , 7 (or) 119.1-32\nIsaiah 28.1-13\nMatthew 12.38-end\n\nEvening Prayer\nPs
+ alms 76\, 77 (or) 11\, 12\, 13\nIsaiah 43.14-end\nRevelation 21.1-8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231207
+DTEND;VALUE=DATE:20231207
+DTSTAMP:20230901T000100Z
+UID:2024.7.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ambrose, 397
+DESCRIPTION:Ambrose\, Bishop of Milan\, Teacher of the Faith\, 397\n\nMorn
+ ing Prayer\nPsalms 42\, 43 (or) 14\, 15\, 16\nIsaiah 28.14-end\nMatthew 13
+ .1-23\n\nEvening Prayer\nPsalms 40\, 46 (or) 18*\nIsaiah 44.1-8\nRevelatio
+ n 21.9-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231208
+DTEND;VALUE=DATE:20231208
+DTSTAMP:20230901T000100Z
+UID:2024.8.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Conception of the Blessed Virgin Mary
+DESCRIPTION:The Conception of the Blessed Virgin Mary\n\nMorning Prayer\nP
+ salms 25\, 26 (or) 17\, 19\nIsaiah 29.1-14\nMatthew 13.24-43\n\nEvening Pr
+ ayer\nPsalms 16\, 17 (or) 22\nIsaiah 44.9-23\nRevelation 21.22 – 22.5\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231209
+DTEND;VALUE=DATE:20231209
+DTSTAMP:20230901T000100Z
+UID:2024.9.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 9\, (10) (or) 20\, 21\, 23\nIsaiah 29.1
+ 5-end\nMatthew 13.44-end\n\nEvening Prayer\nPsalms 27\, 28 (or) 24\, 25\nI
+ saiah 44.24 – 45.13\nRevelation 22.6-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231210
+DTEND;VALUE=DATE:20231210
+DTSTAMP:20230901T000100Z
+UID:2024.10.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Advent 2
+DESCRIPTION:The Second Sunday of Advent\n\nPrincipal Service\nIsaiah 40.1-
+ 11\nPsalm 85.1-2\, 8-13*\n2 Peter 3.8-15a\nMark 1.1-8\n\nThird Service\nPs
+ alm 80\nBaruch 5.1-9 or \nZephaniah 3.14-end\nLuke 1.5-20\n\nSecond Servic
+ e\nPsalm 40*\n1 Kings 22.1-28\nRomans 15.4-13\nGospel at Holy Communion:\n
+ Matthew 11.2-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231211
+DTEND;VALUE=DATE:20231211
+DTSTAMP:20230901T000100Z
+UID:2024.11.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 44 (or) 27\, 30\nIsaiah 30.1-18\nMatthew
+  14.1-12\n\nEvening Prayer\nPsalms 144\, 146 (or) 26\, 28\, 29\nIsaiah 45.
+ 14-end\n1 Thessalonians 1\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231212
+DTEND;VALUE=DATE:20231212
+DTSTAMP:20230901T000100Z
+UID:2024.12.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 56\, 57 (or) 32\, 36\nIsaiah 30.19-end\
+ nMatthew 14.13-end\n\nEvening Prayer\nPsalms 11\, 12\, 13 (or) 33\nIsaiah 
+ 46\n1 Thessalonians 2.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231213
+DTEND;VALUE=DATE:20231213
+DTSTAMP:20230901T000100Z
+UID:2024.13.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Lucy, 304; Samuel Johnson, 1784
+DESCRIPTION:Lucy\, Martyr at Syracuse\, 304\nSamuel Johnson\, Moralist\, 1
+ 784\n\nMorning Prayer\nPsalms 62\, 63 (or) 34\nIsaiah 31\nMatthew 15.1-20\
+ n\nEvening Prayer\nPsalms 10\, 14 (or) 119.33-56\nIsaiah 47\n1 Thessalonia
+ ns 2.13-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231213
+DTEND;VALUE=DATE:20231213
+DTSTAMP:20230901T000100Z
+UID:2024.14.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231214
+DTEND;VALUE=DATE:20231214
+DTSTAMP:20230901T000100Z
+UID:2024.15.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John of the Cross, 1591
+DESCRIPTION:John of the Cross\, Poet\, Teacher of the Faith\, 1591\n\nMorn
+ ing Prayer\nPsalms 53\, 54\, 60 (or) 37*\nIsaiah 32\nMatthew 15.21-28\n\nE
+ vening Prayer\nPsalm 73 (or) 39\, 40\nIsaiah 48.1-11\n1 Thessalonians 3\n\
+ n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231215
+DTEND;VALUE=DATE:20231215
+DTSTAMP:20230901T000100Z
+UID:2024.16.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 85\, 86 (or) 31\nIsaiah 33.1-22\nMatthe
+ w 15.29-end\n\nEvening Prayer\nPsalms 82\, 90 (or) 35\nIsaiah 48.12-end\n1
+  Thessalonians 4.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231215
+DTEND;VALUE=DATE:20231215
+DTSTAMP:20230901T000100Z
+UID:2024.17.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231216
+DTEND;VALUE=DATE:20231216
+DTSTAMP:20230901T000100Z
+UID:2024.18.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 145 (or) 41\, 42\, 43\nIsaiah 35\nMatthe
+ w 16.1-12\n\nEvening Prayer\nPsalms 93\, 94 (or) 45\, 46\nIsaiah 49.1-13\n
+ 1 Thessalonians 4.13-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231216
+DTEND;VALUE=DATE:20231216
+DTSTAMP:20230901T000100Z
+UID:2024.19.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231217
+DTEND;VALUE=DATE:20231217
+DTSTAMP:20230901T000100Z
+UID:2024.20.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Advent 3
+DESCRIPTION:The Third Sunday of Advent\n\nPrincipal Service\nIsaiah 61.1-4
+ \, 8-11\nPsalm 126 or \nCanticle: Magnificat\n1 Thessalonians 5.16-24\nJoh
+ n 1.6-8\, 19-28\n\nThird Service\nPsalms 50.1-6\, 62\nIsaiah 12\nLuke 1.57
+ -66\n\nSecond Service\nPsalm 68.1-19*\nMalachi 3.1-4\; 4\nPhilippians 4.4-
+ 7\nGospel at Holy Communion:\nMatthew 14.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231218
+DTEND;VALUE=DATE:20231218
+DTSTAMP:20230901T000100Z
+UID:2024.21.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 40 (or) 44\nIsaiah 38.1-8\, 21-22\nMatth
+ ew 16.13-end\n\nEvening Prayer\nPsalms 25\, 26 (or) 47\, 49\nIsaiah 49.14-
+ 25\n1 Thessalonians 5.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231219
+DTEND;VALUE=DATE:20231219
+DTSTAMP:20230901T000100Z
+UID:2024.22.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 144\, 146\nIsaiah 38.9-20\nMatthew 17.1
+ -13\n\nEvening Prayer\nPsalms 10\, 57\nIsaiah 50\n1 Thessalonians 5.12-end
+ \n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231220
+DTEND;VALUE=DATE:20231220
+DTSTAMP:20230901T000100Z
+UID:2024.23.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 46\, 95\nIsaiah 39\nMatthew 17.14-21\n\
+ nEvening Prayer\nPsalms 4\, 9\nIsaiah 51.1-8\n2 Thessalonians 1\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231221
+DTEND;VALUE=DATE:20231221
+DTSTAMP:20230901T000100Z
+UID:2024.24.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 121\, 122\, 123\nZephaniah 1.1 – 2.3\nM
+ atthew 17.22-end\n\nEvening Prayer\nPsalms 80\, 84\nIsaiah 51.9-16\n2 Thes
+ salonians 2\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231222
+DTEND;VALUE=DATE:20231222
+DTSTAMP:20230901T000100Z
+UID:2024.25.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 124\, 125\, 126\, 127\nZephaniah 3.1-13
+ \nMatthew 18.1-20\n\nEvening Prayer\nPsalms 24\, 48\nIsaiah 51.17-end\n2 T
+ hessalonians 3\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231223
+DTEND;VALUE=DATE:20231223
+DTSTAMP:20230901T000100Z
+UID:2024.26.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 128\, 129\, 130\, 131\nZephaniah 3.14-e
+ nd\nMatthew 18.21-end\n\nEvening Prayer\nPsalm 89.1-37\nIsaiah 52.1-12\nJu
+ de\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231224
+DTEND;VALUE=DATE:20231224
+DTSTAMP:20230901T000100Z
+UID:2024.27.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Advent 4
+DESCRIPTION:The Fourth Sunday of Advent\n\nPrincipal Service\n2 Samuel 7.1
+ -11\, 16\nCanticle: Magnificat or \nPsalm 89.1-4\, 19-26*\nRomans 16.25-27
+ \nLuke 1.26-38\n\nThird Service\nPsalm 144\nIsaiah 7.10-16\nRomans 1.1-7\n
+ \nEvening Prayer of Christmas Eve\nPsalm 85\nZechariah 2\nRevelation 1.1-8
+ \n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231225
+DTEND;VALUE=DATE:20231225
+DTSTAMP:20230901T000100Z
+UID:2024.28.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Christmas Day
+DESCRIPTION:Christmas Day\n\nPrincipal Feast\n\nAny of the following sets 
+ of readings may be used on Christmas Night and on Christmas Day. Set III s
+ hould be used at some service during the celebration.\nPrincipal Service\n
+ I\nIsaiah 9.2-7\nPsalm 96\nTitus 2.11-14\nLuke 2.1-14 [15-20]\n\nII\nIsaia
+ h 62.6-12\nPsalm 97\nTitus 3.4-7\nLuke 2.[1-7] 8-20\n\nIII\nIsaiah 52.7-10
+ \nPsalm 98\nHebrews 1.1-4 [5-12]\nJohn 1.1-14\n\nThird Service\nIsaiah 62.
+ 1-5\nMatthew 1.18-25\nMorning Psalms\nPsalms 110\, 117\n\nSecond Service\n
+ Isaiah 65.17-end\nPhilippians 2.5-11 or \nLuke 2.1-20 if it has not been u
+ sed at the principal service of the day\nEvening Psalm\nPsalm 8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231226
+DTEND;VALUE=DATE:20231226
+DTSTAMP:20230901T000100Z
+UID:2024.29.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Stephen
+DESCRIPTION:Stephen\, Deacon\, First Martyr\n\nPrincipal Service\n2 Chroni
+ cles 24.20-22\nPsalm 119.161-168\nActs 7.51-60\nMatthew 10.17-22\n\n(or)\n
+ Acts 7.51-60\nPsalm 119.161-168\nGalatians 2.16b-20\nMatthew 10.17-22\n\nT
+ hird Service\nJeremiah 26.12-15\nActs 6\nMorning Psalms\nPsalms 13\, 31.1-
+ 8\, 150.1-end\n\nSecond Service\nGenesis 4.1-10\nMatthew 23.34-39\nEvening
+  Psalms\nPsalms 57\, 86\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231227
+DTEND;VALUE=DATE:20231227
+DTSTAMP:20230901T000100Z
+UID:2024.30.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* John
+DESCRIPTION:John\, Apostle and Evangelist\n\nPrincipal Service\nExodus 33.
+ 7-11a\nPsalm 117\n1 John 1\nJohn 21.19b-25\n\nThird Service\nExodus 33.12-
+ 23\n1 John 2.1-11\nMorning Psalms\nPsalms 21\, 147.13-end\n\nSecond Servic
+ e\nIsaiah 6.1-8\n1 John 5.1-12\nEvening Psalm\nPsalm 97\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231228
+DTEND;VALUE=DATE:20231228
+DTSTAMP:20230901T000100Z
+UID:2024.31.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Holy Innocents
+DESCRIPTION:The Holy Innocents\n\nPrincipal Service\nJeremiah 31.15-17\nPs
+ alm 124\n1 Corinthians 1.26-29\nMatthew 2.13-18\n\nThird Service\nBaruch 4
+ .21-27 or \nGenesis 37.13-20\nMatthew 18.1-10\nMorning Psalms\nPsalms 36\,
+  146\n\nSecond Service\nIsaiah 49.14-25\nMark 10.13-16\nEvening Psalms\nPs
+ alms 123\, 128\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231229
+DTEND;VALUE=DATE:20231229
+DTSTAMP:20230901T000100Z
+UID:2024.32.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Thomas Becket, 1170
+DESCRIPTION:Thomas Becket\, Archbishop of Canterbury\, Martyr\, 1170\n\nMo
+ rning Prayer\nPsalms 19\, 20\nJonah 1\nColossians 1.1-14\n\nEvening Prayer
+ \nPsalms 131\, 132\nIsaiah 57.15-end\nJohn 1.1-18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231230
+DTEND;VALUE=DATE:20231230
+DTSTAMP:20230901T000100Z
+UID:2024.33.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 111\, 112\, 113\nJonah 2\nColossians 1.
+ 15-23\n\nEvening Prayer\nPsalms 65\, 84\nIsaiah 59.1-15a\nJohn 1.19-28\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20231231
+DTEND;VALUE=DATE:20231231
+DTSTAMP:20230901T000100Z
+UID:2024.34.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Christmas 1
+DESCRIPTION:The First Sunday of Christmas\n\nPrincipal Service\nIsaiah 61.
+ 10 – 62.3\nPsalm 148*\nGalatians 4.4-7\nLuke 2.15-21\n\nThird Service\nPsa
+ lm 105.1-11\nIsaiah 63.7-9\nEphesians 3.5-12\n\nSecond Service\nPsalm 132\
+ nIsaiah 35\nColossians 1.9-20 or \nLuke 2.41-52\n\n(or) Evening Prayer on 
+ the Eve of the Naming and Circumcision\nPsalm 148\nJeremiah 23.1-6\nColoss
+ ians 2.8-15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240101
+DTEND;VALUE=DATE:20240101
+DTSTAMP:20230901T000100Z
+UID:2024.35.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Naming and Circumcision of Jesus
+DESCRIPTION:The Naming and Circumcision of Jesus\n\nPrincipal Service\nNum
+ bers 6.22-27\nPsalm 8\nGalatians 4.4-7\nLuke 2.15-21\n\nThird Service\nGen
+ esis 17.1-13\nRomans 2.17-29\nMorning Psalms\nPsalms 103\, 150\n\nSecond S
+ ervice\nDeuteronomy 30.[1-10] 11-end\nActs 3.1-16\nEvening Psalm\nPsalm 11
+ 5\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240102
+DTEND;VALUE=DATE:20240102
+DTSTAMP:20230901T000100Z
+UID:2024.36.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Basil the Great and Gregory of Nazianzus, 379 and 389; Seraphim
+ , 1833; Vedanayagam Samuel Azariah, 1945
+DESCRIPTION:Basil the Great and Gregory of Nazianzus\, Bishops\, Teachers 
+ of the Faith\, 379 and 389\nSeraphim\, Monk of Sarov\, Spiritual Guide\, 1
+ 833\nVedanayagam Samuel Azariah\, Bishop in South India\, Evangelist\, 194
+ 5\n\nMorning Prayer\nPsalm 18.1-30\nRuth 1\nColossians 2.8-end\n\nEvening 
+ Prayer\nPsalms 45\, 46\nIsaiah 60.1-12\nJohn 1.35-42\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240103
+DTEND;VALUE=DATE:20240103
+DTSTAMP:20230901T000100Z
+UID:2024.37.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 127\, 128\, 131\nRuth 2\nColossians 3.1
+ -11\n\nEvening Prayer\nPsalms 2\, 110\nIsaiah 60.13-end\nJohn 1.43-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240104
+DTSTAMP:20230901T000100Z
+UID:2024.38.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 89.1-37\nRuth 3\nColossians 3.12 – 4.1\n
+ \nEvening Prayer\nPsalms 85\, 87\nIsaiah 61\nJohn 2.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240105
+DTEND;VALUE=DATE:20240105
+DTSTAMP:20230901T000100Z
+UID:2024.39.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 8\, 48\nRuth 4.1-17\nColossians 4.2-end
+ \n\nEvening Prayer\nIf the Epiphany is observed on Saturday 6 January then
+  Evening Prayer on the Eve of the Epiphany is used.\nOtherwise the followi
+ ng are used.\nPsalms 96\, 97\nIsaiah 62\nJohn 2.13-end\n\nEvening Prayer o
+ n the Eve of the Epiphany\nPsalms 96\, 97\nIsaiah 49.1-13\nJohn 4.7-26\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240106
+DTEND;VALUE=DATE:20240106
+DTSTAMP:20230901T000100Z
+UID:2024.40.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Epiphany
+DESCRIPTION:If the Epiphany is celebrated on Saturday 6 January:\n\nThe Ep
+ iphany\n\nPrincipal Feast\n\nPrincipal Service\nIsaiah 60.1-6\nPsalm 72.[1
+ -9] 10-15\nEphesians 3.1-12\nMatthew 2.1-12\n\nThird Service\nJeremiah 31.
+ 7-14\nJohn 1.29-34\nMorning Psalms\nPsalms 132\, 113\n\nSecond Service\nBa
+ ruch 4.36 – end of 5 or \nIsaiah 60.1-9\nJohn 2.1-11\nEvening Psalms\nPsal
+ ms 98\, 100\n\n(or) Evening Prayer on the Eve of the Baptism of Christ\nPs
+ alm 36\nIsaiah 61\nTitus 2.11-14\; 3.4-7\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240106
+DTEND;VALUE=DATE:20240106
+DTSTAMP:20230901T000100Z
+UID:2024.41.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW (or)
+DESCRIPTION:If the Epiphany is celebrated on Sunday 7 January:\n\nMorning 
+ Prayer\nPsalms 99\, 147.1-12\nBaruch 1.15 – 2.10 (or) \nJeremiah 23.1-8\nM
+ atthew 20.1-16\n\nEvening Prayer on the Eve of the Epiphany\nPsalms 96\, 9
+ 7\nIsaiah 49.1-13\nJohn 4.7-26\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240107
+DTEND;VALUE=DATE:20240107
+DTSTAMP:20230901T000100Z
+UID:2024.42.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Baptism of Christ
+DESCRIPTION:If the Epiphany is celebrated on Saturday 6 January:\nThe Bapt
+ ism of Christ\nThe First Sunday of Epiphany\n\nPrincipal Service\nGenesis 
+ 1.1-5\nPsalm 29\nActs 19.1-7\nMark 1.4-11\n\nThird Service\nPsalm 89.19-29
+ \n1 Samuel 16.1-3\, 13\nJohn 1.29-34\n\nSecond Service\nPsalms 46\, 47\nIs
+ aiah 42.1-9\nEphesians 2.1-10\nGospel at Holy Communion:\nMatthew 3.13-17\
+ n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240107
+DTEND;VALUE=DATE:20240107
+DTSTAMP:20230901T000100Z
+UID:2024.43.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* (or) The Epiphany
+DESCRIPTION:If the Epiphany is celebrated on Sunday 7 January:\nThe Epipha
+ ny\n\nPrincipal Feast\n\nPrincipal Service\nIsaiah 60.1-6\nPsalm 72.[1-9] 
+ 10-15\nEphesians 3.1-12\nMatthew 2.1-12\n\nThird Service\nJeremiah 31.7-14
+ \nJohn 1.29-34\nMorning Psalms\nPsalms 132\, 113\n\nSecond Service\nBaruch
+  4.36 – end of 5 or \nIsaiah 60.1-9\nJohn 2.1-11\nEvening Psalms\nPsalms 9
+ 8\, 100\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240108
+DTEND;VALUE=DATE:20240108
+DTSTAMP:20230901T000100Z
+UID:2024.44.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:If the Epiphany is celebrated on Saturday 6 January:\n\nMornin
+ g Prayer\nPsalms 2\, 110 (or) 71\nGenesis 1.1-19\nMatthew 21.1-17\n\nEveni
+ ng Prayer\nPsalms 34\, 36 (or) 72\, 75\nAmos 1\n1 Corinthians 1.1-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240108
+DTEND;VALUE=DATE:20240108
+DTSTAMP:20230901T000100Z
+UID:2024.45.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* (or) Baptism of Christ
+DESCRIPTION:If the Epiphany is celebrated on Sunday 7 January:\nThe Baptis
+ m of Christ\nThe First Sunday of Epiphany\n\nPrincipal Service\nGenesis 1.
+ 1-5\nPsalm 29\nActs 19.1-7\nMark 1.4-11\n\nThird Service\nPsalm 89.19-29\n
+ 1 Samuel 16.1-3\, 13\nJohn 1.29-34\n\nSecond Service\nPsalms 46\, 47\nIsai
+ ah 42.1-9\nEphesians 2.1-10\nGospel at Holy Communion:\nMatthew 3.13-17\n\
+ n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240109
+DTEND;VALUE=DATE:20240109
+DTSTAMP:20230901T000100Z
+UID:2024.46.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 8\, 9 (or) 73\nGenesis 1.20 – 2.3\nMatt
+ hew 21.18-32\n\nEvening Prayer\nPsalms 45\, 46 (or) 74\nAmos 2\n1 Corinthi
+ ans 1.18-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240110
+DTEND;VALUE=DATE:20240110
+DTSTAMP:20230901T000100Z
+UID:2024.47.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW William Laud, 1645
+DESCRIPTION:William Laud\, Archbishop of Canterbury\, 1645\n\nMorning Pray
+ er\nPsalms 19\, 20 (or) 77\nGenesis 2.4-end\nMatthew 21.33-end\n\nEvening 
+ Prayer\nPsalms 47\, 48 (or) 119.81-104\nAmos 3\n1 Corinthians 2\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240111
+DTEND;VALUE=DATE:20240111
+DTSTAMP:20230901T000100Z
+UID:2024.48.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Mary Slessor, 1915
+DESCRIPTION:Mary Slessor\, Missionary in West Africa\, 1915\n\nMorning Pra
+ yer\nPsalms 21\, 24 (or) 78.1-39*\nGenesis 3\nMatthew 22.1-14\n\nEvening P
+ rayer\nPsalms 61\, 65 (or) 78.40-end*\nAmos 4\n1 Corinthians 3\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240112
+DTEND;VALUE=DATE:20240112
+DTSTAMP:20230901T000100Z
+UID:2024.49.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Aelred of Hexham, 1167; Benedict Biscop, 689
+DESCRIPTION:Aelred of Hexham\, Abbot of Rievaulx\, 1167\nBenedict Biscop\,
+  Abbot of Wearmouth\, Scholar\, 689\n\nMorning Prayer\nPsalms 67\, 72 (or)
+  55\nGenesis 4.1-16\, 25-26\nMatthew 22.15-33\n\nEvening Prayer\nPsalm 68 
+ (or) 69\nAmos 5.1-17\n1 Corinthians 4\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240113
+DTEND;VALUE=DATE:20240113
+DTSTAMP:20230901T000100Z
+UID:2024.50.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Hilary of Poitiers, 367; Kentigern (Mungo), 603; George Fox, 16
+ 91
+DESCRIPTION:Hilary\, Bishop of Poitiers\, Teacher of the Faith\, 367\nKent
+ igern (Mungo)\, Missionary Bishop in Strathclyde and Cumbria\, 603\nGeorge
+  Fox\, Founder of the Society of Friends (the Quakers)\, 1691\n\nMorning P
+ rayer\nPsalms 29\, 33 (or) 76\, 79\nGenesis 6.1-10\nMatthew 22.34-end\n\nE
+ vening Prayer\nPsalms 84\, 85 (or) 81\, 84\nAmos 5.18-end\n1 Corinthians 5
+ \n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240114
+DTEND;VALUE=DATE:20240114
+DTSTAMP:20230901T000100Z
+UID:2024.51.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Epiphany 2
+DESCRIPTION:The Second Sunday of Epiphany\n\nPrincipal Service\n1 Samuel 3
+ .1-10 [11-20]\nPsalm 139.1-5\, 12-18*\nRevelation 5.1-10\nJohn 1.43-end\n\
+ nThird Service\nPsalm 145.1-12\nIsaiah 62.1-5\n1 Corinthians 6.11-20\n\nSe
+ cond Service\nPsalm 96\nIsaiah 60.9-end\nHebrews 6.17 – 7.10\nGospel at Ho
+ ly Communion:\nMatthew 8.5-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240115
+DTEND;VALUE=DATE:20240115
+DTSTAMP:20230901T000100Z
+UID:2024.52.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 145\, 146 (or) 80\, 82\nGenesis 6.11 – 
+ 7.10\nMatthew 24.1-14\n\nEvening Prayer\nPsalm 71 (or) 85\, 86\nAmos 6\n1 
+ Corinthians 6.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240116
+DTEND;VALUE=DATE:20240116
+DTSTAMP:20230901T000100Z
+UID:2024.53.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 132\, 147.1-12 (or) 87\, 89.1-18\nGenes
+ is 7.11-end\nMatthew 24.15-28\n\nEvening Prayer\nPsalms 89.1-37 (or) 89.19
+ -end\nAmos 7\n1 Corinthians 6.12-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240117
+DTEND;VALUE=DATE:20240117
+DTSTAMP:20230901T000100Z
+UID:2024.54.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Antony of Egypt, 356; Charles Gore, 1932
+DESCRIPTION:Antony of Egypt\, Hermit\, Abbot\, 356\nCharles Gore\, Bishop\
+ , Founder of the Community of the Resurrection\, 1932\n\nMorning Prayer\nP
+ salms 81\, 147.13-end (or) 119.105-128\nGenesis 8.1-14\nMatthew 24.29-end\
+ n\nEvening Prayer\nPsalms 97\, 98 (or) 91\, 93\nAmos 8\n1 Corinthians 7.1-
+ 24\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240118
+DTEND;VALUE=DATE:20240118
+DTSTAMP:20230901T000100Z
+UID:2024.55.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Amy Carmichael, 1951; First Day of the Week of Prayer for Chris
+ tian Unity
+DESCRIPTION:Amy Carmichael\, Founder of the Dohnavur Fellowship\, spiritua
+ l writer\, 1951\nFirst Day of the Week of Prayer for Christian Unity\n\nMo
+ rning Prayer\nPsalms 76\, 148 (or) 90\, 92\nGenesis 8.15 – 9.7\nMatthew 25
+ .1-13\n\nEvening Prayer\nPsalms 99\, 100\, 111 (or) 94\nAmos 9\n1 Corinthi
+ ans 7.25-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240119
+DTEND;VALUE=DATE:20240119
+DTSTAMP:20230901T000100Z
+UID:2024.56.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Wulfstan, 1095; Second Day of the Week of Prayer for Christian 
+ Unity
+DESCRIPTION:Wulfstan\, Bishop of Worcester\, 1095\nSecond Day of the Week 
+ of Prayer for Christian Unity\n\nMorning Prayer\nPsalms 27\, 149 (or) 88\,
+  (95)\nGenesis 9.8-19\nMatthew 25.14-30\n\nEvening Prayer\nPsalm 73 (or) 1
+ 02\nHosea 1.1 – 2.1\n1 Corinthians 8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240120
+DTEND;VALUE=DATE:20240120
+DTSTAMP:20230901T000100Z
+UID:2024.57.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Richard Rolle, 1349; Third Day of the Week of Prayer for Christ
+ ian Unity
+DESCRIPTION:Richard Rolle of Hampole\, Spiritual Writer\, 1349\nThird Day 
+ of the Week of Prayer for Christian Unity\n\nMorning Prayer\nPsalms 122\, 
+ 128\, 150 (or) 96\, 97\, 100\nGenesis 11.1-9\nMatthew 25.31-end\n\nEvening
+  Prayer\nPsalms 61\, 66 (or) 104\nHosea 2.2-17\n1 Corinthians 9.1-14\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240121
+DTEND;VALUE=DATE:20240121
+DTSTAMP:20230901T000100Z
+UID:2024.58.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Epiphany 3; Fourth Day of the Week of Prayer for Christian Uni
+ ty
+DESCRIPTION:The Third Sunday of Epiphany\nFourth Day of the Week of Prayer
+  for Christian Unity\n\nPrincipal Service\nGenesis 14.17-20\nPsalm 128\nRe
+ velation 19.6-10\nJohn 2.1-11\n\nThird Service\nPsalm 113\nJonah 3.1-5\, 1
+ 0\nJohn 3.16-21\n\nSecond Service\nPsalm 33*\nJeremiah 3.21 – 4.2\nTitus 2
+ .1-8\, 11-14\nGospel at Holy Communion:\nMatthew 4.12-23\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240122
+DTEND;VALUE=DATE:20240122
+DTSTAMP:20230901T000100Z
+UID:2024.59.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Vincent of Saragossa, 304; Fifth Day of the Week of Prayer for 
+ Christian Unity
+DESCRIPTION:Vincent of Saragossa\, Deacon\, first Martyr of Spain\, 304\nF
+ ifth Day of the Week of Prayer for Christian Unity\n\nMorning Prayer\nPsal
+ ms 40\, 108 (or) 98\, 99\, 101\nGenesis 11.27 – 12.9\nMatthew 26.1-16\n\nE
+ vening Prayer\nPsalms 138\, 144 (or) 105* (or 103)\nHosea 2.18 – end of 3\
+ n1 Corinthians 9.15-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240123
+DTEND;VALUE=DATE:20240123
+DTSTAMP:20230901T000100Z
+UID:2024.60.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Sixth Day of the Week of Prayer for Christian Unity
+DESCRIPTION:Sixth Day of the Week of Prayer for Christian Unity\n\nMorning
+  Prayer\nPsalms 34\, 36 (or) 106* (or 103)\nGenesis 13.2-end\nMatthew 26.1
+ 7-35\n\nEvening Prayer\nPsalm 145 (or) 107*\nHosea 4.1-16\n1 Corinthians 1
+ 0.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240124
+DTEND;VALUE=DATE:20240124
+DTSTAMP:20230901T000100Z
+UID:2024.61.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Francis de Sales, 1622; Seventh Day of the Week of Prayer for C
+ hristian Unity
+DESCRIPTION:Francis de Sales\, Bishop of Geneva\, Teacher of the Faith\, 1
+ 622\nSeventh Day of the Week of Prayer for Christian Unity\n\nMorning Pray
+ er\nPsalms 45\, 46 (or) 110\, 111\, 112\nGenesis 14\nMatthew 26.36-46\n\nE
+ vening Prayer\nPsalms 21\, 29 (or) 119.129-152\nHosea 5.1-7\n1 Corinthians
+  10.14 – 11.1\n\n(or) Evening Prayer on the Eve of the Conversion of Paul\
+ nPsalm 149\nIsaiah 49.1-13\nActs 22.3-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240125
+DTEND;VALUE=DATE:20240125
+DTSTAMP:20230901T000100Z
+UID:2024.62.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Conversion of Paul; Last Day of the Week of Prayer for Christi
+ an Unity
+DESCRIPTION:The Conversion of Paul\nLast Day of the Week of Prayer for Chr
+ istian Unity\n\nPrincipal Service\nJeremiah 1.4-10\nPsalm 67\nActs 9.1-22\
+ nMatthew 19.27-30\n\n(or)\nActs 9.1-22\nPsalm 67\nGalatians 1.11-16a\nMatt
+ hew 19.27-30\n\nThird Service\nEzekiel 3.22-27\nPhilippians 3.1-14\nMornin
+ g Psalms\nPsalms 66\, 147.13-21\n\nSecond Service\nEcclesiasticus 39.1-10 
+ or \nIsaiah 56.1-8\nColossians 1.24 – 2.7\nEvening Psalm\nPsalm 119.41-56\
+ n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240126
+DTEND;VALUE=DATE:20240126
+DTSTAMP:20230901T000100Z
+UID:2024.63.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Timothy and Titus
+DESCRIPTION:Timothy and Titus\, Companions of Paul\n\nLesser Festival Euch
+ aristic Lectionary\nIsaiah 61.1-3a\nPsalm 100\n2 Timothy 2.1-8 or \nTitus 
+ 1.1-5\nLuke 10.1-9\n\nMorning Prayer\nPsalms 61\, 65 (or) 139\nGenesis 16\
+ nMatthew 26.57-end\n\nEvening Prayer\nPsalms 67\, 77 (or) 130\, 131\, 137\
+ nHosea 6.7 – 7.2\n1 Corinthians 11.17-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240127
+DTEND;VALUE=DATE:20240127
+DTSTAMP:20230901T000100Z
+UID:2024.64.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 68 (or) 120\, 121\, 122\nGenesis 17.1-22
+ \nMatthew 27.1-10\n\nEvening Prayer\nPsalms 72\, 76 (or) 118\nHosea 8\n1 C
+ orinthians 12.1-11\n\nOr\, if the Presentation is celebrated on Sunday 28 
+ January:\nEvening Prayer on the Eve of the Presentation\nPsalm 118\n1 Samu
+ el 1.19b-end\nHebrews 4.11-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240128
+DTEND;VALUE=DATE:20240128
+DTSTAMP:20230901T000100Z
+UID:2024.65.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Epiphany 4
+DESCRIPTION:If the Presentation is celebrated on Friday 2 February:\n\nThe
+  Fourth Sunday of Epiphany\n\nPrincipal Service\nDeuteronomy 18.15-20\nPsa
+ lm 111\nRevelation 12.1-5a\nMark 1.21-28\n\nThird Service\nPsalm 71.1-6\, 
+ 15-17\nJeremiah 1.4-10\nMark 1.40-end\n\nSecond Service\nPsalm 34*\n1 Samu
+ el 3.1-20\n1 Corinthians 14.12-20\nGospel at Holy Communion:\nMatthew 13.1
+ 0-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240128
+DTEND;VALUE=DATE:20240128
+DTSTAMP:20230901T000100Z
+UID:2024.66.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* (or) The Presentation
+DESCRIPTION:If the Presentation is celebrated on Sunday 28 January:\n\nPri
+ ncipal Feast\n\nThe Presentation of Christ in the Temple (Candlemas)\n\nPr
+ incipal Service\nMalachi 3.1-5\nPsalm 24.[1-6] 7-10\nHebrews 2.14-18\nLuke
+  2.22-40\n\nThird Service\nExodus 13.1-16\nRomans 12.1-5\nMorning Psalms\n
+ Psalms 48\, 146\n\nSecond Service\nHaggai 2.1-9\nJohn 2.18-22\nEvening Psa
+ lms\nPsalms 122\, 132\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240129
+DTEND;VALUE=DATE:20240129
+DTSTAMP:20230901T000100Z
+UID:2024.67.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:If the Presentation is celebrated on Friday 2 February:\n\nMor
+ ning Prayer\nPsalms 57\, 96 (or) 123\, 124\, 125\, 126\nGenesis 18.1-15\nM
+ atthew 27.11-26\n\nEvening Prayer\nPsalms 2\, 20 (or) 127\, 128\, 129\nHos
+ ea 9\n1 Corinthians 12.12-end\n\nOr\, if the Presentation is celebrated on
+  Sunday 28 January:\n\nMorning Prayer\nPsalms 123\, 124\, 125\, 126\nGenes
+ is 24.1-28\n1 Timothy 6.1-10\n\nEvening Prayer\nPsalms 127\, 128\, 129\nEc
+ clesiastes 1\nJohn 17.1-5\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240130
+DTEND;VALUE=DATE:20240130
+DTSTAMP:20230901T000100Z
+UID:2024.68.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Charles I, 1649
+DESCRIPTION:Charles\, King and Martyr\, 1649\n\nIf the Presentation is cel
+ ebrated on Friday 2 February:\n\nMorning Prayer\nPsalms 93\, 97 (or) 132\,
+  133\nGenesis 18.16-end\nMatthew 27.27-44\n\nEvening Prayer\nPsalms 19\, 2
+ 1 (or) (134)\, 135\nHosea 10\n1 Corinthians 13\n\nOr\, if the Presentation
+  is celebrated on Sunday 28 January:\n\nMorning Prayer\nPsalms 132\, 133\n
+ Genesis 24.29-end\n1 Timothy 6.11-end\n\nEvening Prayer\nPsalms (134)\, 13
+ 5\nEcclesiastes 2\nJohn 17.6-19\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240131
+DTEND;VALUE=DATE:20240131
+DTSTAMP:20230901T000100Z
+UID:2024.69.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John Bosco, 1888
+DESCRIPTION:John Bosco\, Priest\, Founder of the Salesian Teaching Order\,
+  1888\n\nIf the Presentation is celebrated on Friday 2 February:\n\nMornin
+ g Prayer\nPsalms 95\, 98 (or) 119.153-end\nGenesis 19.1-3\, 12-29\nMatthew
+  27.45-56\n\nEvening Prayer\nPsalms 81\, 111 (or) 136\nHosea 11.1-11\n1 Co
+ rinthians 14.1-19\n\nOr\, if the Presentation is celebrated on Sunday 28 J
+ anuary:\n\nMorning Prayer\nPsalm 119.153-end\nGenesis 25.7-11\, 19-end\n2 
+ Timothy 1.1-14\n\nEvening Prayer\nPsalm 136\nEcclesiastes 3.1-15\nJohn 17.
+ 20-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240201
+DTEND;VALUE=DATE:20240201
+DTSTAMP:20230901T000100Z
+UID:2024.70.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Brigid of Kildare, c.525
+DESCRIPTION:Brigid\, Abbess of Kildare\, c.525\n\nIf the Presentation is c
+ elebrated on Friday 2 February:\n\nMorning Prayer\nPsalms 99\, 110 (or) 14
+ 3\, 146\nGenesis 21.1-21\nMatthew 27.57-end\n\nEvening Prayer on the Eve o
+ f the Presentation\nPsalm 118\n1 Samuel 1.19b-end\nHebrews 4.11-end\n\nOr\
+ , if the Presentation is celebrated on Sunday 28 January:\n\nMorning Praye
+ r\nPsalms 143\, 146\nGenesis 26.34 – 27.40\n2 Timothy 1.15 – 2.13\n\nEveni
+ ng Prayer\nPsalms 138\, 140\, 141\nEcclesiastes 3.16 – end of 4\nJohn 18.1
+ -11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240202
+DTEND;VALUE=DATE:20240202
+DTSTAMP:20230901T000100Z
+UID:2024.71.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* The Presentation
+DESCRIPTION:The Presentation of Christ in the Temple (Candlemas)\n\nPrinci
+ pal Feast\n\nPrincipal Service\nMalachi 3.1-5\nPsalm 24.[1-6] 7-10\nHebrew
+ s 2.14-18\nLuke 2.22-40\n\nThird Service\nExodus 13.1-16\nRomans 12.1-5\nM
+ orning Psalms\nPsalms 48\, 146\n\nSecond Service\nHaggai 2.1-9\nJohn 2.18-
+ 22\nEvening Psalms\nPsalms 122\, 132\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240202
+DTEND;VALUE=DATE:20240202
+DTSTAMP:20230901T000100Z
+UID:2024.72.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Or\, if the Presentation is celebrated on Sunday 28 January:\n
+ \nMorning Prayer\nPsalms 142\, 144\nGenesis 27.41 – end of 28\n2 Timothy 2
+ .14-end\n\nEvening Prayer\nPsalm 145\nEcclesiastes 5\nJohn 18.12-27\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240203
+DTEND;VALUE=DATE:20240203
+DTSTAMP:20230901T000100Z
+UID:2024.73.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Anskar, 865
+DESCRIPTION:Anskar\, Archbishop of Hamburg\, Missionary in Denmark and Swe
+ den\, 865\n\nMorning Prayer\nPsalm 147\nGenesis 29.1-30\n2 Timothy 3\n\nEv
+ ening Prayer\nPsalms 148\, 149\, 150\nEcclesiastes 6\nJohn 18.28-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240204
+DTEND;VALUE=DATE:20240204
+DTSTAMP:20230901T000100Z
+UID:2024.74.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* 2 before Lent
+DESCRIPTION:The Second Sunday before Lent\n\nPrincipal Service\nProverbs 8
+ .1\, 22-31\nPsalm 104.26-37\nColossians 1.15-20\nJohn 1.1-14\n\nThird Serv
+ ice\nPsalms 29\, 67\nDeuteronomy 8.1-10\nMatthew 6.25-end\n\nSecond Servic
+ e\nPsalm 65\nGenesis 2.4b-end\nLuke 8.22-35\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240205
+DTEND;VALUE=DATE:20240205
+DTSTAMP:20230901T000100Z
+UID:2024.75.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 1\, 2\, 3\nGenesis 29.31 – 30.24\n2 Tim
+ othy 4.1-8\n\nEvening Prayer\nPsalms 4\, 7\nEcclesiastes 7.1-14\nJohn 19.1
+ -16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240206
+DTEND;VALUE=DATE:20240206
+DTSTAMP:20230901T000100Z
+UID:2024.76.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW The Martyrs of Japan, 1597
+DESCRIPTION:The Martyrs of Japan\, 1597\n\nMorning Prayer\nPsalms 5\, 6\, 
+ (8)\nGenesis 31.1-24\n2 Timothy 4.9-end\n\nEvening Prayer\nPsalms 9\, 10*\
+ nEcclesiastes 7.15-end\nJohn 19.17-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240207
+DTEND;VALUE=DATE:20240207
+DTSTAMP:20230901T000100Z
+UID:2024.77.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.1-32\nGenesis 31.25 – 32.2\nTitus 1\
+ n\nEvening Prayer\nPsalms 11\, 12\, 13\nEcclesiastes 8\nJohn 19.31-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240208
+DTEND;VALUE=DATE:20240208
+DTSTAMP:20230901T000100Z
+UID:2024.78.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 14\, 15\, 16\nGenesis 32.3-30\nTitus 2\
+ n\nEvening Prayer\nPsalm 18*\nEcclesiastes 9\nJohn 20.1-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240209
+DTEND;VALUE=DATE:20240209
+DTSTAMP:20230901T000100Z
+UID:2024.79.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 17\, 19\nGenesis 33.1-17\nTitus 3\n\nEv
+ ening Prayer\nPsalm 22\nEcclesiastes 11.1-8\nJohn 20.11-18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240210
+DTEND;VALUE=DATE:20240210
+DTSTAMP:20230901T000100Z
+UID:2024.80.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Scholastica, c.543
+DESCRIPTION:Scholastica\, sister of Benedict\, Abbess of Plombariola\, c.5
+ 43\n\nMorning Prayer\nPsalms 20\, 21\, 23\nGenesis 35\nPhilemon\n\nEvening
+  Prayer\nPsalms 24\, 25\nEcclesiastes 11.9 – end of 12\nJohn 20.19-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240211
+DTEND;VALUE=DATE:20240211
+DTSTAMP:20230901T000100Z
+UID:2024.81.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Sunday before Lent
+DESCRIPTION:The Sunday next before Lent\n\nPrincipal Service\n2 Kings 2.1-
+ 12\nPsalm 50.1-6\n2 Corinthians 4.3-6\nMark 9.2-9\n\nThird Service\nPsalms
+  27\, 150\nExodus 24.12-18\n2 Corinthians 3.12-end\n\nSecond Service\nPsal
+ ms 2 [99]\n1 Kings 19.1-16\n2 Peter 1.16-end\nGospel at Holy Communion: \n
+ Mark 9.[2-8] 9-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240212
+DTEND;VALUE=DATE:20240212
+DTSTAMP:20230901T000100Z
+UID:2024.82.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 27\, 30\nGenesis 37.1-11\nGalatians 1\n
+ \nEvening Prayer\nPsalms 26\, 28\, 29\nJeremiah 1\nJohn 3.1-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240213
+DTEND;VALUE=DATE:20240213
+DTSTAMP:20230901T000100Z
+UID:2024.83.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 32\, 36\nGenesis 37.12-end\nGalatians 2
+ .1-10\n\nEvening Prayer\nPsalm 33\nJeremiah 2.1-13\nJohn 3.22-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240214
+DTEND;VALUE=DATE:20240214
+DTSTAMP:20230901T000100Z
+UID:2024.84.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Ash Wednesday
+DESCRIPTION:Ash Wednesday\n\nPrincipal Holy Day\n\nPrincipal Service\nJoel
+  2.1-2\, 12-17 or \nIsaiah 58.1-12\nPsalm 51.1-18\n2 Corinthians 5.20b – 6
+ .10\nMatthew 6.1-6\, 16-21 or \nJohn 8.1-11\n\nThird Service\nDaniel 9.3-6
+ \, 17-19\n1 Timothy 6.6-19\nMorning Psalm\nPsalm 38\n\nSecond Service\nIsa
+ iah 1.10-18\nLuke 15.11-end\nEvening Psalm\nPsalm 51 or 102*\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240215
+DTEND;VALUE=DATE:20240215
+DTSTAMP:20230901T000100Z
+UID:2024.85.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Sigfrid, 1045; Thomas Bray, 1730
+DESCRIPTION:Sigfrid\, Bishop\, Apostle of Sweden\, 1045\nThomas Bray\, Pri
+ est\, Founder of the SPCK and the SPG\, 1730\n\nMorning Prayer\nPsalm 77 (
+ or) 37*\nGenesis 39\nGalatians 2.11-end\n\nEvening Prayer\nPsalm 74 (or) 3
+ 9\, 40\nJeremiah 2.14-32\nJohn 4.1-26\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240216
+DTEND;VALUE=DATE:20240216
+DTSTAMP:20230901T000100Z
+UID:2024.86.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 3\, 7 (or) 31\nGenesis 40\nGalatians 3.
+ 1-14\n\nEvening Prayer\nPsalm 31 (or) 35\nJeremiah 3.6-22\nJohn 4.27-42\n\
+ n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240217
+DTEND;VALUE=DATE:20240217
+DTSTAMP:20230901T000100Z
+UID:2024.87.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Janani Luwum, 1977
+DESCRIPTION:Janani Luwum\, Archbishop of Uganda\, Martyr\, 1977\n\nMorning
+  Prayer\nPsalm 71 (or) 41\, 42\, 43\nGenesis 41.1-24\nGalatians 3.15-22\n\
+ nEvening Prayer\nPsalm 73 (or) 45\, 46\nJeremiah 4.1-18\nJohn 4.43-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240218
+DTEND;VALUE=DATE:20240218
+DTSTAMP:20230901T000100Z
+UID:2024.88.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Lent 1
+DESCRIPTION:The First Sunday of Lent\n\nPrincipal Service\nGenesis 9.8-17\
+ nPsalm 25.1-9\n1 Peter 3.18-22\nMark 1.9-15\n\nThird Service\nPsalm 77\nEx
+ odus 34.1-10\nRomans 10.8b-13\n\nSecond Service\nPsalm 119.17-32\nGenesis 
+ 2.15-17\; 3.1-7\nRomans 5.12-19 or \nLuke 13.31-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240219
+DTEND;VALUE=DATE:20240219
+DTSTAMP:20230901T000100Z
+UID:2024.89.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 10\, 11 (or) 44\nGenesis 41.25-45\nGala
+ tians 3.23 – 4.7\n\nEvening Prayer\nPsalms 12\, 13\, 14 (or) 47\, 49\nJere
+ miah 4.19-end\nJohn 5.1-18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240220
+DTEND;VALUE=DATE:20240220
+DTSTAMP:20230901T000100Z
+UID:2024.90.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 44 (or) 48\, 52\nGenesis 41.46 – 42.5\nG
+ alatians 4.8-20\n\nEvening Prayer\nPsalms 46\, 49 (or) 50\nJeremiah 5.1-19
+ \nJohn 5.19-29\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240221
+DTEND;VALUE=DATE:20240221
+DTSTAMP:20230901T000100Z
+UID:2024.91.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 6\, 17 (or) 119.57-80\nGenesis 42.6-17\
+ nGalatians 4.21 – 5.1\n\nEvening Prayer\nPsalms 9\, 28 (or) 59\, 60\, (67)
+ \nJeremiah 5.20-end\nJohn 5.30-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240221
+DTEND;VALUE=DATE:20240221
+DTSTAMP:20230901T000100Z
+UID:2024.92.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240222
+DTEND;VALUE=DATE:20240222
+DTSTAMP:20230901T000100Z
+UID:2024.93.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 42\, 43 (or) 56\, 57\, (63*)\nGenesis 4
+ 2.18-28\nGalatians 5.2-15\n\nEvening Prayer\nPsalms 137\, 138\, 142 (or) 6
+ 1\, 62\, 64\nJeremiah 6.9-21\nJohn 6.1-15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240223
+DTEND;VALUE=DATE:20240223
+DTSTAMP:20230901T000100Z
+UID:2024.94.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Polycarp of Smyrna, c.155
+DESCRIPTION:Polycarp\, Bishop of Smyrna\, Martyr\, c.155\n\nMorning Prayer
+ \nPsalm 22 (or) 51\, 54\nGenesis 42.29-end\nGalatians 5.16-end\n\nEvening 
+ Prayer\nPsalms 54\, 55 (or) 38\nJeremiah 6.22-end\nJohn 6.16-27\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240223
+DTEND;VALUE=DATE:20240223
+DTSTAMP:20230901T000100Z
+UID:2024.95.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240224
+DTEND;VALUE=DATE:20240224
+DTSTAMP:20230901T000100Z
+UID:2024.96.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 59\, 63 (or) 68\nGenesis 43.1-15\nGalat
+ ians 6\n\nEvening Prayer\nPsalms 4\, 16 (or) 65\, 66\nJeremiah 7.1-20\nJoh
+ n 6.27-40\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240224
+DTEND;VALUE=DATE:20240224
+DTSTAMP:20230901T000100Z
+UID:2024.97.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240225
+DTEND;VALUE=DATE:20240225
+DTSTAMP:20230901T000100Z
+UID:2024.98.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Lent 2
+DESCRIPTION:The Second Sunday of Lent\n\nPrincipal Service\nGenesis 17.1-7
+ \, 15\, 16\nPsalm 22.23-31\nRomans 4.13-25\nMark 8.31-38\n\nThird Service\
+ nPsalm 105.1-6\, 37-end\nIsaiah 51.1-11\nGalatians 3.1-9\, 23-end\n\nSecon
+ d Service\nPsalm 135*\nGenesis 12.1-9\nHebrews 11.1-3\, 8-16\nGospel at Ho
+ ly Communion:\nJohn 8.51-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240226
+DTEND;VALUE=DATE:20240226
+DTSTAMP:20230901T000100Z
+UID:2024.99.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 26\, 32 (or) 71\nGenesis 43.16-end\nHeb
+ rews 1\n\nEvening Prayer\nPsalms 70\, 74 (or) 72\, 75\nJeremiah 7.21-end\n
+ John 6.41-51\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240227
+DTEND;VALUE=DATE:20240227
+DTSTAMP:20230901T000100Z
+UID:2024.100.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW George Herbert, 1633
+DESCRIPTION:George Herbert\, Priest\, Poet\, 1633\n\nMorning Prayer\nPsalm
+  50 (or) 73\nGenesis 44.1-17\nHebrews 2.1-9\n\nEvening Prayer\nPsalms 52\,
+  53\, 54 (or) 74\nJeremiah 8.1-15\nJohn 6.52-59\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240228
+DTEND;VALUE=DATE:20240228
+DTSTAMP:20230901T000100Z
+UID:2024.101.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 35 (or) 77\nGenesis 44.18-end\nHebrews 2
+ .10-end\n\nEvening Prayer\nPsalms 3\, 51 (or) 119.81-104\nJeremiah 8.18 – 
+ 9.11\nJohn 6.60-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240229
+DTEND;VALUE=DATE:20240229
+DTSTAMP:20230901T000100Z
+UID:2024.102.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 34 (or) 78.1-39*\nGenesis 45.1-15\nHebre
+ ws 3.1-6\n\nEvening Prayer\nPsalms 71 (or) 78.40-end*\nJeremiah 9.12-24\nJ
+ ohn 7.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240301
+DTEND;VALUE=DATE:20240301
+DTSTAMP:20230901T000100Z
+UID:2024.103.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW David of Wales, c.601
+DESCRIPTION:David\, Bishop of Menevia\, Patron of Wales\, c.601\n\nMorning
+  Prayer\nPsalms 40\, 41 (or) 55\nGenesis 45.16-end\nHebrews 3.7-end\n\nEve
+ ning Prayer\nPsalms 6\, 38 (or) 69\nJeremiah 10.1-16\nJohn 7.14-24\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240302
+DTEND;VALUE=DATE:20240302
+DTSTAMP:20230901T000100Z
+UID:2024.104.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Chad, 672
+DESCRIPTION:Chad\, Bishop of Lichfield\, Missionary\, 672\n\nMorning Praye
+ r\nPsalms 3\, 25 (or) 76\, 79\nGenesis 46.1-7\, 28-end\nHebrews 4.1-13\n\n
+ Evening Prayer\nPsalms 23\, 27 (or) 81\, 84\nJeremiah 10.17-24\nJohn 7.25-
+ 36\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240303
+DTEND;VALUE=DATE:20240303
+DTSTAMP:20230901T000100Z
+UID:2024.105.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Lent 3
+DESCRIPTION:The Third Sunday of Lent\n\nPrincipal Service\nExodus 20.1-17\
+ nPsalm 19*\n1 Corinthians 1.18-25\nJohn 2.13-22\n\nThird Service\nPsalm 18
+ .1-25\nJeremiah 38\nPhilippians 1.1-26\n\nSecond Service\nPsalms 11\, 12\n
+ Exodus 5.1 – 6.1\nPhilippians 3.4b-14 or \nMatthew 10.16-22\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240304
+DTEND;VALUE=DATE:20240304
+DTSTAMP:20230901T000100Z
+UID:2024.106.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 5\, 7 (or) 80\, 82\nGenesis 47.1-27\nHe
+ brews 4.14 – 5.10\n\nEvening Prayer\nPsalms 11\, 17 (or) 85\, 86\nJeremiah
+  11.1-17\nJohn 7.37-52\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240305
+DTEND;VALUE=DATE:20240305
+DTSTAMP:20230901T000100Z
+UID:2024.107.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 6\, 9 (or) 87\, 89.1-18\nGenesis 47.28 
+ – end of 48\nHebrews 5.11 – 6.12\n\nEvening Prayer\nPsalms 61\, 62\, 64 (o
+ r) 89.19-end\nJeremiah 11.18 – 12.6\nJohn 7.53 – 8.11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240306
+DTEND;VALUE=DATE:20240306
+DTSTAMP:20230901T000100Z
+UID:2024.108.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 38 (or) 119.105-128\nGenesis 49.1-32\nHe
+ brews 6.13-end\n\nEvening Prayer\nPsalms 36\, 39 (or) 91\, 93\nJeremiah 13
+ .1-11\nJohn 8.12-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240307
+DTEND;VALUE=DATE:20240307
+DTSTAMP:20230901T000100Z
+UID:2024.109.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Perpetua, Felicity and Companions, 203
+DESCRIPTION:Perpetua\, Felicity and their Companions\, Martyrs at Carthage
+ \, 203\n\nMorning Prayer\nPsalms 56\, 57 (or) 90\, 92\nGenesis 49.33 – end
+  of 50\nHebrews 7.1-10\n\nEvening Prayer\nPsalms 59\, 60 (or) 94\nJeremiah
+  14\nJohn 8.31-47\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240308
+DTEND;VALUE=DATE:20240308
+DTSTAMP:20230901T000100Z
+UID:2024.110.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Edward King, 1910; Felix, 647; Geoffrey Studdert Kennedy, 1929
+DESCRIPTION:Edward King\, Bishop of Lincoln\, 1910\nFelix\, Bishop\, Apost
+ le to the East Angles\, 647\nGeoffrey Studdert Kennedy\, Priest\, Poet\, 1
+ 929\n\nMorning Prayer\nPsalm 22 (or) 88\, (95)\nExodus 1.1-14\nHebrews 7.1
+ 1-end\n\nEvening Prayer\nPsalm 69 (or) 102\nJeremiah 15.10-end\nJohn 8.48-
+ end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240309
+DTEND;VALUE=DATE:20240309
+DTSTAMP:20230901T000100Z
+UID:2024.111.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 31 (or) 96\, 97\, 100\nExodus 1.22 – 2.1
+ 0\nHebrews 8\n\nEvening Prayer\nPsalms 116\, 130 (or) 104\nJeremiah 16.10 
+ – 17.4\nJohn 9.1-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240310
+DTEND;VALUE=DATE:20240310
+DTSTAMP:20230901T000100Z
+UID:2024.112.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Lent 4
+DESCRIPTION:The Fourth Sunday of Lent\n\nPrincipal Service\nNumbers 21.4-9
+ \nPsalm 107.1-3\, 17-22*\nEphesians 2.1-10\nJohn 3.14-21\n\nThird Service\
+ nPsalm 27\n1 Samuel 16.1-13\nJohn 9.1-25\n\nSecond Service\n\nIf the Princ
+ ipal Service readings have been displaced by Mothering Sunday provisions\,
+  they may be used at the Second Service.\nPsalms 13\, 14\nExodus 6.2-13\nR
+ omans 5.1-11\nGospel at Holy Communion:\nJohn 12.1-8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240310
+DTEND;VALUE=DATE:20240310
+DTSTAMP:20230901T000100Z
+UID:2024.113.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Mothering Sunday
+DESCRIPTION:Mothering Sunday\n\nPrincipal Service\nExodus 2.1-10 or \n1 Sa
+ muel 1.20-end\nPsalm 34.11-20 or \nPsalm 127.1-4\n2 Corinthians 1.3-7 or \
+ nColossians 3.12-17\nLuke 2.33-35 or \nJohn 19.25-27\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240311
+DTEND;VALUE=DATE:20240311
+DTSTAMP:20230901T000100Z
+UID:2024.114.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 70\, 77 (or) 98\, 99\, 101\nExodus 2.11
+ -22\nHebrews 9.1-14\n\nEvening Prayer\nPsalms 25\, 28 (or) 105* (or 103)\n
+ Jeremiah 17.5-18\nJohn 9.18-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240312
+DTEND;VALUE=DATE:20240312
+DTSTAMP:20230901T000100Z
+UID:2024.115.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 54\, 79 (or) 106* (or 103)\nExodus 2.23
+  – 3.20\nHebrews 9.15-end\n\nEvening Prayer\nPsalms 80\, 82 (or) 107*\nJer
+ emiah 18.1-12\nJohn 10.1-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240313
+DTEND;VALUE=DATE:20240313
+DTSTAMP:20230901T000100Z
+UID:2024.116.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 63\, 90 (or) 110\, 111\, 112\nExodus 4.
+ 1-23\nHebrews 10.1-18\n\nEvening Prayer\nPsalms 52\, 91 (or) 119.129-152\n
+ Jeremiah 18.13-end\nJohn 10.11-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240314
+DTEND;VALUE=DATE:20240314
+DTSTAMP:20230901T000100Z
+UID:2024.117.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 53\, 86 (or) 113\, 115\nExodus 4.27 – 6
+ .1\nHebrews 10.19-25\n\nEvening Prayer\nPsalm 94 (or) 114\, 116\, 117\nJer
+ emiah 19.1-13\nJohn 10.22-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240315
+DTEND;VALUE=DATE:20240315
+DTSTAMP:20230901T000100Z
+UID:2024.118.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 102 (or) 139\nExodus 6.2-13\nHebrews 10.
+ 26-end\n\nEvening Prayer\nPsalms 13\, 16 (or) 130\, 131\, 137\nJeremiah 19
+ .14 – 20.6\nJohn 11.1-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240316
+DTEND;VALUE=DATE:20240316
+DTSTAMP:20230901T000100Z
+UID:2024.119.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 32 (or) 120\, 121\, 122\nExodus 7.8-end\
+ nHebrews 11.1-16\n\nEvening Prayer\nPsalms 140\, 141\, 142 (or) 118\nJerem
+ iah 20.7-end\nJohn 11.17-27\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240317
+DTEND;VALUE=DATE:20240317
+DTSTAMP:20230901T000100Z
+UID:2024.120.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Lent 5
+DESCRIPTION:The Fifth Sunday of Lent\n\nPassiontide begins\n\nPrincipal Se
+ rvice\nJeremiah 31.31-34\nPsalm 51.1-13 or \nPsalm 119.9-16\nHebrews 5.5-1
+ 0\nJohn 12.20-33\n\nThird Service\nPsalm 107.1-22\nExodus 24.3-8\nHebrews 
+ 12.18-end\n\nSecond Service\nPsalm 34*\nExodus 7.8-24\nRomans 5.12-end\nGo
+ spel at Holy Communion:\nLuke 22.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240318
+DTEND;VALUE=DATE:20240318
+DTSTAMP:20230901T000100Z
+UID:2024.121.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Cyril of Jerusalem, 386
+DESCRIPTION:Cyril\, Bishop of Jerusalem\, Teacher of the Faith\, 386\n\nMo
+ rning Prayer\nPsalms 73\, 121 (or) 123\, 124\, 125\, 126\nExodus 8.1-19\nH
+ ebrews 11.17-31\n\nEvening Prayer\nPsalms 26\, 27 (or) 127\, 128\, 129\nJe
+ remiah 21.1-10\nJohn 11.28-44\n\n(or) Evening Prayer on the Eve of Joseph 
+ of Nazareth\nPsalm 132\nHosea 11.1-9\nLuke 2.41-52\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240319
+DTEND;VALUE=DATE:20240319
+DTSTAMP:20230901T000100Z
+UID:2024.122.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Joseph of Nazareth
+DESCRIPTION:Joseph of Nazareth\n\nPrincipal Service\n2 Samuel 7.4-16\nPsal
+ m 89.26-36\nRomans 4.13-18\nMatthew 1.18-25\n\nThird Service\nIsaiah 11.1-
+ 10\nMatthew 13.54-end\nMatthew 13.54-endMorning Psalms\nPsalms 25\, 147.1-
+ 12\n\nSecond Service\nGenesis 50.22-end\nMatthew 2.13-end\nEvening Psalms\
+ nPsalms 1\, 112\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240320
+DTEND;VALUE=DATE:20240320
+DTSTAMP:20230901T000100Z
+UID:2024.123.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Cuthbert, 687
+DESCRIPTION:Cuthbert\, Bishop of Lindisfarne\, Missionary\, 687\n\nMorning
+  Prayer\nPsalms 55\, 124 (or) 119.153-end\nExodus 9.1-12\nHebrews 12.3-13\
+ n\nEvening Prayer\nPsalms 56\, 62 (or) 136\nJeremiah 22.20 – 23.8\nJohn 12
+ .1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240321
+DTEND;VALUE=DATE:20240321
+DTSTAMP:20230901T000100Z
+UID:2024.124.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Thomas Cranmer, 1556
+DESCRIPTION:Thomas Cranmer\, Archbishop of Canterbury\, Reformation Martyr
+ \, 1556\n\nMorning Prayer\nPsalms 40\, 125 (or) 143\, 146\nExodus 9.13-end
+ \nHebrews 12.14-end\n\nEvening Prayer\nPsalms 42\, 43 (or) 138\, 140\, 141
+ \nJeremiah 23.9-32\nJohn 12.12-19\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240322
+DTEND;VALUE=DATE:20240322
+DTSTAMP:20230901T000100Z
+UID:2024.125.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 22\, 126 (or) 142\, 144\nExodus 10\nHeb
+ rews 13.1-16\n\nEvening Prayer\nPsalm 31 (or) 145\nJeremiah 24\nJohn 12.20
+ -36a\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240323
+DTEND;VALUE=DATE:20240323
+DTSTAMP:20230901T000100Z
+UID:2024.126.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 23\, 127 (or) 147\nExodus 11\nHebrews 1
+ 3.17-end\n\nEvening Prayer\nPsalms 128\, 129\, 130 (or) 148\, 149\, 150\nJ
+ eremiah 25.1-14\nJohn 12.36b-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240324
+DTEND;VALUE=DATE:20240324
+DTSTAMP:20230901T000100Z
+UID:2024.127.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Palm Sunday
+DESCRIPTION:Palm Sunday\n\nPrincipal Service\n<strong>Liturgy of the Palms
+ :</strong>\nMark 11.1-11 or \nJohn 12.12-16\nPsalm 118.1-2\, 19-24*\n\n<st
+ rong>Liturgy of the Passion:</strong>\nIsaiah 50.4-9a\nPsalm 31.9-16*\nPhi
+ lippians 2.5-11\nMark 14.1 – end of 15 or \nMark 15.1-39 [40-end]\n\nThird
+  Service\nPsalms 61\, 62\nZechariah 9.9-12\n1 Corinthians 2.1-12\n\nSecond
+  Service\nPsalm 69.1-20\nIsaiah 5.1-7\nMark 12.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240325
+DTEND;VALUE=DATE:20240325
+DTSTAMP:20230901T000100Z
+UID:2024.128.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Monday of Holy Week
+DESCRIPTION:Monday of Holy Week\n\nPrincipal Service\nIsaiah 42.1-9\nPsalm
+  36.5-11\nHebrews 9.11-15\nJohn 12.1-11\n\nMorning\nPsalm 41\nLamentations
+  1.1-12a\nLuke 22.1-23\n\nEvening\nPsalm 25\nLamentations 2.8-19\nColossia
+ ns 1.18-23\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240326
+DTEND;VALUE=DATE:20240326
+DTSTAMP:20230901T000100Z
+UID:2024.129.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Tuesday of Holy Week
+DESCRIPTION:Tuesday of Holy Week\n\nPrincipal Service\nIsaiah 49.1-7\nPsal
+ m 71.1-14*\n1 Corinthians 1.18-31\nJohn 12.20-36\n\nMorning\nPsalm 27\nLam
+ entations 3.1-18\nLuke 22.24-53 (or 39-53)\n\nEvening\nPsalm 55.13-24\nLam
+ entations 3.40-51\nGalatians 6.11-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240327
+DTEND;VALUE=DATE:20240327
+DTSTAMP:20230901T000100Z
+UID:2024.130.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Wednesday of Holy Week
+DESCRIPTION:Wednesday of Holy Week\n\nPrincipal Service\nIsaiah 50.4-9a\nP
+ salm 70\nHebrews 12.1-3\nJohn 13.21-32\n\nMorning\nPsalm 102*\nWisdom 1.16
+  – 2.1\; 2.12-22 or \nJeremiah 11.18-20\nLuke 22.54-end\n\nEvening\nPsalm 
+ 88\nIsaiah 63.1-9\nRevelation 14.18 – 15.4\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240328
+DTEND;VALUE=DATE:20240328
+DTSTAMP:20230901T000100Z
+UID:2024.131.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Maundy Thursday
+DESCRIPTION:Maundy Thursday\n\nPrincipal Holy Day\n\nPrincipal Service\nEx
+ odus 12.1-4 [5-10] 11-14\nPsalm 116.1\, 10-end*\n1 Corinthians 11.23-26\nJ
+ ohn 13.1-17\, 31b-35\n\nMorning\nPsalms 42\, 43\nLeviticus 16.2-24\nLuke 2
+ 3.1-25\n\nEvening\nPsalm 39\nExodus 11\nEphesians 2.11-18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240329
+DTEND;VALUE=DATE:20240329
+DTSTAMP:20230901T000100Z
+UID:2024.132.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Good Friday
+DESCRIPTION:Good Friday\n\nPrincipal Holy Day\n\nPrincipal Service\nIsaiah
+  52.13 – 53.12\nPsalm 22*\nHebrews 10.16-25 or \nHebrews 4.14-16\; 5.7-9\n
+ John 18.1 – 19.42\n\nMorning\nPsalm 69\nGenesis 22.1-18\nA part of John 18
+  and 19\nif not used at the Principal Service\nor Hebrews 10.1-10\n\nEveni
+ ng\nPsalms 130\, 143\nLamentations 5.15-end\nA part of John 18 and 19\nif 
+ not used at the Principal Service \nJohn 19.38-end or \nColossians 1.18-23
+ \n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240330
+DTEND;VALUE=DATE:20240330
+DTSTAMP:20230901T000100Z
+UID:2024.133.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Easter Eve
+DESCRIPTION:Easter Eve\n\nThese readings are for use at services other tha
+ n the Easter Vigil.\n\nPrincipal Service\nJob 14.1-14 or \nLamentations 3.
+ 1-9\, 19-24\nPsalm 31.1-4\, 15\, 16*\n1 Peter 4.1-8\nMatthew 27.57-end or 
+ \nJohn 19.38-end\n\nMorning\nPsalm 142\nHosea 6.1-6\nJohn 2.18-22\n\nEveni
+ ng\nPsalm 116\nJob 19.21-27\n1 John 5.5-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240330
+DTEND;VALUE=DATE:20240330
+DTSTAMP:20230901T000100Z
+UID:2024.134.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Easter Vigil
+DESCRIPTION:Easter Vigil\n\nA minimum of three Old Testament readings shou
+ ld be chosen. The reading from Exodus 14 should always be used.\nGenesis 1
+ .1 – 2.4a\nPsalm 136.1-9\, 23-end\n\nGenesis 7.1-5\, 11-18\; 8.6-18\; 9.8-
+ 13\nPsalm 46\n\nGenesis 22.1-18\nPsalm 16\n\nExodus 14.10-end\; 15.20\, 21
+ \nCanticle: Exodus 15.1b-13\, 17\, 18\n\nIsaiah 55.1-11\nCanticle: Isaiah 
+ 12.2-end\n\nBaruch 3.9-15\, 32 – 4.4 or \nProverbs 8.1-8\, 19-21\; 9.4b-6\
+ nPsalm 19\n\nEzekiel 36.24-28\nPsalms 42\, 43\n\nEzekiel 37.1-14\nPsalm 14
+ 3\n\nZephaniah 3.14-end\nPsalm 98\n\nRomans 6.3-11\nPsalm 114\nMark 16.1-8
+ \n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240331
+DTEND;VALUE=DATE:20240331
+DTSTAMP:20230901T000100Z
+UID:2024.135.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Easter Day
+DESCRIPTION:Easter Day\n\nPrincipal Feast\n\nPrincipal Service\nThe readin
+ g from Acts must be used as either the first or second reading.\nActs 10.3
+ 4-43 or \nIsaiah 25.6-9\nPsalm 118.1-2\, 14-24*\n1 Corinthians 15.1-11 or 
+ \nActs 10.34-43\nJohn 20.1-18 or \nMark 16.1-8\n\nThird Service\nGenesis 1
+ .1-5\, 26-end\n2 Corinthians 5.14 – 6.2\nMorning Psalms\nPsalms 114\, 117\
+ n\nSecond Service\nEzekiel 37.1-14\nLuke 24.13-35\nEvening Psalms\nPsalm 1
+ 05 or 66.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240401
+DTEND;VALUE=DATE:20240401
+DTSTAMP:20230901T000100Z
+UID:2024.136.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Monday of Easter Week
+DESCRIPTION:Morning Prayer\nPsalms 111\, 117\, 146\nExodus 12.1-14\n1 Cori
+ nthians 15.1-11\n\nEvening Prayer\nPsalm 135\nSong of Solomon 1.9 – 2.7\nM
+ ark 16.1-8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240402
+DTEND;VALUE=DATE:20240402
+DTSTAMP:20230901T000100Z
+UID:2024.137.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Tuesday of Easter Week
+DESCRIPTION:Morning Prayer\nPsalms 112\, 147.1-12\nExodus 12.14-36\n1 Cori
+ nthians 15.12-19\n\nEvening Prayer\nPsalm 136\nSong of Solomon 2.8-end\nLu
+ ke 24.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240403
+DTEND;VALUE=DATE:20240403
+DTSTAMP:20230901T000100Z
+UID:2024.138.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Wednesday of Easter Week
+DESCRIPTION:Morning Prayer\nPsalms 113\, 147.13-end\nExodus 12.37-end\n1 C
+ orinthians 15.20-28\n\nEvening Prayer\nPsalm 105\nSong of Solomon 3\nMatth
+ ew 28.16-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240404
+DTEND;VALUE=DATE:20240404
+DTSTAMP:20230901T000100Z
+UID:2024.139.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Thursday of Easter Week
+DESCRIPTION:Morning Prayer\nPsalms 114\, 148\nExodus 13.1-16\n1 Corinthian
+ s 15.29-34\n\nEvening Prayer\nPsalm 106\nSong of Solomon 5.2 – 6.3\nLuke 7
+ .11-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240405
+DTEND;VALUE=DATE:20240405
+DTSTAMP:20230901T000100Z
+UID:2024.140.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Friday of Easter Week
+DESCRIPTION:Morning Prayer\nPsalms 115\, 149\nExodus 13.17 – 14.14\n1 Cori
+ nthians 15.35-50\n\nEvening Prayer\nPsalm 107\nSong of Solomon 7.10 – 8.4\
+ nLuke 8.41-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240406
+DTEND;VALUE=DATE:20240406
+DTSTAMP:20230901T000100Z
+UID:2024.141.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Saturday of Easter Week
+DESCRIPTION:Morning Prayer\nPsalms 116\, 150\nExodus 14.15-end\n1 Corinthi
+ ans 15.51-end\n\nEvening Prayer\nPsalm 145\nSong of Solomon 8.5-7\nJohn 11
+ .17-44\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240407
+DTEND;VALUE=DATE:20240407
+DTSTAMP:20230901T000100Z
+UID:2024.142.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Easter 2
+DESCRIPTION:The Second Sunday of Easter\n\nPrincipal Service\nThe reading 
+ from Acts must be used as either the first or second reading.\nActs 4.32-3
+ 5\nPsalm 133\n1 John 1.1 – 2.2\nJohn 20.19-31\n\nFor those who require an 
+ Old Testament reading on the Sundays of Easter:\nExodus 14.10-end\; 15.20\
+ , 21\nIf an Old Testament reading is used\, the reading from Acts must be 
+ used as the second reading.\n\nThird Service\nPsalm 22.20-31\nIsaiah 53.6-
+ 12\nRomans 4.13-25\n\nSecond Service\nPsalm 143.1-11\nIsaiah 26.1-9\, 19\n
+ Luke 24.1-12\n\nEvening Prayer on the Eve of the Annunciation\nPsalm 85\nW
+ isdom 9.1-12 or \nGenesis 3.8-15\nGalatians 4.1-5\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240408
+DTEND;VALUE=DATE:20240408
+DTSTAMP:20230901T000100Z
+UID:2024.143.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* The Annunciation
+DESCRIPTION:The Annunciation of Our Lord to the Blessed Virgin Mary\n\nPri
+ ncipal Feast\n\nPrincipal Service\nIsaiah 7.10-14\nPsalm 40.5-11\nHebrews 
+ 10.4-10\nLuke 1.26-38\n\nThird Service\n1 Samuel 2.1-10\nRomans 5.12-end\n
+ Morning Psalms\nPsalms 111\, 113\n\nSecond Service\nIsaiah 52.1-12\nHebrew
+ s 2.5-end\nEvening Psalms\nPsalms 131\, 146\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240409
+DTEND;VALUE=DATE:20240409
+DTSTAMP:20230901T000100Z
+UID:2024.144.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Dietrich Bonhoeffer, 1945
+DESCRIPTION:Dietrich Bonhoeffer\, Lutheran Pastor\, Martyr\, 1945\n\nMorni
+ ng Prayer\nPsalms 8\, 20\, 21 (or) 5\, 6\, (8)\nExodus 15.22 – 16.10\nColo
+ ssians 1.15-end\n\nEvening Prayer\nPsalm 104 (or) 9\, 10*\nDeuteronomy 1.1
+ 9-40\nJohn 20.11-18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240410
+DTEND;VALUE=DATE:20240410
+DTSTAMP:20230901T000100Z
+UID:2024.145.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW William Law, 1761; William of Ockham, 1347
+DESCRIPTION:William Law\, Priest\, Spiritual Writer\, 1761\nWilliam of Ock
+ ham\, Friar\, Philosopher\, Teacher of the Faith\, 1347\n\nMorning Prayer\
+ nPsalms 16\, 30 (or) 119.1-32\nExodus 16.11-end\nColossians 2.1-15\n\nEven
+ ing Prayer\nPsalm 33 (or) 11\, 12\, 13\nDeuteronomy 3.18-end\nJohn 20.19-e
+ nd\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240411
+DTEND;VALUE=DATE:20240411
+DTSTAMP:20230901T000100Z
+UID:2024.146.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW George Augustus Selwyn, 1878
+DESCRIPTION:George Augustus Selwyn\, first Bishop of New Zealand\, 1878\n\
+ nMorning Prayer\nPsalms 28\, 29 (or) 14\, 15\, 16\nExodus 17\nColossians 2
+ .16 – 3.11\n\nEvening Prayer\nPsalm 34 (or) 18*\nDeuteronomy 4.1-14\nJohn 
+ 21.1-14\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240412
+DTEND;VALUE=DATE:20240412
+DTSTAMP:20230901T000100Z
+UID:2024.147.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 57\, 61 (or) 17\, 19\nExodus 18.1-12\nC
+ olossians 3.12 – 4.1\n\nEvening Prayer\nPsalm 118 (or) 22\nDeuteronomy 4.1
+ 5-31\nJohn 21.15-19\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240413
+DTEND;VALUE=DATE:20240413
+DTSTAMP:20230901T000100Z
+UID:2024.148.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 63\, 84 (or) 20\, 21\, 23\nExodus 18.13
+ -end\nColossians 4.2-end\n\nEvening Prayer\nPsalm 66 (or) 24\, 25\nDeutero
+ nomy 4.32-40\nJohn 21.20-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240414
+DTEND;VALUE=DATE:20240414
+DTSTAMP:20230901T000100Z
+UID:2024.149.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Easter 3
+DESCRIPTION:The Third Sunday of Easter\n\nPrincipal Service\nThe reading f
+ rom Acts must be used as either the first or second reading.\nActs 3.12-19
+ \nPsalm 4\n1 John 3.1-7\nLuke 24.36b-48\n\nFor those who require an Old Te
+ stament reading on the Sundays of Easter:\nZephaniah 3.14-end\nIf an Old T
+ estament reading is used\, the reading from Acts must be used as the secon
+ d reading.\n\nThird Service\nPsalm 77.11-20\nIsaiah 63.7-15\n1 Corinthians
+  10.1-13\n\nSecond Service\nPsalm 142\nDeuteronomy 7.7-13\nRevelation 2.1-
+ 11\nGospel at Holy Communion:\nLuke 16.19-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240415
+DTEND;VALUE=DATE:20240415
+DTSTAMP:20230901T000100Z
+UID:2024.150.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 96\, 97 (or) 27\, 30\nExodus 19\nLuke 1
+ .1-25\n\nEvening Prayer\nPsalms 61\, 65 (or) 26\, 28\, 29\nDeuteronomy 5.1
+ -22\nEphesians 1.1-14\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240416
+DTEND;VALUE=DATE:20240416
+DTSTAMP:20230901T000100Z
+UID:2024.151.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Isabella Gilmore, 1923
+DESCRIPTION:Isabella Gilmore\, Deaconess\, 1923\n\nMorning Prayer\nPsalms 
+ 98\, 99\, 100 (or) 32\, 36\nExodus 20.1-21\nLuke 1.26-38\n\nEvening Prayer
+ \nPsalm 71 (or) 33\nDeuteronomy 5.22-end\nEphesians 1.15-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240417
+DTEND;VALUE=DATE:20240417
+DTSTAMP:20230901T000100Z
+UID:2024.152.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 105 (or) 34\nExodus 24\nLuke 1.39-56\n\n
+ Evening Prayer\nPsalms 67\, 72 (or) 119.33-56\nDeuteronomy 6\nEphesians 2.
+ 1-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240418
+DTEND;VALUE=DATE:20240418
+DTSTAMP:20230901T000100Z
+UID:2024.153.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 136 (or) 37*\nExodus 25.1-22\nLuke 1.57-
+ end\n\nEvening Prayer\nPsalm 73 (or) 39\, 40\nDeuteronomy 7.1-11\nEphesian
+ s 2.11-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240419
+DTEND;VALUE=DATE:20240419
+DTSTAMP:20230901T000100Z
+UID:2024.154.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Alphege, 1012
+DESCRIPTION:Alphege\, Archbishop of Canterbury\, Martyr\, 1012\n\nMorning 
+ Prayer\nPsalm 107 (or) 31\nExodus 28.1-4a\, 29-38\nLuke 2.1-20\n\nEvening 
+ Prayer\nPsalm 77 (or) 35\nDeuteronomy 7.12-end\nEphesians 3.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240420
+DTEND;VALUE=DATE:20240420
+DTSTAMP:20230901T000100Z
+UID:2024.155.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 108\, 110\, 111 (or) 41\, 42\, 43\nExod
+ us 29.1-9\nLuke 2.21-40\n\nEvening Prayer\nPsalms 23\, 27 (or) 45\, 46\nDe
+ uteronomy 8\nEphesians 3.14-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240421
+DTEND;VALUE=DATE:20240421
+DTSTAMP:20230901T000100Z
+UID:2024.156.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Easter 4
+DESCRIPTION:The Fourth Sunday of Easter\n\nPrincipal Service\nThe reading 
+ from Acts must be used as either the first or second reading.\nActs 4.5-12
+ \nPsalm 23\n1 John 3.16-24\nJohn 10.11-18\n\nFor those who require an Old 
+ Testament reading on the Sundays of Easter:\nGenesis 7.1-5\, 11-18\; 8.6-1
+ 8\; 9.8-13\nIf an Old Testament reading is used\, the reading from Acts mu
+ st be used as the second reading.\n\nThird Service\nPsalm 119.89-96\nNehem
+ iah 7.73b – 8.12\nLuke 24.25-32\n\nSecond Service\nPsalm 81.8-16\nExodus 1
+ 6.4-15\nRevelation 2.12-17\nGospel at Holy Communion:\nJohn 6.30-40\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240422
+DTEND;VALUE=DATE:20240422
+DTSTAMP:20230901T000100Z
+UID:2024.157.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 103 (or) 44\nExodus 32.1-14\nLuke 2.41-e
+ nd\n\nEvening Prayer\nPsalms 112\, 113\, 114 (or) 47\, 49\nDeuteronomy 9.1
+ -21\nEphesians 4.1-16\n\n(or) Evening Prayer on the Eve of George\nPsalms 
+ 111\, 116\nJeremiah 15.15-end\nHebrews 11.32 – 12.2\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240423
+DTEND;VALUE=DATE:20240423
+DTSTAMP:20230901T000100Z
+UID:2024.158.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* George, c.304
+DESCRIPTION:George\, Martyr\, Patron of England\, c.304\n\nPrincipal Servi
+ ce\n1 Maccabees 2.59-64 or \nRevelation 12.7-12\nPsalm 126\n2 Timothy 2.3-
+ 13\nJohn 15.18-21\n\nThird Service\nJoshua 1.1-9\nEphesians 6.10-20\nMorni
+ ng Psalms\nPsalms 5\, 146\n\nSecond Service\nIsaiah 43.1-7\nJohn 15.1-8\nE
+ vening Psalms\nPsalms 3\, 11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240424
+DTSTAMP:20230901T000100Z
+UID:2024.159.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Mellitus, 624; Seven Martyrs of the Melanesian Brotherhood, 200
+ 3
+DESCRIPTION:Mellitus\, Bishop of London\, first Bishop at St Paul’s\, 624\
+ nThe Seven Martyrs of the Melanesian Brotherhood\, Solomon Islands\, 2003\
+ n\nMorning Prayer\nPsalm 135 (or) 119.57-80\nExodus 33\nLuke 3.15-22\n\nEv
+ ening Prayer\nPsalms 47\, 48 (or) 59\, 60\, (67)\nDeuteronomy 10.12-end\nE
+ phesians 5.1-14\n\n(or) Evening Prayer on the Eve of Mark the Evangelist\n
+ Psalm 19\nIsaiah 52.7-10\nMark 1.1-15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240425
+DTEND;VALUE=DATE:20240425
+DTSTAMP:20230901T000100Z
+UID:2024.160.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Mark the Evangelist
+DESCRIPTION:Mark the Evangelist\n\nPrincipal Service\nProverbs 15.28-33 or
+  \nActs 15.35-41\nPsalm 119.9-16\nEphesians 4.7-16\nMark 13.5-13\n\nThird 
+ Service\nIsaiah 62.6-10 or \nEcclesiasticus 51.13-end\nActs 12.25 – 13.13\
+ nMorning Psalms\nPsalms 37.23-end\; 148\n\nSecond Service\nEzekiel 1.4-14\
+ n2 Timothy 4.1-11\nEvening Psalm\nPsalm 45\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240426
+DTEND;VALUE=DATE:20240426
+DTSTAMP:20230901T000100Z
+UID:2024.161.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 33 (or) 51\, 54\nExodus 35.20 – 36.7\nLu
+ ke 4.14-30\n\nEvening Prayer\nPsalms 36\, 40 (or) 38\nDeuteronomy 12.1-14\
+ nEphesians 6.1-9\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240427
+DTEND;VALUE=DATE:20240427
+DTSTAMP:20230901T000100Z
+UID:2024.162.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Christina Rossetti, 1894
+DESCRIPTION:Christina Rossetti\, Poet\, 1894\n\nMorning Prayer\nPsalm 34 (
+ or) 68\nExodus 40.17-end\nLuke 4.31-37\n\nEvening Prayer\nPsalms 84\, 86 (
+ or) 65\, 66\nDeuteronomy 15.1-18\nEphesians 6.10-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240428
+DTEND;VALUE=DATE:20240428
+DTSTAMP:20230901T000100Z
+UID:2024.163.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Easter 5
+DESCRIPTION:The Fifth Sunday of Easter\n\nPrincipal Service\nThe reading f
+ rom Acts must be used as either the first or second reading.\nActs 8.26-40
+ \nPsalm 22.25-31\n1 John 4.7-21\nJohn 15.1-8\n\nFor those who require an O
+ ld Testament reading on the Sundays of Easter:\nBaruch 3.9-15\, 32 – 4.4 o
+ r \nGenesis 22.1-18\nIf an Old Testament reading is used\, the reading fro
+ m Acts must be used as the second reading.\n\nThird Service\nPsalm 44.16-e
+ nd\n2 Maccabees 7.7-14 or \nDaniel 3.16-28\nHebrews 11.32 – 12.2\n\nSecond
+  Service\nPsalm 96\nIsaiah 60.1-14\nRevelation 3.1-13\nGospel at Holy Comm
+ union:\nMark 16.9-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240429
+DTEND;VALUE=DATE:20240429
+DTSTAMP:20230901T000100Z
+UID:2024.164.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Catherine of Siena, 1380
+DESCRIPTION:Catherine of Siena\, Teacher of the Faith\, 1380\n\nMorning Pr
+ ayer\nPsalm 145 (or) 71\nNumbers 9.15-end\;10.33-end\nLuke 4.38-end\n\nEve
+ ning Prayer\nPsalm 105 (or) 72\, 75\nDeuteronomy 16.1-20\n1 Peter 1.1-12\n
+ \n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240430
+DTEND;VALUE=DATE:20240430
+DTSTAMP:20230901T000100Z
+UID:2024.165.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Pandita Mary Ramabai, 1922
+DESCRIPTION:Pandita Mary Ramabai\, Translator of the Scriptures\, 1922\n\n
+ Morning Prayer\nPsalms 19\, 147.1-12 (or) 73\nNumbers 11.1-33\nLuke 5.1-11
+ \n\nEvening Prayer\nPsalms 96\, 97 (or) 74\nDeuteronomy 17.8-end\n1 Peter 
+ 1.13-end\n\n(or) Evening Prayer on the Eve of Philip and James\nPsalm 25\n
+ Isaiah 40.27-31\nJohn 12.20-26\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240501
+DTEND;VALUE=DATE:20240501
+DTSTAMP:20230901T000100Z
+UID:2024.166.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Philip and James
+DESCRIPTION:Philip and James\, Apostles\n\nPrincipal Service\nIsaiah 30.15
+ -21\nPsalm 119.1-8\nEphesians 1.3-10\nJohn 14.1-14\n\nThird Service\nProve
+ rbs 4.10-18\nJames 1.1-12\nMorning Psalms\nPsalms 139\, 146\n\nSecond Serv
+ ice\nJob 23.1-12\nJohn 1.43-end\nEvening Psalm\nPsalm 149\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240502
+DTEND;VALUE=DATE:20240502
+DTSTAMP:20230901T000100Z
+UID:2024.167.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Athanasius, 373
+DESCRIPTION:Athanasius\, Bishop of Alexandria\, Teacher of the Faith\, 373
+ \n\nMorning Prayer\nPsalms 57\, 148 (or) 78.1-39*\nNumbers 13.1-3\, 17-end
+ \nLuke 5.27-end\n\nEvening Prayer\nPsalm 104 (or) 78.40-end*\nDeuteronomy 
+ 19\n1 Peter 2.11-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240503
+DTEND;VALUE=DATE:20240503
+DTSTAMP:20230901T000100Z
+UID:2024.168.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 138\, 149 (or) 55\nNumbers 14.1-25\nLuk
+ e 6.1-11\n\nEvening Prayer\nPsalm 66 (or) 69\nDeuteronomy 21.22 – 22.8\n1 
+ Peter 3.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240504
+DTEND;VALUE=DATE:20240504
+DTSTAMP:20230901T000100Z
+UID:2024.169.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW English Saints and Martyrs of the Reformation Era
+DESCRIPTION:English Saints and Martyrs of the Reformation Era\n\nLesser Fe
+ stival Eucharistic Lectionary\nIsaiah 43.1-7 or \nEcclesiasticus 2.10-17\n
+ Psalm 87\n2 Corinthians 4.5-12\nJohn 12.20-26\n\nMorning Prayer\nPsalms 14
+ 6\, 150 (or) 76\, 79\nNumbers 14.26-end\nLuke 6.12-26\n\nEvening Prayer\nP
+ salm 118 (or) 81\, 84\nDeuteronomy 24.5-end\n1 Peter 3.13-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240505
+DTEND;VALUE=DATE:20240505
+DTSTAMP:20230901T000100Z
+UID:2024.170.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Easter 6
+DESCRIPTION:The Sixth Sunday of Easter\n\nPrincipal Service\nThe reading f
+ rom Acts must be used as either the first or second reading.\nActs 10.44-4
+ 8\nPsalm 98\n1 John 5.1-6\nJohn 15.9-17\n\nFor those who require an Old Te
+ stament reading on the Sundays of Easter:\nIsaiah 55.1-11\nIf an Old Testa
+ ment reading is used\, the reading from Acts must be used as the second re
+ ading.\n\nThird Service\nPsalm 104.28-34\nEzekiel 47.1-12\nJohn 21.1-19\n\
+ nSecond Service\nPsalm 45\nSong of Solomon 4.16 – 5.2\; 8.6\, 7\nRevelatio
+ n 3.14-end\nGospel at Holy Communion:\nLuke 22.24-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240506
+DTEND;VALUE=DATE:20240506
+DTSTAMP:20230901T000100Z
+UID:2024.171.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 65\, 67 (or) 80\, 82\nNumbers 16.1-35\n
+ Luke 6.27-38\n\nEvening Prayer\nPsalms 121\, 122\, 123 (or) 85\, 86\nDeute
+ ronomy 26\n1 Peter 4.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240506
+DTEND;VALUE=DATE:20240506
+DTSTAMP:20230901T000100Z
+UID:2024.172.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Rogation Day
+DESCRIPTION:Rogation Day\n\nDeuteronomy 8.1-10 or\n1 Kings 8.35-40 or\nJob
+  28.1-11\n\nPsalm 104.21-30 or\nPsalm 107.1-9 or\nPsalm 121\n\nPhilippians
+  4.4-7 or\n2 Thessalonians 3.6-13 or\n1 John 5.12-15\n\nMatthew 6.1-15 or\
+ nMark 11.22-24 or\nLuke 11.5-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240507
+DTEND;VALUE=DATE:20240507
+DTSTAMP:20230901T000100Z
+UID:2024.173.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 124\, 125\, 126\, 127 (or) 87\, 89.1-18
+ \nNumbers 16.36-end\nLuke 6.39-end\n\nEvening Prayer\nPsalms 128\, 129\, 1
+ 30\, 131 (or) 89.19-end\nDeuteronomy 28.1-14\n1 Peter 4.12-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240507
+DTEND;VALUE=DATE:20240507
+DTSTAMP:20230901T000100Z
+UID:2024.174.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Rogation Day
+DESCRIPTION:Rogation Day\n\nDeuteronomy 8.1-10 or\n1 Kings 8.35-40 or\nJob
+  28.1-11\n\nPsalm 104.21-30 or\nPsalm 107.1-9 or\nPsalm 121\n\nPhilippians
+  4.4-7 or\n2 Thessalonians 3.6-13 or\n1 John 5.12-15\n\nMatthew 6.1-15 or\
+ nMark 11.22-24 or\nLuke 11.5-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240508
+DTEND;VALUE=DATE:20240508
+DTSTAMP:20230901T000100Z
+UID:2024.175.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Julian of Norwich, c.1417
+DESCRIPTION:Julian of Norwich\, Spiritual Writer\, c.1417\n\nMorning Praye
+ r\nPsalms 132\, 133 (or) 119.105-128\nNumbers 17.1-11\nLuke 7.1-10\n\nEven
+ ing Prayer on the Eve of Ascension Day\nPsalms 15\, 24\n2 Samuel 23.1-5\nC
+ olossians 2.20 – 3.4\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240508
+DTEND;VALUE=DATE:20240508
+DTSTAMP:20230901T000100Z
+UID:2024.176.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Rogation Day
+DESCRIPTION:Rogation Day\n\nDeuteronomy 8.1-10 or\n1 Kings 8.35-40 or\nJob
+  28.1-11\n\nPsalm 104.21-30 or\nPsalm 107.1-9 or\nPsalm 121\n\nPhilippians
+  4.4-7 or\n2 Thessalonians 3.6-13 or\n1 John 5.12-15\n\nMatthew 6.1-15 or\
+ nMark 11.22-24 or\nLuke 11.5-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240509
+DTEND;VALUE=DATE:20240509
+DTSTAMP:20230901T000100Z
+UID:2024.177.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Ascension Day
+DESCRIPTION:Ascension Day\n\nPrincipal Feast\n\nPrincipal Service\nThe rea
+ ding from Acts must be used as either the first or second reading.\nActs 1
+ .1-11 or \nDaniel 7.9-14\nPsalm 47 or \nPsalm 93\nEphesians 1.15-23 or \nA
+ cts 1.1-11\nLuke 24.44-53\n\nThird Service\nIsaiah 52.7-end\nHebrews 7.[11
+ -25] 26-28\nMorning Psalm\nPsalms 110\, 150\n\nSecond Service\nSong of the
+  Three 29-37 or \n2 Kings 2.1-15\nRevelation 5\nGospel at Holy Communion:\
+ nMatthew 28.16-20\nEvening Psalm\nPsalm 8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240510
+DTEND;VALUE=DATE:20240510
+DTSTAMP:20230901T000100Z
+UID:2024.178.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 20\, 81 (or) 88\, (95)\nNumbers 20.1-13
+ \nLuke 7.11-17\n\nEvening Prayer\nPsalm 145 (or) 102\nDeuteronomy 29.2-15\
+ n1 John 1.1 – 2.6\n\nAn alternative sequence of readings may be used at on
+ e of the offices between Ascension Day and Pentecost\, in preparation for 
+ the Day of Pentecost:\nExodus 35.30 – 36.1\nGalatians 5.13-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240511
+DTEND;VALUE=DATE:20240511
+DTSTAMP:20230901T000100Z
+UID:2024.179.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 21\, 47 (or) 96\, 97\, 100\nNumbers 21.
+ 4-9\nLuke 7.18-35\n\nEvening Prayer\nPsalms 84\, 85 (or) 104\nDeuteronomy 
+ 30\n1 John 2.7-17\n\nAn alternative sequence of readings may be used at on
+ e of the offices between Ascension Day and Pentecost\, in preparation for 
+ the Day of Pentecost:\nNumbers 11.16-17\, 24-29\n1 Corinthians 2\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240512
+DTEND;VALUE=DATE:20240512
+DTSTAMP:20230901T000100Z
+UID:2024.180.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Easter 7
+DESCRIPTION:The Seventh Sunday of Easter\nSunday after Ascension Day\n\nPr
+ incipal Service\nThe reading from Acts must be used as either the first or
+  second reading.\nActs 1.15-17\, 21-26\nPsalm 1\n1 John 5.9-13\nJohn 17.6-
+ 19\n\nFor those who require an Old Testament reading on the Sundays of Eas
+ ter:\nEzekiel 36.24-28\nIf an Old Testament reading is used\, the reading 
+ from Acts must be used as the second reading.\n\nThird Service\nPsalm 76\n
+ Isaiah 14.3-15\nRevelation 14.1-13\n\nSecond Service\nPsalm 147.1-12\nIsai
+ ah 61\nLuke 4.14-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240513
+DTEND;VALUE=DATE:20240513
+DTSTAMP:20230901T000100Z
+UID:2024.181.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 93\, 96\, 97 (or) 98\, 99\, 101\nNumber
+ s 22.1-35\nLuke 7.36-end\n\nEvening Prayer\nPsalm 18 (or) 105* (or 103)\nD
+ euteronomy 31.1-13\n1 John 2.18-end\n\nAn alternative sequence of readings
+  may be used at one of the offices between Ascension Day and Pentecost\, i
+ n preparation for the Day of Pentecost:\nNumbers 27.15-end\n1 Corinthians 
+ 3\n\n(or) Evening Prayer on the Eve of Matthias\nPsalm 147\nIsaiah 22.15-2
+ 2\nPhilippians 3.13b – 4.1\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240514
+DTEND;VALUE=DATE:20240514
+DTSTAMP:20230901T000100Z
+UID:2024.182.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Matthias
+DESCRIPTION:Matthias the Apostle\n\nPrincipal Service\nIsaiah 22.15-25\nPs
+ alm 15\nActs 1.15-26\nJohn 15.9-17\n\n(or)\nActs 1.15-26\nPsalm 15\n1 Cori
+ nthians 4.1-7\nJohn 15.9-17\n\nThird Service\n1 Samuel 2.27-35\nActs 2.37-
+ end\nMorning Psalms\nPsalms 16\, 147.1-12\n\nSecond Service\n1 Samuel 16.1
+ -13a\nMatthew 7.15-27\nEvening Psalm\nPsalm 80\n\nAn alternative sequence 
+ of readings may be used at one of the offices between Ascension Day and Pe
+ ntecost\, in preparation for the Day of Pentecost:\n1 Samuel 10.1-10\n1 Co
+ rinthians 12.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240515
+DTEND;VALUE=DATE:20240515
+DTSTAMP:20230901T000100Z
+UID:2024.183.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 2\, 29 (or) 110\, 111\, 112\nNumbers 23
+ .13-end\nLuke 8.16-25\n\nEvening Prayer\nPsalms 36\, 46 (or) 119.129-152\n
+ Deuteronomy 31.30 – 32.14\n1 John 3.11-end\n\nAn alternative sequence of r
+ eadings may be used at one of the offices between Ascension Day and Pentec
+ ost\, in preparation for the Day of Pentecost:\n1 Kings 19.1-18\nMatthew 3
+ .13-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240516
+DTEND;VALUE=DATE:20240516
+DTSTAMP:20230901T000100Z
+UID:2024.184.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Caroline Chisholm, 1877
+DESCRIPTION:Caroline Chisholm\, Social Reformer\, 1877\n\nMorning Prayer\n
+ Psalms 24\, 72 (or) 113\, 115\nNumbers 24\nLuke 8.26-39\n\nEvening Prayer\
+ nPsalm 139 (or) 114\, 116\, 117\nDeuteronomy 32.15-47\n1 John 4.1-6\n\nAn 
+ alternative sequence of readings may be used at one of the offices between
+  Ascension Day and Pentecost\, in preparation for the Day of Pentecost:\nE
+ zekiel 11.14-20\nMatthew 9.35 – 10.20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240517
+DTEND;VALUE=DATE:20240517
+DTSTAMP:20230901T000100Z
+UID:2024.185.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 28\, 30 (or) 139\nNumbers 27.12-end\nLu
+ ke 8.40-end\n\nEvening Prayer\nPsalm 147 (or) 130\, 131\, 137\nDeuteronomy
+  33\n1 John 4.7-end\n\nAn alternative sequence of readings may be used at 
+ one of the offices between Ascension Day and Pentecost\, in preparation fo
+ r the Day of Pentecost:\nEzekiel 36.22-28\nMatthew 12.22-32\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240518
+DTEND;VALUE=DATE:20240518
+DTSTAMP:20230901T000100Z
+UID:2024.186.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 42\, 43 (or) 120\, 121\, 122\nNumbers 3
+ 2.1-27\nLuke 9.1-17\n\nAn alternative sequence of readings may be used at 
+ one of the offices between Ascension Day and Pentecost\, in preparation fo
+ r the Day of Pentecost:\nMicah 3.1-8\nEphesians 6.10-20\n\nEvening Prayer 
+ on the Eve of Pentecost\nPsalm 48\nDeuteronomy 16.9-15\nJohn 7.37-39\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240519
+DTEND;VALUE=DATE:20240519
+DTSTAMP:20230901T000100Z
+UID:2024.187.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Pentecost
+DESCRIPTION:Day of Pentecost (Whit Sunday)\n\nPrincipal Feast\n\nPrincipal
+  Service\nThe reading from Acts must be used as either the first or second
+  reading.\nActs 2.1-21 or \nEzekiel 37.1-14\nPsalm 104.26-36\, 37b*\nRoman
+ s 8.22-27 or \nActs 2.1-21\nJohn 15.26-27\; 16.4b-15\n\nThird Service\nIsa
+ iah 11.1-9 or \nWisdom 7.15-23 [24-27]\n1 Corinthians 12.4-13\nMorning Psa
+ lm\nPsalm 145\n\nSecond Service\nEzekiel 36.22-28\nActs 2.22-38\nGospel at
+  Holy Communion:\nJohn 20.19-23\nEvening Psalm\nPsalm 139.1-11 [13-18\, 23
+ \, 24]\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240520
+DTEND;VALUE=DATE:20240520
+DTSTAMP:20230901T000100Z
+UID:2024.188.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Alcuin of York, 804Ordinary Time resumes
+DESCRIPTION:Alcuin of York\, Deacon\, Abbot of Tours\, 804\n\nOrdinary Tim
+ e resumes today\n\nMorning Prayer\nPsalms 123\, 124\, 125\, 126\nJoshua 1\
+ nLuke 9.18-27\n\nEvening Prayer\nPsalms 127\, 128\, 129\nJob 1\nRomans 1.1
+ -17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240521
+DTEND;VALUE=DATE:20240521
+DTSTAMP:20230901T000100Z
+UID:2024.189.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Helena, 330
+DESCRIPTION:Helena\, Protector of the Holy Places\, 330\n\nMorning Prayer\
+ nPsalms 132\, 133\nJoshua 2\nLuke 9.28-36\n\nEvening Prayer\nPsalms (134)\
+ , 135\nJob 2\nRomans 1.18-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240522
+DTEND;VALUE=DATE:20240522
+DTSTAMP:20230901T000100Z
+UID:2024.190.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.153-end\nJoshua 3\nLuke 9.37-50\n\nE
+ vening Prayer\nPsalm 136\nJob 3\nRomans 2.1-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240523
+DTEND;VALUE=DATE:20240523
+DTSTAMP:20230901T000100Z
+UID:2024.191.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 143\, 146\nJoshua 4.1 – 5.1\nLuke 9.51-
+ end\n\nEvening Prayer\nPsalms 138\, 140\, 141\nJob 4\nRomans 2.17-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240524
+DTEND;VALUE=DATE:20240524
+DTSTAMP:20230901T000100Z
+UID:2024.192.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John and Charles Wesley, 1791 and 1788
+DESCRIPTION:John and Charles Wesley\, Evangelists\, Hymn Writers\, 1791 an
+ d 1788\n\nMorning Prayer\nPsalms 142\, 144\nJoshua 5.2-end\nLuke 10.1-16\n
+ \nEvening Prayer\nPsalm 145\nJob 5\nRomans 3.1-20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240525
+DTEND;VALUE=DATE:20240525
+DTSTAMP:20230901T000100Z
+UID:2024.193.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Bede, 735; Aldhelm, 709
+DESCRIPTION:The Venerable Bede\, Monk at Jarrow\, Scholar\, Historian\, 73
+ 5\nAldhelm\, Bishop of Sherborne\, 709\n\nMorning Prayer\nPsalm 147\nJoshu
+ a 6.1-20\nLuke 10.17-24\n\nEvening Prayer on the Eve of Trinity Sunday\nPs
+ alms 97\, 98\nIsaiah 40.12-end\nMark 1.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240526
+DTEND;VALUE=DATE:20240526
+DTSTAMP:20230901T000100Z
+UID:2024.194.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity Sunday
+DESCRIPTION:Trinity Sunday\n\nPrincipal Feast\n\nPrincipal Service\nIsaiah
+  6.1-8\nPsalm 29\nRomans 8.12-17\nJohn 3.1-17\n\nThird Service\nProverbs 8
+ .1-4\, 22-31\n2 Corinthians 13.[5-10] 11-end\nMorning Psalm\nPsalm 33.1-12
+ \n\nSecond Service\nEzekiel 1.4-10\, 22-28a\nRevelation 4\nGospel at Holy 
+ Communion:\nMark 1.1-13\nEvening Psalm\nPsalm 104.1-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240527
+DTEND;VALUE=DATE:20240527
+DTSTAMP:20230901T000100Z
+UID:2024.195.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 1\, 2\, 3\nJoshua 7.1-15\nLuke 10.25-37
+ \n\nEvening Prayer\nPsalms 4\, 7\nJob 7\nRomans 4.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240528
+DTEND;VALUE=DATE:20240528
+DTSTAMP:20230901T000100Z
+UID:2024.196.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Lanfranc, 1089
+DESCRIPTION:Lanfranc\, Prior of Le Bec\, Archbishop of Canterbury\, Schola
+ r\, 1089\n\nMorning Prayer\nPsalms 5\, 6\, (8)\nJoshua 7.16-end\nLuke 10.3
+ 8-end\n\nEvening Prayer\nPsalms 9\, 10*\nJob 8\nRomans 4.13-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240529
+DTEND;VALUE=DATE:20240529
+DTSTAMP:20230901T000100Z
+UID:2024.197.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.1-32\nJoshua 8.1-29\nLuke 11.1-13\n\
+ nEvening Prayer\nPsalms 11\, 12\, 13\nJob 9\nRomans 5.1-11\n\nEvening Pray
+ er on the Eve of Corpus Christi (if required)\nPsalms 110\, 111\nExodus 16
+ .2-15\nJohn 6.22-35\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240530
+DTEND;VALUE=DATE:20240530
+DTSTAMP:20230901T000100Z
+UID:2024.198.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Josephine Butler, 1906; Joan of Arc, 1431; Apolo Kivebulaya, 19
+ 33
+DESCRIPTION:If 30 May is not observed as the Day of Thanksgiving for the I
+ nstitution of Holy Communion (Corpus Christi):\nJosephine Butler\, Social 
+ Reformer\, 1906\nJoan of Arc\, Visionary\, 1431\nApolo Kivebulaya\, Priest
+ \, Evangelist in Central Africa\, 1933\n\nMorning Prayer\nPsalms 14\, 15\,
+  16\nJoshua 8.30-end\nLuke 11.14-28\n\nEvening Prayer\nPsalm 18*\nJob 10\n
+ Romans 5.12-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240530
+DTEND;VALUE=DATE:20240530
+DTSTAMP:20230901T000100Z
+UID:2024.199.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Corpus Christi
+DESCRIPTION:If 30 May is observed as the Day of Thanksgiving for the Insti
+ tution of Holy Communion (Corpus Christi):\nDay of Thanksgiving for the In
+ stitution of Holy Communion\n(Corpus Christi)\n\nPrincipal Service\nGenesi
+ s 14.18-20\nPsalm 116.10-17\n1 Corinthians 11.23-26\nJohn 6.51-58\n\nThird
+  Service\nDeuteronomy 8.2-16\n1 Corinthians 10.1-17\nMorning Psalm\nPsalm 
+ 147\n\nSecond Service\nProverbs 9.1-5\nLuke 9.11-17\nEvening Psalms\nPsalm
+ s 23\, 42\, 43\n\n(or) Evening Prayer on the Eve of the Visitation\nPsalm 
+ 45\nSong of Solomon 2.8-14\nLuke 1.26-38\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240531
+DTEND;VALUE=DATE:20240531
+DTSTAMP:20230901T000100Z
+UID:2024.200.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* The Visitation
+DESCRIPTION:The Visit of the Blessed Virgin Mary to Elizabeth\n\nPrincipal
+  Service\nZephaniah 3.14-18\nPsalm 113\nRomans 12.9-16\nLuke 1.39-49 [50-5
+ 6]\n\nThird Service\n1 Samuel 2.1-10\nMark 3.31-end\nMorning Psalms\nPsalm
+ s 85\, 150\n\nSecond Service\nZechariah 2.10-end\nJohn 3.25-30\nEvening Ps
+ alms\nPsalms 122\, 127\, 128\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240601
+DTEND;VALUE=DATE:20240601
+DTSTAMP:20230901T000100Z
+UID:2024.201.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Justin, c.165
+DESCRIPTION:Justin\, Martyr at Rome\, c.165\n\nMorning Prayer\nPsalms 20\,
+  21\, 23\nJoshua 10.1-15\nLuke 11.37-end\n\nEvening Prayer\nPsalms 24\, 25
+ \nJob 12\nRomans 6.15-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240602
+DTEND;VALUE=DATE:20240602
+DTSTAMP:20230901T000100Z
+UID:2024.202.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 1
+DESCRIPTION:The First Sunday after Trinity\n\nProper 4\nSunday between 29 
+ May and 4 June inclusive\n(if after Trinity Sunday)\n\nPrincipal Service\n
+ Continuous\n1 Samuel 3.1-10 [11-20]\nPsalm 139.1-5\, 12-18\n2 Corinthians 
+ 4.5-12\nMark 2.23 – 3.6\n\n(or)\nRelated\nDeuteronomy 5.12-15\nPsalm 81.1-
+ 10\n2 Corinthians 4.5-12\nMark 2.23 – 3.6\n\nThird Service\nPsalms 28\, 32
+ \nDeuteronomy 5.1-21\nActs 21.17-39a\n\nSecond Service\nPsalm 35*\nJeremia
+ h 5.1-19\nRomans 7.7-end\nGospel at Holy Communion:\nLuke 7.1-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240603
+DTEND;VALUE=DATE:20240603
+DTSTAMP:20230901T000100Z
+UID:2024.203.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW The Martyrs of Uganda, 1885-7 and 1977
+DESCRIPTION:The Martyrs of Uganda\, 1885-7 and 1977\n\nMorning Prayer\nPsa
+ lms 27\, 30\nJoshua 14\nLuke 12.1-12\n\nEvening Prayer\nPsalms 26\, 28\, 2
+ 9\nJob 13\nRomans 7.1-6\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240604
+DTEND;VALUE=DATE:20240604
+DTSTAMP:20230901T000100Z
+UID:2024.204.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Petroc, 6th century
+DESCRIPTION:Petroc\, Abbot of Padstow\, 6th century\n\nMorning Prayer\nPsa
+ lms 32\, 36\nJoshua 21.43 – 22.8\nLuke 12.13-21\n\nEvening Prayer\nPsalm 3
+ 3\nJob 14\nRomans 7.7-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240605
+DTEND;VALUE=DATE:20240605
+DTSTAMP:20230901T000100Z
+UID:2024.205.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Boniface (Wynfrith) of Crediton, 754
+DESCRIPTION:Boniface (Wynfrith) of Crediton\, Bishop\, Apostle of Germany\
+ , Martyr\, 754\n\nMorning Prayer\nPsalm 34\nJoshua 22.9-end\nLuke 12.22-31
+ \n\nEvening Prayer\nPsalms 119.33-56\nJob 15\nRomans 8.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240606
+DTEND;VALUE=DATE:20240606
+DTSTAMP:20230901T000100Z
+UID:2024.206.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ini Kopuria, 1945
+DESCRIPTION:Ini Kopuria\, Founder of the Melanesian Brotherhood\, 1945\n\n
+ Morning Prayer\nPsalm 37*\nJoshua 23\nLuke 12.32-40\n\nEvening Prayer\nPsa
+ lms 39\, 40\nJob 16.1 – 17.2\nRomans 8.12-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240607
+DTEND;VALUE=DATE:20240607
+DTSTAMP:20230901T000100Z
+UID:2024.207.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 31\nJoshua 24.1-28\nLuke 12.41-48\n\nEve
+ ning Prayer\nPsalm 35\nJob 17.3-end\nRomans 8.18-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240608
+DTEND;VALUE=DATE:20240608
+DTSTAMP:20230901T000100Z
+UID:2024.208.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Thomas Ken, 1711
+DESCRIPTION:Thomas Ken\, Bishop of Bath and Wells\, Nonjuror\, Hymn Writer
+ \, 1711\n\nMorning Prayer\nPsalms 41\, 42\, 43\nJoshua 24.29-end\nLuke 12.
+ 49-end\n\nEvening Prayer\nPsalms 45\, 46\nJob 18\nRomans 8.31-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240609
+DTEND;VALUE=DATE:20240609
+DTSTAMP:20230901T000100Z
+UID:2024.209.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 2
+DESCRIPTION:The Second Sunday after Trinity\n\nProper 5\nSunday between 5 
+ and 11 June inclusive\n(if after Trinity Sunday)\n\nPrincipal Service\nCon
+ tinuous\n1 Samuel 8.4-11 [12-15]\nPsalm 138\n2 Corinthians 4.13 – 5.1\nMar
+ k 3.20-35\n\n(or)\nRelated\nGenesis 3.8-15\nPsalm 130\n2 Corinthians 4.13 
+ – 5.1\nMark 3.20-35\n\nThird Service\nPsalm 36\nDeuteronomy 6.10-end\nActs
+  22.22 – 23.11\n\nSecond Service\nPsalm 37.1-11 [12-17]\nJeremiah 6.16-21\
+ nRomans 9.1-13\nGospel at Holy Communion:\nLuke 7.11-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240610
+DTEND;VALUE=DATE:20240610
+DTSTAMP:20230901T000100Z
+UID:2024.210.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 44\nJudges 2\nLuke 13.1-9\n\nEvening Pra
+ yer\nPsalms 47\, 49\nJob 19\nRomans 9.1-18\n\n(or) Evening Prayer on the E
+ ve of Barnabas\nPsalms 1\, 15\nIsaiah 42.5-12\nActs 14.8-28\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240611
+DTEND;VALUE=DATE:20240611
+DTSTAMP:20230901T000100Z
+UID:2024.211.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Barnabas
+DESCRIPTION:Barnabas the Apostle\n\nPrincipal Service\nJob 29.11-16\nPsalm
+  112\nActs 11.19-30\nJohn 15.12-17\n\n(or)\nActs 11.19-30\nPsalm 112\nGala
+ tians 2.1-10\nJohn 15.12-17\n\nThird Service\nJeremiah 9.23\, 24\nActs 4.3
+ 2-end\nMorning Psalms\nPsalms 100\, 101\, 117\n\nSecond Service\nEcclesias
+ tes 12.9-end or \nTobit 4.5-11\nActs 9.26-31\nEvening Psalm\nPsalm 147\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240612
+DTEND;VALUE=DATE:20240612
+DTSTAMP:20230901T000100Z
+UID:2024.212.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.57-80\nJudges 5\nLuke 13.22-end\n\nE
+ vening Prayer\nPsalms 59\, 60\, (67)\nJob 22\nRomans 10.1-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240613
+DTEND;VALUE=DATE:20240613
+DTSTAMP:20230901T000100Z
+UID:2024.213.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 56\, 57\, (63*)\nJudges 6.1-24\nLuke 14
+ .1-11\n\nEvening Prayer\nPsalms 61\, 62\, 64\nJob 23\nRomans 10.11-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240614
+DTEND;VALUE=DATE:20240614
+DTSTAMP:20230901T000100Z
+UID:2024.214.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Richard Baxter, 1691
+DESCRIPTION:Richard Baxter\, Puritan Divine\, 1691\n\nMorning Prayer\nPsal
+ ms 51\, 54\nJudges 6.25-end\nLuke 14.12-24\n\nEvening Prayer\nPsalm 38\nJo
+ b 24\nRomans 11.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240615
+DTEND;VALUE=DATE:20240615
+DTSTAMP:20230901T000100Z
+UID:2024.215.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Evelyn Underhill, 1941
+DESCRIPTION:Evelyn Underhill\, Spiritual Writer\, 1941\n\nMorning Prayer\n
+ Psalm 68\nJudges 7\nLuke 14.25-end\n\nEvening Prayer\nPsalms 65\, 66\nJob 
+ 25 – 26\nRomans 11.13-24\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240616
+DTEND;VALUE=DATE:20240616
+DTSTAMP:20230901T000100Z
+UID:2024.216.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 3
+DESCRIPTION:The Third Sunday after Trinity\n\nProper 6\nSunday between 12 
+ and 18 June inclusive\n(if after Trinity Sunday)\n\nPrincipal Service\nCon
+ tinuous\n1 Samuel 15.34 – 16.13\nPsalm 20\n2 Corinthians 5.6-10 [11-13] 14
+ -17\nMark 4.26-34\n\n(or)\nRelated\nEzekiel 17.22-24\nPsalm 92.1-4\, 12-15
+ *\n2 Corinthians 5.6-10 [11-13] 14-17\nMark 4.26-34\n\nThird Service\nPsal
+ ms 42\, 43\nDeuteronomy 10.12 – 11.1\nActs 23.12-35\n\nSecond Service\nPsa
+ lm 39\nJeremiah 7.1-16\nRomans 9.14-26\nGospel at Holy Communion:\nLuke 7.
+ 36 – 8.3\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240617
+DTEND;VALUE=DATE:20240617
+DTSTAMP:20230901T000100Z
+UID:2024.217.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Samuel and Henrietta Barnett, 1913 and 1936
+DESCRIPTION:Samuel and Henrietta Barnett\, Social Reformers\, 1913 and 193
+ 6\n\nMorning Prayer\nPsalm 71\nJudges 8.22-end\nLuke 15.1-10\n\nEvening Pr
+ ayer\nPsalms 72\, 75\nJob 27\nRomans 11.25-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240618
+DTEND;VALUE=DATE:20240618
+DTSTAMP:20230901T000100Z
+UID:2024.218.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Bernard Mizeki, 1896
+DESCRIPTION:Bernard Mizeki\, Apostle of the MaShona\, Martyr\, 1896\n\nMor
+ ning Prayer\nPsalm 73\nJudges 9.1-21\nLuke 15.11-end\n\nEvening Prayer\nPs
+ alm 74\nJob 28\nRomans 12.1-8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240619
+DTEND;VALUE=DATE:20240619
+DTSTAMP:20230901T000100Z
+UID:2024.219.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Sundar Singh, 1929
+DESCRIPTION:Sundar Singh of India\, Sadhu (holy man)\, Evangelist\, Teache
+ r of the Faith\, 1929\n\nMorning Prayer\nPsalm 77\nJudges 9.22-end\nLuke 1
+ 6.1-18\n\nEvening Prayer\nPsalm 119.81-104\nJob 29\nRomans 12.9-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240620
+DTEND;VALUE=DATE:20240620
+DTSTAMP:20230901T000100Z
+UID:2024.220.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 78.1-39*\nJudges 11.1-11\nLuke 16.19-end
+ \n\nEvening Prayer\nPsalm 78.40-end*\nJob 30\nRomans 13.1-7\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240621
+DTSTAMP:20230901T000100Z
+UID:2024.221.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 55\nJudges 11.29-end\nLuke 17.1-10\n\nEv
+ ening Prayer\nPsalm 69\nJob 31\nRomans 13.8-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240622
+DTEND;VALUE=DATE:20240622
+DTSTAMP:20230901T000100Z
+UID:2024.222.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Alban, c.250
+DESCRIPTION:Alban\, first Martyr of Britain\, c.250\n\nMorning Prayer\nPsa
+ lms 76\, 79\nJudges 12.1-7\nLuke 17.11-19\n\nEvening Prayer\nPsalms 81\, 8
+ 4\nJob 32\nRomans 14.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240623
+DTEND;VALUE=DATE:20240623
+DTSTAMP:20230901T000100Z
+UID:2024.223.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 4
+DESCRIPTION:The Fourth Sunday after Trinity\n\nProper 7\nSunday between 19
+  and 25 June inclusive\n(if after Trinity Sunday)\n\nPrincipal Service\nCo
+ ntinuous\n1 Samuel 17.[1a\, 4-11\, 19-23] 32-49\nPsalm 9.9-20\n or \n1 Sam
+ uel 17.57 – 18.5\, 10-16\nPsalm 133\n2 Corinthians 6.1-13\nMark 4.35-41\n\
+ n(or)\nRelated\nJob 38.1-11\nPsalm 107.1-3\, 23-32*\n2 Corinthians 6.1-13\
+ nMark 4.35-41\n\nThird Service\nPsalm 48\nDeuteronomy 11.1-15\nActs 27.1-1
+ 2\n\nSecond Service\nPsalm 49\nJeremiah 10.1-16\nRomans 11.25-end\nGospel 
+ at Holy Communion: \nLuke 8.26-39\n\n(or) Evening Prayer on the Eve of Joh
+ n the Baptist\nPsalm 71\nJudges 13.2-7\, 24-end\nLuke 1.5-25\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240624
+DTEND;VALUE=DATE:20240624
+DTSTAMP:20230901T000100Z
+UID:2024.224.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Birth of John the Baptist
+DESCRIPTION:The Birth of John the Baptist\n\nPrincipal Service\nIsaiah 40.
+ 1-11\nPsalm 85.7-13\nActs 13.14b-26 or \nGalatians 3.23-29\nLuke 1.57-66\,
+  80\n\nThird Service\nEcclesiasticus 48.1-10 or \nMalachi 3.1-6\nLuke 3.1-
+ 17\nMorning Psalms\nPsalms 50\, 149\n\nSecond Service\nMalachi 4\nMatthew 
+ 11.2-19\nEvening Psalms\nPsalms 80\, 82\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240625
+DTEND;VALUE=DATE:20240625
+DTSTAMP:20230901T000100Z
+UID:2024.225.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 87\, 89.1-18\nJudges 14\nLuke 18.1-14\n
+ \nEvening Prayer\nPsalm 89.19-end\nJob 38\nRomans 15.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240626
+DTSTAMP:20230901T000100Z
+UID:2024.226.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.105-128\nJudges 15.1 – 16.3\nLuke 18
+ .15-30\n\nEvening Prayer\nPsalms 91\, 93\nJob 39\nRomans 15.14-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240626
+DTSTAMP:20230901T000100Z
+UID:2024.227.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240627
+DTEND;VALUE=DATE:20240627
+DTSTAMP:20230901T000100Z
+UID:2024.228.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Cyril of Alexandria, 444
+DESCRIPTION:Cyril\, Bishop of Alexandria\, Teacher of the Faith\, 444\n\nM
+ orning Prayer\nPsalms 90\, 92\nJudges 16.4-end\nLuke 18.31-end\n\nEvening 
+ Prayer\nPsalm 94\nJob 40\nRomans 15.22-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240628
+DTEND;VALUE=DATE:20240628
+DTSTAMP:20230901T000100Z
+UID:2024.229.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Irenæus, c.200
+DESCRIPTION:Irenæus\, Bishop of Lyons\, Teacher of the Faith\, c.200\n\nMo
+ rning Prayer\nPsalms 88\, (95)\nJudges 17\nLuke 19.1-10\n\nEvening Prayer\
+ nPsalm 102\nJob 41\nRomans 16.1-16\n\n(or) Evening Prayer on the Eve of Pe
+ ter and Paul\nPsalms 66\, 67\nEzekiel 3.4-11\nGalatians 1.13 – 2.8\n\n(or)
+  Evening Prayer on the Eve of Peter\nPsalms 66\, 67\nEzekiel 3.4-11\nActs 
+ 9.32-43\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240628
+DTEND;VALUE=DATE:20240628
+DTSTAMP:20230901T000100Z
+UID:2024.230.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240629
+DTEND;VALUE=DATE:20240629
+DTSTAMP:20230901T000100Z
+UID:2024.231.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Peter and Paul
+DESCRIPTION:29 June may be observed as the Festival of Peter and Paul\, or
+  as the Festival of Peter\, alone.\nIf 29 June is observed as the Festival
+  of Peter and Paul:\nPeter and Paul\, Apostles\n\nPrincipal Service\nZecha
+ riah 4.1-6a\, 10b-14\nPsalm 125\nActs 12.1-11\nMatthew 16.13-19\n\n(or)\nA
+ cts 12.1-11\nPsalm 125\n2 Timothy 4.6-8\, 17\, 18\nMatthew 16.13-19\n\nThi
+ rd Service\nIsaiah 49.1-6\nActs 11.1-18\nMorning Psalms\nPsalms 71\, 113\n
+ \nSecond Service\nEzekiel 34.11-16\nJohn 21.15-22\nEvening Psalms\nPsalms 
+ 124\, 138\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240629
+DTEND;VALUE=DATE:20240629
+DTSTAMP:20230901T000100Z
+UID:2024.232.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* (or) Peter
+DESCRIPTION:29 June may be observed as the Festival of Peter and Paul\, or
+  as the Festival of Peter\, alone.\nIf 29 June is observed as the Festival
+  of Peter\, alone:\nPeter\, Apostle\n\nPrincipal Service\nEzekiel 3.22-27\
+ nPsalm 125\nActs 12.1-11\nMatthew 16.13-19\n\n(or)\nActs 12.1-11\nPsalm 12
+ 5\n1 Peter 2.19-end\nMatthew 16.13-19\n\nThird Service\nIsaiah 49.1-6\nAct
+ s 11.1-18\nMorning Psalms\nPsalms 71\, 113\n\nSecond Service\nEzekiel 34.1
+ 1-16\nJohn 21.15-22\nEvening Psalms\nPsalms 124\, 138\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240629
+DTEND;VALUE=DATE:20240629
+DTSTAMP:20230901T000100Z
+UID:2024.233.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240630
+DTEND;VALUE=DATE:20240630
+DTSTAMP:20230901T000100Z
+UID:2024.234.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 5
+DESCRIPTION:The Fifth Sunday after Trinity\n\nProper 8\nSunday between 26 
+ June and 2 July inclusive\n\nPrincipal Service\nContinuous\n2 Samuel 1.1\,
+  17-27\nPsalm 130\n2 Corinthians 8.7-15\nMark 5.21-43\n\n(or)\nRelated\nWi
+ sdom of Solomon 1.13-15\; 2.23\, 24\nCanticle: Lamentations 3.22-33 or \nP
+ salm 30\n2 Corinthians 8.7-15\nMark 5.21-43\nLamentations 3.22-33 may be r
+ ead as the first reading in place of Wisdom 1.13-15\; 2.23\,24\n\nThird Se
+ rvice\nPsalm 56\nDeuteronomy 15.1-11\nActs 27.[13-32] 33-end\n\nSecond Ser
+ vice\nPsalms [52] 53\nJeremiah 11.1-14\nRomans 13.1-10\nGospel at Holy Com
+ munion:\n\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240701
+DTEND;VALUE=DATE:20240701
+DTSTAMP:20230901T000100Z
+UID:2024.235.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Henry, John, and Henry Venn the younger, 1797, 1813 and 1873
+DESCRIPTION:Henry\, John\, and Henry Venn the younger\, Priests\, Evangeli
+ cal Divines\, 1797\, 1813 and 1873\n\nMorning Prayer\nPsalms 98\, 99\, 101
+ \n1 Samuel 1.1-20\nLuke 19.28-40\n\nEvening Prayer\nPsalm 105* (or 103)\nE
+ zekiel 1.1-14\n2 Corinthians 1.1-14\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240702
+DTEND;VALUE=DATE:20240702
+DTSTAMP:20230901T000100Z
+UID:2024.236.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 106* (or 103)\n1 Samuel 1.21 – 2.11\nLuk
+ e 19.41-end\n\nEvening Prayer\nPsalm 107*\nEzekiel 1.15 – 2.2\n2 Corinthia
+ ns 1.15 – 2.4\n\n(or) Evening Prayer on the Eve of Thomas\nPsalm 27\nIsaia
+ h 35\nHebrews 10.35 – 11.1\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240703
+DTEND;VALUE=DATE:20240703
+DTSTAMP:20230901T000100Z
+UID:2024.237.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Thomas
+DESCRIPTION:Thomas the Apostle\n\nPrincipal Service\nHabakkuk 2.1-4\nPsalm
+  31.1-6\nEphesians 2.19-end\nJohn 20.24-29\n\nThird Service\n2 Samuel 15.1
+ 7-21 or \nEcclesiasticus 2\nJohn 11.1-16\nMorning Psalms\nPsalms 92\, 146\
+ n\nSecond Service\nJob 42.1-6\n1 Peter 1.3-12\nEvening Psalm\nPsalm 139\n\
+ n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240704
+DTEND;VALUE=DATE:20240704
+DTSTAMP:20230901T000100Z
+UID:2024.238.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 113\, 115\n1 Samuel 2.27-end\nLuke 20.9
+ -19\n\nEvening Prayer\nPsalms 114\, 116\, 117\nEzekiel 3.12-end\n2 Corinth
+ ians 3\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240705
+DTEND;VALUE=DATE:20240705
+DTSTAMP:20230901T000100Z
+UID:2024.239.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 139\n1 Samuel 3.1 – 4.1a\nLuke 20.20-26\
+ n\nEvening Prayer\nPsalms 130\, 131\, 137\nEzekiel 8\n2 Corinthians 4\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240706
+DTEND;VALUE=DATE:20240706
+DTSTAMP:20230901T000100Z
+UID:2024.240.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Thomas More and John Fisher, 1535
+DESCRIPTION:Thomas More\, Scholar\, and John Fisher\, Bishop of Rochester\
+ , Reformation Martyrs\, 1535\n\nMorning Prayer\nPsalms 120\, 121\, 122\n1 
+ Samuel 4.1b-end\nLuke 20.27-40\n\nEvening Prayer\nPsalm 118\nEzekiel 9\n2 
+ Corinthians 5\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240707
+DTEND;VALUE=DATE:20240707
+DTSTAMP:20230901T000100Z
+UID:2024.241.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 6
+DESCRIPTION:The Sixth Sunday after Trinity\n\nProper 9\nSunday between 3 a
+ nd 9 July inclusive\n\nPrincipal Service\nContinuous\n2 Samuel 5.1-5\, 9-1
+ 0\nPsalm 48\n2 Corinthians 12.2-10\nMark 6.1-13\n\n(or)\nRelated\nEzekiel 
+ 2.1-5\nPsalm 123\n2 Corinthians 12.2-10\nMark 6.1-13\n\nThird Service\nPsa
+ lm 57\nDeuteronomy 24.10-end\nActs 28.1-16\n\nSecond Service\nPsalms [63] 
+ 64\nJeremiah 20.1-11a\nRomans 14.1-17\nGospel at Holy Communion: \nLuke 10
+ .1-11\, 16-20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240708
+DTEND;VALUE=DATE:20240708
+DTSTAMP:20230901T000100Z
+UID:2024.242.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 123\, 124\, 125\, 126\n1 Samuel 5\nLuke
+  20.41 – 21.4\n\nEvening Prayer\nPsalms 127\, 128\, 129\nEzekiel 10.1-19\n
+ 2 Corinthians 6.1 – 7.1\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240709
+DTEND;VALUE=DATE:20240709
+DTSTAMP:20230901T000100Z
+UID:2024.243.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 132\, 133\n1 Samuel 6.1-16\nLuke 21.5-1
+ 9\n\nEvening Prayer\nPsalms (134)\, 135\nEzekiel 11.14-end\n2 Corinthians 
+ 7.2-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240710
+DTEND;VALUE=DATE:20240710
+DTSTAMP:20230901T000100Z
+UID:2024.244.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.153-end\n1 Samuel 7\nLuke 21.20-28\n
+ \nEvening Prayer\nPsalm 136\nEzekiel 12.1-16\n2 Corinthians 8.1-15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240711
+DTEND;VALUE=DATE:20240711
+DTSTAMP:20230901T000100Z
+UID:2024.245.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Benedict, c.550
+DESCRIPTION:Benedict of Nursia\, Abbot of Monte Cassino\, Father of Wester
+ n Monasticism\, c.550\n\nMorning Prayer\nPsalms 143\, 146\n1 Samuel 8\nLuk
+ e 21.29-end\n\nEvening Prayer\nPsalms 138\, 140\, 141\nEzekiel 12.17-end\n
+ 2 Corinthians 8.16 – 9.5\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240712
+DTEND;VALUE=DATE:20240712
+DTSTAMP:20230901T000100Z
+UID:2024.246.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 142\, 144\n1 Samuel 9.1-14\nLuke 22.1-1
+ 3\n\nEvening Prayer\nPsalm 145\nEzekiel 13.1-16\n2 Corinthians 9.6-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240713
+DTEND;VALUE=DATE:20240713
+DTSTAMP:20230901T000100Z
+UID:2024.247.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 147\n1 Samuel 9.15 – 10.1\nLuke 22.14-23
+ \n\nEvening Prayer\nPsalms 148\, 149\, 150\nEzekiel 14.1-11\n2 Corinthians
+  10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240714
+DTEND;VALUE=DATE:20240714
+DTSTAMP:20230901T000100Z
+UID:2024.248.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 7
+DESCRIPTION:The Seventh Sunday after Trinity\n\nProper 10\nSunday between 
+ 10 and 16 July inclusive\n\nPrincipal Service\nContinuous\n2 Samuel 6.1-5\
+ , 12b-19\nPsalm 24\nEphesians 1.3-14\nMark 6.14-29\n\n(or)\nRelated\nAmos 
+ 7.7-15\nPsalm 85.8-13\nEphesians 1.3-14\nMark 6.14-29\n\nThird Service\nPs
+ alm 65\nDeuteronomy 28.1-14\nActs 28.17-31\n\nSecond Service\nPsalm 66*\nJ
+ ob 4.1\; 5.6-end or \nEcclesiasticus 4.11-end\nRomans 15.14-29\nGospel at 
+ Holy Communion: \nLuke 10.25-37\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240715
+DTEND;VALUE=DATE:20240715
+DTSTAMP:20230901T000100Z
+UID:2024.249.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Swithun, c.862; Bonaventure, 1274
+DESCRIPTION:Swithun\, Bishop of Winchester\, c.862\nBonaventure\, Friar\, 
+ Bishop\, Teacher of the Faith\, 1274\n\nMorning Prayer\nPsalms 1\, 2\, 3\n
+ 1 Samuel 10.1-16\nLuke 22.24-30\n\nEvening Prayer\nPsalms 4\, 7\nEzekiel 1
+ 4.12-end\n2 Corinthians 11.1-15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240716
+DTEND;VALUE=DATE:20240716
+DTSTAMP:20230901T000100Z
+UID:2024.250.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Osmund, 1099
+DESCRIPTION:Osmund\, Bishop of Salisbury\, 1099\n\nMorning Prayer\nPsalms 
+ 5\, 6\, (8)\n1 Samuel 10.17-end\nLuke 22.31-38\n\nEvening Prayer\nPsalms 9
+ \, 10*\nEzekiel 18.1-20\n2 Corinthians 11.16-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240717
+DTEND;VALUE=DATE:20240717
+DTSTAMP:20230901T000100Z
+UID:2024.251.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.1-32\n1 Samuel 11\nLuke 22.39-46\n\n
+ Evening Prayer\nPsalms 11\, 12\, 13\nEzekiel 18.21-32\n2 Corinthians 12\n\
+ n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240718
+DTEND;VALUE=DATE:20240718
+DTSTAMP:20230901T000100Z
+UID:2024.252.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Elizabeth Ferard, 1883
+DESCRIPTION:Elizabeth Ferard\, first Deaconess of the Church of England\, 
+ Founder of the Community of St Andrew\, 1883\n\nMorning Prayer\nPsalms 14\
+ , 15\, 16\n1 Samuel 12\nLuke 22.47-62\n\nEvening Prayer\nPsalm 18*\nEzekie
+ l 20.1-20\n2 Corinthians 13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240719
+DTEND;VALUE=DATE:20240719
+DTSTAMP:20230901T000100Z
+UID:2024.253.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Gregory and Macrina, c.394 and c.379
+DESCRIPTION:Gregory\, Bishop of Nyssa\, and his sister Macrina\, Deaconess
+ \, Teachers of the Faith\, c.394 and c.379\n\nMorning Prayer\nPsalms 17\, 
+ 19\n1 Samuel 13.5-18\nLuke 22.63-end\n\nEvening Prayer\nPsalm 22\nEzekiel 
+ 20.21-38\nJames 1.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240720
+DTEND;VALUE=DATE:20240720
+DTSTAMP:20230901T000100Z
+UID:2024.254.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Margaret of Antioch, 4th century; Bartolomé de las Casas, 1566
+DESCRIPTION:Margaret of Antioch\, Martyr\, 4th century\nBartolomé de las C
+ asas\, Apostle to the Indies\, 1566\n\nMorning Prayer\nPsalms 20\, 21\, 23
+ \n1 Samuel 13.19 – 14.15\nLuke 23.1-12\n\nEvening Prayer\nPsalms 24\, 25\n
+ Ezekiel 24.15-end\nJames 1.12-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240721
+DTEND;VALUE=DATE:20240721
+DTSTAMP:20230901T000100Z
+UID:2024.255.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 8
+DESCRIPTION:The Eighth Sunday after Trinity\n\nProper 11\nSunday between 1
+ 7 and 23 July inclusive\n\nPrincipal Service\nContinuous\n2 Samuel 7.1-14a
+ \nPsalm 89.20-37\nEphesians 2.11-22\nMark 6.30-34\, 53-56\n\n(or)\nRelated
+ \nJeremiah 23.1-6\nPsalm 23\nEphesians 2.11-22\nMark 6.30-34\, 53-56\n\nTh
+ ird Service\nPsalms 67\, 70\nDeuteronomy 30.1-10\n1 Peter 3.8-18\n\nSecond
+  Service\nPsalm 73*\nJob 13.13 – 14.6 or \nEcclesiasticus 18.1-14\nHebrews
+  2.5-end\nGospel at Holy Communion: \nLuke 10.38-end\n\n(or) Evening Praye
+ r on the Eve of Mary Magdalene\nPsalm 139\nIsaiah 25.1-9\n2 Corinthians 1.
+ 3-7\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240722
+DTEND;VALUE=DATE:20240722
+DTSTAMP:20230901T000100Z
+UID:2024.256.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Mary Magdalene
+DESCRIPTION:Mary Magdalene\n\nPrincipal Service\nSong of Solomon 3.1-4\nPs
+ alm 42.1-10\n2 Corinthians 5.14-17\nJohn 20.1-2\, 11-18\n\nThird Service\n
+ 1 Samuel 16.14-end\nLuke 8.1-3\nMorning Psalms\nPsalms 30\, 32\, 150\n\nSe
+ cond Service\nZephaniah 3.14-end\nMark 15.40 – 16.7\nEvening Psalm\nPsalm 
+ 63\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240723
+DTEND;VALUE=DATE:20240723
+DTSTAMP:20230901T000100Z
+UID:2024.257.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Bridget of Sweden, 1373
+DESCRIPTION:Bridget of Sweden\, Abbess of Vadstena\, 1373\n\nMorning Praye
+ r\nPsalms 32\, 36\n1 Samuel 15.1-23\nLuke 23.26-43\n\nEvening Prayer\nPsal
+ m 33\nEzekiel 33.1-20\nJames 2.14-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240724
+DTEND;VALUE=DATE:20240724
+DTSTAMP:20230901T000100Z
+UID:2024.258.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 34\n1 Samuel 16\nLuke 23.44-56a\n\nEveni
+ ng Prayer\nPsalms 119.33-56\nEzekiel 33.21-end\nJames 3\n\n(or) Evening Pr
+ ayer on the Eve of James\nPsalm 144\nDeuteronomy 30.11-20\nMark 5.21-43\n\
+ n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240725
+DTEND;VALUE=DATE:20240725
+DTSTAMP:20230901T000100Z
+UID:2024.259.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* James
+DESCRIPTION:James the Apostle\n\nPrincipal Service\nJeremiah 45.1-5\nPsalm
+  126\nActs 11.27 – 12.2\nMatthew 20.20-28\n\n(or)\nActs 11.27 – 12.2\nPsal
+ m 126\n2 Corinthians 4.7-15\nMatthew 20.20-28\n\nThird Service\n2 Kings 1.
+ 9-15\nLuke 9.46-56\nMorning Psalms\nPsalms 7\, 29\, 117\n\nSecond Service\
+ nJeremiah 26.1-15\nMark 1.14-20\nEvening Psalm\nPsalm 94\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240726
+DTEND;VALUE=DATE:20240726
+DTSTAMP:20230901T000100Z
+UID:2024.260.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Anne and Joachim
+DESCRIPTION:Anne and Joachim\, Parents of the Blessed Virgin Mary\n\nLesse
+ r Festival Eucharistic Lectionary\nZephaniah 3.14-18a\nPsalm 127\nRomans 8
+ .28-30\nMatthew 13.16-17\n\nMorning Prayer\nPsalm 31\n1 Samuel 17.31-54\nL
+ uke 24.13-35\n\nEvening Prayer\nPsalm 35\nEzekiel 34.17-end\nJames 4.13 – 
+ 5.6\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240727
+DTEND;VALUE=DATE:20240727
+DTSTAMP:20230901T000100Z
+UID:2024.261.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Brooke Foss Westcott, 1901
+DESCRIPTION:Brooke Foss Westcott\, Bishop of Durham\, Teacher of the Faith
+ \, 1901\n\nMorning Prayer\nPsalms 41\, 42\, 43\n1 Samuel 17.55 – 18.16\nLu
+ ke 24.36-end\n\nEvening Prayer\nPsalms 45\, 46\nEzekiel 36.16-36\nJames 5.
+ 7-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240728
+DTEND;VALUE=DATE:20240728
+DTSTAMP:20230901T000100Z
+UID:2024.262.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 9
+DESCRIPTION:The Ninth Sunday after Trinity\n\nProper 12\nSunday between 24
+  and 30 July inclusive\n\nPrincipal Service\nContinuous\n2 Samuel 11.1-15\
+ nPsalm 14\nEphesians 3.14-21\nJohn 6.1-21\n\n(or)\nRelated\n2 Kings 4.42-4
+ 4\nPsalm 145.10-19\nEphesians 3.14-21\nJohn 6.1-21\n\nThird Service\nPsalm
+  75\nSong of Solomon 2 or \n1 Maccabees 2.[1-14] 15-22\n1 Peter 4.7-14\n\n
+ Second Service\nPsalm 74*\nJob 19.1-27a or \nEcclesiasticus 38.24-end\nHeb
+ rews 8\nGospel at Holy Communion: \nLuke 11.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240729
+DTEND;VALUE=DATE:20240729
+DTSTAMP:20230901T000100Z
+UID:2024.263.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Mary, Martha and Lazarus
+DESCRIPTION:Mary\, Martha and Lazarus\, Companions of our Lord\n\nLesser F
+ estival Eucharistic Lectionary\nIsaiah 25.6-9\nPsalm 49.5-10\, 16\nHebrews
+  2.10-15\nJohn 12.1-8\n\nMorning Prayer\nPsalm 44\n1 Samuel 19.1-18\nActs 
+ 1.1-14\n\nEvening Prayer\nPsalms 47\, 49\nEzekiel 37.1-14\nMark 1.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240730
+DTEND;VALUE=DATE:20240730
+DTSTAMP:20230901T000100Z
+UID:2024.264.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW William Wilberforce, Olaudah Equiano and Thomas Clarkson, 1833,
+  1797 and 1846
+DESCRIPTION:William Wilberforce\, Social Reformer\, Olaudah Equiano and Th
+ omas Clarkson\, Anti-Slavery Campaigners\, 1833\, 1797 and 1846\n\nMorning
+  Prayer\nPsalms 48\, 52\n1 Samuel 20.1-17\nActs 1.15-end\n\nEvening Prayer
+ \nPsalm 50\nEzekiel 37.15-end\nMark 1.14-20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240731
+DTEND;VALUE=DATE:20240731
+DTSTAMP:20230901T000100Z
+UID:2024.265.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ignatius of Loyola, 1556
+DESCRIPTION:Ignatius of Loyola\, Founder of the Society of Jesus\, 1556\n\
+ nMorning Prayer\nPsalm 119.57-80\n1 Samuel 20.18-end\nActs 2.1-21\n\nEveni
+ ng Prayer\nPsalms 59\, 60\, (67)\nEzekiel 39.21-end\nMark 1.21-28\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240801
+DTSTAMP:20230901T000100Z
+UID:2024.266.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 56\, 57\, (63*)\n1 Samuel 21.1 – 22.5\n
+ Acts 2.22-36\n\nEvening Prayer\nPsalms 61\, 62\, 64\nEzekiel 43.1-12\nMark
+  1.29-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240802
+DTEND;VALUE=DATE:20240802
+DTSTAMP:20230901T000100Z
+UID:2024.267.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 51\, 54\n1 Samuel 22.6-end\nActs 2.37-e
+ nd\n\nEvening Prayer\nPsalm 38\nEzekiel 44.4-16\nMark 2.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240803
+DTEND;VALUE=DATE:20240803
+DTSTAMP:20230901T000100Z
+UID:2024.268.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 68\n1 Samuel 23\nActs 3.1-10\n\nEvening 
+ Prayer\nPsalms 65\, 66\nEzekiel 47.1-12\nMark 2.13-22\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240804
+DTEND;VALUE=DATE:20240804
+DTSTAMP:20230901T000100Z
+UID:2024.269.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 10
+DESCRIPTION:The Tenth Sunday after Trinity\n\nProper 13\nSunday between 31
+  July and 6 August inclusive\n\nPrincipal Service\nContinuous\n2 Samuel 11
+ .26 – 12.13a\nPsalm 51.1-13\nEphesians 4.1-16\nJohn 6.24-35\n\n(or)\nRelat
+ ed\nExodus 16.2-4\, 9-15\nPsalm 78.23-29\nEphesians 4.1-16\nJohn 6.24-35\n
+ \nThird Service\nPsalm 86\nSong of Solomon 5.2-end or \n1 Maccabees 3.1-12
+ \n2 Peter 1.1-15\n\nSecond Service\nPsalm 88*\nJob 28 or \nEcclesiasticus 
+ 42.15-25\nHebrews 11.17-31\nGospel at Holy Communion: \nLuke 12.13-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240805
+DTEND;VALUE=DATE:20240805
+DTSTAMP:20230901T000100Z
+UID:2024.270.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Oswald, 642
+DESCRIPTION:Oswald\, King of Northumbria\, Martyr\, 642\n\nMorning Prayer\
+ nPsalm 71\n1 Samuel 24\nActs 3.11-end\n\nEvening Prayer\nPsalms 72\, 75\nP
+ roverbs 1.1-19\nMark 2.23 – 3.6\n\n(or) Evening Prayer on the Eve of the T
+ ransfiguration\nPsalms 99\, 110\nExodus 24.12-18\nJohn 12.27-36a\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240806
+DTEND;VALUE=DATE:20240806
+DTSTAMP:20230901T000100Z
+UID:2024.271.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* The Transfiguration
+DESCRIPTION:The Transfiguration of Our Lord\n\nPrincipal Service\nDaniel 7
+ .9\, 10\, 13\, 14\nPsalm 97\n2 Peter 1.16-19\nLuke 9.28-36\n\nThird Servic
+ e\nEcclesiasticus 48.1-10 or \n1 Kings 19.1-16\n1 John 3.1-3\nMorning Psal
+ ms\nPsalms 27\, 150\n\nSecond Service\nExodus 34.29-end\n2 Corinthians 3\n
+ Evening Psalm\nPsalm 72\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240807
+DTEND;VALUE=DATE:20240807
+DTSTAMP:20230901T000100Z
+UID:2024.272.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John Mason Neale, 1866
+DESCRIPTION:John Mason Neale\, Priest\, Hymn Writer\, 1866\n\nMorning Pray
+ er\nPsalm 77\n1 Samuel 28.3-end\nActs 4.13-31\n\nEvening Prayer\nPsalm 119
+ .81-104\nProverbs 2\nMark 3.19b-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240808
+DTEND;VALUE=DATE:20240808
+DTSTAMP:20230901T000100Z
+UID:2024.273.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Dominic, 1221
+DESCRIPTION:Dominic\, Priest\, Founder of the Order of Preachers\, 1221\n\
+ nMorning Prayer\nPsalm 78.1-39*\n1 Samuel 31\nActs 4.32 – 5.11\n\nEvening 
+ Prayer\nPsalm 78.40-end*\nProverbs 3.1-26\nMark 4.1-20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240809
+DTEND;VALUE=DATE:20240809
+DTSTAMP:20230901T000100Z
+UID:2024.274.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Mary Sumner, 1921
+DESCRIPTION:Mary Sumner\, Founder of the Mothers’ Union\, 1921\n\nMorning 
+ Prayer\nPsalm 55\n2 Samuel 1\nActs 5.12-26\n\nEvening Prayer\nPsalm 69\nPr
+ overbs 3.27 – 4.19\nMark 4.21-34\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240810
+DTEND;VALUE=DATE:20240810
+DTSTAMP:20230901T000100Z
+UID:2024.275.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Laurence, 258
+DESCRIPTION:Laurence\, Deacon at Rome\, Martyr\, 258\n\nMorning Prayer\nPs
+ alms 76\, 79\n2 Samuel 2.1-11\nActs 5.27-end\n\nEvening Prayer\nPsalms 81\
+ , 84\nProverbs 6.1-19\nMark 4.35-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240811
+DTEND;VALUE=DATE:20240811
+DTSTAMP:20230901T000100Z
+UID:2024.276.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 11
+DESCRIPTION:The Eleventh Sunday after Trinity\n\nProper 14\nSunday between
+  7 and 13 August inclusive\n\nPrincipal Service\nContinuous\n2 Samuel 18.5
+ -9\, 15\, 31-33\nPsalm 130\nEphesians 4.25 – 5.2\nJohn 6.35\, 41-51\n\n(or
+ )\nRelated\n1 Kings 19.4-8\nPsalm 34.1-8\nEphesians 4.25 – 5.2\nJohn 6.35\
+ , 41-51\n\nThird Service\nPsalm 90\nSong of Solomon 8.5-7 or \n1 Maccabees
+  14.4-15\n2 Peter 3.8-13\n\nSecond Service\nPsalm 91*\nJob 39.1 – 40.4 or 
+ \nEcclesiasticus 43.13-end\nHebrews 12.1-17\nGospel at Holy Communion: \nL
+ uke 12.32-40\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240812
+DTEND;VALUE=DATE:20240812
+DTSTAMP:20230901T000100Z
+UID:2024.277.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 80\, 82\n2 Samuel 3.12-end\nActs 6\n\nE
+ vening Prayer\nPsalms 85\, 86\nProverbs 8.1-21\nMark 5.1-20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240813
+DTEND;VALUE=DATE:20240813
+DTSTAMP:20230901T000100Z
+UID:2024.278.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Jeremy Taylor, 1667; Florence Nightingale, 1910; Octavia Hill, 
+ 1912
+DESCRIPTION:Jeremy Taylor\, Bishop of Down and Connor\, Teacher of the Fai
+ th\, 1667\nFlorence Nightingale\, Nurse\, Social Reformer\, 1910\nOctavia 
+ Hill\, Social Reformer\, 1912\n\nMorning Prayer\nPsalms 87\, 89.1-18\n2 Sa
+ muel 5.1-12\nActs 7.1-16\n\nEvening Prayer\nPsalm 89.19-end\nProverbs 8.22
+ -end\nMark 5.21-34\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240814
+DTEND;VALUE=DATE:20240814
+DTSTAMP:20230901T000100Z
+UID:2024.279.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Maximilian Kolbe, 1941
+DESCRIPTION:Maximilian Kolbe\, Friar\, Martyr\, 1941\n\nMorning Prayer\nPs
+ alm 119.105-128\n2 Samuel 6.1-19\nActs 7.17-43\n\nEvening Prayer\nPsalms 9
+ 1\, 93\nProverbs 9\nMark 5.35-end\n\n(or) Evening Prayer on the Eve of the
+  Blessed Virgin Mary\nPsalm 72\nProverbs 8.22-31\nJohn 19.23-27\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240815
+DTEND;VALUE=DATE:20240815
+DTSTAMP:20230901T000100Z
+UID:2024.280.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* The Blessed Virgin Mary
+DESCRIPTION:The Blessed Virgin Mary\n\nPrincipal Service\nIsaiah 61.10\, 1
+ 1 or \nRevelation 11.19 – 12.6\, 10\nPsalm 45.10-17\nGalatians 4.4-7\nLuke
+  1.46-55\n\nThird Service\nIsaiah 7.10-15\nLuke 11.27\, 28\nMorning Psalms
+ \nPsalms 98\, 138\, 147.1-12\n\nSecond Service\nSong of Solomon 2.1-7\nAct
+ s 1.6-14\nEvening Psalm\nPsalm 132\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240816
+DTEND;VALUE=DATE:20240816
+DTSTAMP:20230901T000100Z
+UID:2024.281.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 88\, (95)\n2 Samuel 7.18-end\nActs 7.54
+  – 8.3\n\nEvening Prayer\nPsalm 102\nProverbs 11.1-12\nMark 6.14-29\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240817
+DTEND;VALUE=DATE:20240817
+DTSTAMP:20230901T000100Z
+UID:2024.282.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 96\, 97\, 100\n2 Samuel 9\nActs 8.4-25\
+ n\nEvening Prayer\nPsalm 104\nProverbs 12.10-end\nMark 6.30-44\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240818
+DTEND;VALUE=DATE:20240818
+DTSTAMP:20230901T000100Z
+UID:2024.283.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 12
+DESCRIPTION:The Twelfth Sunday after Trinity\n\nProper 15\nSunday between 
+ 14 and 20 August inclusive\n\nPrincipal Service\nContinuous\n1 Kings 2.10-
+ 12\; 3.3-14\nPsalm 111\nEphesians 5.15-20\nJohn 6.51-58\n\n(or)\nRelated\n
+ Proverbs 9.1-6\nPsalm 34.9-14\nEphesians 5.15-20\nJohn 6.51-58\n\nThird Se
+ rvice\nPsalm 106.1-10\nJonah 1 or \nEcclesiasticus 3.1-15\n2 Peter 3.14-en
+ d\n\nSecond Service\nPsalms [92] 100\nExodus 2.23 – 3.10\nHebrews 13.1-15\
+ nGospel at Holy Communion: \nLuke 12.49-56\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240819
+DTEND;VALUE=DATE:20240819
+DTSTAMP:20230901T000100Z
+UID:2024.284.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 98\, 99\, 101\n2 Samuel 11\nActs 8.26-e
+ nd\n\nEvening Prayer\nPsalm 105* (or 103)\nProverbs 14.31 – 15.17\nMark 6.
+ 45-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240820
+DTEND;VALUE=DATE:20240820
+DTSTAMP:20230901T000100Z
+UID:2024.285.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Bernard of Clairvaux, 1153; +G10092William and Catherine Booth,
+  1912 and 1890
+DESCRIPTION:Bernard\, Abbot of Clairvaux\, Teacher of the Faith\, 1153\nWi
+ lliam and Catherine Booth\, Founders of the Salvation Army\, 1912 and 1890
+ \n\nMorning Prayer\nPsalm 106* (or 103)\n2 Samuel 12.1-25\nActs 9.1-19a\n\
+ nEvening Prayer\nPsalm 107*\nProverbs 15.18-end\nMark 7.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240821
+DTEND;VALUE=DATE:20240821
+DTSTAMP:20230901T000100Z
+UID:2024.286.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 110\, 111\, 112\n2 Samuel 15.1-12\nActs
+  9.19b-31\n\nEvening Prayer\nPsalm 119.129-152\nProverbs 18.10-end\nMark 7
+ .14-23\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240822
+DTEND;VALUE=DATE:20240822
+DTSTAMP:20230901T000100Z
+UID:2024.287.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 113\, 115\n2 Samuel 15.13-end\nActs 9.3
+ 2-end\n\nEvening Prayer\nPsalms 114\, 116\, 117\nProverbs 20.1-22\nMark 7.
+ 24-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240823
+DTEND;VALUE=DATE:20240823
+DTSTAMP:20230901T000100Z
+UID:2024.288.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 139\n2 Samuel 16.1-14\nActs 10.1-16\n\nE
+ vening Prayer\nPsalms 130\, 131\, 137\nProverbs 22.1-16\nMark 7.31-end\n\n
+ (or) Evening Prayer on the Eve of Bartholomew\nPsalm 97\nIsaiah 61.1-9\n2 
+ Corinthians 6.1-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240824
+DTEND;VALUE=DATE:20240824
+DTSTAMP:20230901T000100Z
+UID:2024.289.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Bartholomew
+DESCRIPTION:Bartholomew the Apostle\n\nPrincipal Service\nIsaiah 43.8-13\n
+ Psalm 145.1-7\nActs 5.12-16\nLuke 22.24-30\n\n(or)\nActs 5.12-16\nPsalm 14
+ 5.1-7\n1 Corinthians 4.9-15\nLuke 22.24-30\n\nThird Service\nGenesis 28.10
+ -17\nJohn 1.43-end\nMorning Psalms\nPsalms 86\, 117\n\nSecond Service\nEcc
+ lesiasticus 39.1-10 or \nDeuteronomy 18.15-19\nMatthew 10.1-22\nEvening Ps
+ alms\nPsalms 91\, 116\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240825
+DTEND;VALUE=DATE:20240825
+DTSTAMP:20230901T000100Z
+UID:2024.290.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 13
+DESCRIPTION:The Thirteenth Sunday after Trinity\n\nProper 16\nSunday betwe
+ en 21 and 27 August inclusive\n\nPrincipal Service\nContinuous\n1 Kings 8.
+ [1\, 6\, 10-11] 22-30\, 41-43\nPsalm 84\nEphesians 6.10-20\nJohn 6.56-69\n
+ \n(or)\nRelated\nJoshua 24.1-2a\, 14-18\nPsalm 34.15-22\nEphesians 6.10-20
+ \nJohn 6.56-69\n\nThird Service\nPsalm 115\nJonah 2 or \nEcclesiasticus 3.
+ 17-29\nRevelation 1\n\nSecond Service\nPsalm 116*\nExodus 4.27 – 5.1\nHebr
+ ews 13.16-21\nGospel at Holy Communion: \nLuke 13.10-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240826
+DTEND;VALUE=DATE:20240826
+DTSTAMP:20230901T000100Z
+UID:2024.291.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 123\, 124\, 125\, 126\n2 Samuel 18.1-18
+ \nActs 10.34-end\n\nEvening Prayer\nPsalms 127\, 128\, 129\nProverbs 25.1-
+ 14\nMark 8.11-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240827
+DTEND;VALUE=DATE:20240827
+DTSTAMP:20230901T000100Z
+UID:2024.292.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Monica, 387
+DESCRIPTION:Monica\, mother of Augustine of Hippo\, 387\n\nMorning Prayer\
+ nPsalms 132\, 133\n2 Samuel 18.19 – 19.8a\nActs 11.1-18\n\nEvening Prayer\
+ nPsalms (134)\, 135\nProverbs 25.15-end\nMark 8.22-26\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240828
+DTEND;VALUE=DATE:20240828
+DTSTAMP:20230901T000100Z
+UID:2024.293.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Augustine of Hippo, 430
+DESCRIPTION:Augustine\, Bishop of Hippo\, Teacher of the Faith\, 430\n\nMo
+ rning Prayer\nPsalm 119.153-end\n2 Samuel 19.8b-23\nActs 11.19-end\n\nEven
+ ing Prayer\nPsalm 136\nProverbs 26.12-end\nMark 8.27 – 9.1\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240829
+DTEND;VALUE=DATE:20240829
+DTSTAMP:20230901T000100Z
+UID:2024.294.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Beheading of John the Baptist
+DESCRIPTION:The Beheading of John the Baptist\n\nLesser Festival Eucharist
+ ic Lectionary\nJeremiah 1.4-10\nPsalm 11\nHebrews 11.32 – 12.2\nMatthew 14
+ .1-12\n\nMorning Prayer\nPsalms 143\, 146\n2 Samuel 19.24-end\nActs 12.1-1
+ 7\n\nEvening Prayer\nPsalms 138\, 140\, 141\nProverbs 27.1-22\nMark 9.2-13
+ \n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240830
+DTEND;VALUE=DATE:20240830
+DTSTAMP:20230901T000100Z
+UID:2024.295.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John Bunyan, 1688
+DESCRIPTION:John Bunyan\, Spiritual Writer\, 1688\n\nMorning Prayer\nPsalm
+ s 142\, 144\n2 Samuel 23.1-7\nActs 12.18-end\n\nEvening Prayer\nPsalm 145\
+ nProverbs 30.1-9\, 24-31\nMark 9.14-29\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240831
+DTEND;VALUE=DATE:20240831
+DTSTAMP:20230901T000100Z
+UID:2024.296.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Aidan, 651
+DESCRIPTION:Aidan\, Bishop of Lindisfarne\, Missionary\, 651\n\nMorning Pr
+ ayer\nPsalm 147\n2 Samuel 24\nActs 13.1-12\n\nEvening Prayer\nPsalms 148\,
+  149\, 150\nProverbs 31.10-end\nMark 9.30-37\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240901
+DTEND;VALUE=DATE:20240901
+DTSTAMP:20230901T000100Z
+UID:2024.297.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 14
+DESCRIPTION:The Fourteenth Sunday after Trinity\n\nProper 17\nSunday betwe
+ en 28 August and 3 September inclusive\n\nPrincipal Service\nContinuous\nS
+ ong of Solomon 2.8-13\nPsalm 45.1-2\, 6-9*\nJames 1.17-27\nMark 7.1-8\, 14
+ \, 15\, 21-23\n\n(or)\nRelated\nDeuteronomy 4.1-2\, 6-9\nPsalm 15\nJames 1
+ .17-27\nMark 7.1-8\, 14\, 15\, 21-23\n\nThird Service\nPsalm 119.17-40\nJo
+ nah 3.1-9 or \nEcclesiasticus 11.7-28\n(or 19-28)\nRevelation 3.14-end\n\n
+ Second Service\nPsalm 119.1-16*\nExodus 12.21-27\nMatthew 4.23 – 5.20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240902
+DTEND;VALUE=DATE:20240902
+DTSTAMP:20230901T000100Z
+UID:2024.298.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Martyrs of Papua New Guinea, 1901 and 1942
+DESCRIPTION:The Martyrs of Papua New Guinea\, 1901 and 1942\n\nMorning Pra
+ yer\nPsalms 1\, 2\, 3\n1 Kings 1.5-31\nActs 13.13-43\n\nEvening Prayer\nPs
+ alms 4\, 7\nWisdom 1 or \n1 Chronicles 10.1 – 11.9\nMark 9.38-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240903
+DTEND;VALUE=DATE:20240903
+DTSTAMP:20230901T000100Z
+UID:2024.299.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Gregory the Great, 604
+DESCRIPTION:Gregory the Great\, Bishop of Rome\, Teacher of the Faith\, 60
+ 4\n\nMorning Prayer\nPsalms 5\, 6\, (8)\n1 Kings 1.32 – 2.4\; 2.10-12\nAct
+ s 13.44 – 14.7\n\nEvening Prayer\nPsalms 9\, 10*\nWisdom 2 or \n1 Chronicl
+ es 13\nMark 10.1-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240904
+DTEND;VALUE=DATE:20240904
+DTSTAMP:20230901T000100Z
+UID:2024.300.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Birinus, 650
+DESCRIPTION:Birinus\, Bishop of Dorchester (Oxon)\, Apostle of Wessex\, 65
+ 0\n\nMorning Prayer\nPsalm 119.1-32\n1 Kings 3\nActs 14.8-end\n\nEvening P
+ rayer\nPsalms 11\, 12\, 13\nWisdom 3.1-9 or \n1 Chronicles 15.1 – 16.3\nMa
+ rk 10.17-31\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240905
+DTEND;VALUE=DATE:20240905
+DTSTAMP:20230901T000100Z
+UID:2024.301.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 14\, 15\, 16\n1 Kings 4.29 – 5.12\nActs
+  15.1-21\n\nEvening Prayer\nPsalm 18*\nWisdom 4.7-end or \n1 Chronicles 17
+ \nMark 10.32-34\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240906
+DTEND;VALUE=DATE:20240906
+DTSTAMP:20230901T000100Z
+UID:2024.302.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Allen Gardiner, 1851
+DESCRIPTION:Allen Gardiner\, Missionary\, Founder of the South American Mi
+ ssion Society\, 1851\n\nMorning Prayer\nPsalms 17\, 19\n1 Kings 6.1\, 11-2
+ 8\nActs 15.22-35\n\nEvening Prayer\nPsalm 22\nWisdom 5.1-16 or \n1 Chronic
+ les 21.1 – 22.1\nMark 10.35-45\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240907
+DTEND;VALUE=DATE:20240907
+DTSTAMP:20230901T000100Z
+UID:2024.303.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 20\, 21\, 23\n1 Kings 8.1-30\nActs 15.3
+ 6 – 16.5\n\nEvening Prayer\nPsalms 24\, 25\nWisdom 5.17 – 6.11 or \n1 Chro
+ nicles 22.2-end\nMark 10.46-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240908
+DTEND;VALUE=DATE:20240908
+DTSTAMP:20230901T000100Z
+UID:2024.304.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 15; Accession of King Charles III, 2022
+DESCRIPTION:If\, for pastoral reasons\, the Festival of the Blessed Virgin
+  Mary is celebrated on 8 September rather than 15 August then the material
+  provided for 15 August is used on 8 September.\n\nThe Fifteenth Sunday af
+ ter Trinity\n(Accession of King Charles III\, 2022)\n\nProper 18\nSunday b
+ etween 4 and 10 September inclusive\n\nPrincipal Service\nContinuous\nProv
+ erbs 22.1-2\, 8\, 9\, 22\, 23\nPsalm 125\nJames 2.1-10 [11-13] 14-17\nMark
+  7.24-37\n\n(or)\nRelated\nIsaiah 35.4-7a\nPsalm 146\nJames 2.1-10 [11-13]
+  14-17\nMark 7.24-37\n\nThird Service\nPsalm 119.57-72\nJonah 3.10 – 4.11 
+ or \nEcclesiasticus 27.30 – 28.9\nRevelation 8.1-5\n\nSecond Service\nPsal
+ m 119.41-56*\nExodus 14.5-end\nMatthew 6.1-18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240909
+DTEND;VALUE=DATE:20240909
+DTSTAMP:20230901T000100Z
+UID:2024.305.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Charles Fuge Lowder, 1880
+DESCRIPTION:Charles Fuge Lowder\, Priest\, 1880\n\nMorning Prayer\nPsalms 
+ 27\, 30\n1 Kings 8.31-62\nActs 16.6-24\n\nEvening Prayer\nPsalms 26\, 28\,
+  29\nWisdom 6.12-23 or \n1 Chronicles 28.1-10\nMark 11.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240910
+DTEND;VALUE=DATE:20240910
+DTSTAMP:20230901T000100Z
+UID:2024.306.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 32\, 36\n1 Kings 8.63 – 9.9\nActs 16.25
+ -end\n\nEvening Prayer\nPsalm 33\nWisdom 7.1-14 or \n1 Chronicles 28.11-en
+ d\nMark 11.12-26\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240911
+DTSTAMP:20230901T000100Z
+UID:2024.307.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 34\n1 Kings 10.1-25\nActs 17.1-15\n\nEve
+ ning Prayer\nPsalms 119.33-56\nWisdom 7.15 – 8.4 or \n1 Chronicles 29.1-9\
+ nMark 11.27-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240912
+DTEND;VALUE=DATE:20240912
+DTSTAMP:20230901T000100Z
+UID:2024.308.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 37*\n1 Kings 11.1-13\nActs 17.16-end\n\n
+ Evening Prayer\nPsalms 39\, 40\nWisdom 8.5-18 or \n1 Chronicles 29.10-20\n
+ Mark 12.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240913
+DTEND;VALUE=DATE:20240913
+DTSTAMP:20230901T000100Z
+UID:2024.309.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John Chrysostom, 407
+DESCRIPTION:John Chrysostom\, Bishop of Constantinople\, Teacher of the Fa
+ ith\, 407\n\nMorning Prayer\nPsalm 31\n1 Kings 11.26-end\nActs 18.1-21\n\n
+ Evening Prayer\nPsalm 35\nWisdom 8.21 – end of 9 or \n1 Chronicles 29.21-e
+ nd\nMark 12.13-17\n\n(or) Evening Prayer on the Eve of Holy Cross Day\nPsa
+ lm 66\nIsaiah 52.13 – 53.12\nEphesians 2.11-22\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240914
+DTEND;VALUE=DATE:20240914
+DTSTAMP:20230901T000100Z
+UID:2024.310.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Holy Cross Day
+DESCRIPTION:Holy Cross Day\n\nPrincipal Service\nNumbers 21.4-9\nPsalm 22.
+ 23-28\nPhilippians 2.6-11\nJohn 3.13-17\n\nThird Service\nGenesis 3.1-15\n
+ John 12.27-36a\nMorning Psalms\nPsalms 2\, 8\, 146\n\nSecond Service\nIsai
+ ah 63.1-16\n1 Corinthians 1.18-25\nEvening Psalms\nPsalms 110\, 150\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240915
+DTEND;VALUE=DATE:20240915
+DTSTAMP:20230901T000100Z
+UID:2024.311.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 16
+DESCRIPTION:The Sixteenth Sunday after Trinity\n\nProper 19\nSunday betwee
+ n 11 and 17 September inclusive\n\nPrincipal Service\nContinuous\nProverbs
+  1.20-33\nPsalm 19* or \nCanticle: Wisdom of Solomon 7.26 – 8.1\nJames 3.1
+ -12\nMark 8.27-38\n\n(or)\nRelated\nIsaiah 50.4-9a\nPsalm 116.1-8\nJames 3
+ .1-12\nMark 8.27-38\n\nThird Service\nPsalm 119.105-120\nIsaiah 44.24 – 45
+ .8\nRevelation 12.1-12\n\nSecond Service\nPsalm 119.73-88*\nExodus 18.13-2
+ 6\nMatthew 7.1-14\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240916
+DTEND;VALUE=DATE:20240916
+DTSTAMP:20230901T000100Z
+UID:2024.312.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ninian, c.432; Edward Bouverie Pusey, 1882
+DESCRIPTION:Ninian\, Bishop of Galloway\, Apostle of the Picts\, c.432\nEd
+ ward Bouverie Pusey\, Priest\, Tractarian\, 1882\n\nMorning Prayer\nPsalm 
+ 44\n1 Kings 12.25 – 13.10\nActs 19.8-20\n\nEvening Prayer\nPsalms 47\, 49\
+ nWisdom 11.21 – 12.2 or \n2 Chronicles 2.1-16\nMark 12.28-34\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240917
+DTEND;VALUE=DATE:20240917
+DTSTAMP:20230901T000100Z
+UID:2024.313.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Hildegard of Bingen, 1179
+DESCRIPTION:Hildegard\, Abbess of Bingen\, Visionary\, 1179\n\nMorning Pra
+ yer\nPsalms 48\, 52\n1 Kings 13.11-end\nActs 19.21-end\n\nEvening Prayer\n
+ Psalm 50\nWisdom 12.12-21 or \n2 Chronicles 3\nMark 12.35-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240918
+DTEND;VALUE=DATE:20240918
+DTSTAMP:20230901T000100Z
+UID:2024.314.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.57-80\n1 Kings 17\nActs 20.1-16\n\nE
+ vening Prayer\nPsalms 59\, 60\, (67)\nWisdom 13.1-9 or \n2 Chronicles 5\nM
+ ark 13.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240919
+DTEND;VALUE=DATE:20240919
+DTSTAMP:20230901T000100Z
+UID:2024.315.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Theodore of Tarsus, 690
+DESCRIPTION:Theodore of Tarsus\, Archbishop of Canterbury\, 690\n\nMorning
+  Prayer\nPsalms 56\, 57\, (63*)\n1 Kings 18.1-20\nActs 20.17-end\n\nEvenin
+ g Prayer\nPsalms 61\, 62\, 64\nWisdom 16.15 – 17.1 or \n2 Chronicles 6.1-2
+ 1\nMark 13.14-23\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240920
+DTEND;VALUE=DATE:20240920
+DTSTAMP:20230901T000100Z
+UID:2024.316.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW John Coleridge Patteson, 1871
+DESCRIPTION:John Coleridge Patteson\, First Bishop of Melanesia\, and his 
+ Companions\, Martyrs\, 1871\n\nMorning Prayer\nPsalms 51\, 54\n1 Kings 18.
+ 21-end\nActs 21.1-16\n\nEvening Prayer\nPsalm 38\nWisdom 18.6-19 or \n2 Ch
+ ronicles 6.22-end\nMark 13.24-31\n\n(or) Evening Prayer on the Eve of Matt
+ hew\nPsalm 34\nIsaiah 33.13-17\nMatthew 6.19-34\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240921
+DTEND;VALUE=DATE:20240921
+DTSTAMP:20230901T000100Z
+UID:2024.317.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Matthew
+DESCRIPTION:Matthew\, Apostle and Evangelist\n\nPrincipal Service\nProverb
+ s 3.13-18\nPsalm 119.65-72\n2 Corinthians 4.1-6\nMatthew 9.9-13\n\nThird S
+ ervice\n1 Kings 19.15-end\n2 Timothy 3.14-end\nMorning Psalms\nPsalms 49\,
+  117\n\nSecond Service\nEcclesiastes 5.4-12\nMatthew 19.16-end\nEvening Ps
+ alm\nPsalm 119.33-40\, 89-96\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240922
+DTEND;VALUE=DATE:20240922
+DTSTAMP:20230901T000100Z
+UID:2024.318.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 17
+DESCRIPTION:The Seventeenth Sunday after Trinity\n\nProper 20\nSunday betw
+ een 18 and 24 September inclusive\n\nPrincipal Service\nContinuous\nProver
+ bs 31.10-31\nPsalm 1\nJames 3.13 – 4.3\, 7-8a\nMark 9.30-37\n\n(or)\nRelat
+ ed\nWisdom of Solomon 1.16 – 2.1\, 12-22 or \nJeremiah 11.18-20\nPsalm 54\
+ nJames 3.13 – 4.3\, 7-8a\nMark 9.30-37\n\nThird Service\nPsalm 119.153-end
+ \nIsaiah 45.9-22\nRevelation 14.1-5\n\nSecond Service\nPsalm 119.137-152*\
+ nExodus 19.10-end\nMatthew 8.23-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240923
+DTEND;VALUE=DATE:20240923
+DTSTAMP:20230901T000100Z
+UID:2024.319.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 71\n1 Kings 21\nActs 21.37 – 22.21\n\nEv
+ ening Prayer\nPsalms 72\, 75\n1 Maccabees 1.1-19 or \n2 Chronicles 9.1-12\
+ nMark 14.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240924
+DTEND;VALUE=DATE:20240924
+DTSTAMP:20230901T000100Z
+UID:2024.320.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 73\n1 Kings 22.1-28\nActs 22.22 – 23.11\
+ n\nEvening Prayer\nPsalm 74\n1 Maccabees 1.20-40 or \n2 Chronicles 10.1 – 
+ 11.4\nMark 14.12-25\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240925
+DTSTAMP:20230901T000100Z
+UID:2024.321.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Lancelot Andrewes, 1626; Sergei of Radonezh, 1392
+DESCRIPTION:Lancelot Andrewes\, Bishop of Winchester\, Spiritual Writer\, 
+ 1626\nSergei of Radonezh\, Russian Monastic Reformer\, Teacher of the Fait
+ h\, 1392\n\nMorning Prayer\nPsalm 77\n1 Kings 22.29-45\nActs 23.12-end\n\n
+ Evening Prayer\nPsalm 119.81-104\n1 Maccabees 1.41-end or \n2 Chronicles 1
+ 2\nMark 14.26-42\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240925
+DTSTAMP:20230901T000100Z
+UID:2024.322.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240926
+DTEND;VALUE=DATE:20240926
+DTSTAMP:20230901T000100Z
+UID:2024.323.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Wilson Carlile, 1942
+DESCRIPTION:Wilson Carlile\, Founder of the Church Army\, 1942\n\nMorning 
+ Prayer\nPsalm 78.1-39*\n2 Kings 1.2-17\nActs 24.1-23\n\nEvening Prayer\nPs
+ alm 78.40-end*\n1 Maccabees 2.1-28 or \n2 Chronicles 13.1 – 14.1\nMark 14.
+ 43-52\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240927
+DTSTAMP:20230901T000100Z
+UID:2024.324.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Vincent de Paul, 1660
+DESCRIPTION:Vincent de Paul\, Founder of the Congregation of the Mission (
+ Lazarists)\, 1660\n\nMorning Prayer\nPsalm 55\n2 Kings 2.1-18\nActs 24.24 
+ – 25.12\n\nEvening Prayer\nPsalm 69\n1 Maccabees 2.29-48 or \n2 Chronicles
+  14.2-end\nMark 14.53-65\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240927
+DTSTAMP:20230901T000100Z
+UID:2024.325.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240928
+DTEND;VALUE=DATE:20240928
+DTSTAMP:20230901T000100Z
+UID:2024.326.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 76\, 79\n2 Kings 4.1-37\nActs 25.13-end
+ \n\nEvening Prayer\nPsalms 81\, 84\n1 Maccabees 2.49-end or \n2 Chronicles
+  15.1-15\nMark 14.66-end\n\n(or\, if Michael and All Angels is celebrated 
+ on Sunday 29 September)\nEvening Prayer on the Eve of Michael and All Ange
+ ls\nPsalm 91\n2 Kings 6.8-17\nMatthew 18.1-6\, 10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240928
+DTEND;VALUE=DATE:20240928
+DTSTAMP:20230901T000100Z
+UID:2024.327.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ember Day
+DESCRIPTION:Ember Day\n\nThe following readings are suitable for use on Em
+ ber Days:\nNumbers 11.16\, 17\, 24-29 or \nNumbers 27.15-end or \n1 Samuel
+  16.1-13a or \nIsaiah 6.1-8 or \nIsaiah 61.1-3 or \nJeremiah 1.4-10\n\nPsa
+ lm 40.8-13 or \nPsalm 84.8-12 or \nPsalm 89.19-25 or \nPsalm 101.1-5\, 7 o
+ r \nPsalm 122\n\nActs 20.28-35 or \n1 Corinthians 3.3-11 or \nEphesians 4.
+ 4-16 or \nPhilippians 3.7-14\n\nLuke 4.16-21 or \nLuke 12.35-43 or \nLuke 
+ 22.24-27 or \nJohn 4.31-38 or \nJohn 15.5-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240929
+DTEND;VALUE=DATE:20240929
+DTSTAMP:20230901T000100Z
+UID:2024.328.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Michael and All Angels
+DESCRIPTION:The festival of Michael and All Angels may be observed on Sund
+ ay 29 September or Monday 30 September.\nIf it is observed on Sunday 29 Se
+ ptember:\n\nMichael and All Angels\n\nPrincipal Service\nGenesis 28.10-17\
+ nPsalm 103.19-22\nRevelation 12.7-12\nJohn 1.47-51\n\n(or)\nRevelation 12.
+ 7-12\nPsalm 103.19-22\nHebrews 1.5-14\nJohn 1.47-51\n\nThird Service\nTobi
+ t 12.6-22 or \nDaniel 12.1-4\nActs 12.1-11\nMorning Psalms\nPsalms 34\, 15
+ 0\n\nSecond Service\nDaniel 10.4-21\nRevelation 5\nEvening Psalms\nPsalms 
+ 138\, 148\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240929
+DTEND;VALUE=DATE:20240929
+DTSTAMP:20230901T000100Z
+UID:2024.329.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 18
+DESCRIPTION:The festival of Michael and All Angels may be observed on Sund
+ ay 29 September or Monday 30 September.\nIf it is observed on Monday 30 Se
+ ptember:\n\nThe Eighteenth Sunday after Trinity\n\nProper 21\nSunday betwe
+ en 25 September and 1 October inclusive\n\nPrincipal Service\nContinuous\n
+ Esther 7.1-6\, 9\, 10\; 9.20-22\nPsalm 124\nJames 5.13-20\nMark 9.38-end\n
+ \n(or)\nRelated\nNumbers 11.4-6\, 10-16\, 24-29\nPsalm 19.7-14\nJames 5.13
+ -20\nMark 9.38-end\n\nThird Service\nPsalm 122\nIsaiah 48.12-end\nLuke 11.
+ 37-end\n\nSecond Service\nPsalms 120\, 121\nExodus 24\nMatthew 9.1-8\n\n(o
+ r) Evening Prayer on the Eve of Michael and All Angels\nPsalm 91\n2 Kings 
+ 6.8-17\nMatthew 18.1-6\, 10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240930
+DTEND;VALUE=DATE:20240930
+DTSTAMP:20230901T000100Z
+UID:2024.330.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Jerome, 420
+DESCRIPTION:The festival of Michael and All Angels may be observed on Sund
+ ay 29 September or Monday 30 September.\nIf it is observed on Sunday 29 Se
+ ptember:\n\nJerome\, Translator of the Scriptures\, Teacher of the Faith\,
+  420\n\nMorning Prayer\nPsalms 80\, 82\n2 Kings 5\nActs 26.1-23\n\nEvening
+  Prayer\nPsalms 85\, 86\n1 Maccabees 3.1-26 or \n2 Chronicles 17.1-12\nMar
+ k 15.1-15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240930
+DTEND;VALUE=DATE:20240930
+DTSTAMP:20230901T000100Z
+UID:2024.331.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Michael and All Angels
+DESCRIPTION:The festival of Michael and All Angels may be observed on Sund
+ ay 29 September or Monday 30 September.\nIf it is observed on Monday 30 Se
+ ptember:\n\nMichael and All Angels\n\nPrincipal Service\nGenesis 28.10-17\
+ nPsalm 103.19-22\nRevelation 12.7-12\nJohn 1.47-51\n\n(or)\nRevelation 12.
+ 7-12\nPsalm 103.19-22\nHebrews 1.5-14\nJohn 1.47-51\n\nThird Service\nTobi
+ t 12.6-22 or \nDaniel 12.1-4\nActs 12.1-11\nMorning Psalms\nPsalms 34\, 15
+ 0\n\nSecond Service\nDaniel 10.4-21\nRevelation 5\nEvening Psalms\nPsalms 
+ 138\, 148\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241001
+DTEND;VALUE=DATE:20241001
+DTSTAMP:20230901T000100Z
+UID:2024.332.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Remigius, 533; Anthony Ashley Cooper, 1885
+DESCRIPTION:Remigius\, Bishop of Rheims\, Apostle of the Franks\, 533\nAnt
+ hony Ashley Cooper\, Earl of Shaftesbury\, Social Reformer\, 1885\n\nMorni
+ ng Prayer\nPsalms 87\, 89.1-18\n2 Kings 6.1-23\nActs 26.24-end\n\nEvening 
+ Prayer\nPsalm 89.19-end\n1 Maccabees 3.27-41 or \n2 Chronicles 18.1-27\nMa
+ rk 15.16-32\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241002
+DTEND;VALUE=DATE:20241002
+DTSTAMP:20230901T000100Z
+UID:2024.333.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.105-128\n2 Kings 9.1-16\nActs 27.1-2
+ 6\n\nEvening Prayer\nPsalms 91\, 93\n1 Maccabees 3.42-end or \n2 Chronicle
+ s 18.28 – end of 19\nMark 15.33-41\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241003
+DTEND;VALUE=DATE:20241003
+DTSTAMP:20230901T000100Z
+UID:2024.334.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW George Bell, 1958
+DESCRIPTION:George Bell\, Bishop of Chichester\, Ecumenist\, Peacemaker\, 
+ 1958\n\nMorning Prayer\nPsalms 90\, 92\n2 Kings 9.17-end\nActs 27.27-end\n
+ \nEvening Prayer\nPsalm 94\n1 Maccabees 4.1-25 or \n2 Chronicles 20.1-23\n
+ Mark 15.42-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20241004
+DTSTAMP:20230901T000100Z
+UID:2024.335.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Francis of Assisi, 1226
+DESCRIPTION:Francis of Assisi\, Friar\, Deacon\, Founder of the Friars Min
+ or\, 1226\n\nMorning Prayer\nPsalms 88\, (95)\n2 Kings 12.1-19\nActs 28.1-
+ 16\n\nEvening Prayer\nPsalm 102\n1 Maccabees 4.26-35 or \n2 Chronicles 22.
+ 10 – end of 23\nMark 16.1-8\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241005
+DTEND;VALUE=DATE:20241005
+DTSTAMP:20230901T000100Z
+UID:2024.336.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 96\, 97\, 100\n2 Kings 17.1-23\nActs 28
+ .17-end\n\nEvening Prayer\nPsalm 104\n1 Maccabees 4.36-end or \n2 Chronicl
+ es 24.1-22\nMark 16.9-end\n\n(or) Evening Prayer on the Eve of the Dedicat
+ ion Festival\nPsalm 24\n2 Chronicles 7.11-16\nJohn 4.19-29\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241006
+DTEND;VALUE=DATE:20241006
+DTSTAMP:20230901T000100Z
+UID:2024.337.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 19
+DESCRIPTION:If the Dedication Festival is not observed on Sunday 6 October
+ :\nThe Nineteenth Sunday after Trinity\n\nProper 22\nSunday between 2 and 
+ 8 October inclusive\n\nPrincipal Service\nContinuous\nJob 1.1\; 2.1-10\nPs
+ alm 26\nHebrews 1.1-4\; 2.5-12\nMark 10.2-16\n\n(or)\nRelated\nGenesis 2.1
+ 8-24\nPsalm 8\nHebrews 1.1-4\; 2.5-12\nMark 10.2-16\n\nThird Service\nPsal
+ ms 123\, 124\nIsaiah 49.13-23\nLuke 12.1-12\n\nSecond Service\nPsalms 125\
+ , 126\nJoshua 3.7-17\nMatthew 10.1-22\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241006
+DTEND;VALUE=DATE:20241006
+DTSTAMP:20230901T000100Z
+UID:2024.338.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* (or) Dedication Festival
+DESCRIPTION:When the date of dedication is unknown\, the Dedication Festiv
+ al may be observed on the first Sunday of October (6 October)\, or on the 
+ Last Sunday after Trinity (27 October)\, or on a suitable date chosen loca
+ lly.\n\nDedication Festival\n\nPrincipal Service\nGenesis 28.11-18 or \nRe
+ velation 21.9-14\nPsalm 122\n1 Peter 2.1-10\nJohn 10.22-29\n\nThird Servic
+ e\nHaggai 2.6-9\nHebrews 10.19-25\nMorning Psalms\nPsalms 48\, 150\n\nSeco
+ nd Service\nJeremiah 7.1-11\nLuke 19.1-10\nEvening Psalm\nPsalm 132\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241007
+DTEND;VALUE=DATE:20241007
+DTSTAMP:20230901T000100Z
+UID:2024.339.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 98\, 99\, 101\n2 Kings 17.24-end\nPhili
+ ppians 1.1-11\n\nEvening Prayer\nPsalm 105* (or 103)\n1 Maccabees 6.1-17 o
+ r \n2 Chronicles 26.1-21\nJohn 13.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241008
+DTEND;VALUE=DATE:20241008
+DTSTAMP:20230901T000100Z
+UID:2024.340.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 106* (or 103)\n2 Kings 18.1-12\nPhilippi
+ ans 1.12-end\n\nEvening Prayer\nPsalm 107*\n1 Maccabees 6.18-47 or \n2 Chr
+ onicles 28\nJohn 13.12-20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241009
+DTEND;VALUE=DATE:20241009
+DTSTAMP:20230901T000100Z
+UID:2024.341.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Denys and Companions, c.250; Robert Grosseteste, 1253
+DESCRIPTION:Denys\, Bishop of Paris\, and his Companions\, Martyrs\, c.250
+ \nRobert Grosseteste\, Bishop of Lincoln\, Philosopher\, Scientist\, 1253\
+ n\nMorning Prayer\nPsalms 110\, 111\, 112\n2 Kings 18.13-end\nPhilippians 
+ 2.1-13\n\nEvening Prayer\nPsalm 119.129-152\n1 Maccabees 7.1-20 or \n2 Chr
+ onicles 29.1-19\nJohn 13.21-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241010
+DTEND;VALUE=DATE:20241010
+DTSTAMP:20230901T000100Z
+UID:2024.342.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Paulinus, 644; Thomas Traherne, 1674
+DESCRIPTION:Paulinus\, Bishop of York\, Missionary\, 644\nThomas Traherne\
+ , Poet\, Spiritual Writer\, 1674\n\nMorning Prayer\nPsalms 113\, 115\n2 Ki
+ ngs 19.1-19\nPhilippians 2.14-end\n\nEvening Prayer\nPsalms 114\, 116\, 11
+ 7\n1 Maccabees 7.21-end or \n2 Chronicles 29.20-end\nJohn 13.31-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241011
+DTEND;VALUE=DATE:20241011
+DTSTAMP:20230901T000100Z
+UID:2024.343.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ethelburga, 675; James the Deacon, 7th century
+DESCRIPTION:Ethelburga\, Abbess of Barking\, 675\nJames the Deacon\, compa
+ nion of Paulinus\, 7th century\n\nMorning Prayer\nPsalm 139\n2 Kings 19.20
+ -36\nPhilippians 3.1 – 4.1\n\nEvening Prayer\nPsalms 130\, 131\, 137\n1 Ma
+ ccabees 9.1-22 or \n2 Chronicles 30\nJohn 14.1-14\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241012
+DTEND;VALUE=DATE:20241012
+DTSTAMP:20230901T000100Z
+UID:2024.344.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Wilfrid of Ripon, 709; Elizabeth Fry, 1845; Edith Cavell, 1915
+DESCRIPTION:Wilfrid of Ripon\, Bishop\, Missionary\, 709\nElizabeth Fry\, 
+ Prison Reformer\, 1845\nEdith Cavell\, Nurse\, 1915\n\nMorning Prayer\nPsa
+ lms 120\, 121\, 122\n2 Kings 20\nPhilippians 4.2-end\n\nEvening Prayer\nPs
+ alm 118\n1 Maccabees 13.41-end\, 14.4-15 or \n2 Chronicles 32.1-22\nJohn 1
+ 4.15-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241013
+DTEND;VALUE=DATE:20241013
+DTSTAMP:20230901T000100Z
+UID:2024.345.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 20
+DESCRIPTION:The Twentieth Sunday after Trinity\n\nProper 23\nSunday betwee
+ n 9 and 15 October inclusive\n\nPrincipal Service\nContinuous\nJob 23.1-9\
+ , 16\, 17\nPsalm 22.1-15\nHebrews 4.12-16\nMark 10.17-31\n\n(or)\nRelated\
+ nAmos 5.6-7\, 10-15\nPsalm 90.12-17\nHebrews 4.12-16\nMark 10.17-31\n\nThi
+ rd Service\nPsalms 129\, 130\nIsaiah 50.4-10\nLuke 13.22-30\nSecond Servic
+ e\nPsalms 127 [128]\n\nJoshua 5.13 – 6.20\nMatthew 11.20-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241014
+DTEND;VALUE=DATE:20241014
+DTSTAMP:20230901T000100Z
+UID:2024.346.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 123\, 124\, 125\, 126\n2 Kings 21.1-18\
+ n1 Timothy 1.1-17\n\nEvening Prayer\nPsalms 127\, 128\, 129\n2 Maccabees 4
+ .7-17 or \n2 Chronicles 33.1-13\nJohn 15.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241015
+DTEND;VALUE=DATE:20241015
+DTSTAMP:20230901T000100Z
+UID:2024.347.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Teresa of Avila, 1582
+DESCRIPTION:Teresa of Avila\, Teacher of the Faith\, 1582\n\nMorning Praye
+ r\nPsalms 132\, 133\n2 Kings 22.1 – 23.3\n1 Timothy 1.18 – end of 2\n\nEve
+ ning Prayer\nPsalms (134)\, 135\n2 Maccabees 6.12-end or \n2 Chronicles 34
+ .1-18\nJohn 15.12-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241016
+DTEND;VALUE=DATE:20241016
+DTSTAMP:20230901T000100Z
+UID:2024.348.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Nicholas Ridley and Hugh Latimer, 1555
+DESCRIPTION:Nicholas Ridley\, Bishop of London\, and Hugh Latimer\, Bishop
+  of Worcester\, Reformation Martyrs\, 1555\n\nMorning Prayer\nPsalm 119.15
+ 3-end\n2 Kings 23.4-25\n1 Timothy 3\n\nEvening Prayer\nPsalm 136\n2 Maccab
+ ees 7.1-19 or \n2 Chronicles 34.19-end\nJohn 15.18-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241017
+DTEND;VALUE=DATE:20241017
+DTSTAMP:20230901T000100Z
+UID:2024.349.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Ignatius of Antioch, c.107
+DESCRIPTION:Ignatius\, Bishop of Antioch\, Martyr\, c.107\n\nMorning Praye
+ r\nPsalms 143\, 146\n2 Kings 23.36 – 24.17\n1 Timothy 4\n\nEvening Prayer\
+ nPsalms 138\, 140\, 141\n2 Maccabees 7.20-41 or \n2 Chronicles 35.1-19\nJo
+ hn 16.1-15\n\n(or) Evening Prayer on the Eve of Luke\nPsalm 33\nHosea 6.1-
+ 3\n2 Timothy 3.10-17\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241018
+DTEND;VALUE=DATE:20241018
+DTSTAMP:20230901T000100Z
+UID:2024.350.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Luke
+DESCRIPTION:Luke the Evangelist\n\nPrincipal Service\nIsaiah 35.3-6 or \nA
+ cts 16.6-12a\nPsalm 147.1-7\n2 Timothy 4.5-17\nLuke 10.1-9\n\nThird Servic
+ e\nIsaiah 55\nLuke 1.1-4\nMorning Psalms\nPsalms 145\, 146\n\nSecond Servi
+ ce\nEcclesiasticus 38.1-14 or \nIsaiah 61.1-6\nColossians 4.7-end\nEvening
+  Psalm\nPsalm 103\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241019
+DTEND;VALUE=DATE:20241019
+DTSTAMP:20230901T000100Z
+UID:2024.351.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Henry Martyn, 1812
+DESCRIPTION:Henry Martyn\, Translator of the Scriptures\, Missionary in In
+ dia and Persia\, 1812\n\nMorning Prayer\nPsalm 147\n2 Kings 25.22-end\n1 T
+ imothy 5.17-end\n\nEvening Prayer\nPsalms 148\, 149\, 150\nTobit 2 or \n2 
+ Chronicles 36.11-end\nJohn 16.23-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241020
+DTEND;VALUE=DATE:20241020
+DTSTAMP:20230901T000100Z
+UID:2024.352.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Trinity 21
+DESCRIPTION:The Twenty-first Sunday after Trinity\n\nProper 24\nSunday bet
+ ween 16 and 22 October inclusive\n\nPrincipal Service\nContinuous\nJob 38.
+ 1-7 [34-41]\nPsalm 104.1-10\, 26\, 35c*\nHebrews 5.1-10\nMark 10.35-45\n\n
+ (or)\nRelated\nIsaiah 53.4-12\nPsalm 91.9-16\nHebrews 5.1-10\nMark 10.35-4
+ 5\n\nThird Service\nPsalms 133\, 134\, 137.1-6\nIsaiah 54.1-14\nLuke 13.31
+ -end\n\nSecond Service\nPsalm 141\nJoshua 14.6-14\nMatthew 12.1-21\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241021
+DTEND;VALUE=DATE:20241021
+DTSTAMP:20230901T000100Z
+UID:2024.353.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 1\, 2\, 3\nJudith 4 or \nExodus 22.21-2
+ 7\, 23.1-17\n1 Timothy 6.1-10\n\nEvening Prayer\nPsalms 4\, 7\nTobit 3 or 
+ \nMicah 1.1-9\nJohn 17.1-5\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241022
+DTEND;VALUE=DATE:20241022
+DTSTAMP:20230901T000100Z
+UID:2024.354.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 5\, 6\, (8)\nJudith 5.1 – 6.4 or \nExod
+ us 29.38 – 30.16\n1 Timothy 6.11-end\n\nEvening Prayer\nPsalms 9\, 10*\nTo
+ bit 4 or \nMicah 2\nJohn 17.6-19\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241023
+DTEND;VALUE=DATE:20241023
+DTSTAMP:20230901T000100Z
+UID:2024.355.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 119.1-32\nJudith 6.10 – 7.7 or \nLevitic
+ us 8\n2 Timothy 1.1-14\n\nEvening Prayer\nPsalms 11\, 12\, 13\nTobit 5.1 –
+  6.1a or \nMicah 3\nJohn 17.20-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241024
+DTEND;VALUE=DATE:20241024
+DTSTAMP:20230901T000100Z
+UID:2024.356.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 14\, 15\, 16\nJudith 7.19-end or \nLevi
+ ticus 9\n2 Timothy 1.15 – 2.13\n\nEvening Prayer\nPsalm 18*\nTobit 6.1b-en
+ d or \nMicah 4.1 – 5.1\nJohn 18.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241025
+DTEND;VALUE=DATE:20241025
+DTSTAMP:20230901T000100Z
+UID:2024.357.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Crispin and Crispinian, c.287
+DESCRIPTION:Crispin and Crispinian\, Martyrs at Rome\, c.287\n\nMorning Pr
+ ayer\nPsalms 17\, 19\nJudith 8.9-end or \nLeviticus 16.2-24\n2 Timothy 2.1
+ 4-end\n\nEvening Prayer\nPsalm 22\nTobit 7 or \nMicah 5.2-end\nJohn 18.12-
+ 27\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241026
+DTEND;VALUE=DATE:20241026
+DTSTAMP:20230901T000100Z
+UID:2024.358.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Alfred the Great, 899; Cedd, 664
+DESCRIPTION:Alfred the Great\, King of the West Saxons\, Scholar\, 899\nCe
+ dd\, Abbot of Lastingham\, Bishop of the East Saxons\, 664\n\nMorning Pray
+ er\nPsalms 20\, 21\, 23\nJudith 9 or \nLeviticus 17\n2 Timothy 3\n\nEvenin
+ g Prayer\nPsalms 24\, 25\nTobit 8 or \nMicah 6\nJohn 18.28-end\n\n(or) Eve
+ ning Prayer on the Eve of the Dedication Festival\nPsalm 24\n2 Chronicles 
+ 7.11-16\nJohn 4.19-29\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241027
+DTEND;VALUE=DATE:20241027
+DTSTAMP:20230901T000100Z
+UID:2024.359.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Last Sunday after Trinity
+DESCRIPTION:If the Dedication Festival is not observed on Sunday 27 Octobe
+ r:\nThe Last Sunday after Trinity\n\nProper 25\nSunday between 23 and 29 O
+ ctober inclusive\n\nPrincipal Service\nContinuous\nJob 42.1-6\, 10-17\nPsa
+ lm 34.1-8\, 19-22*\nHebrews 7.23-28\nMark 10.46-52\n\n(or)\nRelated\nJerem
+ iah 31.7-9\nPsalm 126\nHebrews 7.23-28\nMark 10.46-52\n\nThird Service\nPs
+ alm 119.89-104\nIsaiah 59.9-20\nLuke 14.1-14\n\nSecond Service\nPsalm 119.
+ 121-136\nEcclesiastes 11\, 12\n2 Timothy 2.1-7\nGospel at Holy Communion: 
+ \nLuke 18.9-14\n\n(or) Evening Prayer on the Eve of Simon and Jude\nPsalms
+  124\, 125\, 126\nDeuteronomy 32.1-4\nJohn 14.15-26\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241027
+DTEND;VALUE=DATE:20241027
+DTSTAMP:20230901T000100Z
+UID:2024.360.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* (or) Dedication Festival
+DESCRIPTION:When the date of dedication is unknown\, the Dedication Festiv
+ al may be observed on the first Sunday of October (6 October)\, or on the 
+ Last Sunday after Trinity (27 October)\, or on a suitable date chosen loca
+ lly.\nDedication Festival\n\nPrincipal Service\nGenesis 28.11-18 or \nReve
+ lation 21.9-14\nPsalm 122\n1 Peter 2.1-10\nJohn 10.22-29\n\nThird Service\
+ nHaggai 2.6-9\nHebrews 10.19-25\nMorning Psalms\nPsalms 48\, 150\n\nSecond
+  Service\nJeremiah 7.1-11\nLuke 19.1-10\nEvening Psalm\nPsalm 132\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241027
+DTEND;VALUE=DATE:20241027
+DTSTAMP:20230901T000100Z
+UID:2024.361.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Bible Sunday
+DESCRIPTION:Or the Last Sunday after Trinity may be observed as Bible Sund
+ ay.\n\nBible Sunday\n\nPrincipal Service\nIsaiah 55.1-11\nPsalm 19.7-14\n2
+  Timothy 3.14 – 4.5\nJohn 5.36b-47\n\nThird Service\nPsalm 119.89-104\nIsa
+ iah 45.22-25\nMatthew 24.30-35 or \nLuke 14.1-14\n\nSecond Service\nPsalm 
+ 119.1-16\n2 Kings 22\nColossians 3.12-17\nGospel at Holy Communion: \nLuke
+  4.14-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241028
+DTSTAMP:20230901T000100Z
+UID:2024.362.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Simon and Jude
+DESCRIPTION:Simon and Jude\, Apostles\n\nPrincipal Service\nIsaiah 28.14-1
+ 6\nPsalm 119.89-96\nEphesians 2.19-22\nJohn 15.17-27\n\nThird Service\nWis
+ dom 5.1-16 or \nIsaiah 45.18-end\nLuke 6.12-16\nMorning Psalms\nPsalms 116
+ \, 117\n\nSecond Service\n1 Maccabees 2.42-66 or \nJeremiah 3.11-18\nJude 
+ 1-4\, 17-end\nEvening Psalm\nPsalm 119.1-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241029
+DTEND;VALUE=DATE:20241029
+DTSTAMP:20230901T000100Z
+UID:2024.363.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW James Hannington, 1885
+DESCRIPTION:James Hannington\, Bishop of Eastern Equatorial Africa\, Marty
+ r in Uganda\, 1885\n\nMorning Prayer\nPsalms 32\, 36\nJudith 11 or \nLevit
+ icus 23.1-22\n2 Timothy 4.9-end\n\nEvening Prayer\nPsalm 33\nTobit 10 or \
+ nMicah 7.8-end\nJohn 19.17-30\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20241030
+DTSTAMP:20230901T000100Z
+UID:2024.364.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalm 34\nJudith 12 or \nLeviticus 23.23-end\n
+ Titus 1\n\nEvening Prayer\nPsalms 119.33-56\nTobit 11 or \nHabakkuk 1.1-11
+ \nJohn 19.31-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241031
+DTEND;VALUE=DATE:20241031
+DTSTAMP:20230901T000100Z
+UID:2024.365.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Martin Luther, 1546
+DESCRIPTION:Martin Luther\, Reformer\, 1546\n\nMorning Prayer\nPsalm 37*\n
+ Judith 13 or \nLeviticus 24.1-9\nTitus 2\n\nIf All Saints’ Day is observed
+  on Friday 1 November\, the readings for the Eve of All Saints’ Day are us
+ ed. Otherwise\, the following readings are used:\nEvening Prayer\nPsalms 3
+ 9\, 40\nTobit 12 or \nHabakkuk 1.12 – 2.5\nJohn 20.1-10\n\nEvening Prayer 
+ on the Eve of All Saints’ Day\nPsalms 1\, 5\nEcclesiasticus 44.1-15 or \nI
+ saiah 40.27-31\nRevelation 19.6-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241031
+DTEND;VALUE=DATE:20241031
+DTSTAMP:20230901T000100Z
+UID:2024.366.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY: 
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241101
+DTEND;VALUE=DATE:20241101
+DTSTAMP:20230901T000100Z
+UID:2024.367.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* All Saints’ Day
+DESCRIPTION:If All Saints’ Day is celebrated only on Friday 1 November:\nA
+ ll Saints’ Day\n\nPrincipal Feast\n\nPrincipal Service\nWisdom 3.1-9 or \n
+ Isaiah 25.6-9\nPsalm 24.1-6\nRevelation 21.1-6a\nJohn 11.32-44\n\nThird Se
+ rvice\nIsaiah 35\nLuke 9.18-27\nMorning Psalms\nPsalms 15\, 84\, 149\n\nSe
+ cond Service\nIsaiah 65.17-end\nHebrews 11.32 – 12.2\nEvening Psalms\nPsal
+ ms 148\, 150\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241101
+DTEND;VALUE=DATE:20241101
+DTSTAMP:20230901T000100Z
+UID:2024.368.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* (All Saints’ Day)
+DESCRIPTION:If All Saints’ Day is celebrated on Friday 1 November in addit
+ ion to Sunday 3 November:\nAll Saints’ Day\n\nPrincipal Service\nIsaiah 56
+ .3-8 or \n2 Esdras 2.42-48\nPsalm 33.1-5\nHebrews 12.18-24\nMatthew 5.1-12
+ \n\nThird Service\nWisdom 5.1-16 or \nJeremiah 31.31-34\n2 Corinthians 4.5
+ -12\nMorning Psalms\nPsalms 111\, 112\, 117\n\nSecond Service\nIsaiah 66.2
+ 0-23\nColossians 1.9-14\nEvening Psalm\nPsalm 145\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241101
+DTEND;VALUE=DATE:20241101
+DTSTAMP:20230901T000100Z
+UID:2024.369.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:If All Saints’ Day is celebrated only on Sunday 3 November:\n\
+ nMorning Prayer\nPsalm 31\nJudith 15.1-13 or \nLeviticus 25.1-24\nTitus 3\
+ n\nEvening Prayer\nPsalm 35\nTobit 13.1 – 14.1 or \nHabakkuk 2.6-end\nJohn
+  20.11-18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241102
+DTEND;VALUE=DATE:20241102
+DTSTAMP:20230901T000100Z
+UID:2024.370.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW All Souls’ Day
+DESCRIPTION:Commemoration of the Faithful Departed (All Souls’ Day)\n\nLes
+ ser Festival Eucharistic Lectionary\nLamentations 3.17-26\, 31-33 or \nWis
+ dom 3.1-9\nPsalm 23 or \n27.1-6\, 16-17\nRomans 5.5-11 or \n1 Peter 1.3-9\
+ nJohn 5.19-25 or \nJohn 6.37-40\n\nMorning Prayer\nPsalms 41\, 42\, 43\nJu
+ dith 15.14 – end of 16 or \nNumbers 6.1-5\, 21-end\nPhilemon\n\nIf All Sai
+ nts’ Day is observed on Sunday 3 November\, the readings for the Eve of Al
+ l Saints’ Day are used. Otherwise\, the following readings are used:\nEven
+ ing Prayer\nPsalms 45\, 46\nTobit 14.2-end or \nHabakkuk 3.2-19a\nJohn 20.
+ 19-end\n\nEvening Prayer on the Eve of All Saints’ Day\nPsalms 1\, 5\nEccl
+ esiasticus 44.1-15 or \nIsaiah 40.27-31\nRevelation 19.6-10\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241103
+DTEND;VALUE=DATE:20241103
+DTSTAMP:20230901T000100Z
+UID:2024.371.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* 4 before Advent
+DESCRIPTION:If All Saints’ Day is celebrated only on 1 November:\n\nThe Fo
+ urth Sunday before Advent\n\nPrincipal Service\nDeuteronomy 6.1-9\nPsalm 1
+ 19.1-8\nHebrews 9.11-14\nMark 12.28-34\n\nThird Service\nPsalms 112\, 149\
+ nJeremiah 31.31-34\n1 John 3.1-3\n\nSecond Service\nPsalm 145*\nDaniel 2.1
+ -48\n(or 1-11\, 25-48)\nRevelation 7.9-end\nGospel at Holy Communion: \nMa
+ tthew 5.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241103
+DTEND;VALUE=DATE:20241103
+DTSTAMP:20230901T000100Z
+UID:2024.372.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* All Saints’ Sunday
+DESCRIPTION:All Saints’ Sunday\n\nPrincipal Feast\n\nSunday between 30 Oct
+ ober and 5 November if this is kept as All Saints’ Sunday\nPrincipal Servi
+ ce\nWisdom 3.1-9 or \nIsaiah 25.6-9\nPsalm 24.1-6\nRevelation 21.1-6a\nJoh
+ n 11.32-44\n\nThird Service\nIsaiah 35\nLuke 9.18-27\nMorning Psalms\nPsal
+ ms 15\, 84\, 149\n\nSecond Service\nIsaiah 65.17-end\nHebrews 11.32 – 12.2
+ \nEvening Psalms\nPsalms 148\, 150\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241104
+DTEND;VALUE=DATE:20241104
+DTSTAMP:20230901T000100Z
+UID:2024.373.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 2\, 146 (or) 44\nDaniel 1\nRevelation 1
+ \n\nEvening Prayer\nPsalms 92\, 96\, 97 (or) 47\, 49\nIsaiah 1.1-20\nMatth
+ ew 1.18-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241105
+DTEND;VALUE=DATE:20241105
+DTSTAMP:20230901T000100Z
+UID:2024.374.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 5\, 147.1-12 (or) 48\, 52\nDaniel 2.1-2
+ 4\nRevelation 2.1-11\n\nEvening Prayer\nPsalms 98\, 99\, 100 (or) 50\nIsai
+ ah 1.21-end\nMatthew 2.1-15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241106
+DTEND;VALUE=DATE:20241106
+DTSTAMP:20230901T000100Z
+UID:2024.375.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Leonard, 6th century; William Temple, 1944
+DESCRIPTION:Leonard\, Hermit\, 6th century\nWilliam Temple\, Archbishop of
+  Canterbury\, Teacher of the Faith\, 1944\n\nMorning Prayer\nPsalms 9\, 14
+ 7.13-end (or) 119.57-80\nDaniel 2.25-end\nRevelation 2.12-end\n\nEvening P
+ rayer\nPsalms 111\, 112\, 116 (or) 59\, 60\, (67)\nIsaiah 2.1-11\nMatthew 
+ 2.16-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241107
+DTEND;VALUE=DATE:20241107
+DTSTAMP:20230901T000100Z
+UID:2024.376.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Willibrord of York, 739
+DESCRIPTION:Willibrord of York\, Bishop\, Apostle of Frisia\, 739\n\nMorni
+ ng Prayer\nPsalms 11\, 15\, 148 (or) 56\, 57\, (63*)\nDaniel 3.1-18\nRevel
+ ation 3.1-13\n\nEvening Prayer\nPsalm 118 (or) 61\, 62\, 64\nIsaiah 2.12-e
+ nd\nMatthew 3\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241108
+DTEND;VALUE=DATE:20241108
+DTSTAMP:20230901T000100Z
+UID:2024.377.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Saints and Martyrs of England
+DESCRIPTION:The Saints and Martyrs of England\n\nLesser Festival Eucharist
+ ic Lectionary\nIsaiah 61.4-9 or \nEcclesiasticus 44.1-15\nPsalm 15\nRevela
+ tion 19.5-10\nJohn 17.18-23\n\nMorning Prayer\nPsalms 16\, 149 (or) 51\, 5
+ 4\nDaniel 3.19-end\nRevelation 3.14-end\n\nEvening Prayer\nPsalms 137\, 13
+ 8\, 143 (or) 38\nIsaiah 3.1-15\nMatthew 4.1-11\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241109
+DTEND;VALUE=DATE:20241109
+DTSTAMP:20230901T000100Z
+UID:2024.378.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Margery Kempe, c.1440
+DESCRIPTION:Margery Kempe\, Mystic\, c.1440\n\nMorning Prayer\nPsalms 18.3
+ 1-end\, 150 (or) 68\nDaniel 4.1-18\nRevelation 4\n\nEvening Prayer\nPsalm 
+ 145 (or) 65\, 66\nIsaiah 4.2 – 5.7\nMatthew 4.12-22\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241110
+DTEND;VALUE=DATE:20241110
+DTSTAMP:20230901T000100Z
+UID:2024.379.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* 3 before Advent; Remembrance Sunday
+DESCRIPTION:The Third Sunday before Advent\nRemembrance Sunday\n\nSunday b
+ etween 6 and 12 November inclusive\nPrincipal Service\nJonah 3.1-5\, 10\nP
+ salm 62.5-12\nHebrews 9.24-28\nMark 1.14-20\n\nThird Service\nPsalm 136\nM
+ icah 4.1-5\nPhilippians 4.6-9\n\nSecond Service\nPsalms 46 [82]\nIsaiah 10
+ .33 – 11.9\nJohn 14.1-29\n(or 23-29)\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241111
+DTSTAMP:20230901T000100Z
+UID:2024.380.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Martin of Tours, c.397
+DESCRIPTION:Martin\, Bishop of Tours\, c.397\n\nMorning Prayer\nPsalms 19\
+ , 20 (or) 71\nDaniel 4.19-end\nRevelation 5\n\nEvening Prayer\nPsalm 34 (o
+ r) 72\, 75\nIsaiah 5.8-24\nMatthew 4.23 – 5.12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241112
+DTEND;VALUE=DATE:20241112
+DTSTAMP:20230901T000100Z
+UID:2024.381.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 21\, 24 (or) 73\nDaniel 5.1-12\nRevelat
+ ion 6\n\nEvening Prayer\nPsalms 36\, 40 (or) 74\nIsaiah 5.25-end\nMatthew 
+ 5.13-20\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241113
+DTEND;VALUE=DATE:20241113
+DTSTAMP:20230901T000100Z
+UID:2024.382.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Charles Simeon, 1836
+DESCRIPTION:Charles Simeon\, Priest\, Evangelical Divine\, 1836\n\nMorning
+  Prayer\nPsalms 23\, 25 (or) 77\nDaniel 5.13-end\nRevelation 7.1-4\, 9-end
+ \n\nEvening Prayer\nPsalm 37 (or) 119.81-104\nIsaiah 6\nMatthew 5.21-37\n\
+ n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241114
+DTEND;VALUE=DATE:20241114
+DTSTAMP:20230901T000100Z
+UID:2024.383.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Samuel Seabury, 1796
+DESCRIPTION:Samuel Seabury\, first Anglican Bishop in North America\, 1796
+ \n\nMorning Prayer\nPsalms 26\, 27 (or) 78.1-39*\nDaniel 6\nRevelation 8\n
+ \nEvening Prayer\nPsalms 42\, 43 (or) 78.40-end*\nIsaiah 7.1-17\nMatthew 5
+ .38-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241115
+DTEND;VALUE=DATE:20241115
+DTSTAMP:20230901T000100Z
+UID:2024.384.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 28\, 32 (or) 55\nDaniel 7.1-14\nRevelat
+ ion 9.1-12\n\nEvening Prayer\nPsalm 31 (or) 69\nIsaiah 8.1-15\nMatthew 6.1
+ -18\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241116
+DTEND;VALUE=DATE:20241116
+DTSTAMP:20230901T000100Z
+UID:2024.385.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Margaret of Scotland, 1093; Edmund Rich, 1240
+DESCRIPTION:Margaret\, Queen of Scotland\, Philanthropist\, Reformer of th
+ e Church\, 1093\nEdmund Rich of Abingdon\, Archbishop of Canterbury\, 1240
+ \n\nMorning Prayer\nPsalm 33 (or) 76\, 79\nDaniel 7.15-end\nRevelation 9.1
+ 3-end\n\nEvening Prayer\nPsalms 84\, 86 (or) 81\, 84\nIsaiah 8.16 – 9.7\nM
+ atthew 6.19-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241117
+DTEND;VALUE=DATE:20241117
+DTSTAMP:20230901T000100Z
+UID:2024.386.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* 2 before Advent
+DESCRIPTION:The Second Sunday before Advent\n\nSunday between 13 and 19 No
+ vember inclusive\nPrincipal Service\nDaniel 12.1-3\nPsalm 16\nHebrews 10.1
+ 1-14 [15-18] 19-25\nMark 13.1-8\n\nThird Service\nPsalm 96\n1 Samuel 9.27 
+ – 10.2a\; 10.17-26\nMatthew 13.31-35\n\nSecond Service\nPsalm 95\nDaniel 3
+ \n(or 3.13-end)\nMatthew 13.24-30\, 36-43\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241118
+DTEND;VALUE=DATE:20241118
+DTSTAMP:20230901T000100Z
+UID:2024.387.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Elizabeth of Hungary, 1231
+DESCRIPTION:Elizabeth of Hungary\, Princess of Thuringia\, Philanthropist\
+ , 1231\n\nMorning Prayer\nPsalms 46\, 47 (or) 80\, 82\nDaniel 8.1-14\nReve
+ lation 10\n\nEvening Prayer\nPsalms 70\, 71 (or) 85\, 86\nIsaiah 9.8 – 10.
+ 4\nMatthew 7.1-12\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241119
+DTEND;VALUE=DATE:20241119
+DTSTAMP:20230901T000100Z
+UID:2024.388.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Hilda, 680; Mechtild, 1280
+DESCRIPTION:Hilda\, Abbess of Whitby\, 680\nMechtild\, Béguine of Magdebur
+ g\, Mystic\, 1280\n\nMorning Prayer\nPsalms 48\, 52 (or) 87\, 89.1-18\nDan
+ iel 8.15-end\nRevelation 11.1-14\n\nEvening Prayer\nPsalms 67\, 72 (or) 89
+ .19-end\nIsaiah 10.5-19\nMatthew 7.13-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241120
+DTEND;VALUE=DATE:20241120
+DTSTAMP:20230901T000100Z
+UID:2024.389.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Edmund of East Anglia, 870; Priscilla Lydia Sellon, 1876
+DESCRIPTION:Edmund\, King of the East Angles\, Martyr\, 870\nPriscilla Lyd
+ ia Sellon\, a Restorer of the Religious Life in the Church of England\, 18
+ 76\n\nMorning Prayer\nPsalms 56\, 57 (or) 119.105-128\nDaniel 9.1-19\nReve
+ lation 11.15-end\n\nEvening Prayer\nPsalm 73 (or) 91\, 93\nIsaiah 10.20-32
+ \nMatthew 8.1-13\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241121
+DTEND;VALUE=DATE:20241121
+DTSTAMP:20230901T000100Z
+UID:2024.390.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 61\, 62 (or) 90\, 92\nDaniel 9.20-end\n
+ Revelation 12\n\nEvening Prayer\nPsalms 74\, 76 (or) 94\nIsaiah 10.33 – 11
+ .9\nMatthew 8.14-22\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241122
+DTEND;VALUE=DATE:20241122
+DTSTAMP:20230901T000100Z
+UID:2024.391.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Cecilia, c.230
+DESCRIPTION:Cecilia\, Martyr at Rome\, c.230\n\nMorning Prayer\nPsalms 63\
+ , 65 (or) 88\, (95)\nDaniel 10.1 – 11.1\nRevelation 13.1-10\n\nEvening Pra
+ yer\nPsalm 77 (or) 102\nIsaiah 11.10 – end of 12\nMatthew 8.23-end\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241123
+DTEND;VALUE=DATE:20241123
+DTSTAMP:20230901T000100Z
+UID:2024.392.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Clement, c.100
+DESCRIPTION:Clement\, Bishop of Rome\, Martyr\, c.100\n\nMorning Prayer\nP
+ salms 78.1-39 (or) 96\, 97\, 100\nDaniel 12\nRevelation 13.11-end\n\nEveni
+ ng Prayer\nPsalms 78.40-end (or) 104\nIsaiah 13.1-13\nMatthew 9.1-17\n\nEv
+ ening Prayer on the Eve of Christ the King (if required)\nPsalms 99\, 100\
+ nIsaiah 10.33 – 11.9\n1 Timothy 6.11-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241124
+DTEND;VALUE=DATE:20241124
+DTSTAMP:20230901T000100Z
+UID:2024.393.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Christ the King
+DESCRIPTION:Christ the King\nThe Sunday next before Advent\n\nSunday betwe
+ en 20 and 26 November inclusive\nPrincipal Service\nDaniel 7.9-10\, 13\, 1
+ 4\nPsalm 93\nRevelation 1.4b-8\nJohn 18.33-37\n\nThird Service\nIsaiah 32.
+ 1-8\nRevelation 3.7-end\nMorning Psalms\nPsalms 29\, 110\n\nSecond Service
+ \nDaniel 5\nJohn 6.1-15\nEvening Psalm\nPsalm 72*\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241125
+DTEND;VALUE=DATE:20241125
+DTSTAMP:20230901T000100Z
+UID:2024.394.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Catherine of Alexandria, 4th century; Isaac Watts, 1748
+DESCRIPTION:Catherine of Alexandria\, Martyr\, 4th century\nIsaac Watts\, 
+ Hymn Writer\, 1748\n\nMorning Prayer\nPsalms 92\, 96 (or) 98\, 99\, 101\nI
+ saiah 40.1-11\nRevelation 14.1-13\n\nEvening Prayer\nPsalms 80\, 81 (or) 1
+ 05* (or 103)\nIsaiah 14.3-20\nMatthew 9.18-34\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241126
+DTEND;VALUE=DATE:20241126
+DTSTAMP:20230901T000100Z
+UID:2024.395.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 97\, 98\, 100 (or) 106* (or 103)\nIsaia
+ h 40.12-26\nRevelation 14.14 – end of 15\n\nEvening Prayer\nPsalms 99\, 10
+ 1 (or) 107*\nIsaiah 17\nMatthew 9.35 – 10.15\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241127
+DTEND;VALUE=DATE:20241127
+DTSTAMP:20230901T000100Z
+UID:2024.396.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 110\, 111\, 112 (or) 110\, 111\, 112\nI
+ saiah 40.27 – 41.7\nRevelation 16.1-11\n\nEvening Prayer\nPsalms 121\, 122
+ \, 123\, 124 (or) 119.129-152\nIsaiah 19\nMatthew 10.16-33\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241128
+DTEND;VALUE=DATE:20241128
+DTSTAMP:20230901T000100Z
+UID:2024.397.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW 
+DESCRIPTION:Morning Prayer\nPsalms 125\, 126\, 127\, 128 (or) 113\, 115\nI
+ saiah 41.8-20\nRevelation 16.12-end\n\nEvening Prayer\nPsalms 131\, 132\, 
+ 133 (or) 114\, 116\, 117\nIsaiah 21.1-12\nMatthew 10.34 – 11.1\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241129
+DTEND;VALUE=DATE:20241129
+DTSTAMP:20230901T000100Z
+UID:2024.398.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW Intercession and Thanksgiving for Missionary Work
+DESCRIPTION:Day of Intercession and Thanksgiving for the Missionary Work o
+ f the Church\n\nMorning Prayer\nPsalm 139 (or) 139\nIsaiah 41.21 – 42.9\nR
+ evelation 17\n\nEvening Prayer\nPsalms 146\, 147 (or) 130\, 131\, 137\nIsa
+ iah 22.1-14\nMatthew 11.2-19\n\n(or) Evening Prayer on the Eve of Andrew\n
+ Psalm 48\nIsaiah 49.1-9a\n1 Corinthians 4.9-16\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241130
+DTEND;VALUE=DATE:20241130
+DTSTAMP:20230901T000100Z
+UID:2024.399.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Andrew
+DESCRIPTION:Andrew the Apostle\n\nPrincipal Service\nIsaiah 52.7-10\nPsalm
+  19.1-6\nRomans 10.12-18\nMatthew 4.18-22\n\nThird Service\nEzekiel 47.1-1
+ 2 or \nEcclesiasticus 14.20-27\nJohn 12.20-32\nMorning Psalms\nPsalms 47\,
+  147.1-12\n\nSecond Service\nZechariah 8.20-23\nJohn 1.35-42\nEvening Psal
+ ms\nPsalms 87\, 96\n\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241130
+DTEND;VALUE=DATE:20241130
+DTSTAMP:20230901T000100Z
+UID:2024.400.8ec534aa-dcae-42ab-8d77-e07fab2c8ce9
+SUMMARY:CW* Almanac and Lectionary 2024-25
+DESCRIPTION:Common Worship Almanac and Lectionary\nfor the year beginning 
+ Advent Sunday 2024\n\nDownload the 2024-25 Almanac from\nhttps://almanac.o
+ remus.org/\n\nSign up to be notified when it is available.\n\nSimon Kersha
+ w October 2021\n\nversion 2025-0.0\n18 October 2023\nhttps://almanac.oremu
+ s.org/\n\n
+END:VEVENT
+
+END:VCALENDAR
