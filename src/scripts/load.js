@@ -6,7 +6,7 @@ import {
   removeActive,
   removeExpanded
 } from './helpers.js'
-import {openModal} from "./modal.js";
+import {openModal} from "./modal.062102.js";
 
 export const setLandingButtons = function setLandingButtonsOnLoad() {
 

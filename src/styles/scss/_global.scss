@@ -46,7 +46,7 @@ body {
     background: var(--color-primary-main);
   }
 
-  &:not(:has(.vn)) {
+  &:not(:has(.index)):not(:has(.vn)) {
     h1, h2, p,
     footer {
       visibility: hidden;

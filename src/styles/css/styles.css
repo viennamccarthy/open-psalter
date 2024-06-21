@@ -194,8 +194,8 @@ body:has(modal-overlay[open]) {
     background: var(--color-primary-main);
   }
 }
-body:not(:has(.vn)) h1, body:not(:has(.vn)) h2, body:not(:has(.vn)) p,
-body:not(:has(.vn)) footer {
+body:not(:has(.index)):not(:has(.vn)) h1, body:not(:has(.index)):not(:has(.vn)) h2, body:not(:has(.index)):not(:has(.vn)) p,
+body:not(:has(.index)):not(:has(.vn)) footer {
   visibility: hidden;
 }
 
