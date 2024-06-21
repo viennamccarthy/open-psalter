@@ -1,4 +1,6 @@
-@use 'resources' as const;
+@use 'layout' as layout;
+@use 'assets' as asset;
+@use 'fonts' as font;
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -19,22 +21,84 @@ p, h1, h2, h3 {
   margin: 0;
 }
 
-a.button {
-  @include const.rounded-sm;
+h1 {
+  font: font.$primary-heading;
+}
+
+h2 {
+  font: font.$secondary-heading;
+}
+
+button, .button {
+  @include layout.rounded-sm;
+  padding: 1.6rem 2rem;
+  margin: 0 0.5rem;
+  background: var(--transparent-button);
+  color: var(--on-transparent-button);
+  font: font.$ui-label;
+  font-weight: 400;
+  justify-self: center;
+  cursor: pointer;
   height: fit-content;
-  width: 100%;
-  padding: 1rem;
-  background: var(--button-background);
-  color: var(--text-on-button);
-  font: const.$ui-secondary-font;
-  text-decoration: none;
+  width: fit-content;
   text-align: center;
+
+  &.active {
+    font-weight: 600;
+    background: var(--transparent-button-active);
+    border: 2px solid var(--transparent-button-detail);
+  }
+}
+
+a.button {
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-flex;
+
+  &.arrow-double-right {
+    @include asset.icon('arrow-double-right', 1.75em, var(--n00));
+  }
+  &.arrow-double-left {
+    @include asset.icon('arrow-double-left', 1.75em, var(--dark-dark));
+  }
+  &.arrow-to-top {
+    @include asset.icon('arrow-to-top', 1em, var(--dark-dark));
+  }
+  &.arrow-up {
+    @include asset.icon('arrow-up', 1em, var(--dark-dark));
+  }
+  &.arrow-down {
+    @include asset.icon('arrow-down', 1em, var(--dark-dark));
+  }
+  &.arrow-left {
+    @include asset.icon('arrow-left', 1em, var(--dark-dark));
+  }
+  &.arrow-right {
+    @include asset.icon('arrow-right', 1em, var(--dark-dark));
+  }
+  &.close {
+    @include asset.icon('close', 1.75em, var(--light-light));
+  }
+  &.about-icon {
+    @include asset.icon('about', 1em, var(--light-light));
+  }
+  &.settings-icon {
+    @include asset.icon('settings', 1em, var(--light-light));
+  }
+  &.preferences-icon {
+    @include asset.icon('preferences', 1em, var(--light-light));
+  }
+  &.logo {
+    @include asset.icon('logo', 1.5em, var(--logo-light));
+  }
 }
 
 body {
   margin: 0;
   justify-content: center;
-  background: var(--page-background-dark);
+  background: var(--background);
   font: var(--body-font);
   overscroll-behavior: none;
 
@@ -42,8 +106,17 @@ body {
     overflow-y: hidden;
   }
 
-  @media (min-width: const.$md) {
-    background: var(--page-background-feature);
+  @media (min-width: layout.$md) {
+    &:has(office-container[office='morning']) {
+      background: asset.$morning-background;
+    }
+    &:has(office-container[office='evening']) {
+      background: asset.$evening-background;
+    }
+    &:has(.psalter) {
+      @include asset.background('paper', soft-light, var(--title-card));
+    }
+
   }
 
   &.loading:has(.psalter, .lectionary) {
@@ -55,15 +128,13 @@ body {
   }
 }
 
-
 header {
   display: flex;
   place-content: center;
   padding: 0 1.5rem;
 
-  @media (min-width: const.$lg) {
-    background: none;
-    margin-top: 1rem;
+  @media (min-width: layout.$lg) {
+    padding-top: 1rem;
   }
 }
 
@@ -71,12 +142,11 @@ main {
   margin: auto;
 }
 
-footer {
+body:has(.lectionary, .psalter) footer {
   text-align: center;
-  font: const.$ui-secondary-font;
   font-weight: 300;
   padding: 0 2rem 1rem;
-  color: var(--text-on-nav-bar);
+  color: var(--on-nav-bar);
   margin-inline: auto;
 
   a {
@@ -97,12 +167,12 @@ footer {
     padding-top: .5rem;
   }
 
-  @media (min-width: const.$md) {
+  @media (min-width: layout.$md) {
     font-size: 0.95em;
     margin-top: 2rem;
   }
 
-  @media (min-width: const.$lg) {
+  @media (min-width: layout.$lg) {
     padding: 0 2rem 1rem;
     background-color: transparent;
   }
@@ -112,43 +182,85 @@ footer {
   opacity: 0;
   pointer-events: none;
 }
-
+/*
 .logo-1 {
-  color: var(--logo-left);
+  color: var(--off-black);
 }
 
 .logo-2 {
-  color: var(--logo-right);
+  color: var(--off-black);
 }
-
+*/
 .inline-logo {
-  font: const.$heading-font;
+  font: font.$primary-heading;
 
   &.flow {
-    font: const.$ui-secondary-font;
+    font-weight: 500;
   }
 }
 
 .preferences {
   .top {
-    fill: var(--preferences-top)
+    fill: var(--dark-dark); // TODO change me
   }
   .mid {
-    fill: var(--preferences-mid)
+    fill: var(--dark-dark); // TODO change me
   }
   .bottom {
-    fill: var(--preferences-low)
+    fill: var(--dark-dark); // TODO change me
   }
 }
 
 .title-box {
+
+  @include layout.rounded-top;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  place-content: center;
+  top: 0;
+  padding: 0 0 2.25rem;
+  width: 100%;
+  font: font.$primary-heading;
+  text-align: center;
+  @include asset.background('paper', soft-light, var(--psalm-card));
+  color: var(--on-psalm-card);
+
+  .psalter &, .lectionary office-container > & {
+
+    height: layout.$full-title-height;
+    justify-content: space-between;
+
+    @media (min-width: layout.$md) {
+      height: layout.$condensed-title-height;
+      background: none;
+      min-height: 20rem;
+
+      &::after {
+        content: '';
+      }
+    }
+
+    &::before {
+      display: block;
+      height: layout.$title-box-button-spacer;
+      width: 100%;
+      content: '';
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: 600;
+      line-height: 1.5em;
+    }
+  }
 
   .buttons {
     z-index: 2;
     display: flex;
     width: 100%;
     max-width: 520px;
-    height: const.$title-box-button-spacer;
+    height: layout.$title-box-button-spacer;
     padding-right: 1rem;
     justify-content: end;
     position: relative;
@@ -158,7 +270,7 @@ footer {
       display: flex;
       width: 3.15rem;
       cursor: pointer;
-      background: var(--preferences-button-background);
+      background: var(--transparent-button);
       border-radius: 2rem;
 
       svg {
@@ -166,95 +278,20 @@ footer {
       }
     }
 
-    @media (min-width: const.$md) {
+    @media (min-width: layout.$md) {
       position: absolute;
       max-width: 100%;
       top: 2rem;
       padding-right: 6.5rem;
     }
 
-    @media (min-width: const.$lg) {
+    @media (min-width: layout.$lg) {
       top: -3.5rem;
     }
   }
 }
 
-.title-box:not(.office-psalms .title-box) {
-
-  .psalter & {
-    grid-area: psalm_title;
-
-    @media (min-width: const.$md) {
-      height: const.$condensed-title-height !important;
-      position: relative;
-
-      :has(nav.multi) & {
-        height: calc(const.$condensed-title-height + const.$main-nav-height) !important;
-        min-height: 15.75rem;
-      }
-    }
-  }
-
-  .lectionary & {
-    grid-area: office_title;
-  }
-
-  @include const.rounded-top;
-  display: flex;
-  flex-direction: column;
-  height: const.$full-title-height;
-  position: sticky;
-  top: 0;
-  padding: 0 0 2.25rem;
-  justify-content: space-between;
-  align-items: center;
-  background: radial-gradient(circle at bottom, #fceabbbb, #00000000),
-  const.$paper-bg var(--header-card-background);
-
-
-
-
-  @media (min-width: const.$md) {
-    &::after {
-      content: '';
-    }
-  }
-
-  &::before {
-    display: block;
-    height: const.$title-box-button-spacer;
-    width: 100%;
-    content: '';
-  }
-
-  h1 {
-    position: relative;
-    top: 0;
-    color: var(--text-on-header-card);
-    font: const.$heading-font;
-    font-size: 2.5em;
-    font-weight: 600;
-    line-height: 1.5em;
-    text-align: center;
-  }
-
-  h2 {
-    color: var(--header-card-detail);
-    font: const.$heading-font;
-    font-size: 2em;
-    text-align: center;
-  }
-}
-
-
-@media (min-width: const.$md) {
-  :not(.office-psalms) .title-box {
-    height: const.$condensed-title-height;
-    min-height: 12rem;
-  }
-}
-
-@media (min-width: const.$lg) {
+@media (min-width: layout.$lg) {
   .title-box {
     position: relative !important;
   }

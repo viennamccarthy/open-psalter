@@ -1,0 +1,187 @@
+@use 'layout' as layout;
+
+/* FONTS */
+
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 200;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-deca/LexendDeca-ExtraLight.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-deca/LexendDeca-ExtraLight.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-deca/LexendDeca-ExtraLight.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lexend Giga";
+  font-weight: 200;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-giga/LexendGiga-ExtraLight.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lexend Giga";
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-giga/LexendGiga-ExtraLight.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lexend Giga";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-giga/LexendGiga-ExtraLight.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Light.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Regular.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Medium.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-SemiBold.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-LightItalic.woff2);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Italic.woff2);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-MediumItalic.woff2);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-SemiBoldItalic.woff2);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bellefair";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/bellefair/Bellefair-Regular.woff2);
+  unicode-range: U+590-5FF, U+FB1D-FB4F;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url(../../assets/fonts/sentient/Sentient-Variable.woff2) format('woff2'),
+  url(../../assets/fonts/sentient/Sentient-Variable.woff) format('woff'),
+  url(../../assets/fonts/sentient/Sentient-Variable.ttf) format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sentient';
+  src: url(../../assets/fonts/sentient/Sentient-VariableItalic.woff2) format('woff2'),
+  url(../../assets/fonts/sentient/Sentient-VariableItalic.woff) format('woff'),
+  url(../../assets/fonts/sentient/Sentient-VariableItalic.ttf) format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Telma';
+  src: url(../../assets/fonts/telma/Telma-Variable.woff2) format('woff2'),
+  url(../../assets/fonts/telma/Telma-Variable.woff) format('woff'),
+  url(../../assets/fonts/telma/Telma-Variable.ttf) format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url(../../assets/fonts/dancing-script/DancingScript-Variable.woff2) format('woff2'),
+  url(../../assets/fonts/dancing-script/DancingScript-Variable.woff) format('woff'),
+  url(../../assets/fonts/dancing-script/DancingScript-Variable.ttf) format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* PROPERTIES */
+
+:root {
+
+  // Reading options
+  --sentient: "Sentient", serif;
+  --lexend: "Lexend Deca", sans-serif;
+  --lexend-wide: "Lexend Giga", sans-serif;
+
+  --body-font-face: var(--sentient);
+  --body-font-size: 1.2rem;
+  --body-font: 325 var(--body-font-size) var(--body-font-face);
+
+  @media (min-width: layout.$md) {
+    --body-font-size: 1.1rem;
+  }
+}
+
+$logo: italic 600 1em 'Sentient', serif;
+$primary-heading: italic 400 1em 'Sentient', serif;
+$secondary-heading: italic 300 1em 'Sentient', serif;
+$ui-label: 400 1em 'Work Sans', sans-serif;
+$ui-label-family: 'Work Sans', sans-serif;
+$ui-text: 300 1em 'Work Sans', sans-serif;
+$ui-text-family: 'Work Sans', sans-serif;

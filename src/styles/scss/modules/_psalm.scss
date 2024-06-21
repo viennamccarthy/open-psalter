@@ -1,4 +1,6 @@
-@use '../resources' as const;
+@use '../layout' as layout;
+@use '../assets' as asset;
+@use '../fonts' as font;
 
 psalm-card {
   display: grid;
@@ -7,34 +9,62 @@ psalm-card {
         "psalm_title"
         "psalm_content";
 
-  nav.multi {
-    grid-area: psalm_content;
-  }
-
-  @media (min-width: const.$md) {
+  @media (min-width: layout.$md) {
     width: 576px;
     margin-inline: auto;
   }
 
-  &:has(nav.multi)::before {
-    content: '';
-    background: var(--psalm-multi-background);
+  .title-box {
+
+    height: layout.$condensed-title-height;
+
+    @media (min-width: layout.$md) {
+      position: relative;
+    }
+
+    .office-psalms & {
+      grid-area: psalm_title;
+      min-height: 8.5rem;
+      z-index: 1;
+
+      h1 {
+        font-size: 1.75em;
+        line-height: 1.1em;
+        font-weight: 500;
+      }
+    }
   }
+
+  nav.multi {
+    grid-area: psalm_content;
+    background: var(--nav-multi);
+    color: var(--on-nav-multi);
+  }
+
+  /* TODO necessary with overlap?
+  &:has(nav.multi)::before {
+    display: block;
+    grid-area: psalm_content;
+    height: 2rem;
+    position: sticky;
+    background: var(--nav-multi);
+    content: '';
+    top: 2.25rem;
+  }
+  */
 
   .psalm-box {
-    @include const.rounded;
+    @include layout.rounded;
     z-index: 4;
     grid-area: psalm_content;
-    position: relative;
-    top: 0;
-    margin-bottom: -2.25rem;
     min-height: 50vh;
     padding: 3rem 1.75rem 3rem 1.25rem;
-    background: var(--surface);
+    background: var(--text-surface);
+    color: var(--on-text-surface);
     will-change: transform;
+    @include layout.overlap-top;
   }
 }
-
 
 .refrain {
   &.top {
@@ -49,8 +79,8 @@ psalm-card {
         text-align: center;
         padding-bottom: 2rem;
         content: '***';
-        font: const.$heading-font;
-        color: var(--body-detail)
+        font: font.$primary-heading;
+        color: var(--rubric);
       }
     }
   }
@@ -60,9 +90,9 @@ psalm-card {
   }
 
   .rubric {
-    color: var(--blend-on-surface);
+    color: var(--rubric);
     text-align: center;
-    font: 650 0.8em var(--sentient);
+    font: 500 0.8em var(--sentient);
     line-height: 1.2em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -70,9 +100,9 @@ psalm-card {
 
   .refrain-text {
     padding: 0.5rem 0;
-    color: var(--em-on-surface);
+    color: var(--rubric);
     text-align: center;
-    font: 400 1.1em "Sentient Italic";
+    font: italic 400 1.1em "Sentient";
     line-height: 1.25em;
     text-wrap: balance;
   }
@@ -90,9 +120,9 @@ psalm-card {
   }
 
   h2 {
-    color: var(--body-detail);
+    color: var(--rubric);
     //text-align: center;
-    font: const.$heading-font;
+    font: font.$secondary-heading;
     font-size: 1.2em;
     padding-left: 2.75em;
     padding-bottom: .25rem;
@@ -108,17 +138,19 @@ psalm-card {
     gap: 1rem;
 
     .vn {
-      color: var(--body-detail);
+      color: var(--rubric);
       text-align: right;
-      font: var(--body-font);
+      align-items: start;
     }
 
     .vs {
       min-width: 14ch;
       max-width: fit-content;
       padding-left: 1.5em;
-      color: var(--text-on-body);
+      color: var(--on-text-surface);
       text-wrap: pretty;
+      align-items: start;
+
 
       .vi-1 {
         text-indent: -1.5em;
@@ -136,29 +168,36 @@ psalm-card {
         position: relative;
         bottom: 0.05em;
         opacity: 75%;
-        color: var(--body-detail);
+        color: var(--rubric);
       }
     }
   }
 }
 
 .def-up, .def-low, .voc {
-  vertical-align: 0.05em;
-  font: small-caps 600 1.15em 'Bellefair', 'Alegreya Sans', sans-serif;
+  //vertical-align: 0.05em;
+  font: 500 1.05em 'Bellefair', 'Sentient', serif;
+  font-variant: all-small-caps;
+  line-height: 1em;
 }
 
 .tetra-latin {
-  font: small-caps 600 1.05em 'Bellefair', 'Alegreya Sans', sans-serif;
+  font: 500 1.05em 'Sentient', serif;
+  font-variant: all-small-caps;
+  line-height: 1em;
 }
 
 .tetra-hebrew {
-  font: 500 1.25em 'Bellefair', serif !important;
-  transform: translateY(19px);
+  font: 400 1.2em 'Bellefair', serif !important;
+  vertical-align: text-bottom;
+  line-height: 0.9em;
 }
 
 h3 {
   .def-up, .def-low, .voc {
-    font: small-caps italic 500 0.95em 'Bellefair', 'Alegreya', serif;
+    font: italic 500 0.95em 'Bellefair', 'Sentient', serif;
+    font-variant: all-small-caps;
+    line-height: 1em;
   }
 }
 
@@ -169,9 +208,8 @@ h3 {
   .pn-pl-up,
   .pn-pl-low,
   .pos {
-    vertical-align: 0.0175em;
-    font: 400 1.05em 'Bellefair', 'Sentient', serif;
-    font-variant: small-caps;
+    font: 450 1em 'Sentient', serif;
+    font-variant: all-small-caps;
   }
 
   h3 {
@@ -181,8 +219,8 @@ h3 {
     .pn-pl-up,
     .pn-pl-low,
     .pos {
-      font: 500 0.85em 'Bellefair', 'Sentient', serif;
-      font-variant: small-caps;
+      font: 450 1em 'Sentient', serif;
+      font-variant: all-small-caps;
     }
   }
 }

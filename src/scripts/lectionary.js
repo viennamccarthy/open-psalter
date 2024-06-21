@@ -3,7 +3,6 @@ import {addTransitions, toggleExpandMenu, closeExpandMenu} from "./ui.js";
 import {setPsalterButtons} from "./load.js";
 
 setPsalterButtons();
-//setColors();
 
 // A custom element for the psalm, that will change its contents according to the attributes given
 class officeContainer extends HTMLElement {

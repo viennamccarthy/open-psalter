@@ -153,13 +153,8 @@ class modalCard extends HTMLElement {
   
   attributeChangedCallback(name, oldValue, newValue) {
     if (name === 'content') {
-      const modalCloseTop = document.createElement('div');
-      modalCloseTop.classList.add('modal-close');
-      modalCloseTop.classList.add('top');
-      modalCloseTop.innerHTML = `
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-      </svg>`;
+      const modalCloseTop = document.createElement('span');
+      modalCloseTop.classList.add('icon', 'close', 'modal-close', 'top');
       this.appendChild(modalCloseTop);
 
       $(".modal-close.top").addEventListener("click", () => {
@@ -168,8 +163,7 @@ class modalCard extends HTMLElement {
 
       const modalCloseBottom = document.createElement('div');
       modalCloseBottom.innerHTML = '<span>Close</span>';
-      modalCloseBottom.classList.add('modal-close');
-      modalCloseBottom.classList.add('bottom');
+      modalCloseBottom.classList.add('modal-close', 'bottom');
       this.appendChild(modalCloseBottom);
 
       $(".modal-close.bottom").addEventListener("click", () => {

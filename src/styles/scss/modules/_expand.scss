@@ -1,4 +1,6 @@
-@use '../resources' as const;
+@use '../layout' as layout;
+@use '../assets' as asset;
+@use '../fonts' as font;
 
 .expand {
 
@@ -31,7 +33,7 @@
 }
 
 .expand-block {
-  @include const.rounded-sm;
+  @include layout.rounded-sm;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto auto;
@@ -42,13 +44,10 @@
   padding: 1rem 1rem 2rem;
   justify-content: center;
   overflow-y: hidden;
-  background: var(--button-background);
-  color: var(--text-on-button);
-  font: 200 1em const.$ui-primary-font;
-
+  font: font.$primary-heading;
 
   &[expanded] {
-    height: 100%;
+    height: 100% !important;
 
     .arrow {
       transform: rotate(180deg) !important;
@@ -60,7 +59,6 @@
   }
 
   .arrow {
-    background-image: const.$down-arrow;
     transition: all 500ms ease;
   }
 
@@ -73,7 +71,7 @@
   // Top
   &:not(:last-child) {
     .arrow {
-      background-image: const.$up-arrow;
+      @include asset.icon('up-arrow', 1em, var(--on-mid-shade));
     }
 
     &[expanded] .arrow {
@@ -84,7 +82,7 @@
   //Bottom
   &:last-child {
     .arrow {
-      background-image: const.$down-arrow;
+      @include asset.icon('down-arrow', 1em, var(--on-mid-shade));
     }
 
     &[expanded] .arrow {

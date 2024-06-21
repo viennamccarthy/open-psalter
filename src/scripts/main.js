@@ -1,9 +1,11 @@
 import {
-  setLandingButtons,
+  // loadHistory, maybe later
+  setIndexButtons,
+  setIndexNav
 } from "./load.js";
-import {setColors} from "./ui.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  setLandingButtons();
-  //setColors();
+  setIndexButtons();
+  setIndexNav();
+  // loadHistory(); maybe later
 })

@@ -1,200 +1,440 @@
-@use '../resources' as const;
+@use '../layout' as layout;
+@use '../assets' as asset;
+@use '../fonts' as font;
 
 body:has(.index) {
-  background: const.$paper-bg;
 
   header {
-    justify-content: space-between;
-    background: transparent;
+    @include asset.index-bg;
+    z-index: 1;
+    position: sticky;
+    top: 0;
 
-    @media (min-width: const.$xl) {
-      width: clamp(1024px, 80%, 1136px);
-      margin-inline: auto;
+    &::after {
+      box-shadow: 0 0 5px 5px rgb(0 0 0 / 10%);
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      will-change: transform;
+      transition: opacity var(--shadow-delay) ease;
     }
-    h1 {
-      font: const.$heading-font;
-      padding: 1rem 0;
-      font-size: clamp(1.5em, 8.5vw, 2.25em);
-
-      svg {
-        padding-left: 0.5rem;
-        transform: translateY(0.25rem);
-      }
-
-      .book-line {
-        stroke: var(--logo-line);
-        filter: brightness(90%);
-      }
-
-      .book-left {
-        fill: var(--logo-left);
-      }
-
-      .book-right {
-        fill: var(--logo-right);
+    &.sticky::after {
+      @media (max-width: layout.$lg) {
+        opacity: 1;
       }
     }
 
-    .buttons {
+    .title-bar {
+
+      padding: 1.25rem 0;
+      place-items: center;
       display: flex;
-      gap: 1rem;
-      align-self: center;
 
-      * {
-        height: 2rem;
-        width: 2rem;
-        cursor: pointer;
+      @media (min-width: layout.$lg) {
+        position: relative;
+        height: 10vh;
       }
 
-      .info svg {
-        fill: var(--secondary-color)
+      @media (min-width: layout.$xl) {
+        width: clamp(1024px, 80%, 1136px);
+        margin-inline: auto;
+      }
+
+      h1 {
+        font: asset.$title;
+        color: var(--on-page-surface);
+        font-size: clamp(1.5em, 7.5vw, 2em);
+        display: flex;
+
+        .logo {
+          width: clamp(200px, 75vw, 300px);
+          place-self: center;
+        }
+      }
+    }
+  }
+
+  main {
+    min-width: 100%;
+    padding: 1rem 0;
+    @include asset.index-bg;
+
+    @media (min-width: layout.$lg) {
+      height: calc(90vh);
+      overflow-y: clip;
+    }
+  }
+
+  footer {
+
+    @media (min-width: layout.$lg) {
+      display: none;
+    }
+
+    position: sticky;
+    bottom: 0;
+    background-color: var(--index-nav);
+    padding: 1.35rem 0;
+
+  }
+
+  form.search {
+
+    display: flex;
+    place-content: center;
+
+    & > * {
+      height: 3.25rem;
+      margin: 0;
+      font: font.$ui-text;
+    }
+
+    &::before {
+      content: '';
+      width: 3rem;
+
+      @media (min-width: layout.$lg) {
+        width: 0;
+      }
+    }
+
+    input {
+      width: 15ch;
+      padding: 0;
+      border-radius: 1rem;
+      font-size: 1.25rem;
+      background: var(--info-box);
+      color: var(--on-info-box);
+      outline: 0;
+      text-align: center;
+      border-width: 0;
+
+      /* Chrome, Safari, Opera, Firefox */
+      &::placeholder {
+        color: var(--on-info-box);
+        opacity: 0.5;
+      }
+
+      /* Edge 12 -18 */
+      &::-ms-input-placeholder {
+        color: var(--on-info-box);
+        opacity: 0.5;
+      }
+
+      /* Chrome, Safari, Edge, Opera */
+      &::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+      &[type=number] {
+        -moz-appearance: textfield;
+      }
+    }
+
+    button {
+      padding: 0 0 0 0.75rem;
+      background: none !important;
+      opacity: 0.25;
+      pointer-events: none;
+      will-change: transform;
+      transition: opacity 125ms ease-in;
+
+      .icon {
+        background-color: var(--on-index-nav);
+      }
+
+      &.active {
+        opacity: 1;
+        pointer-events: auto;
+        border: 0;
       }
     }
   }
 }
 
 .index {
-  display: grid;
-  gap: 1rem;
-  width: clamp(375px, 90vw, 625px);
 
-  @media (min-width: const.$lg) {
+  display: grid;
+  margin-inline: 0;
+
+  @media (min-width: layout.$md) {
+    width: clamp(375px, 90vw, 625px);
+    margin-inline: auto;
+  }
+
+  @media (min-width: layout.$lg) {
     grid-template-columns: 40% auto;
     grid-template-rows: auto auto auto;
     grid-template-areas:
             "beta welcome"
             "beta office_nav"
             "psalm_nav psalm_nav";
+    width: 769px;
     gap: 2rem;
-    padding: 4rem 3rem;
+    padding: 4rem 3rem 100vh;
   }
 
-  @media (min-width: const.$xl) {
+  @media (min-width: layout.$xl) {
     width: 1024px;
-    margin-inline: auto;
   }
 
-  button {
-    @include const.rounded-sm;
-    height: fit-content;
-    padding: 1.25rem 0.5rem;
-    color: var(--text-on-button);
+  nav {
+    place-self: center;
+    display: flex;
+    width: fit-content;
+
+    button {
+      @include layout.rounded;
+      height: 3.5rem;
+      padding: 0.75rem 1rem;
+      margin: 0 0.5rem 1rem;
+      background: var(--primary-less);
+      color: var(--on-primary-area);
+
+      &:not(:has(.icon)) {
+        padding-inline: 1.25rem;
+      }
+
+      .icon {
+        @include asset.icon('preferences', 1.25em, var(--on-primary-area));
+        vertical-align: bottom;
+      }
+    }
   }
 
   section:not(.modal, .modal *) {
-    display: grid;
-    grid-template-rows: auto 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 1.5rem;
+
+    @media (min-width: layout.$lg) {
+      padding: 0;
+    }
 
     &.index-block {
-      font: const.$ui-primary-font;
-      color: var(--text-on-index-block);
-      background: var(--index-block-background);
+      font: font.$ui-text;
+      padding: 2rem 0 2.5rem;
     }
-
 
     h2 {
-      padding: 1rem;
-      font-size: 1em;
-      color: var(--index-heading);
-    }
-  }
-
-  .beta {
-    @include const.rounded-sm;
-    padding: 2rem;
-    margin: 1rem 2rem;
-    text-align: center;
-
-    @media (min-width: const.$lg) {
-      grid-area: beta;
-      margin: 0;
-    }
-
-    a {
-      font-weight: 600;
-      color: var(--text-on-index-block);
-      width: fit-content;
-      padding-inline: 2rem;
-      place-self: center;
-    }
-
-    h3, p {
-      padding-bottom: 1rem;
-    }
-  }
-
-  .expand-block {
-    .text {
-      font-size: 1.2em;
-    }
-    .arrow {
-      filter: invert(100%);
-      opacity: 50%;
+      color: var(--on-page-surface);
+      font: font.$secondary-heading;
+      font-size: 1.1em;
+      font-weight: 500;
+      padding-left: 1.5rem;
+      padding-bottom: 0.25rem;
     }
   }
 
   .select {
     display: grid;
-    gap: 1rem;
-    padding-inline: 1.5rem;
+    gap: 1.25rem;
     height: fit-content;
 
-    @media (min-width: const.$lg) {
+    @media (min-width: layout.$lg) {
       padding-inline: 0;
     }
   }
 
-  .office-nav {
+  .beta {
+    @include layout.rounded-sm;
+    text-align: center;
+    background: var(--info-box);
+    color: var(--on-info-box);
 
-    @media (min-width: const.$lg) {
-      grid-area: office_nav;
+    a {
+      font-weight: 400;
+      padding: 1rem 1.5rem;
+      width: fit-content;
+      place-self: center;
+      background: var(--em-button);
+      color: var(--on-em-button);
+    }
+
+    p {
+      padding-inline: 2rem;
+    }
+
+    h3 {
+      font: font.$secondary-heading;
+      padding-inline: 2rem;
+    }
+
+    @media (min-width: layout.$lg) {
+      grid-area: beta;
+      place-content: center;
+      margin: 0;
+      padding: 2rem !important;
+
+      h3, p {
+        padding: 0 0 0.75rem !important;
+        height: fit-content;
+      }
+    }
+  }
+
+  .welcome {
+
+    @media (min-width: layout.$lg) {
+      grid-area: welcome;
+      padding-top: 1.5rem !important;
     }
 
     button {
-      padding: 2.25rem 0.5rem;
-      font: const.$heading-font;
-      font-size: 2rem;
-      cursor: pointer;
+      @include layout.rounded;
+      background: var(--secondary-area);
+      background-blend-mode: soft-light;
+      color: var(--on-secondary-area);
+      margin: 0;
+      padding: 0.75rem 1.25rem;
+    }
+  }
 
-      &.morning {
-        background: var(--index-block-background);
-      }
+  .office-nav {
+    @include layout.rounded-sm;
+    margin-inline: 1.5rem;
+    background: var(--page-variant);
 
-      &.evening {
-        background: var(--index-block-background);
-      }
+    @media (min-width: layout.$lg) {
+      background: none;
+      grid-area: office_nav;
     }
 
-    h2 .soon {
-      padding-right: 0.75rem;
-      font: const.$ui-secondary-font;
+    h2 {
+      color: #413631 !important;
+      font-size: 1.25em !important;
+      font-weight: 350 !important;
+      margin-bottom: 0.25rem;
     }
 
     .select {
-      grid-template-columns: 47% 47%;
+      grid-auto-columns: minmax(0, 1fr);
+      grid-auto-flow: column;
+      padding-inline: 1.5rem;
+
+      @media (min-width: layout.$lg) {
+        padding-bottom: 1.5rem;
+        padding-inline: 0;
+      }
+    }
+
+    button {
+      display: flex;
       place-content: center;
+      padding: 3.2rem 0 3rem;
+      font: font.$primary-heading;
+      font-size: 1rem;
+      font-weight: 500;
+      width: 100%;
+
+      @media (min-width: layout.$md) {
+        padding: 3.25rem 0.5rem;
+      }
+
+      @media (min-width: layout.$lg) {
+        padding: 2rem 1.5rem;
+      }
+
+      text {
+        fill: var(--on-mid-shade);
+      }
+
+      &.morning {
+        background: asset.$morning-title;
+      }
+
+      &.evening {
+        background: asset.$evening-title;
+      }
     }
   }
 
   .psalm-nav {
 
+    padding-top: 1rem;
+
+    h2 {
+      color: var(--on-page-surface) !important;
+      font-size: 1.5em !important;
+      text-align: center;
+      padding-left: 0 !important;
+    }
+
+    @media (min-width: layout.$lg) {
+      grid-area: psalm_nav;
+
+      .select {
+        display: none;
+      }
+    }
+
+    .expand-block {
+      height: 4rem;
+      padding: 0.85rem 1rem 2rem;
+      justify-content: center;
+      overflow-y: hidden;
+      @include asset.background('leaves', overlay, var(--primary-area));
+      color: var(--on-primary-area);
+      font: font.$primary-heading;
+      font-size: 0.95em;
+
+      .text {
+        font-size: 1.5em;
+        letter-spacing: .01em;
+      }
+
+      .arrow {
+        @include asset.icon('arrow-down', 1em, var(--on-primary-area));
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        column-gap: 1rem;
+        row-gap: 1rem;
+        margin-top: 1.5rem;
+        place-content: center;
+
+        .psalm-button {
+          @include layout.rounded-xs;
+          width: 100%;
+          height: 105%;
+          padding: 0.5rem;
+          margin: 0;
+          line-height: 1.5em;
+          color: var(--on-primary-area);
+          background: none;
+          border: 1.5px solid hsl(91, 29%, 92%, 0.5);
+        }
+
+      }
+    }
+
     .search {
+
       display: none;
 
       @media (min-width: 769px) {
-
         display: grid;
-        font: 200 1em const.$ui-primary-font;
+
+        font: 200 1em font.$ui-label;
 
         form {
-          @include const.rounded-sm;
+          @include layout.rounded-sm;
           display: flex;
           gap: 0.5rem;
           height: fit-content;
           padding: 1rem;
           place-content: center;
-          background: var(--index-block-background);
-          color: var(--text-on-index-block);
+          @include asset.background('leaves', overlay, var(--primary-area));
+          color: var(--on-primary-area);
 
           label {
             height: fit-content;
@@ -203,129 +443,35 @@ body:has(.index) {
           }
 
           input, button {
-            @include const.rounded-xs;
+            @include layout.rounded-sm;
             height: 3.25rem;
-            width: 4.5rem;
             padding: 0.5rem;
-            font-weight: 400;
             outline: 0;
           }
 
           input {
-            align-self: center;
-            background: var(--input-field);
-            text-align: center;
-            font: 1.5rem const.$ui-primary-font;
-            color: var(--text-on-input-field);
-            outline: 0;
-            border-width: 0;
-            margin-right: 2rem;
-          }
-
-          /* Chrome, Safari, Edge, Opera */
-          input::-webkit-outer-spin-button,
-          input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-          }
-
-          /* Firefox */
-          input[type=number] {
-            -moz-appearance: textfield;
+            width: 5em;
+            margin-left: 2rem;
+            padding-right: 1.15rem;
+            border-radius: 1.15rem 0 0 1.15rem;
+            font-weight: 300;
           }
 
           button {
-            background: var(--button-background);
-            font: const.$ui-secondary-font;
-            font-size: 1.25rem;
-            color: var(--text-on-button);
-            opacity: 0.5;
+            padding: 0 1rem;
+            background: var(--de-em-button);
+              color: var(--on-de-em-button);
+            left: -1.15rem;
 
             &.active {
-              opacity: 1;
-              background: var(--button-active-background);
-              color: var(--text-on-button-active);
-              cursor: pointer;
-
+              background: var(--em-button);
+              color: var(--on-em-button);
             }
           }
         }
       }
     }
-
-    @media (min-width: const.$lg) {
-      grid-area: psalm_nav;
-
-      .select {
-        display: none;
-      }
-    }
-
-    .select {
-
-      .content {
-        display: grid;
-        grid-template-columns: 15% 15% 15% 15% 15%;
-        column-gap: 1rem;
-        row-gap: 1.5rem;
-        margin-top: 1.5rem;
-        place-content: center;
-
-        .psalm-button {
-          @include const.rounded-xs;
-          background: var(--button-background);
-          font: 1.1em const.$ui-secondary-family;
-          color: var(--text-on-button);
-          padding: 0.5rem;
-        }
-      }
-    }
-
   }
 
-  .welcome {
-    @media (min-width: const.$lg) {
-      grid-area: welcome;
-    }
 
-    button {
-      font: const.$ui-primary-font;
-      background: var(--button-background);
-      color: var(--text-on-button);
-      cursor: pointer;
-
-      svg {
-        position: relative;
-        top: 0.15em;
-        padding-left: 0.25rem;
-      }
-    }
-
-  }
-}
-
-.index + footer {
-  display: grid;
-  padding: 2rem 2rem 1rem;
-  color: var(--text-on-body);
-  background-color: transparent;
-  font: const.$ui-secondary-font;
-
-  @media (min-width: const.$xl) {
-    width: clamp(1024px, 90%, 1260px);
-    margin-inline: auto;
-  }
-
-  a {
-    color: var(--body-detail);
-    text-decoration: none;
-  }
-
-  .logo-1 {
-    color: var(--logo-left);
-  }
-
-  .logo-2 {
-    color: var(--logo-right);
-  }
 }

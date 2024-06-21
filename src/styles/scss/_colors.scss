@@ -1,0 +1,80 @@
+:root {
+
+  --on-background: hsl(43, 23%, 94%);
+  --background: hsl(24, 15%, 22%);
+
+  --on-light: hsl(24, 15%, 22%);
+  --on-dark: hsl(29, 29%, 92%);
+  --on-mid-shade: hsl(40, 13%, 98%); // alt (43, 0%, 100%)
+  --header-preferences: hsl(91, 34%, 40%);
+
+  --dark-dark: hsl(22, 12%, 12%);
+  --light-light: hsl(43, 23%, 94%);
+
+  --on-page-surface: hsl(29, 29%, 92%);
+  --page-surface: hsl(29, 29%, 46%); // hsl(29, 29%, 54%);
+  --page-variant: hsl(29, 29%, 65%);
+
+  --on-primary-area: hsl(43, 23%, 94%);
+  --primary-area: hsl(91, 34%, 40%);
+  --primary-less: hsl(82, 30%, 47%);
+
+  --on-secondary-area: hsl(48, 14%, 93%);
+  --secondary-area: hsl(39, 43%, 53%); // hsl(29, 37%, 37%);
+
+  --on-info-box: var(--on-light);
+  --info-box: hsl(40, 23%, 84%);
+
+  --on-em-button: hsl(40, 13%, 98%);
+  --em-button: hsl(14, 24%, 47%);
+
+  --on-de-em-button: hsl(31, 24%, 47%);
+  --de-em-button: hsl(28, 17%, 57%);
+
+  --highlight: hsl(28, 36%, 73%);
+
+  --on-index-nav: var(--on-mid-shade);
+  --index-nav: hsl(14, 24%, 47%);
+
+  --on-psalm-card: var(--on-mid-shade);
+  --psalm-card: hsl(20, 39%, 65%);
+
+  --logo-light: hsl(91, 29%, 92%);
+
+  --rubric: hsl(0, 40%, 63%);
+
+
+  --on-modal-surface: var(--on-primary-area);
+  --modal-surface: var(--primary-area);
+  --on-modal-highlight: var(--on-primary-area);
+  --modal-highlight: var(--primary-less);
+  --modal-highlight-detail: var(--on-primary-area);
+
+  --on-transparent-button: var(--on-mid-shade);
+  --transparent-button: hsl(0, 15%, 95%, .2);
+  --transparent-button-active: hsl(0, 5%, 95%, .6);
+  --transparent-button-detail: hsl(0, 20%, 5%, .2);
+
+  --on-title-card: var(--on-mid-shade);
+  --title-card: var(--page-variant);
+  --on-office-title-card: var(--on-mid-shade);
+  --rubric-on-office-title-card: var(--on-mid-shade);
+  --morning-office-title-card: hsl(180, 72%, 38%);
+  --evening-office-title-card: hsl(217, 41%, 30%);
+
+  --on-nav-multi: var(--on-primary-area);
+  --nav-multi: var(--primary-area);
+  --on-office-nav-multi: var(--on-page-surface);
+  --morning-office-nav-multi: var(--page-variant);
+  --evening-office-nav-multi: var(--page-variant);
+
+  --on-nav-bar: var(--on-background);
+  --link-on-nav-bar: var(--on-background);
+  --nav-bar: var(--background);
+
+  --preferences-button-background: var(--highlight);
+
+  --text-surface: var(--dark-dark);
+  --on-text-surface: var(--light-light);
+
+}

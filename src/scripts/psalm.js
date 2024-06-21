@@ -18,7 +18,7 @@ import {
   setMultiObserver,
   toggleExpandMenu
 } from "./ui.js";
-import {setListener} from "./load.js";
+import {setHistory, setListener} from "./load.js";
 
 // Do I really need both of these functions????
 
@@ -170,6 +170,10 @@ class psalmCard extends HTMLElement {
           element.remove();
         })
         this.querySelector('.psalm-box').innerHTML = '<div class="psalm-text"></div>';
+
+        const params = new URLSearchParams(window.location.search);
+        params.set('n', psalmNumber);
+        history.replaceState(null, null, `?${params.toString()}`);
       }
 
       // Get verses numbers from attribute
@@ -222,6 +226,7 @@ class psalmCard extends HTMLElement {
 
             // Create intersection point
             const intersectionPoint = document.createElement('span');
+            intersectionPoint.classList.add('intersection-point');
             this.querySelector('.psalm-box').insertBefore(intersectionPoint, this.querySelector('.psalm-text'));
 
             const multiBottom = multiTop.cloneNode(true);
@@ -267,6 +272,7 @@ class psalmCard extends HTMLElement {
               for (let i in references) {
                 const referenceElement = document.createElement('span');
                 referenceElement.setAttribute('name', String(i));
+                referenceElement.classList.add('button');
                 element.appendChild(referenceElement);
 
                 if (+i === +psalmSection) {
@@ -322,7 +328,7 @@ class psalmCard extends HTMLElement {
           }
         }
       })
-      
+
       if ($('.psalter')) {
         setPsalterNav(psalmNumber);
       }
@@ -459,11 +465,14 @@ export const addPsalmContent = function addPsalmContentElements(thisPsalm, categ
 }
 
 export const setPsalterNav = function setPsalterMainNav(psalmNumber) {
-  
+
+  // First, prepare history, maybe later
+  // const historyTimeout = setHistory(psalmNumber);
+
   $$("nav.main .left").forEach(element => {
     if (psalmNumber > 1) {
       element.onclick = () => {
-        //setColors();
+        // clearTimeout(historyTimeout);
         $('psalm-card').setAttribute('number', String(psalmNumber - 1));
       }
       removeHidden(element);
@@ -474,7 +483,7 @@ export const setPsalterNav = function setPsalterMainNav(psalmNumber) {
   $$("nav.main .right").forEach(element => {
     if (psalmNumber < 150) {
       element.onclick = () => {
-        //setColors();
+        // clearTimeout(historyTimeout);
         $('psalm-card').setAttribute('number', String(+psalmNumber + 1));
       }
       removeHidden(element);

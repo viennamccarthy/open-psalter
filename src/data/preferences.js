@@ -1,3 +1,5 @@
+const tetraHebrew = 'יהוה';
+
 export const divineName = {
   god: {
     defLow: 'God',
@@ -15,9 +17,9 @@ export const divineName = {
     voc: 'yhwh'
   },
   tetraHebrew: {
-    defLow: '&nbsp;יהוה&nbsp;',
-    defUp: '&nbsp;יהוה&nbsp;',
-    voc: '&nbsp;יהוה&nbsp;'
+    defLow: `&#x200A;&#x2060;${tetraHebrew}&#8239;`,
+    defUp: `&#x200A;&#x2060;${tetraHebrew}&#8239;`,
+    voc: `&#x200A;&#x2060;${tetraHebrew}&#8239;`
   }
 }
 

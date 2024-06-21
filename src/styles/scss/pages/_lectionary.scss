@@ -1,4 +1,6 @@
-@use '../resources' as const;
+@use '../layout' as layout;
+@use '../assets' as asset;
+@use '../fonts' as font;
 
 // improve: check if necessary?
 .lectionary::after {
@@ -9,7 +11,7 @@
   background: var(--dark);
   content: '';
 
-  @media (min-width: const.$md) {
+  @media (min-width: layout.$md) {
     display: none;
   }
 }
@@ -20,7 +22,7 @@ office-container {
   grid-template-areas:
         "office_title"
         "office_content";
-
+/*
   &::before {
     display: grid;
     grid-area: office_content;
@@ -31,17 +33,58 @@ office-container {
     content: '';
     top: 2.25rem;
   }
+  */
 
-  .title {
-    display: flex;
-    grid-area: office_title;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  &:has(nav.multi)::before {
+    display: block;
+    grid-area: office_content;
+    height: 2rem;
+    position: sticky;
+    content: '';
+    top: 2.25rem;
+
   }
-  &[office=morning] .title-box {
-    background: radial-gradient(circle at bottom, #fceabb, transparent),
-    const.$texture-bg var(--morning-title-card-background);
+
+  &[office='morning']:has(nav.multi)::before {
+    background: var(--morning-office-nav-multi);
+  }
+
+  &[office='evening']:has(nav.multi)::before {
+    background: var(--evening-office-nav-multi);
+  }
+
+  &[office='morning'] > .title-box {
+    background: asset.$morning-title;
+  }
+
+  &[office='evening'] > .title-box {
+    background: asset.$evening-title;
+  }
+
+  & > .title-box {
+    grid-area: office_title;
+
+    h1 {
+      color: var(--on-office-title-card);
+    }
+
+    h2 {
+      font-size: 2em;
+      color: var(--rubric-on-office-title-card);
+    }
+
+    @media (min-width: layout.$md) {
+      background: none !important;
+      position: relative;
+    }
+  }
+
+  &[office='morning'] nav.multi {
+    background: var(--morning-office-nav-multi);
+  }
+
+  &[office='evening'] nav.multi {
+    background: var(--evening-office-nav-multi);
   }
 
   nav.multi {
@@ -50,23 +93,23 @@ office-container {
     padding-bottom: 4.5rem !important;
     will-change: transform;
     transition: all 500ms ease;
+    color: (--on-office-nav-multi);
 
     .drop.vertical {
-      font: const.$ui-primary-font;
       display: grid;
       gap: 2rem;
     }
 
     div:not(:has(.options)) .day {
+      @include layout.rounded-sm;
       padding: 1rem 1.5rem;
-      @include const.rounded-sm;
-      border: 2px solid var(--pale-transparent);
+      background: var(--transparent-button);
       cursor: pointer;
     }
 
     div[active]:not(:has(.options)) .day {
-      background-color: var(--color-translucent) !important;
-      border-color: var(--pale) !important;
+      background: var(--transparent-button-active) !important;
+      border-color: var(--transparent-button-detail) !important;
     }
 
     .day {
@@ -75,7 +118,6 @@ office-container {
       width: fit-content;
       font-size: 1.25em;
       line-height: 1.75em;
-      color: var(--bright);
     }
 
     .options {
@@ -83,13 +125,13 @@ office-container {
       * {
         padding: 0.5rem 1rem;
         margin-inline: 0.25rem;
-        @include const.rounded-sm;
-        border: 2px solid var(--pale-transparent);
+        @include layout.rounded-sm;
+        background: var(--transparent-button);
         cursor: pointer;
 
         &[active] {
-          background-color: var(--color-translucent) !important;
-          border-color: var(--pale) !important;
+          background: var(--transparent-button-active) !important;
+          border-color: var(--transparent-button-detail) !important;
         }
       }
     }
@@ -101,18 +143,15 @@ office-container {
     transform: translate3d(0, 0, 0);
     z-index: 1;
     pointer-events: none;
-
-    :has(nav.multi) & {
-      position: relative;
-      top: 3.5rem;
-      margin-bottom: 3.5rem;
-    }
+    @include layout.overlap-top;
 
     psalm-card {
       display: grid;
 
-      &::before {
-        background: var(--color-soft);
+      @media (min-width: layout.$md) {
+        .title-box {
+          opacity: 0.5;
+        }
       }
 
       &:not(:first-of-type)::after {
@@ -120,40 +159,12 @@ office-container {
         grid-area: psalm_title;
         height: 2.25rem;
         position: sticky;
-        background: const.$paper-bg;
+        background: var(--text-surface);
         content: '';
         top: 0;
 
-        @media (min-width: const.$md) {
-          position: relative;
-          background: var(--color-main);
-          top: -4.25rem;
-          height: 4.25rem;
-          z-index: 1;
-        }
-      }
-
-      .title-box {
-        @include const.rounded-top;
-        grid-area: psalm_title;
-        display: flex;
-        flex-direction: column;
-        height: 10vh;
-        min-height: 8.5rem;
-        position: sticky;
-        top: 0;
-        padding: 0;
-        justify-content: center;
-        align-items: center;
-        background: var(--color-soft);
-        z-index: 1;
-
-        h1 {
-          color: var(--pale);
-          font: const.$heading-font;
-          font-size: 2em;
-          line-height: 1.1em;
-          text-align: center
+        @media (min-width: layout.$md) {
+          display: none;
         }
       }
 
@@ -161,14 +172,10 @@ office-container {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
 
-        @media (min-width: const.$md) {
-          @include const.rounded-bottom;
-          margin-bottom: 2rem;
+        @media (min-width: layout.$md) {
+          @include layout.rounded-bottom;
+          margin-bottom: 0;
         }
-      }
-
-      @media (min-width: const.$md) {
-
       }
     }
   }

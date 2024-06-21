@@ -1,109 +1,122 @@
 /* SCREENS */
 /* FONTS */
-@font-face {
-  font-family: "Alegreya";
-  font-weight: 400 500;
-  font-display: block;
-  src: url(../../assets/fonts/AlegreyaSC-Regular.woff2), url(../../assets/fonts/AlegreyaSC-Medium.woff2);
-  font-variant: small-caps;
-  font-style: normal;
+/* ASSETS */
+:root {
+  --left-scroll: "";
+  --right-scroll: "";
+  --left-scroll-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>');
+  --right-scroll-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>');
 }
-@font-face {
-  font-family: "Alegreya";
-  font-weight: 400 500;
-  font-display: block;
-  src: url(../../assets/fonts/Alegreya-Regular.woff2), url(../../assets/fonts/Alegreya-Medium.woff2);
-  font-variant: normal;
-  font-style: normal;
+
+/* LAYOUT */
+:root {
+  --shadow-delay: 250ms;
 }
+
+/* FONTS */
 @font-face {
-  font-family: "Alegreya";
-  font-weight: 400 500;
-  font-display: block;
-  src: url(../../assets/fonts/AlegreyaSC-Italic.woff2), url(../../assets/fonts/AlegreyaSC-MediumItalic.woff2);
-  font-variant: small-caps;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Alegreya";
-  font-weight: 400 500;
-  font-display: block;
-  src: url(../../assets/fonts/Alegreya-Italic.woff2), url(../../assets/fonts/Alegreya-MediumItalic.woff2);
-  font-variant: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Alegreya Sans";
-  font-weight: 300 500;
-  font-display: block;
-  src: url(../../assets/fonts/AlegreyaSansSC-Light.woff2), url(../../assets/fonts/AlegreyaSansSC-Regular.woff2), url(../../assets/fonts/AlegreyaSansSC-Medium.woff2);
-  font-variant: small-caps;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Alegreya Sans";
-  font-weight: 300 500;
-  font-display: block;
-  src: url(../../assets/fonts/AlegreyaSans-Light.woff2), url(../../assets/fonts/AlegreyaSans-Regular.woff2), url(../../assets/fonts/AlegreyaSans-Medium.woff2);
-  font-variant: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Alegreya Sans";
-  font-weight: 300 500;
-  font-display: block;
-  src: url(../../assets/fonts/AlegreyaSansSC-LightItalic.woff2), url(../../assets/fonts/AlegreyaSansSC-Italic.woff2), url(../../assets/fonts/AlegreyaSansSC-MediumItalic.woff2);
-  font-variant: small-caps;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Alegreya Sans";
-  font-weight: 300 500;
-  font-display: block;
-  src: url(../../assets/fonts/AlegreyaSans-LightItalic.woff2), url(../../assets/fonts/AlegreyaSans-Italic.woff2), url(../../assets/fonts/AlegreyaSans-MediumItalic.woff2);
-  font-variant: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Synonym";
-  font-weight: 400;
-  font-display: block;
-  src: url(../../assets/fonts/Synonym-Regular.woff2);
+  font-family: "Lexend Deca";
+  font-weight: 200;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-deca/LexendDeca-ExtraLight.woff2);
   font-style: normal;
 }
 @font-face {
   font-family: "Lexend Deca";
-  font-weight: 200 400;
-  font-display: block;
-  src: url(../../assets/fonts/LexendDeca-ExtraLight.woff2), url(../../assets/fonts/LexendDeca-Light.woff2), url(../../assets/fonts/LexendDeca-Regular.woff2);
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-deca/LexendDeca-ExtraLight.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-deca/LexendDeca-ExtraLight.woff2);
   font-style: normal;
 }
 @font-face {
   font-family: "Lexend Giga";
-  font-weight: 200 400;
-  font-display: block;
-  src: url(../../assets/fonts/LexendGiga-ExtraLight.woff2), url(../../assets/fonts/LexendGiga-Light.woff2), url(../../assets/fonts/LexendGiga-Regular.woff2);
+  font-weight: 200;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-giga/LexendGiga-ExtraLight.woff2);
   font-style: normal;
 }
 @font-face {
-  font-family: "Bitter";
-  font-weight: 300 500;
-  font-display: block;
-  src: url(../../assets/fonts/Bitter-Light.woff2), url(../../assets/fonts/Bitter-Regular.woff2), url(../../assets/fonts/Bitter-Medium.woff2);
+  font-family: "Lexend Giga";
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-giga/LexendGiga-ExtraLight.woff2);
   font-style: normal;
 }
 @font-face {
-  font-family: "Bitter";
-  font-weight: 300 500;
-  font-display: block;
-  src: url(../../assets/fonts/Bitter-LightItalic.woff2), url(../../assets/fonts/Bitter-Italic.woff2), url(../../assets/fonts/Bitter-MediumItalic.woff2);
+  font-family: "Lexend Giga";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/lexend-giga/LexendGiga-ExtraLight.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Light.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Regular.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Medium.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-SemiBold.woff2);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-LightItalic.woff2);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-Italic.woff2);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-MediumItalic.woff2);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-display: swap;
+  src: url(../../assets/fonts/work-sans/WorkSans-SemiBoldItalic.woff2);
   font-style: italic;
 }
 @font-face {
   font-family: "Bellefair";
   font-weight: 400;
-  font-display: block;
-  src: url(../../assets/fonts/Bellefair-Regular.woff2);
+  font-display: swap;
+  src: url(../../assets/fonts/bellefair/Bellefair-Regular.woff2);
   unicode-range: U+590-5FF, U+FB1D-FB4F;
   font-style: normal;
 }
@@ -111,28 +124,35 @@
   font-family: "Sentient";
   src: url(../../assets/fonts/sentient/Sentient-Variable.woff2) format("woff2"), url(../../assets/fonts/sentient/Sentient-Variable.woff) format("woff"), url(../../assets/fonts/sentient/Sentient-Variable.ttf) format("truetype");
   font-weight: 200 700;
-  font-display: block;
+  font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Sentient Italic";
+  font-family: "Sentient";
   src: url(../../assets/fonts/sentient/Sentient-VariableItalic.woff2) format("woff2"), url(../../assets/fonts/sentient/Sentient-VariableItalic.woff) format("woff"), url(../../assets/fonts/sentient/Sentient-VariableItalic.ttf) format("truetype");
   font-weight: 200 700;
-  font-display: block;
+  font-display: swap;
   font-style: italic;
 }
 @font-face {
-  font-family: "League Gothic";
-  font-display: block;
-  src: url(../../assets/fonts/league-gothic/LeagueGothic-Regular.woff2);
+  font-family: "Telma";
+  src: url(../../assets/fonts/telma/Telma-Variable.woff2) format("woff2"), url(../../assets/fonts/telma/Telma-Variable.woff) format("woff"), url(../../assets/fonts/telma/Telma-Variable.ttf) format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
   font-style: normal;
 }
+@font-face {
+  font-family: "Dancing Script";
+  src: url(../../assets/fonts/dancing-script/DancingScript-Variable.woff2) format("woff2"), url(../../assets/fonts/dancing-script/DancingScript-Variable.woff) format("woff"), url(../../assets/fonts/dancing-script/DancingScript-Variable.ttf) format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+/* PROPERTIES */
 :root {
+  --sentient: "Sentient", serif;
   --lexend: "Lexend Deca", sans-serif;
   --lexend-wide: "Lexend Giga", sans-serif;
-  --bitter: "Bitter", serif;
-  --synonym: "Synonym", sans-serif;
-  --sentient: "Sentient", serif;
   --body-font-face: var(--sentient);
   --body-font-size: 1.2rem;
   --body-font: 325 var(--body-font-size) var(--body-font-face);
@@ -143,148 +163,67 @@
   }
 }
 
-/* COLOURS */
-/*
-@function soft($color) {
-  @return color.scale($color, $lightness: 30%);
-}
-
-@function dark($color) {
-  @return color.scale($color, $lightness: -65%, $saturation: -20%);
-}
-
-@function translucent($color) {
-  @return color.scale($color, $lightness: 30%, $alpha: -50%);
-}
-*/
 :root {
-  --cg-1000: hsl(180, 12%, 13%);
-  --cg-900: hsl(185, 12%, 21%);
-  --cg-800: hsl(180, 11%, 27%);
-  --cg-700: hsl(180, 10%, 32%);
-  --cg-600: hsl(180, 9%, 38%);
-  --cg-500: hsl(180, 8%, 44%);
-  --cg-400: hsl(180, 8%, 51%);
-  --cg-300: hsl(180, 9%, 58%);
-  --cg-200: hsl(177, 10%, 65%);
-  --cg-100: hsl(173, 12%, 72%);
-  --cg-50: hsl(164, 13%, 77%);
-  --cg-30: hsl(160, 12%, 81%);
-  --cg-10: hsl(147, 11%, 83%);
-  --wg-1000: hsl(34, 10%, 13%);
-  --wg-900: hsl(38, 9%, 25%);
-  --wg-800: hsl(42, 8%, 32%);
-  --wg-700: hsl(44, 8%, 38%);
-  --wg-600: hsl(45, 7%, 45%);
-  --wg-500: hsl(46, 7%, 52%);
-  --wg-400: hsl(44, 9%, 60%);
-  --wg-300: hsl(45, 13%, 69%);
-  --wg-200: hsl(48, 18%, 78%);
-  --wg-100: hsl(51, 25%, 85%);
-  --wg-50: hsl(51, 42%, 91%);
-  --wg-30: hsl(50, 64%, 95%);
-  --wg-10: hsl(51, 100%, 99%);
-  --pc-900: hsl(31, 100%, 14%);
-  --pc-800: hsl(33, 85%, 31%);
-  --pc-700: hsl(35, 78%, 44%);
-  --pc-600: hsl(36, 85%, 55%);
-  --pc-500: hsl(38, 95%, 59%);
-  --pc-400: hsl(40, 100%, 62%);
-  --pc-300: hsl(41, 100%, 66%);
-  --pc-200: hsl(43, 100%, 70%);
-  --pc-100: hsl(45, 100%, 78%);
-  --pc-50: hsl(46, 100%, 88%);
-  --pc-30: hsl(46, 100%, 95%);
-  --sc-900: hsl(192, 100%, 11%);
-  --sc-800: hsl(189, 100%, 18%);
-  --sc-700: hsl(187, 97%, 25%);
-  --sc-600: hsl(186, 91%, 30%);
-  --sc-500: hsl(184, 83%, 35%);
-  --sc-400: hsl(183, 73%, 41%);
-  --sc-300: hsl(181, 57%, 48%);
-  --sc-200: hsl(179, 53%, 58%);
-  --sc-100: hsl(178, 53%, 73%);
-  --sc-50: hsl(178, 68%, 91%);
-  --on-primary: hsl(317, 28%, 98%);
-  --primary: hsl(317, 41%, 30%);
-  --primary-container: hsl(317, 44%, 34%);
-  --primary-variant: hsl(318, 54%, 22%);
-  --on-secondary: hsl(318, 28%, 10%);
-  --secondary: hsl(27, 57%, 81%);
-  --secondary-container: hsl(27, 57%, 70%);
-  --secondary-variant: hsl(353, 41%, 45%);
-  --on-tertiary: hsl(180, 68%, 91%);
-  --tertiary: hsl(180, 72%, 38%);
-  --tertiary-container: hsl(180, 93%, 38%);
-  --tertiary-variant: hsl(180, 100%, 11%);
-  --red: hsl(353, 76%, 57%);
-  --pink: hsl(0, 40%, 63%);
-  --on-surface: hsl(0, 10%, 8%);
-  --surface: hsl(27, 77%, 96%);
-  --on-background: hsl(317, 28%, 98%);
-  --background: hsl(353, 5%, 13%);
-  --text-on-modal: var(--on-tertiary);
-  --modal-background: var(--tertiary);
-  --text-on-modal-highlight: var(--tertiary-variant);
-  --modal-highlight-background: var(--red);
-  --modal-highlight-detail: var(--red);
-  --text-on-modal-button: var(--on-tertiary);
-  --modal-button-background: var(--tertiary-container);
-  --modal-button-detail: var(--tertiary-variant);
-  --text-on-modal-button-active: var(--on-secondary);
-  --modal-button-active-background: var(--secondary-container);
-  --modal-button-active-detail: var(--secondary-variant);
-  --text-on-button: var(--on-primary);
-  --button-background: var(--primary-container);
-  --button-detail: var(--primary-variant);
-  --text-on-button-active: var(--on-primary);
-  --button-active-background: var(--primary);
-  --button-active-detail: var(--on-primary);
-  --psalm-title-card-background: var(--secondary);
-  --psalm-multi-background: var(--secondary-container);
-  --office-title-card-background: var(--tertiary);
-  --ofice-multi-background: var(--tertiary-container);
-  --text-on-body: var(--on-surface);
-  --body-detail: var(--on-surface);
-  --body-highlight: var(--primary);
-  --logo-text: var(--grey-30);
-  --logo-left: var(--pri-10);
-  --logo-right: var(--pri-20);
-  --logo-line: var(--grey-50);
-  --nav-bar-background: var(--background);
-  --text-on-nav-bar: var(--on-background);
+  --on-background: hsl(43, 23%, 94%);
+  --background: hsl(24, 15%, 22%);
+  --on-light: hsl(24, 15%, 22%);
+  --on-dark: hsl(29, 29%, 92%);
+  --on-mid-shade: hsl(40, 13%, 98%);
+  --header-preferences: hsl(91, 34%, 40%);
+  --dark-dark: hsl(22, 12%, 12%);
+  --light-light: hsl(43, 23%, 94%);
+  --on-page-surface: hsl(29, 29%, 92%);
+  --page-surface: hsl(29, 29%, 46%);
+  --page-variant: hsl(29, 29%, 65%);
+  --on-primary-area: hsl(43, 23%, 94%);
+  --primary-area: hsl(91, 34%, 40%);
+  --primary-less: hsl(82, 30%, 47%);
+  --on-secondary-area: hsl(48, 14%, 93%);
+  --secondary-area: hsl(39, 43%, 53%);
+  --on-info-box: var(--on-light);
+  --info-box: hsl(40, 23%, 84%);
+  --on-em-button: hsl(40, 13%, 98%);
+  --em-button: hsl(14, 24%, 47%);
+  --on-de-em-button: hsl(31, 24%, 47%);
+  --de-em-button: hsl(28, 17%, 57%);
+  --highlight: hsl(28, 36%, 73%);
+  --on-index-nav: var(--on-mid-shade);
+  --index-nav: hsl(14, 24%, 47%);
+  --on-psalm-card: var(--on-mid-shade);
+  --psalm-card: hsl(20, 39%, 65%);
+  --logo-light: hsl(91, 29%, 92%);
+  --rubric: hsl(0, 40%, 63%);
+  --on-modal-surface: var(--on-primary-area);
+  --modal-surface: var(--primary-area);
+  --on-modal-highlight: var(--on-primary-area);
+  --modal-highlight: var(--primary-less);
+  --modal-highlight-detail: var(--on-primary-area);
+  --on-transparent-button: var(--on-mid-shade);
+  --transparent-button: hsl(0, 15%, 95%, .2);
+  --transparent-button-active: hsl(0, 5%, 95%, .6);
+  --transparent-button-detail: hsl(0, 20%, 5%, .2);
+  --on-title-card: var(--on-mid-shade);
+  --title-card: var(--page-variant);
+  --on-office-title-card: var(--on-mid-shade);
+  --rubric-on-office-title-card: var(--on-mid-shade);
+  --morning-office-title-card: hsl(180, 72%, 38%);
+  --evening-office-title-card: hsl(217, 41%, 30%);
+  --on-nav-multi: var(--on-primary-area);
+  --nav-multi: var(--primary-area);
+  --on-office-nav-multi: var(--on-page-surface);
+  --morning-office-nav-multi: var(--page-variant);
+  --evening-office-nav-multi: var(--page-variant);
+  --on-nav-bar: var(--on-background);
   --link-on-nav-bar: var(--on-background);
-  --nav-multi-background: var(--secondary);
-  --text-on-nav-multi: var(--on-secondary);
-  --header-card-background: var(--tertiary);
-  --text-on-header-card: var(--on-secondary);
-  --header-card-detail: var(--secondary-variant);
-  --page-background-dark: var(--background);
-  --page-background-feature: var(--primary);
-  --preferences-top: var(--primary);
-  --preferences-mid: var(--primary);
-  --preferences-low: var(--primary);
-  --preferences-button-background: var(--grey-40);
-  --image-button: var(--secondary);
-  --index-block-background: var(--grey-30);
-  --text-on-index-block: var(--grey-50);
-  --index-heading: var(--grey-20);
-  --input-field: var(--grey-40);
-  --text-on-input-field: var(--grey-10);
-  --page-bg: var(--background);
-  --body-text: var(--on-surface);
-  --body-bg: var(--surface);
+  --nav-bar: var(--background);
+  --preferences-button-background: var(--highlight);
+  --text-surface: var(--dark-dark);
+  --on-text-surface: var(--light-light);
 }
 
-/* ASSETS */
-:root {
-  --left-scroll: "";
-  --right-scroll: "";
-  --left-scroll-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>');
-  --right-scroll-arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>');
-}
-
-/* LAYOUT */
+/* ICONS */
+/* TEXTURES */
+/* CARDS */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     transition-duration: 0.01ms !important;
@@ -303,23 +242,179 @@ p, h1, h2, h3 {
   margin: 0;
 }
 
-a.button {
+h1 {
+  font: italic 400 1em "Sentient", serif;
+}
+
+h2 {
+  font: italic 300 1em "Sentient", serif;
+}
+
+button, .button {
   border-radius: 1rem;
   border-width: 0;
+  padding: 1.6rem 2rem;
+  margin: 0 0.5rem;
+  background: var(--transparent-button);
+  color: var(--on-transparent-button);
+  font: 400 1em "Work Sans", sans-serif;
+  font-weight: 400;
+  justify-self: center;
+  cursor: pointer;
   height: fit-content;
-  width: 100%;
-  padding: 1rem;
-  background: var(--button-background);
-  color: var(--text-on-button);
-  font: italic 500 1em "Alegreya Sans", sans-serif;
-  text-decoration: none;
+  width: fit-content;
   text-align: center;
+}
+button.active, .button.active {
+  font-weight: 600;
+  background: var(--transparent-button-active);
+  border: 2px solid var(--transparent-button-detail);
+}
+
+a.button {
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-flex;
+}
+.icon.arrow-double-right {
+  display: inline-flex;
+  place-self: center;
+  width: 1.75em;
+  height: 1.75em;
+  background: var(--n00);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1.75em" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.arrow-double-left {
+  display: inline-flex;
+  place-self: center;
+  width: 1.75em;
+  height: 1.75em;
+  background: var(--dark-dark);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="1.75em"><path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.arrow-to-top {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--dark-dark);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="1.75em" fill="currentColor"><path fill-rule="evenodd" d="M9.47 4.72a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 6.31l-3.72 3.72a.75.75 0 1 1-1.06-1.06l4.25-4.25Zm-4.25 9.25 4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 11.31l-3.72 3.72a.75.75 0 0 1-1.06-1.06Z" clip-rule="evenodd" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.arrow-up {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--dark-dark);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.arrow-down {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--dark-dark);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.arrow-left {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--dark-dark);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.arrow-right {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--dark-dark);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.close {
+  display: inline-flex;
+  place-self: center;
+  width: 1.75em;
+  height: 1.75em;
+  background: var(--light-light);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.about-icon {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--light-light);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.15" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.settings-icon {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--light-light);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.15" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.559.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.894.149c-.424.07-.764.383-.929.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.398.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.272-.806.108-1.204-.165-.397-.506-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.108-1.204l-.526-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894Z" /> <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.preferences-icon {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--light-light);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z"/><path d="M18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5Z"/><path d="M16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.icon.logo {
+  display: inline-flex;
+  place-self: center;
+  width: 1.5em;
+  height: 1.5em;
+  background: var(--logo-light);
+  mask-image: url('data:image/svg+xml,<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.99 32.24" fill="currentColor"><path class="d" d="M34.87,8.66c-7-4.24-13.96-3.64-18.31.36C14.61,3.45,8.77-.41.6.03c-.11.01-.21.09-.23.2-1.66,10.8,2.47,16.14,9.21,17.8,1.05.2,2.03.69,2.03,1.16.01,1.52-.64,2.41-1.1,9.22-.04.54-.27,1.31-1.87,1.85-.78.27-1.01,1.24-1.06,1.97h11.68c.08,0,.35-1.53-.39-1.82-1.39-.54-2.41-.28-2.63-2.71-.25-2.81.13-6.11.46-7.08.16-.48.52-.64.9-.74.42-.11.94.05,2.47.33,5.91,1.08,11.66-1.96,14.91-11.26.04-.1-.02-.22-.11-.28ZM10.44,12.39c-.72-2.39-1.77-5.02-4.44-7.13-2.73-2.13-1.41-2.1,1.03-.9,1.72.87,4.69,3.6,5.56,7.08.46,2.72-1.84,1.96-2.14.94ZM27.69,10.77c-3.35.62-5.62,2.36-7.38,4.14-.75.76-3.01-.1-1.24-2.09,2.28-2.63,6.1-3.41,8.13-3.47,4.05,0,4.39.83.49,1.43Z"/></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
 }
 
 body {
   margin: 0;
   justify-content: center;
-  background: var(--page-background-dark);
+  background: var(--background);
   font: var(--body-font);
   overscroll-behavior: none;
 }
@@ -327,8 +422,15 @@ body:has(.modal[open]) {
   overflow-y: hidden;
 }
 @media (min-width: 577px) {
-  body {
-    background: var(--page-background-feature);
+  body:has(office-container[office=morning]) {
+    background: radial-gradient(circle at center, rgba(252, 234, 187, 0.6666666667), transparent), url(../../assets/textures/light/soft-wallpaper.png) repeat var(--morning-office-title-card);
+  }
+  body:has(office-container[office=evening]) {
+    background: radial-gradient(circle at center, rgba(238, 137, 92, 0.6666666667), transparent), url(../../assets/textures/dark/black-felt.png) repeat var(--evening-office-title-card);
+  }
+  body:has(.psalter) {
+    background: url(../../assets/textures/light/soft-wallpaper.png) repeat var(--title-card);
+    background-blend-mode: soft-light;
   }
 }
 body.loading:has(.psalter, .lectionary) nav,
@@ -344,8 +446,7 @@ header {
 }
 @media (min-width: 769px) {
   header {
-    background: none;
-    margin-top: 1rem;
+    padding-top: 1rem;
   }
 }
 
@@ -353,36 +454,35 @@ main {
   margin: auto;
 }
 
-footer {
+body:has(.lectionary, .psalter) footer {
   text-align: center;
-  font: italic 500 1em "Alegreya Sans", sans-serif;
   font-weight: 300;
   padding: 0 2rem 1rem;
-  color: var(--text-on-nav-bar);
+  color: var(--on-nav-bar);
   margin-inline: auto;
 }
-footer a {
+body:has(.lectionary, .psalter) footer a {
   color: var(--link-on-nav-bar);
   text-decoration: none;
 }
-footer p {
+body:has(.lectionary, .psalter) footer p {
   margin: 1rem auto 0.5rem;
   max-width: 675px;
 }
-footer .logo-1, footer .logo-2 {
+body:has(.lectionary, .psalter) footer .logo-1, body:has(.lectionary, .psalter) footer .logo-2 {
   color: var(--link-on-nav-bar);
 }
-body:has(.lectionary) footer {
+body:has(.lectionary) body:has(.lectionary, .psalter) footer {
   padding-top: 0.5rem;
 }
 @media (min-width: 577px) {
-  footer {
+  body:has(.lectionary, .psalter) footer {
     font-size: 0.95em;
     margin-top: 2rem;
   }
 }
 @media (min-width: 769px) {
-  footer {
+  body:has(.lectionary, .psalter) footer {
     padding: 0 2rem 1rem;
     background-color: transparent;
   }
@@ -393,31 +493,74 @@ body:has(.lectionary) footer {
   pointer-events: none;
 }
 
+/*
 .logo-1 {
-  color: var(--logo-left);
+  color: var(--off-black);
 }
 
 .logo-2 {
-  color: var(--logo-right);
+  color: var(--off-black);
 }
-
+*/
 .inline-logo {
-  font: 400 1em "Sentient Italic", sans-serif;
+  font: italic 400 1em "Sentient", serif;
 }
 .inline-logo.flow {
-  font: italic 500 1em "Alegreya Sans", sans-serif;
+  font-weight: 500;
 }
 
 .preferences .top {
-  fill: var(--preferences-top);
+  fill: var(--dark-dark);
 }
 .preferences .mid {
-  fill: var(--preferences-mid);
+  fill: var(--dark-dark);
 }
 .preferences .bottom {
-  fill: var(--preferences-low);
+  fill: var(--dark-dark);
 }
 
+.title-box {
+  border-top-left-radius: 2.25rem;
+  border-top-right-radius: 2.25rem;
+  border-width: 0;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  place-content: center;
+  top: 0;
+  padding: 0 0 2.25rem;
+  width: 100%;
+  font: italic 400 1em "Sentient", serif;
+  text-align: center;
+  background: url(../../assets/textures/light/soft-wallpaper.png) repeat var(--psalm-card);
+  background-blend-mode: soft-light;
+  color: var(--on-psalm-card);
+}
+.psalter .title-box, .lectionary office-container > .title-box {
+  height: 60vh;
+  justify-content: space-between;
+}
+@media (min-width: 577px) {
+  .psalter .title-box, .lectionary office-container > .title-box {
+    height: 25vh;
+    background: none;
+    min-height: 20rem;
+  }
+  .psalter .title-box::after, .lectionary office-container > .title-box::after {
+    content: "";
+  }
+}
+.psalter .title-box::before, .lectionary office-container > .title-box::before {
+  display: block;
+  height: 3.15rem;
+  width: 100%;
+  content: "";
+}
+.psalter .title-box h1, .lectionary office-container > .title-box h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.5em;
+}
 .title-box .buttons {
   z-index: 2;
   display: flex;
@@ -433,7 +576,7 @@ body:has(.lectionary) footer {
   display: flex;
   width: 3.15rem;
   cursor: pointer;
-  background: var(--preferences-button-background);
+  background: var(--transparent-button);
   border-radius: 2rem;
 }
 .title-box .buttons .preferences svg {
@@ -453,196 +596,230 @@ body:has(.lectionary) footer {
   }
 }
 
-.title-box:not(.office-psalms .title-box) {
-  border-top-left-radius: 2.25rem;
-  border-top-right-radius: 2.25rem;
-  border-width: 0;
-  display: flex;
-  flex-direction: column;
-  height: 60vh;
-  position: sticky;
-  top: 0;
-  padding: 0 0 2.25rem;
-  justify-content: space-between;
-  align-items: center;
-  background: radial-gradient(circle at bottom, rgba(252, 234, 187, 0.7333333333), rgba(0, 0, 0, 0)), url(../../assets/textures/light/soft-wallpaper.png) repeat var(--header-card-background);
-}
-.psalter .title-box:not(.office-psalms .title-box) {
-  grid-area: psalm_title;
-}
-@media (min-width: 577px) {
-  .psalter .title-box:not(.office-psalms .title-box) {
-    height: 25vh !important;
-    position: relative;
-  }
-  :has(nav.multi) .psalter .title-box:not(.office-psalms .title-box) {
-    height: calc(25vh + 3.75rem) !important;
-    min-height: 15.75rem;
-  }
-}
-.lectionary .title-box:not(.office-psalms .title-box) {
-  grid-area: office_title;
-}
-@media (min-width: 577px) {
-  .title-box:not(.office-psalms .title-box)::after {
-    content: "";
-  }
-}
-.title-box:not(.office-psalms .title-box)::before {
-  display: block;
-  height: 3.15rem;
-  width: 100%;
-  content: "";
-}
-.title-box:not(.office-psalms .title-box) h1 {
-  position: relative;
-  top: 0;
-  color: var(--text-on-header-card);
-  font: 400 1em "Sentient Italic", sans-serif;
-  font-size: 2.5em;
-  font-weight: 600;
-  line-height: 1.5em;
-  text-align: center;
-}
-.title-box:not(.office-psalms .title-box) h2 {
-  color: var(--header-card-detail);
-  font: 400 1em "Sentient Italic", sans-serif;
-  font-size: 2em;
-  text-align: center;
-}
-
-@media (min-width: 577px) {
-  :not(.office-psalms) .title-box {
-    height: 25vh;
-    min-height: 12rem;
-  }
-}
 @media (min-width: 769px) {
   .title-box {
     position: relative !important;
   }
 }
-body:has(.index) {
-  background: url(../../assets/textures/light/soft-wallpaper.png) repeat;
-}
 body:has(.index) header {
-  justify-content: space-between;
-  background: transparent;
+  background: url(../../assets/textures/light/soft-wallpaper.png) repeat var(--page-surface);
+  background-blend-mode: soft-light;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+body:has(.index) header::after {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  will-change: transform;
+  transition: opacity var(--shadow-delay) ease;
+}
+@media (max-width: 769px) {
+  body:has(.index) header.sticky::after {
+    opacity: 1;
+  }
+}
+body:has(.index) header .title-bar {
+  padding: 1.25rem 0;
+  place-items: center;
+  display: flex;
+}
+@media (min-width: 769px) {
+  body:has(.index) header .title-bar {
+    position: relative;
+    height: 10vh;
+  }
 }
 @media (min-width: 1025px) {
-  body:has(.index) header {
+  body:has(.index) header .title-bar {
     width: clamp(1024px, 80%, 1136px);
     margin-inline: auto;
   }
 }
-body:has(.index) header h1 {
-  font: 400 1em "Sentient Italic", sans-serif;
-  padding: 1rem 0;
-  font-size: clamp(1.5em, 8.5vw, 2.25em);
-}
-body:has(.index) header h1 svg {
-  padding-left: 0.5rem;
-  transform: translateY(0.25rem);
-}
-body:has(.index) header h1 .book-line {
-  stroke: var(--logo-line);
-  filter: brightness(90%);
-}
-body:has(.index) header h1 .book-left {
-  fill: var(--logo-left);
-}
-body:has(.index) header h1 .book-right {
-  fill: var(--logo-right);
-}
-body:has(.index) header .buttons {
+body:has(.index) header .title-bar h1 {
+  font: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.58 65.99" fill="currentColor"><path d="M325.57,34.88c1.8-6.53,8.45-10.15,15.01-7.96-.39,1.3-.99,3.38-1.5,4.64-.62,1.54-1.37,2.98-2.67,4.09-1.46,1.24-3.17,1.78-5.06,1.83-.95.02-1.89,0-2.83-.19-.4-.08-.6.02-.82.4-1.47,2.53-2.3,5.31-3.06,8.1-.55,2.04-.95,4.12-1.27,6.22-.03.18-.08.35-.13.56-2.2.24-4.38.47-6.67.72,1.02-7.17,2.03-14.27,3.04-21.37-.06-.05-.11-.09-.17-.14-1.66.78-3.31,1.56-4.99,2.35-.26-.4-.32-.83-.48-1.22-.09-.22,0-.34.15-.48,1.89-1.75,3.77-3.51,6.01-4.82,1.18-.69,2.42-1.23,3.83-1.21,1.36.02,2.25.87,2.27,2.23.04,1.82-.44,3.58-.69,5.37-.04.26-.13.52.01.89ZM329.33,35.21c2.55.78,6.44-.83,6.74-4.09-2.24-.53-5.4,1.37-6.74,4.09Z"/><path d="M296.41,42.06c.03,1.22.23,2.31.61,3.36,1.03,2.84,3.2,4.07,6.17,3.51,2.41-.46,4.45-1.67,6.33-3.19.22-.18.44-.37.71-.6.28.45.55.88.82,1.3.1.15.06.26-.03.39-3.14,4.28-8.63,7.68-14.71,6.02-3.52-.96-5.86-3.29-6.71-6.76-1.57-6.39-.13-12.11,4.91-16.51,3.74-3.27,8.22-4.02,12.97-2.54,2.95.92,4.58,3.15,4.61,5.89.03,2.61-1.15,4.62-3.16,6.19-2.12,1.65-4.58,2.46-7.21,2.83-1.73.24-3.48.3-5.3.11ZM296.38,39.7c3.51.44,6.66-1.02,8.4-3.51.91-1.31,1.26-2.76,1.05-4.33-.13-1.05-.62-1.9-1.55-2.47-.29-.18-.59-.24-.94-.18-1.22.21-2.25.77-3.13,1.62-2.52,2.41-3.52,5.47-3.84,8.88Z"/><path d="M273.37,30.23h-4.95c.11-.78.23-1.49.3-2.2.03-.33.17-.46.49-.5,1.27-.16,2.53-.38,3.79-.5.66-.07,1.12-.33,1.55-.83,1.9-2.22,3.84-4.4,5.75-6.59,1.03.35,1.11.48.97,1.48-.26,1.91-.52,3.83-.79,5.83h7.66c-.16,1.14-.3,2.19-.46,3.3h-7.72c-.16,1.04-.31,2.03-.45,3.02-.56,3.88-1.13,7.77-1.69,11.65-.12.81-.2,1.63-.23,2.45-.04,1.17.56,1.71,1.72,1.6.62-.06,1.2-.21,1.76-.51,1.62-.85,3.26-1.66,4.93-2.51.17.45.32.87.49,1.29.09.22,0,.34-.16.47-1.98,1.71-3.98,3.4-6.33,4.59-1.73.88-3.57,1.27-5.5.94-2.09-.35-3.27-1.66-3.55-3.77-.22-1.66.07-3.28.31-4.91.67-4.55,1.36-9.11,2.04-13.66.03-.18.03-.37.05-.66Z"/><path d="M266.32,45.59c.06.07.09.1.11.14q.61,1.33-.47,2.28c-1.55,1.36-3.12,2.68-4.88,3.76-1.33.81-2.72,1.47-4.31,1.54-1.78.08-2.69-.89-2.52-2.66.2-2.19.53-4.36.85-6.54.76-5.18,1.54-10.36,2.29-15.55.33-2.26.72-4.5.93-6.78,0-.02,0-.04,0-.06.24-1.77-.19-2.3-1.99-2.48-.67-.07-1.35-.14-2.03-.21-.08-.48.05-.89.1-1.31.02-.23.17-.29.36-.35,3.24-1.01,6.47-2.02,9.71-3.02.6-.19,1.41.53,1.32,1.17-.42,3.03-.86,6.06-1.3,9.09-.72,5.04-1.45,10.09-2.17,15.13-.35,2.44-.7,4.88-1.05,7.32-.04.25-.21.56.05.75.27.2.5-.09.72-.19,1.43-.67,2.85-1.35,4.26-2.03Z"/><path d="M246.03,30.38c.64-2.73,2.28-4.59,5.79-4.38.63,2.53-1.39,5.22-3.87,5.72,0,0-.02.14-.06.43-.54,3.93-1.09,7.86-1.63,11.78-.14,1.04-.29,2.08-.43,3.11-.04.26-.14.52.08.88,1.63-.77,3.26-1.55,4.96-2.35.2.47.37.9.55,1.33.08.19-.02.31-.15.42-1.96,1.79-3.91,3.59-6.23,4.94-1.06.62-2.18,1.06-3.44,1.07-1.63,0-2.55-.89-2.51-2.51.05-1.86.52-3.66.81-5.48.13-.79.29-1.58.42-2.37.09-.53.08-.53-.45-.74-.2.11-.22.33-.3.51-1.06,2.46-2.22,4.87-3.92,6.96-1.44,1.77-3.14,3.17-5.47,3.53-2.66.41-4.88-.39-6.51-2.6-1.1-1.49-1.61-3.2-1.72-5.01-.44-7.04,1.98-12.78,8.02-16.67,4.44-2.87,9.3-3.23,14.28-1.64,1.62.52,1.56.39,1.72,2.39.02.22.04.45.06.67ZM229.08,43.22c0,1.21.07,2.17.34,3.11.78,2.75,2.71,3.26,4.74,1.26,1.17-1.15,2.04-2.52,2.81-3.96,1.94-3.61,3.27-7.44,4.23-11.41.53-2.17.51-2.11-1.64-2.86-1.34-.47-2.53-.28-3.72.37-1.12.61-2.06,1.43-2.86,2.41-2.69,3.29-3.81,7.13-3.9,11.08Z"/><path d="M219.78,28.57c-.51,1.61-.99,3.17-1.5,4.73-.16.48-1.14.49-1.55.01-.9-1.05-1.82-2.08-2.67-3.16-.41-.52-.89-.81-1.54-.88-1.1-.12-2.18-.12-3.22.33-1.48.63-1.97,1.8-1.41,3.32.26.7.73,1.24,1.28,1.71,1.27,1.11,2.7,2.02,4.12,2.93,1.15.73,2.24,1.52,3.27,2.42,3.47,3.06,2.85,8.65-.83,11.2-1.63,1.13-3.45,1.73-5.4,1.95-3.69.43-7.21-.17-10.56-1.8-.57-.28-.72-.56-.5-1.18.47-1.31.84-2.66,1.28-3.99.08-.24.02-.66.43-.65.46.02.97-.2,1.36.3,1.01,1.27,2.08,2.5,3.1,3.76.28.34.59.54,1.01.64,1.52.36,2.99.3,4.37-.48,2.11-1.2,2.42-3.34.75-5.09-1.21-1.26-2.69-2.16-4.16-3.07-1.41-.87-2.77-1.78-3.9-3-1.84-1.98-2.31-4.3-1.64-6.87.41-1.56,1.41-2.72,2.74-3.6,1.53-1.01,3.24-1.49,5.05-1.66,3.27-.31,6.4.18,9.35,1.67.24.12.46.27.76.44Z"/><path d="M177.66,47.09c-.25,1.43.37,2.4,1.56,3.05.77.42,1.59.76,2.44,1.16-.08.47-.15.95-.24,1.47h-15.53c.06-.42.13-.82.18-1.22.03-.28.24-.36.45-.45.47-.2.94-.42,1.42-.59,1.73-.64,2.55-1.86,2.79-3.69,1.08-8.81,2.15-15.55,2.95-24.4-7.31-1.97-8.2-9.11-7.62-16.9,8.59-.71,12.34,6.61,12.05,13.76,5.04-7.1,13.49-7.94,24.78-3.61-1.84,17.33-7.02,25.65-24.25,24.18l-.97,7.24ZM195.87,20.18c-11.47-2.99-15.49,3.79-16.59,15.05,9.73,1.24,14.12-1.03,16.59-15.05ZM173.68,19.57c-.03-3.34-.57-8.51-4.43-9.32.12,3.38.6,8.25,4.43,9.32Z"/><path d="M150.08,30.49c-.2-.77-.25-1.19-.49-1.87-.17-.48-.57-.73-1.59-1.12-3.11-1.2-6.12-1.12-9.36-.15-6.79,2.05-10.75,6.7-12.18,13.57-.47,2.29-.48,4.63.17,6.9.87,3.04,2.77,4.97,6.02,5.36.14.01.27.06.53.11-1.8.5-3.47.95-5.11,1.56-1.15.42-2.27.92-3.31,1.59-2.9,1.88-2.43,5.44-.33,7.13,1.45,1.17,3.15,1.75,4.95,2.05,3.42.56,6.83.57,10.15-.56,4.36-1.49,7.05-4.63,8.59-8.87.87-2.41,1.24-4.93,1.6-7.45.72-4.97,1.48-9.69,2.2-14.67,5.64.98,7.96-3.84,7.94-9.92-4.53.05-8.42,1.48-9.78,6.34ZM142.33,55.07c-.4,1.83-1.05,3.58-2.13,5.13-1.57,2.25-3.69,3.37-6.46,3.16-2.51-.19-4.11-2.29-3.5-4.6.21-.78.72-1.33,1.33-1.79.63-.46,1.26-.92,1.93-1.32,4.92-2.88,8.13-7.17,10.19-12.4.09-.23.18-.45.3-.74.2.07.34.13.48.18.02.07.04.11.03.15-.72,4.07-1.29,8.18-2.17,12.23ZM145.79,30.99c-1.15,5.3-2.77,10.42-5.89,14.95-.52.76-1.11,1.47-1.84,2.05-1.64,1.32-3.34.89-4.16-1.05-.47-1.1-.55-2.26-.55-3.7.12-3.79,1.22-7.5,3.8-10.69,1.03-1.28,2.28-2.29,3.84-2.89.73-.27,1.44-.35,2.21-.11.78.25,1.55.53,2.29.88.26.12.37.25.3.56ZM152.2,32.17c.67-2.48,1.87-4.52,4.39-4.74.01,3.47-1.8,5.25-4.39,4.74Z"/><path d="M102.57,52.55c-2.2.25-4.38.51-6.67.77,1.02-7.18,2.03-14.3,3.04-21.42-.05-.05-.11-.1-.16-.14-1.66.78-3.31,1.56-4.99,2.35-.26-.41-.33-.86-.5-1.27-.08-.2.04-.31.16-.42,1.85-1.73,3.7-3.46,5.89-4.77,1.14-.68,2.34-1.22,3.7-1.26,1.65-.05,2.54.81,2.54,2.46,0,1.43-.33,2.81-.54,4.21-.19,1.26-.41,2.51-.66,3.76-.09.44.09.6.49.7.28-.61.54-1.2.82-1.79,1.06-2.24,2.25-4.39,3.94-6.23,1.86-2.03,4.13-3.15,6.92-3.12,2.95.03,4.86,1.89,4.95,4.85.06,2.05-.31,4.05-.65,6.06-.55,3.3-1.1,6.61-1.65,9.91-.03.2-.11.42.11.56.2.13.35-.03.51-.1,1.47-.69,2.93-1.38,4.46-2.1.17.45.31.85.48,1.24.08.18.05.3-.09.43-2.31,2.02-4.56,4.11-7.39,5.41-.9.42-1.85.68-2.86.68-1.46,0-2.32-.81-2.32-2.28,0-1.55.32-3.06.57-4.58.61-3.58,1.25-7.16,1.86-10.75.12-.73.15-1.48.08-2.21-.11-1.17-.87-1.74-2.04-1.59-.83.11-1.52.5-2.13,1.04-1.06.92-1.83,2.05-2.51,3.26-1.85,3.31-2.98,6.89-3.96,10.53-.48,1.76-.89,3.55-1.25,5.34-.03.16-.09.31-.14.49Z"/><path d="M86.68,22.57c-2.57,0-4.14-2.21-3.44-4.83.63-2.36,3.16-3.92,5.54-3.42,2.21.46,3.31,2.71,2.5,5.09-.65,1.92-2.46,3.16-4.61,3.15Z"/><path d="M82.36,31.83c-1.66.79-3.28,1.56-4.97,2.37-.18-.43-.34-.85-.53-1.25-.11-.23,0-.34.15-.46,1.92-1.68,3.84-3.36,6.04-4.68,1.14-.68,2.34-1.19,3.68-1.35,1.93-.24,3.11.9,2.83,2.85-.38,2.66-.82,5.32-1.24,7.97-.54,3.39-1.08,6.77-1.62,10.16-.02.14-.06.29.16.45,1.6-.75,3.24-1.53,4.94-2.33.17.45.32.87.49,1.28.09.22,0,.34-.15.47-2.14,1.87-4.27,3.75-6.82,5.07-.97.5-2,.87-3.11.92-1.78.08-2.68-.85-2.56-2.64.11-1.62.37-3.22.63-4.83.72-4.42,1.44-8.84,2.15-13.26.03-.21.12-.44-.08-.76Z"/><path d="M64.86,45.16c2.07-3.73,4.52-7.21,5.64-11.37.15-.55.14-1.02-.18-1.51-.39-.6-.71-1.25-1.05-1.88-.15-.28-.27-.54-.23-.91.09-.78.45-1.15,1.2-1.39,1.35-.43,2.67-.97,3.98-1.51.42-.17.64-.07.86.27,1.04,1.6,1.25,3.31.74,5.13-.54,1.96-1.5,3.73-2.51,5.47-2.83,4.9-6.01,9.58-9.16,14.27-.09.13-.16.29-.34.35-1.19.39-2.37.78-3.63,1.19-.25-1.17-.48-2.27-.73-3.36-1.33-5.91-2.87-11.77-4.95-17.47-.25-.69-.32-.71-.95-.31-1.25.8-2.49,1.6-3.79,2.43-.35-.4-.68-.78-1.04-1.19,1.73-2.18,3.4-4.38,5.7-5.97.89-.62,1.87-1.02,2.99-1.01,1.21.01,2.09.52,2.66,1.58.63,1.17.96,2.44,1.35,3.7,1.34,4.28,2.32,8.65,3.21,13.03.03.14.02.29.22.47Z"/><path d="M43.57,22.57c-2.58,0-4.16-2.16-3.49-4.79.61-2.38,3.19-3.97,5.58-3.45,2.04.45,3.14,2.4,2.61,4.64-.52,2.16-2.39,3.6-4.7,3.6Z"/><path d="M48.62,45.58c.07.11.09.14.11.17q.57,1.33-.52,2.26c-1.89,1.62-3.79,3.23-6.03,4.37-.98.5-2,.87-3.11.92-1.78.08-2.68-.85-2.56-2.64.11-1.62.37-3.22.63-4.83.72-4.42,1.44-8.84,2.15-13.26.03-.21.12-.44-.08-.76-1.64.78-3.27,1.55-4.97,2.36-.18-.43-.34-.84-.53-1.24-.11-.23,0-.34.15-.46,1.92-1.68,3.84-3.36,6.04-4.68,1.14-.68,2.34-1.19,3.68-1.35,1.93-.24,3.11.9,2.83,2.85-.38,2.66-.82,5.32-1.24,7.97-.54,3.39-1.08,6.77-1.62,10.16-.02.14-.06.29.16.45,1.6-.75,3.24-1.53,4.91-2.31Z"/><path d="M1.62,0c8.18,2.04,15.1,7.87,15.12,16.82,2.38-4.89,7.79-7.04,13.04-7.04.36,6.85-3.59,15.3-11.61,13.96-.73,3.22-2.14,15.82-3.21,23.73-.16,1.5.44,2.15,1.96,2.17,2.22.02,4.45.01,6.67,0,1.43-.01,2.63-.53,3.64-1.57,1.5-1.54,2.79-3.26,4.03-4.99.6-.83,1.25-1.01,2.21-.8-.18.69-.35,1.38-.53,2.07-.69,2.6-1.38,5.2-2.05,7.81-.1.4-.25.56-.7.56-8.84-.01-17.68-.01-26.52-.01-.18,0-.37.04-.54-.06-.07-.42.08-.82.12-1.23.03-.28.23-.36.44-.45.72-.31,1.43-.63,2.14-.95,1.21-.53,1.8-1.5,1.98-2.77.96-7.08,1.96-14.1,2.69-21.33C-.2,22.6-1.81,9.08,1.62,0ZM10.9,22.54c.64-5.02-.21-12.3-5.51-14.62-1.24,4.96-.23,12.77,5.51,14.62ZM24.83,14.85c-2.73.7-5.36,2.02-6.25,6.54,3.41.76,6.51-2.79,6.25-6.54Z"/></svg>');
+  color: var(--on-page-surface);
+  font-size: clamp(1.5em, 7.5vw, 2em);
   display: flex;
-  gap: 1rem;
-  align-self: center;
 }
-body:has(.index) header .buttons * {
-  height: 2rem;
-  width: 2rem;
-  cursor: pointer;
+body:has(.index) header .title-bar h1 .logo {
+  width: clamp(200px, 75vw, 300px);
+  place-self: center;
 }
-body:has(.index) header .buttons .info svg {
-  fill: var(--secondary-color);
+body:has(.index) main {
+  min-width: 100%;
+  padding: 1rem 0;
+  background: url(../../assets/textures/light/soft-wallpaper.png) repeat var(--page-surface);
+  background-blend-mode: soft-light;
+}
+@media (min-width: 769px) {
+  body:has(.index) main {
+    height: 90vh;
+    overflow-y: clip;
+  }
+}
+body:has(.index) footer {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--index-nav);
+  padding: 1.35rem 0;
+}
+@media (min-width: 769px) {
+  body:has(.index) footer {
+    display: none;
+  }
+}
+body:has(.index) form.search {
+  display: flex;
+  place-content: center;
+}
+body:has(.index) form.search > * {
+  height: 3.25rem;
+  margin: 0;
+  font: 300 1em "Work Sans", sans-serif;
+}
+body:has(.index) form.search::before {
+  content: "";
+  width: 3rem;
+}
+@media (min-width: 769px) {
+  body:has(.index) form.search::before {
+    width: 0;
+  }
+}
+body:has(.index) form.search input {
+  width: 15ch;
+  padding: 0;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  background: var(--info-box);
+  color: var(--on-info-box);
+  outline: 0;
+  text-align: center;
+  border-width: 0;
+  /* Chrome, Safari, Opera, Firefox */
+  /* Edge 12 -18 */
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+body:has(.index) form.search input::placeholder {
+  color: var(--on-info-box);
+  opacity: 0.5;
+}
+body:has(.index) form.search input::-ms-input-placeholder {
+  color: var(--on-info-box);
+  opacity: 0.5;
+}
+body:has(.index) form.search input::-webkit-outer-spin-button,
+body:has(.index) form.search input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body:has(.index) form.search input[type=number] {
+  -moz-appearance: textfield;
+}
+body:has(.index) form.search button {
+  padding: 0 0 0 0.75rem;
+  background: none !important;
+  opacity: 0.25;
+  pointer-events: none;
+  will-change: transform;
+  transition: opacity 125ms ease-in;
+}
+body:has(.index) form.search button .icon {
+  background-color: var(--on-index-nav);
+}
+body:has(.index) form.search button.active {
+  opacity: 1;
+  pointer-events: auto;
+  border: 0;
 }
 
 .index {
   display: grid;
-  gap: 1rem;
-  width: clamp(375px, 90vw, 625px);
+  margin-inline: 0;
+}
+@media (min-width: 577px) {
+  .index {
+    width: clamp(375px, 90vw, 625px);
+    margin-inline: auto;
+  }
 }
 @media (min-width: 769px) {
   .index {
     grid-template-columns: 40% auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: "beta welcome" "beta office_nav" "psalm_nav psalm_nav";
+    width: 769px;
     gap: 2rem;
-    padding: 4rem 3rem;
+    padding: 4rem 3rem 100vh;
   }
 }
 @media (min-width: 1025px) {
   .index {
     width: 1024px;
-    margin-inline: auto;
   }
 }
-.index button {
-  border-radius: 1rem;
+.index nav {
+  place-self: center;
+  display: flex;
+  width: fit-content;
+}
+.index nav button {
+  border-radius: 2.25rem;
   border-width: 0;
-  height: fit-content;
-  padding: 1.25rem 0.5rem;
-  color: var(--text-on-button);
+  height: 3.5rem;
+  padding: 0.75rem 1rem;
+  margin: 0 0.5rem 1rem;
+  background: var(--primary-less);
+  color: var(--on-primary-area);
+}
+.index nav button:not(:has(.icon)) {
+  padding-inline: 1.25rem;
+}
+.index nav button .icon {
+  display: inline-flex;
+  place-self: center;
+  width: 1.25em;
+  height: 1.25em;
+  background: var(--on-primary-area);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z"/><path d="M18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5Z"/><path d="M16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  vertical-align: bottom;
 }
 .index section:not(.modal, .modal *) {
-  display: grid;
-  grid-template-rows: auto 1fr;
-}
-.index section:not(.modal, .modal *).index-block {
-  font: 500 1em "Alegreya Sans", sans-serif;
-  color: var(--text-on-index-block);
-  background: var(--index-block-background);
-}
-.index section:not(.modal, .modal *) h2 {
-  padding: 1rem;
-  font-size: 1em;
-  color: var(--index-heading);
-}
-.index .beta {
-  border-radius: 1rem;
-  border-width: 0;
-  padding: 2rem;
-  margin: 1rem 2rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 1.5rem;
 }
 @media (min-width: 769px) {
-  .index .beta {
-    grid-area: beta;
-    margin: 0;
+  .index section:not(.modal, .modal *) {
+    padding: 0;
   }
 }
-.index .beta a {
-  font-weight: 600;
-  color: var(--text-on-index-block);
-  width: fit-content;
-  padding-inline: 2rem;
-  place-self: center;
+.index section:not(.modal, .modal *).index-block {
+  font: 300 1em "Work Sans", sans-serif;
+  padding: 2rem 0 2.5rem;
 }
-.index .beta h3, .index .beta p {
-  padding-bottom: 1rem;
-}
-.index .expand-block .text {
-  font-size: 1.2em;
-}
-.index .expand-block .arrow {
-  filter: invert(100%);
-  opacity: 50%;
+.index section:not(.modal, .modal *) h2 {
+  color: var(--on-page-surface);
+  font: italic 300 1em "Sentient", serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 1.5rem;
+  padding-bottom: 0.25rem;
 }
 .index .select {
   display: grid;
-  gap: 1rem;
-  padding-inline: 1.5rem;
+  gap: 1.25rem;
   height: fit-content;
 }
 @media (min-width: 769px) {
@@ -650,97 +827,120 @@ body:has(.index) header .buttons .info svg {
     padding-inline: 0;
   }
 }
+.index .beta {
+  border-radius: 1rem;
+  border-width: 0;
+  text-align: center;
+  background: var(--info-box);
+  color: var(--on-info-box);
+}
+.index .beta a {
+  font-weight: 400;
+  padding: 1rem 1.5rem;
+  width: fit-content;
+  place-self: center;
+  background: var(--em-button);
+  color: var(--on-em-button);
+}
+.index .beta p {
+  padding-inline: 2rem;
+}
+.index .beta h3 {
+  font: italic 300 1em "Sentient", serif;
+  padding-inline: 2rem;
+}
+@media (min-width: 769px) {
+  .index .beta {
+    grid-area: beta;
+    place-content: center;
+    margin: 0;
+    padding: 2rem !important;
+  }
+  .index .beta h3, .index .beta p {
+    padding: 0 0 0.75rem !important;
+    height: fit-content;
+  }
+}
+@media (min-width: 769px) {
+  .index .welcome {
+    grid-area: welcome;
+    padding-top: 1.5rem !important;
+  }
+}
+.index .welcome button {
+  border-radius: 2.25rem;
+  border-width: 0;
+  background: var(--secondary-area);
+  background-blend-mode: soft-light;
+  color: var(--on-secondary-area);
+  margin: 0;
+  padding: 0.75rem 1.25rem;
+}
+.index .office-nav {
+  border-radius: 1rem;
+  border-width: 0;
+  margin-inline: 1.5rem;
+  background: var(--page-variant);
+}
 @media (min-width: 769px) {
   .index .office-nav {
+    background: none;
     grid-area: office_nav;
   }
 }
-.index .office-nav button {
-  padding: 2.25rem 0.5rem;
-  font: 400 1em "Sentient Italic", sans-serif;
-  font-size: 2rem;
-  cursor: pointer;
-}
-.index .office-nav button.morning {
-  background: var(--index-block-background);
-}
-.index .office-nav button.evening {
-  background: var(--index-block-background);
-}
-.index .office-nav h2 .soon {
-  padding-right: 0.75rem;
-  font: italic 500 1em "Alegreya Sans", sans-serif;
+.index .office-nav h2 {
+  color: #413631 !important;
+  font-size: 1.25em !important;
+  font-weight: 350 !important;
+  margin-bottom: 0.25rem;
 }
 .index .office-nav .select {
-  grid-template-columns: 47% 47%;
-  place-content: center;
-}
-.index .psalm-nav .search {
-  display: none;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  padding-inline: 1.5rem;
 }
 @media (min-width: 769px) {
-  .index .psalm-nav .search {
-    display: grid;
-    font: 200 1em 500 1em "Alegreya Sans", sans-serif;
+  .index .office-nav .select {
+    padding-bottom: 1.5rem;
+    padding-inline: 0;
   }
-  .index .psalm-nav .search form {
-    border-radius: 1rem;
-    border-width: 0;
-    display: flex;
-    gap: 0.5rem;
-    height: fit-content;
-    padding: 1rem;
-    place-content: center;
-    background: var(--index-block-background);
-    color: var(--text-on-index-block);
-    /* Chrome, Safari, Edge, Opera */
-    /* Firefox */
+}
+.index .office-nav button {
+  display: flex;
+  place-content: center;
+  padding: 3.2rem 0 3rem;
+  font: italic 400 1em "Sentient", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+}
+@media (min-width: 577px) {
+  .index .office-nav button {
+    padding: 3.25rem 0.5rem;
   }
-  .index .psalm-nav .search form label {
-    height: fit-content;
-    align-self: center;
-    font-size: 1.5rem;
+}
+@media (min-width: 769px) {
+  .index .office-nav button {
+    padding: 2rem 1.5rem;
   }
-  .index .psalm-nav .search form input, .index .psalm-nav .search form button {
-    border-radius: 0.5rem;
-    border-width: 0;
-    height: 3.25rem;
-    width: 4.5rem;
-    padding: 0.5rem;
-    font-weight: 400;
-    outline: 0;
-  }
-  .index .psalm-nav .search form input {
-    align-self: center;
-    background: var(--input-field);
-    text-align: center;
-    font: 1.5rem 500 1em "Alegreya Sans", sans-serif;
-    color: var(--text-on-input-field);
-    outline: 0;
-    border-width: 0;
-    margin-right: 2rem;
-  }
-  .index .psalm-nav .search form input::-webkit-outer-spin-button,
-  .index .psalm-nav .search form input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  .index .psalm-nav .search form input[type=number] {
-    -moz-appearance: textfield;
-  }
-  .index .psalm-nav .search form button {
-    background: var(--button-background);
-    font: italic 500 1em "Alegreya Sans", sans-serif;
-    font-size: 1.25rem;
-    color: var(--text-on-button);
-    opacity: 0.5;
-  }
-  .index .psalm-nav .search form button.active {
-    opacity: 1;
-    background: var(--button-active-background);
-    color: var(--text-on-button-active);
-    cursor: pointer;
-  }
+}
+.index .office-nav button text {
+  fill: var(--on-mid-shade);
+}
+.index .office-nav button.morning {
+  background: radial-gradient(circle at bottom, rgba(252, 234, 187, 0.6666666667), transparent), url(../../assets/textures/light/soft-wallpaper.png) repeat var(--morning-office-title-card);
+}
+.index .office-nav button.evening {
+  background: radial-gradient(circle at bottom, rgba(238, 137, 92, 0.6666666667), transparent), url(../../assets/textures/dark/black-felt.png) repeat var(--evening-office-title-card);
+}
+.index .psalm-nav {
+  padding-top: 1rem;
+}
+.index .psalm-nav h2 {
+  color: var(--on-page-surface) !important;
+  font-size: 1.5em !important;
+  text-align: center;
+  padding-left: 0 !important;
 }
 @media (min-width: 769px) {
   .index .psalm-nav {
@@ -750,61 +950,101 @@ body:has(.index) header .buttons .info svg {
     display: none;
   }
 }
-.index .psalm-nav .select .content {
+.index .psalm-nav .expand-block {
+  height: 4rem;
+  padding: 0.85rem 1rem 2rem;
+  justify-content: center;
+  overflow-y: hidden;
+  background: url(../../assets/textures/pattern/xv.png) repeat var(--primary-area);
+  background-blend-mode: overlay;
+  color: var(--on-primary-area);
+  font: italic 400 1em "Sentient", serif;
+  font-size: 0.95em;
+}
+.index .psalm-nav .expand-block .text {
+  font-size: 1.5em;
+  letter-spacing: 0.01em;
+}
+.index .psalm-nav .expand-block .arrow {
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--on-primary-area);
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>');
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.index .psalm-nav .expand-block .content {
   display: grid;
-  grid-template-columns: 15% 15% 15% 15% 15%;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   column-gap: 1rem;
-  row-gap: 1.5rem;
+  row-gap: 1rem;
   margin-top: 1.5rem;
   place-content: center;
 }
-.index .psalm-nav .select .content .psalm-button {
+.index .psalm-nav .expand-block .content .psalm-button {
   border-radius: 0.5rem;
   border-width: 0;
-  background: var(--button-background);
-  font: 1.1em "Alegreya Sans", sans-serif;
-  color: var(--text-on-button);
+  width: 100%;
+  height: 105%;
   padding: 0.5rem;
+  margin: 0;
+  line-height: 1.5em;
+  color: var(--on-primary-area);
+  background: none;
+  border: 1.5px solid hsla(91, 29%, 92%, 0.5);
+}
+.index .psalm-nav .search {
+  display: none;
 }
 @media (min-width: 769px) {
-  .index .welcome {
-    grid-area: welcome;
+  .index .psalm-nav .search {
+    display: grid;
+    font: 200 1em 400 1em "Work Sans", sans-serif;
   }
-}
-.index .welcome button {
-  font: 500 1em "Alegreya Sans", sans-serif;
-  background: var(--button-background);
-  color: var(--text-on-button);
-  cursor: pointer;
-}
-.index .welcome button svg {
-  position: relative;
-  top: 0.15em;
-  padding-left: 0.25rem;
-}
-
-.index + footer {
-  display: grid;
-  padding: 2rem 2rem 1rem;
-  color: var(--text-on-body);
-  background-color: transparent;
-  font: italic 500 1em "Alegreya Sans", sans-serif;
-}
-@media (min-width: 1025px) {
-  .index + footer {
-    width: clamp(1024px, 90%, 1260px);
-    margin-inline: auto;
+  .index .psalm-nav .search form {
+    border-radius: 1rem;
+    border-width: 0;
+    display: flex;
+    gap: 0.5rem;
+    height: fit-content;
+    padding: 1rem;
+    place-content: center;
+    background: url(../../assets/textures/pattern/xv.png) repeat var(--primary-area);
+    background-blend-mode: overlay;
+    color: var(--on-primary-area);
   }
-}
-.index + footer a {
-  color: var(--body-detail);
-  text-decoration: none;
-}
-.index + footer .logo-1 {
-  color: var(--logo-left);
-}
-.index + footer .logo-2 {
-  color: var(--logo-right);
+  .index .psalm-nav .search form label {
+    height: fit-content;
+    align-self: center;
+    font-size: 1.5rem;
+  }
+  .index .psalm-nav .search form input, .index .psalm-nav .search form button {
+    border-radius: 1rem;
+    border-width: 0;
+    height: 3.25rem;
+    padding: 0.5rem;
+    outline: 0;
+  }
+  .index .psalm-nav .search form input {
+    width: 5em;
+    margin-left: 2rem;
+    padding-right: 1.15rem;
+    border-radius: 1.15rem 0 0 1.15rem;
+    font-weight: 300;
+  }
+  .index .psalm-nav .search form button {
+    padding: 0 1rem;
+    background: var(--de-em-button);
+    color: var(--on-de-em-button);
+    left: -1.15rem;
+  }
+  .index .psalm-nav .search form button.active {
+    background: var(--em-button);
+    color: var(--on-em-button);
+  }
 }
 
 .lectionary::after {
@@ -825,26 +1065,60 @@ office-container {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-areas: "office_title" "office_content";
+  /*
+    &::before {
+      display: grid;
+      grid-area: office_content;
+      height: 2rem;
+      width: 100%;
+      position: sticky;
+      background: var(--color-main);
+      content: '';
+      top: 2.25rem;
+    }
+    */
 }
-office-container::before {
-  display: grid;
+office-container:has(nav.multi)::before {
+  display: block;
   grid-area: office_content;
   height: 2rem;
-  width: 100%;
   position: sticky;
-  background: var(--color-main);
   content: "";
   top: 2.25rem;
 }
-office-container .title {
-  display: flex;
-  grid-area: office_title;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+office-container[office=morning]:has(nav.multi)::before {
+  background: var(--morning-office-nav-multi);
 }
-office-container[office=morning] .title-box {
-  background: radial-gradient(circle at bottom, #fceabb, transparent), url(../../assets/textures/light/soft-wallpaper.png) repeat var(--morning-title-card-background);
+office-container[office=evening]:has(nav.multi)::before {
+  background: var(--evening-office-nav-multi);
+}
+office-container[office=morning] > .title-box {
+  background: radial-gradient(circle at bottom, rgba(252, 234, 187, 0.6666666667), transparent), url(../../assets/textures/light/soft-wallpaper.png) repeat var(--morning-office-title-card);
+}
+office-container[office=evening] > .title-box {
+  background: radial-gradient(circle at bottom, rgba(238, 137, 92, 0.6666666667), transparent), url(../../assets/textures/dark/black-felt.png) repeat var(--evening-office-title-card);
+}
+office-container > .title-box {
+  grid-area: office_title;
+}
+office-container > .title-box h1 {
+  color: var(--on-office-title-card);
+}
+office-container > .title-box h2 {
+  font-size: 2em;
+  color: var(--rubric-on-office-title-card);
+}
+@media (min-width: 577px) {
+  office-container > .title-box {
+    background: none !important;
+    position: relative;
+  }
+}
+office-container[office=morning] nav.multi {
+  background: var(--morning-office-nav-multi);
+}
+office-container[office=evening] nav.multi {
+  background: var(--evening-office-nav-multi);
 }
 office-container nav.multi {
   grid-area: office_content;
@@ -852,22 +1126,22 @@ office-container nav.multi {
   padding-bottom: 4.5rem !important;
   will-change: transform;
   transition: all 500ms ease;
+  color: --on-office-nav-multi;
 }
 office-container nav.multi .drop.vertical {
-  font: 500 1em "Alegreya Sans", sans-serif;
   display: grid;
   gap: 2rem;
 }
 office-container nav.multi div:not(:has(.options)) .day {
-  padding: 1rem 1.5rem;
   border-radius: 1rem;
   border-width: 0;
-  border: 2px solid var(--pale-transparent);
+  padding: 1rem 1.5rem;
+  background: var(--transparent-button);
   cursor: pointer;
 }
 office-container nav.multi div[active]:not(:has(.options)) .day {
-  background-color: var(--color-translucent) !important;
-  border-color: var(--pale) !important;
+  background: var(--transparent-button-active) !important;
+  border-color: var(--transparent-button-detail) !important;
 }
 office-container nav.multi .day {
   margin: 0.5rem auto 0.5rem;
@@ -875,7 +1149,6 @@ office-container nav.multi .day {
   width: fit-content;
   font-size: 1.25em;
   line-height: 1.75em;
-  color: var(--bright);
 }
 office-container nav.multi .options {
   margin-top: 0.5rem;
@@ -885,12 +1158,12 @@ office-container nav.multi .options * {
   margin-inline: 0.25rem;
   border-radius: 1rem;
   border-width: 0;
-  border: 2px solid var(--pale-transparent);
+  background: var(--transparent-button);
   cursor: pointer;
 }
 office-container nav.multi .options *[active] {
-  background-color: var(--color-translucent) !important;
-  border-color: var(--pale) !important;
+  background: var(--transparent-button-active) !important;
+  border-color: var(--transparent-button-detail) !important;
 }
 office-container .office-psalms {
   grid-area: office_content;
@@ -898,59 +1171,44 @@ office-container .office-psalms {
   transform: translate3d(0, 0, 0);
   z-index: 1;
   pointer-events: none;
-}
-:has(nav.multi) office-container .office-psalms {
   position: relative;
-  top: 3.5rem;
-  margin-bottom: 3.5rem;
+  top: -2.25rem;
+  margin-bottom: -2.25rem;
+}
+:has(nav.multi) .psalter office-container .office-psalms {
+  top: 1.5rem;
+  margin-bottom: 5.25rem;
+  will-change: transform;
+}
+:has(nav.multi:last-child[expanded]) .psalter office-container .office-psalms {
+  top: -1.75rem;
+  margin-bottom: 7.5rem;
+}
+.lectionary :has(nav.multi) office-container .office-psalms {
+  top: 1.5rem;
+  will-change: transform;
 }
 office-container .office-psalms psalm-card {
   display: grid;
 }
-office-container .office-psalms psalm-card::before {
-  background: var(--color-soft);
+@media (min-width: 577px) {
+  office-container .office-psalms psalm-card .title-box {
+    opacity: 0.5;
+  }
 }
 office-container .office-psalms psalm-card:not(:first-of-type)::after {
   display: block;
   grid-area: psalm_title;
   height: 2.25rem;
   position: sticky;
-  background: url(../../assets/textures/light/soft-wallpaper.png) repeat;
+  background: var(--text-surface);
   content: "";
   top: 0;
 }
 @media (min-width: 577px) {
   office-container .office-psalms psalm-card:not(:first-of-type)::after {
-    position: relative;
-    background: var(--color-main);
-    top: -4.25rem;
-    height: 4.25rem;
-    z-index: 1;
+    display: none;
   }
-}
-office-container .office-psalms psalm-card .title-box {
-  border-top-left-radius: 2.25rem;
-  border-top-right-radius: 2.25rem;
-  border-width: 0;
-  grid-area: psalm_title;
-  display: flex;
-  flex-direction: column;
-  height: 10vh;
-  min-height: 8.5rem;
-  position: sticky;
-  top: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-  background: var(--color-soft);
-  z-index: 1;
-}
-office-container .office-psalms psalm-card .title-box h1 {
-  color: var(--pale);
-  font: 400 1em "Sentient Italic", sans-serif;
-  font-size: 2em;
-  line-height: 1.1em;
-  text-align: center;
 }
 office-container .office-psalms psalm-card:not(:last-of-type) .psalm-box {
   border-bottom-left-radius: 0;
@@ -961,23 +1219,8 @@ office-container .office-psalms psalm-card:not(:last-of-type) .psalm-box {
     border-bottom-left-radius: 2.25rem;
     border-bottom-right-radius: 2.25rem;
     border-width: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
-}
-.psalm-box { /*
-psalm-card:has(nav.multi) & {
-  top: 1.75rem;
-  margin-bottom: 7.5rem;
-  will-change: transform;
-  transition: top 500ms ease;
-}*/ }
-psalm-card:has(nav.multi:last-child[expanded]) .psalm-box {
-  top: -1.75rem;
-  margin-bottom: 7.5rem;
-}
-
-.psalter .title-box:not(.office-psalms .title-box) {
-  background: radial-gradient(circle at bottom, rgba(252, 234, 187, 0.7333333333), rgba(0, 0, 0, 0)), url(../../assets/textures/light/soft-wallpaper.png) repeat var(--header-card-background);
 }
 
 .expand .title {
@@ -1015,12 +1258,10 @@ psalm-card:has(nav.multi:last-child[expanded]) .psalm-box {
   padding: 1rem 1rem 2rem;
   justify-content: center;
   overflow-y: hidden;
-  background: var(--button-background);
-  color: var(--text-on-button);
-  font: 200 1em 500 1em "Alegreya Sans", sans-serif;
+  font: italic 400 1em "Sentient", serif;
 }
 .expand-block[expanded] {
-  height: 100%;
+  height: 100% !important;
 }
 .expand-block[expanded] .arrow {
   transform: rotate(180deg) !important;
@@ -1029,7 +1270,6 @@ psalm-card:has(nav.multi:last-child[expanded]) .psalm-box {
   grid-area: exp_block_title;
 }
 .expand-block .arrow {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" /></svg>');
   transition: all 500ms ease;
 }
 .expand-block .content {
@@ -1037,13 +1277,27 @@ psalm-card:has(nav.multi:last-child[expanded]) .psalm-box {
 }
 
 .expand-menu:not(:last-child) .arrow {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z" clip-rule="evenodd" /></svg>');
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--on-mid-shade);
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
 }
 .expand-menu:not(:last-child)[expanded] .arrow {
   transform: rotate(180deg) !important;
 }
 .expand-menu:last-child .arrow {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" /></svg>');
+  display: inline-flex;
+  place-self: center;
+  width: 1em;
+  height: 1em;
+  background: var(--on-mid-shade);
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
 }
 .expand-menu:last-child[expanded] .arrow {
   transform: rotate(0deg) !important;
@@ -1055,29 +1309,23 @@ psalm-card:has(nav.multi:last-child[expanded]) .psalm-box {
 nav.main {
   display: flex;
   flex-direction: row;
-  height: 1.5em;
+  height: fit-content;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em 0.5em;
-  background: var(--nav-bar-bg);
-  color: var(--text-on-nav-bar);
+  padding: 0.5em;
+  color: var(--on-nav-bar);
   pointer-events: none;
 }
 body:has(.psalter) nav.main {
   width: 100%;
 }
-nav.main svg {
+nav.main span {
   cursor: pointer;
+  display: inline-flex;
   pointer-events: auto;
 }
-nav.main .book-line {
-  stroke: var(--logo-line);
-}
-nav.main .book-left {
-  fill: var(--logo-left);
-}
-nav.main .book-right {
-  fill: var(--logo-right);
+nav.main a {
+  display: flex;
 }
 nav.main .to-top {
   display: inline;
@@ -1108,9 +1356,7 @@ nav.multi {
   position: relative;
   justify-content: center;
   align-self: end;
-  background: var(--nav-multi-background);
-  color: var(--text-on-nav-multi);
-  font: 500 1em "Alegreya Sans", sans-serif;
+  font: 400 1em "Work Sans", sans-serif;
 }
 @media (min-width: 577px) {
   nav.multi {
@@ -1124,12 +1370,10 @@ nav.multi:not(:last-child) {
   border-width: 0;
   grid-template-rows: auto auto;
   grid-template-areas: "multi_nav_menu_title" "multi_nav_menu_drop";
-  top: -3.75rem;
+  top: -2.25rem;
   padding: 0.75rem 1rem 3rem;
   align-self: start;
   align-content: start;
-  will-change: transform;
-  transition: top 500ms ease;
 }
 nav.multi:last-child {
   border-bottom-left-radius: 2.25rem;
@@ -1170,7 +1414,7 @@ nav.multi .drop.horizontal {
   flex-wrap: nowrap;
   white-space: nowrap;
   flex-direction: row;
-  font: italic 500 1em "Alegreya Sans", sans-serif;
+  font: 400 1em "Work Sans", sans-serif;
   font-size: 1.25em;
   padding: 0.5em 0;
 }
@@ -1188,24 +1432,11 @@ nav.multi .drop.horizontal[scroll]::-webkit-scrollbar { /* Hide scrollbar for Ch
   display: none;
 }
 nav.multi .drop.horizontal * {
-  border-radius: 1rem;
-  border-width: 0;
-  border: 2px solid var(--button-detail);
   flex-grow: 0;
   flex-basis: 5rem;
-  padding: 0.5rem 1rem;
-  margin-inline: 0.5rem;
-  text-align: center;
-  cursor: pointer;
   scroll-snap-align: center;
-  color: var(--text-on-button);
-  font-weight: 500;
-}
-nav.multi .drop.horizontal *.active {
-  background: var(--button-active-background);
-  border: 2px solid var(--bright);
-  color: var(--text-on-button-active);
-  font-weight: 600;
+  border: 2px solid var(--transparent-button-detail);
+  background: none;
 }
 nav.multi .drop.vertical {
   text-align: center;
@@ -1279,15 +1510,18 @@ modal-card {
   bottom: -100vh;
   padding: 1.5rem 2.5rem 2.5rem;
   margin: 20vh 0 10vh;
-  background: url(../../assets/textures/pattern/xv.png) repeat var(--modal-background);
-  font-family: "Alegreya Sans", sans-serif;
-  color: var(--text-on-modal);
+  background: url(../../assets/textures/light/soft-wallpaper.png) repeat var(--modal-surface);
+  background-blend-mode: soft-light;
+  font: 300 1em "Work Sans", sans-serif;
+  color: var(--on-modal-surface);
   will-change: transform;
   transition: bottom 500ms ease;
   pointer-events: auto;
+  visibility: hidden;
 }
 [open] modal-card {
   bottom: 0;
+  visibility: visible;
 }
 [close-top] modal-card {
   bottom: 100vh;
@@ -1300,7 +1534,7 @@ modal-card {
   }
 }
 modal-card .modal-close {
-  color: var(--text-on-modal) !important;
+  color: var(--on-modal) !important;
   cursor: pointer;
 }
 modal-card .modal-close.top {
@@ -1311,7 +1545,6 @@ modal-card .modal-close.bottom {
   grid-area: modal_footer;
   padding-top: 1.5rem !important;
   place-self: center !important;
-  font: 400 1em 500 1em "Alegreya Sans", sans-serif !important;
 }
 modal-card .modal-close svg {
   height: 1.75em;
@@ -1320,40 +1553,33 @@ modal-card .modal-content {
   grid-area: modal_content;
 }
 modal-card .modal-content h2, modal-card .modal-content h3 {
-  color: var(--text-on-modal);
+  color: var(--on-modal);
   font-weight: 500;
   text-align: center;
   font-size: 1.2em;
 }
 modal-card .modal-content h2 {
-  font: 500 2em "Alegreya Sans", sans-serif;
+  font: 500 2em italic 400 1em "Sentient", serif;
   padding-bottom: 0.5em;
 }
 modal-card .modal-content h3 {
-  font: italic 500 1em "Alegreya Sans", sans-serif;
+  font: italic 300 1em "Sentient", serif;
   padding: 1.5em 0 0.5em;
 }
-modal-card[content=preferences-panel] button {
-  border-radius: 1rem;
-  border-width: 0;
+modal-card .modal-content p {
   width: 100%;
-  height: 4rem;
-  padding: 0.5rem;
-  background: var(--modal-button-background);
-  color: var(--text-on-modal-button);
-  font: 500 1em "Alegreya Sans", sans-serif;
+  padding: 1em 0;
 }
-modal-card[content=preferences-panel] button.active {
-  color: var(--text-on-modal-button-active);
-  font-weight: 600;
-  background: url(../../assets/textures/pattern/xv.png) repeat var(--primary);
-  border: 2px solid var(--button-active-detail);
+modal-card[content=preferences-panel] button {
+  height: 4rem;
+  width: 100%;
+  padding: 0.5rem;
 }
 modal-card[content=preferences-panel] button:has(.tetra-hebrew) {
   padding: 0.3rem 0.5rem 0.5rem;
 }
 modal-card[content=preferences-panel] .marker {
-  color: var(--body-detail);
+  color: var(--rubric);
 }
 modal-card[content=preferences-panel] .select {
   display: grid;
@@ -1372,13 +1598,13 @@ modal-card[content=preferences-panel] .select {
 modal-card[content=preferences-panel] .verse {
   border-radius: 1rem;
   border-width: 0;
-  color: var(--text-on-body);
+  color: var(--on-text-surface);
   display: block;
   width: fit-content;
   padding: 1em 1.5em;
   margin-inline: 1em;
   justify-self: center;
-  background: url(../../assets/textures/light/soft-wallpaper.png) repeat;
+  background: var(--text-surface);
   font: var(--body-font);
   text-wrap: pretty;
 }
@@ -1391,28 +1617,13 @@ modal-card[content=preferences-prompt] {
   width: 100%;
   background: var(--modal-background);
 }
-modal-card[content=preferences-prompt] button {
-  border-radius: 1rem;
-  border-width: 0;
-  width: fit-content;
-  padding: 1rem 1.5rem;
-  justify-self: center;
-  background: var(--button-background);
-  font: italic 500 1em "Alegreya Sans", sans-serif;
-  cursor: pointer;
-}
 modal-card[content=preferences-prompt] h2 {
   width: 100%;
   padding: 1em;
-  color: var(--text-on-modal);
-  text-align: center;
-  font: 400 1.25em 500 1em "Alegreya Sans", sans-serif;
+  font-weight: italic 400 1em "Sentient", serif;
 }
 modal-card[content=preferences-prompt] p {
-  width: 100%;
-  padding: 1em;
   text-align: center;
-  font: 500 1em "Alegreya Sans", sans-serif;
 }
 modal-card[content=preferences-prompt] svg {
   height: 1.5rem;
@@ -1420,20 +1631,8 @@ modal-card[content=preferences-prompt] svg {
   padding: 0.25rem;
   margin-inline: 0.25rem;
   background: var(--modal-highlight-background);
-  fill: var(--text-on-modal-highlight);
+  fill: var(--on-modal-highlight);
   border-radius: 0.25rem;
-}
-modal-card[content=info] {
-  font: 500 1em "Alegreya Sans", sans-serif;
-}
-modal-card[content=info] h2 {
-  padding-bottom: 0.5em;
-  color: var(--text-on-modal);
-  text-align: center;
-  font: 400 2em 500 1em "Alegreya Sans", sans-serif;
-}
-modal-card[content=info] p {
-  padding: 0.5rem;
 }
 modal-card[content=info] .acknowledgements {
   display: grid;
@@ -1441,48 +1640,45 @@ modal-card[content=info] .acknowledgements {
   padding: 1rem;
 }
 modal-card[content=about] {
-  font-family: 500 1em "Alegreya Sans", sans-serif;
   line-height: 1.5em;
-}
-modal-card[content=about] h2 {
-  padding-bottom: 0.5em;
-  color: var(--text-on-modal);
-  text-align: center;
-  font: 400 2em 500 1em "Alegreya Sans", sans-serif;
-}
-modal-card[content=about] p {
-  padding: 1rem 0;
 }
 modal-card[content=about] svg {
   height: 0.8rem;
   padding-right: 0.25em;
-  fill: var(--text-on-modal);
+  fill: var(--on-modal);
 }
 modal-card[content=about] .em-block {
-  color: var(--text-on-modal);
+  color: var(--on-modal);
   font-size: 2em;
   font-weight: 300;
   line-height: 1.25em;
 }
 modal-card[content=about] .inline-logo {
   background-color: var(--modal-highlight-background);
-  color: var(--logo-text);
-  font: 400 1em "Sentient Italic", sans-serif;
+  color: var(--change-me);
+  font: italic 400 1em "Sentient", serif;
 }
 modal-card[content=about] .key {
   background-color: var(--modal-highlight-background);
-  color: var(--text-on-modal-highlight);
-  font: italic 500 1em "Alegreya Sans", sans-serif;
-  border: 3px solid var(--modal-highlight-detail);
+  color: var(--on-modal-highlight);
+  border: 3px solid var(--modal-highlight-background);
 }
 
 psalm-card {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-areas: "psalm_title" "psalm_content";
-}
-psalm-card nav.multi {
-  grid-area: psalm_content;
+  /* TODO necessary with overlap?
+  &:has(nav.multi)::before {
+    display: block;
+    grid-area: psalm_content;
+    height: 2rem;
+    position: sticky;
+    background: var(--nav-multi);
+    content: '';
+    top: 2.25rem;
+  }
+  */
 }
 @media (min-width: 577px) {
   psalm-card {
@@ -1490,21 +1686,54 @@ psalm-card nav.multi {
     margin-inline: auto;
   }
 }
-psalm-card:has(nav.multi)::before {
-  content: "";
-  background: var(--psalm-multi-background);
+psalm-card .title-box {
+  height: 25vh;
+}
+@media (min-width: 577px) {
+  psalm-card .title-box {
+    position: relative;
+  }
+}
+.office-psalms psalm-card .title-box {
+  grid-area: psalm_title;
+  min-height: 8.5rem;
+  z-index: 1;
+}
+.office-psalms psalm-card .title-box h1 {
+  font-size: 1.75em;
+  line-height: 1.1em;
+  font-weight: 500;
+}
+psalm-card nav.multi {
+  grid-area: psalm_content;
+  background: var(--nav-multi);
+  color: var(--on-nav-multi);
 }
 psalm-card .psalm-box {
   border-radius: 2.25rem;
   border-width: 0;
   z-index: 4;
   grid-area: psalm_content;
-  position: relative;
-  top: 0;
-  margin-bottom: -2.25rem;
   min-height: 50vh;
   padding: 3rem 1.75rem 3rem 1.25rem;
-  background: var(--surface);
+  background: var(--text-surface);
+  color: var(--on-text-surface);
+  will-change: transform;
+  position: relative;
+  top: -2.25rem;
+  margin-bottom: -2.25rem;
+}
+:has(nav.multi) .psalter psalm-card .psalm-box {
+  top: 1.5rem;
+  margin-bottom: 5.25rem;
+  will-change: transform;
+}
+:has(nav.multi:last-child[expanded]) .psalter psalm-card .psalm-box {
+  top: -1.75rem;
+  margin-bottom: 7.5rem;
+}
+.lectionary :has(nav.multi) psalm-card .psalm-box {
+  top: 1.5rem;
   will-change: transform;
 }
 
@@ -1520,25 +1749,25 @@ psalm-card .psalm-box {
   text-align: center;
   padding-bottom: 2rem;
   content: "***";
-  font: 400 1em "Sentient Italic", sans-serif;
-  color: var(--body-detail);
+  font: italic 400 1em "Sentient", serif;
+  color: var(--rubric);
 }
 .refrain.bottom {
   padding-top: 1em;
 }
 .refrain .rubric {
-  color: var(--blend-on-surface);
+  color: var(--rubric);
   text-align: center;
-  font: 650 0.8em var(--sentient);
+  font: 500 0.8em var(--sentient);
   line-height: 1.2em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 .refrain .refrain-text {
   padding: 0.5rem 0;
-  color: var(--em-on-surface);
+  color: var(--rubric);
   text-align: center;
-  font: 400 1.1em "Sentient Italic";
+  font: italic 400 1.1em "Sentient";
   line-height: 1.25em;
   text-wrap: balance;
 }
@@ -1554,8 +1783,8 @@ psalm-card .psalm-box {
   min-height: 75vh;
 }
 .psalm-text h2 {
-  color: var(--body-detail);
-  font: 400 1em "Sentient Italic", sans-serif;
+  color: var(--rubric);
+  font: italic 300 1em "Sentient", serif;
   font-size: 1.2em;
   padding-left: 2.75em;
   padding-bottom: 0.25rem;
@@ -1569,16 +1798,17 @@ psalm-card .psalm-box {
   gap: 1rem;
 }
 .psalm-text .verse .vn {
-  color: var(--body-detail);
+  color: var(--rubric);
   text-align: right;
-  font: var(--body-font);
+  align-items: start;
 }
 .psalm-text .verse .vs {
   min-width: 14ch;
   max-width: fit-content;
   padding-left: 1.5em;
-  color: var(--text-on-body);
+  color: var(--on-text-surface);
   text-wrap: pretty;
+  align-items: start;
 }
 .psalm-text .verse .vs .vi-1 {
   text-indent: -1.5em;
@@ -1593,25 +1823,31 @@ psalm-card .psalm-box {
   position: relative;
   bottom: 0.05em;
   opacity: 75%;
-  color: var(--body-detail);
+  color: var(--rubric);
 }
 
 .def-up, .def-low, .voc {
-  vertical-align: 0.05em;
-  font: small-caps 600 1.15em "Bellefair", "Alegreya Sans", sans-serif;
+  font: 500 1.05em "Bellefair", "Sentient", serif;
+  font-variant: all-small-caps;
+  line-height: 1em;
 }
 
 .tetra-latin {
-  font: small-caps 600 1.05em "Bellefair", "Alegreya Sans", sans-serif;
+  font: 500 1.05em "Sentient", serif;
+  font-variant: all-small-caps;
+  line-height: 1em;
 }
 
 .tetra-hebrew {
-  font: 500 1.25em "Bellefair", serif !important;
-  transform: translateY(19px);
+  font: 400 1.2em "Bellefair", serif !important;
+  vertical-align: text-bottom;
+  line-height: 0.9em;
 }
 
 h3 .def-up, h3 .def-low, h3 .voc {
-  font: small-caps italic 500 0.95em "Bellefair", "Alegreya", serif;
+  font: italic 500 0.95em "Bellefair", "Sentient", serif;
+  font-variant: all-small-caps;
+  line-height: 1em;
 }
 
 .pn-caps-enabled .pn-sub-up,
@@ -1620,9 +1856,8 @@ h3 .def-up, h3 .def-low, h3 .voc {
 .pn-caps-enabled .pn-pl-up,
 .pn-caps-enabled .pn-pl-low,
 .pn-caps-enabled .pos {
-  vertical-align: 0.0175em;
-  font: 400 1.05em "Bellefair", "Sentient", serif;
-  font-variant: small-caps;
+  font: 450 1em "Sentient", serif;
+  font-variant: all-small-caps;
 }
 .pn-caps-enabled h3 .pn-sub-up,
 .pn-caps-enabled h3 .pn-sub-low,
@@ -1630,8 +1865,8 @@ h3 .def-up, h3 .def-low, h3 .voc {
 .pn-caps-enabled h3 .pn-pl-up,
 .pn-caps-enabled h3 .pn-pl-low,
 .pn-caps-enabled h3 .pos {
-  font: 500 0.85em "Bellefair", "Sentient", serif;
-  font-variant: small-caps;
+  font: 450 1em "Sentient", serif;
+  font-variant: all-small-caps;
 }
 
 /*# sourceMappingURL=styles.css.map */

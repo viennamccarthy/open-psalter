@@ -22,7 +22,7 @@ export const setColors = function setColorsOnLoad() {
   const root = document.documentElement;
   const colors = ["purple", "teal", "coral"];
   const select = Math.floor(Math.random() * 3);
-  root.style.setProperty("--color-primary-main", `var(--${colors[select]})`);
+  document.documentElement.style.setProperty("--color-primary-main", `var(--${colors[select]})`);
   root.style.setProperty("--color-primary-soft", `var(--${colors[select]}-soft)`);
   root.style.setProperty("--color-primary-dark", `var(--${colors[select]}-dark)`);
   root.style.setProperty("--color-primary-translucent", `var(--${colors[select]}-translucent)`);
@@ -135,7 +135,7 @@ export const setMultiObserver = function addIntersectionObserverAndObserveMultiT
         if (!entry.isIntersecting) { // if going offscreen
           multi.style.top = `0`;
         } else {
-          multi.style.top = '-3.75rem';
+          multi.style.top = '-2.25rem';
         }
       }
     })

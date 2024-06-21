@@ -3,12 +3,7 @@ import {
   $$,
   toCamel,
   toKebab,
-  replaceText,
-  modifyText,
   isActive,
-  addActive,
-  removeActive,
-  fetchJSON
 } from './helpers.js'
 
 import { divineName, pronouns, king, messianic } from '../data/preferences.js';
@@ -44,11 +39,18 @@ export const setPreferences = function setPreferencesInPsalm(option, choice) {
     for (let key in choiceDict) {
       if (typeof(choiceDict[key]) === "object") {
         $$(`.${toKebab(key)}`).forEach(element => {
-          modifyText(element, choiceDict[key]);
+          element.innerHTML = `${element.innerHTML.slice(0, choiceDict[key][0])}${choiceDict[key][1]}`;
         })
       } else {
         $$(`.${toKebab(key)}`).forEach(element => {
-          replaceText(element, choiceDict[key]);
+          element.innerHTML = choiceDict[key];
+          if (option === 'divineName') {
+            if (choice === 'tetraHebrew') {
+              element.classList.add('tetra-hebrew');
+            } else {
+              element.classList.remove('tetra-hebrew');
+            }
+          }
         })
       }
     }

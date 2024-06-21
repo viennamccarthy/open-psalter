@@ -1,4 +1,6 @@
-@use '../resources' as const;
+@use '../layout' as layout;
+@use '../assets' as asset;
+@use '../fonts' as font;
 
 .modal {
   display: grid;
@@ -39,7 +41,7 @@
 }
 
 modal-card {
-  @include const.rounded;
+  @include layout.rounded;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
@@ -50,29 +52,31 @@ modal-card {
   bottom: -100vh;
   padding: 1.5rem 2.5rem 2.5rem;
   margin: 20vh 0 10vh;
-  background: const.$teal-test var(--modal-background);
-  font-family: const.$ui-primary-family;
-  color: var(--text-on-modal);
+  @include asset.background('paper', soft-light, var(--modal-surface));
+  font: font.$ui-text;
+  color: var(--on-modal-surface);
   will-change: transform;
   transition: bottom 500ms ease;
   pointer-events: auto;
+  visibility: hidden;
 
   [open] & {
     bottom: 0;
+    visibility: visible;
   }
 
   [close-top] & {
     bottom: 100vh;
   }
 
-  @media (min-width: const.$md) {
+  @media (min-width: layout.$md) {
     width: clamp(576px, 80%, 768px);
     padding-inline: 3rem;
     justify-self: center;
   }
 
   .modal-close {
-    color: var(--text-on-modal) !important;
+    color: var(--on-modal) !important;
     cursor: pointer;
 
     &.top {
@@ -84,7 +88,6 @@ modal-card {
       grid-area: modal_footer;
       padding-top: 1.5rem !important;
       place-self: center !important;
-      font: 400 1em const.$ui-primary-font !important;
     }
 
     svg {
@@ -96,40 +99,34 @@ modal-card {
     grid-area: modal_content;
 
     h2, h3 {
-      color: var(--text-on-modal);
+      color: var(--on-modal);
       font-weight: 500;
       text-align: center;
       font-size: 1.2em;
     }
 
     h2 {
-      font: 500 2em const.$ui-primary-family;
+      font: 500 2em font.$primary-heading;
       padding-bottom: 0.5em;
     }
 
     h3 {
-      font: const.$ui-secondary-font;
+      font: font.$secondary-heading;
       padding: 1.5em 0 0.5em;
+    }
+
+    p {
+      width: 100%;
+      padding: 1em 0;
     }
   }
 
   &[content='preferences-panel'] {
 
     button {
-      @include const.rounded-sm;
-      width: 100%;
       height: 4rem;
+      width: 100%;
       padding: 0.5rem;
-      background: var(--modal-button-background);
-      color: var(--text-on-modal-button);
-      font: const.$ui-primary-font;
-
-      &.active {
-        color: var(--text-on-modal-button-active);
-        font-weight: 600;
-        background: const.$purple-test var(--primary); // TODO remove test and restore var(--modal-button-active)
-        border: 2px solid var(--button-active-detail);
-      }
 
       &:has(.tetra-hebrew) {
         padding: 0.3rem 0.5rem 0.5rem;
@@ -137,7 +134,7 @@ modal-card {
     }
 
     .marker {
-      color: var(--body-detail);
+      color: var(--rubric);
     }
 
     .select {
@@ -149,21 +146,21 @@ modal-card {
       padding: 0;
       justify-content: center;
 
-      @media (min-width: const.$md) {
+      @media (min-width: layout.$md) {
         gap: 1em;
       }
     }
 
     // improve: fix content shifting when options are changed -- regularise box size?
     .verse {
-      @include const.rounded-sm;
-      color: var(--text-on-body);
+      @include layout.rounded-sm;
+      color: var(--on-text-surface);
       display: block;
       width: fit-content;
       padding: 1em 1.5em;
       margin-inline: 1em;
       justify-self: center;
-      background: const.$paper-bg;
+      background: var(--text-surface);
       font: var(--body-font);
       text-wrap: pretty;
     }
@@ -180,29 +177,19 @@ modal-card {
     width: 100%;
     background: var(--modal-background);
 
-    button {
-      @include const.rounded-sm;
-      width: fit-content;
-      padding: 1rem 1.5rem;
-      justify-self: center;
-      background: var(--button-background);
-      font: const.$ui-secondary-font;
-      cursor: pointer;
+    button { // TODO compare this with default
+      //width: fit-content;
+      //padding: 1rem 1.5rem;
     }
 
     h2 {
       width: 100%;
       padding: 1em;
-      color: var(--text-on-modal);
-      text-align: center;
-      font: 400 1.25em const.$ui-primary-font;
+      font-weight: font.$primary-heading;
     }
 
     p {
-      width: 100%;
-      padding: 1em;
       text-align: center;
-      font: const.$ui-primary-font;
     }
 
     svg {
@@ -211,24 +198,12 @@ modal-card {
       padding: 0.25rem;
       margin-inline: 0.25rem;
       background: var(--modal-highlight-background);
-      fill: var(--text-on-modal-highlight);
+      fill: var(--on-modal-highlight);
       border-radius: 0.25rem;
     }
   }
 
   &[content='info'] {
-    font: const.$ui-primary-font;
-
-    h2 {
-      padding-bottom: 0.5em;
-      color: var(--text-on-modal);
-      text-align: center;
-      font: 400 2em const.$ui-primary-font;
-    }
-
-    p {
-      padding: 0.5rem;
-    }
 
     .acknowledgements {
       display: grid;
@@ -238,28 +213,16 @@ modal-card {
   }
 
   &[content='about'] {
-    font-family: const.$ui-primary-font;
     line-height: 1.5em;
-
-    h2 {
-      padding-bottom: 0.5em;
-      color: var(--text-on-modal);
-      text-align: center;
-      font: 400 2em const.$ui-primary-font;
-    }
-
-    p {
-      padding: 1rem 0;
-    }
 
     svg {
       height: 0.8rem;
       padding-right: 0.25em;
-      fill: var(--text-on-modal);
+      fill: var(--on-modal);
     }
 
     .em-block {
-      color: var(--text-on-modal);
+      color: var(--on-modal);
       font-size: 2em;
       font-weight: 300;
       line-height: 1.25em;
@@ -267,15 +230,14 @@ modal-card {
 
     .inline-logo {
       background-color: var(--modal-highlight-background);
-      color: var(--logo-text);
-      font: const.$heading-font;
+      color: var(--change-me);
+      font: font.$primary-heading;
     }
 
     .key {
       background-color: var(--modal-highlight-background);
-      color: var(--text-on-modal-highlight);
-      font: const.$ui-secondary-font;
-      border: 3px solid var(--modal-highlight-detail);
+      color: var(--on-modal-highlight);
+      border: 3px solid var(--modal-highlight-background);
     }
   }
 }

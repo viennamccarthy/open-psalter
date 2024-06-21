@@ -1,35 +1,29 @@
-@use '../resources' as const;
+@use '../layout' as layout;
+@use '../assets' as asset;
+@use '../fonts' as font;
 
 nav.main {
   display: flex;
   flex-direction: row;
-  height: 1.5em;
+  height: fit-content;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em 0.5em;
-  background: var(--nav-bar-bg);
-  color: var(--text-on-nav-bar);
+  padding: 0.5em;
+  color: var(--on-nav-bar);
   pointer-events: none;
 
   body:has(.psalter) & {
     width: 100%;
   }
 
-  svg {
+  span {
     cursor: pointer;
+    display: inline-flex;
     pointer-events: auto;
   }
 
-  .book-line {
-    stroke: var(--logo-line);
-  }
-
-  .book-left {
-    fill: var(--logo-left);
-  }
-
-  .book-right {
-    fill: var(--logo-right);
+  a {
+    display: flex;
   }
 
   .to-top {
@@ -41,7 +35,7 @@ nav.main {
   }
 }
 
-@media (min-width: const.$lg) {
+@media (min-width: layout.$lg) {
 
   nav.main {
     margin-inline: auto;
@@ -67,33 +61,29 @@ nav.multi {
   position: relative;
   justify-content: center;
   align-self: end;
-  background: var(--nav-multi-background);
-  color: var(--text-on-nav-multi);
-  font: const.$ui-primary-font;
+  font: font.$ui-label;
 
-  @media (min-width: const.$md) {
+  @media (min-width: layout.$md) {
     width: 520px;
     justify-self: center;
   }
 
   // Top
   &:not(:last-child) {
-    @include const.rounded-top;
+    @include layout.rounded-top;
     grid-template-rows: auto auto;
     grid-template-areas:
         "multi_nav_menu_title"
         "multi_nav_menu_drop";
-    top: -3.75rem;
+    top: -2.25rem;
     padding: 0.75rem 1rem 3rem;
     align-self: start;
     align-content: start;
-    will-change: transform;
-    transition: top 500ms ease;
   }
 
   //Bottom
   &:last-child {
-    @include const.rounded-bottom;
+    @include layout.rounded-bottom;
     z-index: 0;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -136,7 +126,7 @@ nav.multi {
       flex-wrap: nowrap;
       white-space: nowrap;
       flex-direction: row;
-      font: const.$ui-secondary-font;
+      font: font.$ui-label;
       font-size: 1.25em;
       padding: 0.5em 0;
 
@@ -156,24 +146,11 @@ nav.multi {
       }
 
       * {
-        @include const.rounded-sm;
-        border: 2px solid var(--button-detail);
         flex-grow: 0;
         flex-basis: 5rem;
-        padding: 0.5rem 1rem;
-        margin-inline: 0.5rem;
-        text-align: center;
-        cursor: pointer;
         scroll-snap-align: center;
-        color: var(--text-on-button);
-        font-weight: 500;
-
-        &.active {
-          background: var(--button-active-background);
-          border: 2px solid var(--bright);
-          color: var(--text-on-button-active);
-          font-weight: 600;
-        }
+        border: 2px solid var(--transparent-button-detail);
+        background: none;
       }
     }
 
