@@ -307,6 +307,7 @@ class psalmCard extends HTMLElement {
       
       if ($('.psalter')) {
         setPsalterNav(psalmNumber);
+        document.body.classList.remove('loading');
       }
     } else if (name === 'section' && oldValue) {
 
