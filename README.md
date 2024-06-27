@@ -1,6 +1,6 @@
 # OpenPsalter
 
-#### Video Demo:  <URL HERE>
+#### Video Demo: https://youtu.be/3win3YDTqtw
 
 ## Introducing the project
  
