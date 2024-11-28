@@ -518,14 +518,20 @@ body:has(.index) header .buttons .info svg {
   }
 }
 
-.index .office-nav {
-  pointer-events: none; /* Remove to enable */
-}
-
 .index .office-nav button {
   padding: 2.25rem 0.5rem;
   font: italic 500 1em "Alegreya", serif;
   font-size: 2rem;
+  pointer-events: none; /* Remove to enable */
+  opacity: 0.5; /* Remove to enable */
+}
+
+.index .office-nav button.morning { /* Remove to enable */
+  background: var(--mid-dark);
+}
+
+.index .office-nav button.evening { /* Remove to enable */
+  background: var(--dark);
 }
 
 /* Uncomment to enable */
@@ -537,17 +543,13 @@ body:has(.index) header .buttons .info svg {
 .index .office-nav button.evening {
   background: var(--color-tertiary-main);
 }
-
 */
 
-.index .office-nav button.morning, index .office-nav button.evening { /* Remove to enable */
-  background: var(--mid-dark);
-}
-
-.index .office-nav h2 .soon {
+.index .office-nav h2 .soon { /* Remove to enable */
   padding-right: 0.75rem;
   font: italic 500 1em "Alegreya Sans", sans-serif;
 }
+
 .index .office-nav .select {
   grid-template-columns: 47% 47%;
   place-content: center;
