@@ -141,6 +141,7 @@ body:has(.index) {
   }
 
   .office-nav {
+    pointer-events: none; /* Remove to enable */
 
     @media (min-width: const.$lg) {
       grid-area: office_nav;
@@ -150,9 +151,12 @@ body:has(.index) {
       padding: 2.25rem 0.5rem;
       font: const.$heading-font;
       font-size: 2rem;
-      color: var(--mid-dark);
-      background: var(--dark);
-      pointer-events: none;
+
+      &.morning, &.evening { /* Remove to enable */
+        background: var(--mid-dark);
+      }
+
+/* Uncomment to enable */
 /*
       cursor: pointer;
 

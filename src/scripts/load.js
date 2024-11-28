@@ -53,6 +53,9 @@ export const setLandingButtons = function setLandingButtonsOnLoad() {
     }
   })
 
+  /* Lectionary currently disabled */
+
+  /*
   // Set landing office buttons
   $(".office-nav .morning").addEventListener("click", () => {
     window.location.href = './lectionary.html?o=morning';
@@ -60,7 +63,7 @@ export const setLandingButtons = function setLandingButtonsOnLoad() {
   $(".office-nav .evening").addEventListener("click", () => {
     window.location.href = './lectionary.html?o=evening';
   })
-
+  */
 
   // Set landing menu buttons
   $(".welcome-about").addEventListener("click", () => {
