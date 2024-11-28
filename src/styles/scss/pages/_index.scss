@@ -150,6 +150,10 @@ body:has(.index) {
       padding: 2.25rem 0.5rem;
       font: const.$heading-font;
       font-size: 2rem;
+      color: var(--mid-dark);
+      background: var(--dark);
+      pointer-events: none;
+/*
       cursor: pointer;
 
       &.morning {
@@ -159,6 +163,7 @@ body:has(.index) {
       &.evening {
         background: var(--color-tertiary-main);
       }
+*/
     }
 
     h2 .soon {

@@ -521,14 +521,21 @@ body:has(.index) header .buttons .info svg {
   padding: 2.25rem 0.5rem;
   font: italic 500 1em "Alegreya", serif;
   font-size: 2rem;
-  cursor: pointer;
+  color: var(--mid-dark);
+  background: var(--dark);
+  pointer-events: none;
 }
+/*
+  cursor: pointer;
+
 .index .office-nav button.morning {
   background: var(--color-tertiary-soft);
 }
 .index .office-nav button.evening {
   background: var(--color-tertiary-main);
 }
+
+*/
 .index .office-nav h2 .soon {
   padding-right: 0.75rem;
   font: italic 500 1em "Alegreya Sans", sans-serif;
